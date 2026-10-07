@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blue Crescent — Learn Anything, Anytime</title>
-  <meta name="description" content="Blue Crescent is a free interactive educational platform covering Math, Science, History, Languages, Technology and more. Learn at your own pace.">
+  <title>Blue Crescent — Neon Learning Hub</title>
+  <meta name="description" content="Blue Crescent is a free interactive educational platform with a neon retro vibe. Learn Math, Science, History, Languages, Technology and more.">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="scanlines"></div>
+  <div class="grid-bg"></div>
+
   <!-- Navigation -->
   <nav class="navbar" id="navbar">
     <div class="container nav-container">
       <a href="#" class="logo">
         <span class="logo-icon">🌙</span>
-        <span class="logo-text">Blue Crescent</span>
+        <span class="logo-text">BLUE CRESCENT</span>
       </a>
       <ul class="nav-links" id="navLinks">
         <li><a href="#home">Home</a></li>
@@ -26,10 +29,6 @@
         <li><a href="#about">About</a></li>
       </ul>
       <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-          <span class="sun">☀️</span>
-          <span class="moon">🌙</span>
-        </button>
         <button class="hamburger" id="hamburger" aria-label="Menu">
           <span></span><span></span><span></span>
         </button>
@@ -41,11 +40,12 @@
   <section class="hero" id="home">
     <div class="container hero-content">
       <div class="hero-text">
-        <h1>Learn Without Limits</h1>
-        <p class="hero-subtitle">Explore Math, Science, History, Languages, Technology and more — all in one beautiful place. Free, interactive, and made for everyone.</p>
+        <p class="hero-tag">// EDUCATIONAL SYSTEM v2.0</p>
+        <h1>LEARN IN THE<br><span class="neon-pink">NEON AGE</span></h1>
+        <p class="hero-subtitle">Math • Science • History • Languages • Tech • Arts — free interactive lessons and quizzes with a retro cyberpunk pulse.</p>
         <div class="hero-buttons">
-          <a href="#subjects" class="btn btn-primary">Start Learning</a>
-          <a href="#quizzes" class="btn btn-secondary">Take a Quiz</a>
+          <a href="#subjects" class="btn btn-primary">START LEARNING</a>
+          <a href="#quizzes" class="btn btn-secondary">TAKE A QUIZ</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -54,6 +54,7 @@
           <div class="stars">
             <span></span><span></span><span></span><span></span><span></span>
           </div>
+          <div class="neon-ring"></div>
         </div>
       </div>
     </div>
@@ -64,19 +65,19 @@
     <div class="container stats-grid">
       <div class="stat-card">
         <div class="stat-number" data-target="6">0</div>
-        <div class="stat-label">Subjects</div>
+        <div class="stat-label">SUBJECTS</div>
       </div>
       <div class="stat-card">
         <div class="stat-number" data-target="24">0</div>
-        <div class="stat-label">Lessons</div>
+        <div class="stat-label">LESSONS</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number" data-target="12">0</div>
-        <div class="stat-label">Quizzes</div>
+        <div class="stat-number" data-target="4">0</div>
+        <div class="stat-label">QUIZZES</div>
       </div>
       <div class="stat-card">
         <div class="stat-number" data-target="100">0</div>
-        <div class="stat-label">% Free</div>
+        <div class="stat-label">% FREE</div>
       </div>
     </div>
   </section>
@@ -85,8 +86,8 @@
   <section class="subjects" id="subjects">
     <div class="container">
       <div class="section-header">
-        <h2>Explore Subjects</h2>
-        <p>Choose a topic and start learning at your own pace</p>
+        <h2><span class="neon-cyan">//</span> EXPLORE SUBJECTS</h2>
+        <p>Select a module and begin your training sequence</p>
       </div>
       <div class="subjects-grid" id="subjectsGrid">
         <!-- Cards injected by JS -->
@@ -106,13 +107,13 @@
   <section class="quizzes" id="quizzes">
     <div class="container">
       <div class="section-header">
-        <h2>Test Your Knowledge</h2>
-        <p>Interactive quizzes to reinforce what you've learned</p>
+        <h2><span class="neon-pink">//</span> TEST YOUR KNOWLEDGE</h2>
+        <p>Challenge mode — prove what you’ve learned</p>
       </div>
       <div class="quiz-selector">
-        <label for="quizSelect">Choose a quiz:</label>
+        <label for="quizSelect">SELECT MODULE:</label>
         <select id="quizSelect">
-          <option value="">— Select a subject —</option>
+          <option value="">— Choose a quiz —</option>
           <option value="math">Math Basics</option>
           <option value="science">Science Fundamentals</option>
           <option value="history">World History</option>
@@ -121,7 +122,7 @@
       </div>
       <div class="quiz-container" id="quizContainer">
         <div class="quiz-placeholder">
-          <p>Select a quiz above to begin</p>
+          <p>▲ SELECT A QUIZ TO BEGIN ▲</p>
         </div>
       </div>
     </div>
@@ -131,14 +132,14 @@
   <section class="progress-section" id="progress">
     <div class="container">
       <div class="section-header">
-        <h2>Your Learning Progress</h2>
-        <p>Track how far you've come (saved in your browser)</p>
+        <h2><span class="neon-cyan">//</span> YOUR PROGRESS</h2>
+        <p>Training data saved locally on your device</p>
       </div>
       <div class="progress-grid" id="progressGrid">
         <!-- Progress cards injected by JS -->
       </div>
       <div class="progress-actions">
-        <button class="btn btn-secondary" id="resetProgress">Reset All Progress</button>
+        <button class="btn btn-secondary" id="resetProgress">RESET ALL DATA</button>
       </div>
     </div>
   </section>
@@ -147,22 +148,22 @@
   <section class="about" id="about">
     <div class="container about-content">
       <div class="about-text">
-        <h2>About Blue Crescent</h2>
-        <p>Blue Crescent is a free, open educational platform designed for curious minds of all ages. Whether you're a student, parent, teacher, or lifelong learner, you'll find clear lessons, interactive quizzes, and a calm, focused learning experience.</p>
-        <p>Our mission is simple: make quality education accessible to everyone — no accounts, no paywalls, just pure learning.</p>
+        <h2><span class="neon-pink">//</span> ABOUT BLUE CRESCENT</h2>
+        <p>Blue Crescent is a free educational platform built for curious minds of every age. Clear lessons, interactive quizzes, and a neon retro interface that makes learning feel like a mission.</p>
+        <p>No accounts. No paywalls. Just pure learning in a cyberpunk package.</p>
         <ul class="about-features">
-          <li>✅ Completely free forever</li>
-          <li>✅ Works offline after first visit</li>
-          <li>✅ Dark mode for comfortable studying</li>
-          <li>✅ Progress saved locally on your device</li>
-          <li>✅ Mobile-friendly design</li>
+          <li>◆ Completely free forever</li>
+          <li>◆ Works offline after first visit</li>
+          <li>◆ Full neon retro interface</li>
+          <li>◆ Progress saved on your device</li>
+          <li>◆ Mobile-friendly design</li>
         </ul>
       </div>
       <div class="about-visual">
         <div class="about-card">
-          <h3>Start Your Journey</h3>
-          <p>Pick a subject, take a quiz, and watch your knowledge grow.</p>
-          <a href="#subjects" class="btn btn-primary">Explore Subjects</a>
+          <h3>INITIATE SEQUENCE</h3>
+          <p>Pick a subject. Complete lessons. Dominate the quizzes.</p>
+          <a href="#subjects" class="btn btn-primary">EXPLORE MODULES</a>
         </div>
       </div>
     </div>
@@ -173,9 +174,9 @@
     <div class="container footer-content">
       <div class="footer-brand">
         <span class="logo-icon">🌙</span>
-        <span>Blue Crescent</span>
+        <span>BLUE CRESCENT</span>
       </div>
-      <p>Made with curiosity for learners everywhere.</p>
+      <p>Made for learners everywhere · Neon edition</p>
     </div>
   </footer>
 
