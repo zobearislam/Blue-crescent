@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games — Blue Crescent</title>
+  <meta name="description" content="Play educational neon retro mini-games: Memory Match, Speed Math, and Word Scramble.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .games-hero {
+      padding: 3.5rem 0 2rem;
+      text-align: center;
+    }
+    .games-hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      margin-bottom: 0.75rem;
+    }
+    .games-hero p {
+      color: var(--text-muted);
+      max-width: 520px;
+      margin: 0 auto 2rem;
+    }
+    .game-menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .game-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-align: center;
+    }
+    .game-card:hover {
+      border-color: var(--neon-pink);
+      box-shadow: 0 0 24px #ff2a6d33;
+      transform: translateY(-4px);
+    }
+    .game-card.active {
+      border-color: var(--neon-cyan);
+      box-shadow: 0 0 24px #05d9e844;
+    }
+    .game-card .icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.75rem;
+      filter: drop-shadow(0 0 10px #05d9e888);
+    }
+    .game-card h3 {
+      font-size: 1.1rem;
+      color: var(--neon-cyan);
+      margin-bottom: 0.5rem;
+    }
+    .game-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .game-stage {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2rem;
+      min-height: 360px;
+      margin-bottom: 3rem;
+      box-shadow: inset 0 0 40px #05d9e808;
+    }
+    .game-stage.hidden { display: none; }
+    .game-hud {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+    }
+    .game-hud span {
+      color: var(--neon-cyan);
+      text-shadow: 0 0 8px #05d9e8;
+    }
+    .game-hud .score { color: var(--neon-pink); text-shadow: 0 0 8px #ff2a6d; }
+
+    /* Memory */
+    .memory-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .memory-card {
+      aspect-ratio: 1;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+    .memory-card:hover:not(.flipped):not(.matched) {
+      border-color: var(--neon-cyan);
+      box-shadow: 0 0 12px #05d9e844;
+    }
+    .memory-card.flipped,
+    .memory-card.matched {
+      background: #1a1030;
+      border-color: var(--neon-pink);
+      box-shadow: 0 0 16px #ff2a6d44;
+    }
+    .memory-card.matched {
+      border-color: var(--neon-cyan);
+      opacity: 0.7;
+      cursor: default;
+    }
+    .memory-card .face { display: none; }
+    .memory-card.flipped .face,
+    .memory-card.matched .face { display: block; }
+    .memory-card .back {
+      color: var(--neon-pink);
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.2rem;
+      text-shadow: 0 0 8px #ff2a6d;
+    }
+    .memory-card.flipped .back,
+    .memory-card.matched .back { display: none; }
+
+    /* Speed Math */
+    .math-question {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .math-question .expr {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      color: var(--neon-cyan);
+      text-shadow: 0 0 20px #05d9e888;
+      margin-bottom: 1.5rem;
+    }
+    .math-options {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .math-opt {
+      padding: 1rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.3rem;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .math-opt:hover { border-color: var(--neon-pink); box-shadow: 0 0 14px #ff2a6d44; }
+    .math-opt.correct { border-color: var(--neon-cyan); background: rgba(5,217,232,0.15); }
+    .math-opt.wrong { border-color: var(--neon-pink); background: rgba(255,42,109,0.15); }
+
+    /* Scramble */
+    .scramble-word {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      letter-spacing: 0.25em;
+      color: var(--neon-pink);
+      text-shadow: 0 0 16px #ff2a6d88;
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+    .scramble-hint {
+      text-align: center;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+    .scramble-input-wrap {
+      display: flex;
+      gap: 0.75rem;
+      max-width: 400px;
+      margin: 0 auto 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .scramble-input-wrap input {
+      flex: 1;
+      min-width: 180px;
+      padding: 0.75rem 1rem;
+      font-size: 1.1rem;
+      font-family: 'Rajdhani', sans-serif;
+      background: var(--bg);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .scramble-input-wrap input:focus {
+      outline: none;
+      border-color: var(--neon-cyan);
+      box-shadow: 0 0 12px #05d9e844;
+    }
+    .scramble-feedback {
+      text-align: center;
+      min-height: 1.5rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+    }
+    .scramble-feedback.ok { color: var(--neon-cyan); }
+    .scramble-feedback.bad { color: var(--neon-pink); }
+
+    .game-over {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    .game-over h3 {
+      font-size: 1.6rem;
+      color: var(--neon-cyan);
+      text-shadow: 0 0 12px #05d9e8;
+      margin-bottom: 0.75rem;
+    }
+    .game-over p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+    .game-actions {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 500px) {
+      .memory-grid { grid-template-columns: repeat(3, 1fr); }
+      .math-options { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="grid-bg"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌙</span>
+        <span class="logo-text">BLUE CRESCENT</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#subjects">Subjects</a></li>
+        <li><a href="index.html#quizzes">Quizzes</a></li>
+        <li><a href="games.html" class="active">Games</a></li>
+        <li><a href="index.html#about">About</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="games-hero">
+    <div class="container">
+      <p class="hero-tag">// ARCADE MODULE</p>
+      <h1>NEON <span class="neon-pink">GAMES</span></h1>
+      <p>Train your brain with retro mini-games. Memory, math speed, and word power — all in neon.</p>
+    </div>
+  </section>
+
+  <section class="subjects" style="padding-top: 0;">
+    <div class="container">
+      <div class="game-menu" id="gameMenu">
+        <div class="game-card" data-game="memory">
+          <div class="icon">🃏</div>
+          <h3>MEMORY MATCH</h3>
+          <p>Flip cards and match science & tech pairs. Test your recall.</p>
+        </div>
+        <div class="game-card" data-game="math">
+          <div class="icon">⚡</div>
+          <h3>SPEED MATH</h3>
+          <p>Solve as many problems as you can before time runs out.</p>
+        </div>
+        <div class="game-card" data-game="scramble">
+          <div class="icon">🔤</div>
+          <h3>WORD SCRAMBLE</h3>
+          <p>Unscramble educational terms. How many can you crack?</p>
+        </div>
+      </div>
+
+      <div class="game-stage hidden" id="gameStage">
+        <div class="game-hud" id="gameHud"></div>
+        <div id="gameArea"></div>
+        <div class="game-actions" id="gameActions"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">🌙</span>
+        <span>BLUE CRESCENT</span>
+      </div>
+      <p>Games module · Neon edition</p>
+    </div>
+  </footer>
+
+  <script src="js/games.js"></script>
+</body>
+</html>
