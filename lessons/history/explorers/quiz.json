@@ -1,0 +1,15 @@
+{
+  "title": "Explorers",
+  "info": [
+    "Explorers travel to learn about places.",
+    "Ships, maps, and compasses helped people find their way and share stories, foods, and ideas."
+  ],
+  "questions": [
+    { "q": "A person who travels to learn about places is an", "options": ["explorer", "baker", "tailor"], "answer": 0 },
+    { "q": "Sailors can use the stars and a compass to", "options": ["navigate", "bake bread", "paint a wall"], "answer": 0 },
+    { "q": "Which ocean lies between Europe and the Americas?", "options": ["Atlantic", "a small lake", "a river"], "answer": 0 },
+    { "q": "A globe is a round model of", "options": ["Earth", "one classroom", "a single tree"], "answer": 0 },
+    { "q": "A compass needle points toward", "options": ["north", "lunch", "the ceiling"], "answer": 0 },
+    { "q": "Type the tool with a needle that shows direction.", "type": "text", "answer": ["compass", "a compass"] }
+  ]
+}

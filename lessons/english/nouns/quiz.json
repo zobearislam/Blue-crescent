@@ -1,0 +1,15 @@
+{
+  "title": "Nouns",
+  "info": [
+    "A noun is a word for a person, place, thing, or idea.",
+    "Teacher, park, and book are nouns. A proper noun names a specific person or place and starts with a capital letter."
+  ],
+  "questions": [
+    { "q": "Which word is a noun?", "options": ["Run", "Happy", "School"], "answer": 2 },
+    { "q": "Which word is a noun?", "options": ["Quickly", "River", "Blue"], "answer": 1 },
+    { "q": "In the sentence \"The cat sleeps\", the noun is", "options": ["sleeps", "cat", "the"], "answer": 1 },
+    { "q": "Which is a proper noun?", "options": ["city", "London", "street"], "answer": 1 },
+    { "q": "Which word names a thing?", "options": ["Jump", "Softly", "Pencil"], "answer": 2 },
+    { "q": "Type the noun in this sentence: Birds fly.", "type": "text", "answer": ["birds", "bird"] }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Time",
+  "info": [
+    "There are 60 seconds in a minute, 60 minutes in an hour, and 24 hours in a day.",
+    "A quarter past means 15 minutes after the hour. Half past means 30 minutes after the hour."
+  ],
+  "questions": [
+    { "q": "How many minutes are in one hour?", "options": ["30", "60", "100"], "answer": 1 },
+    { "q": "How many hours are in one day?", "options": ["12", "24", "60"], "answer": 1 },
+    { "q": "What time is a quarter past 3?", "options": ["3:15", "3:45", "3:30"], "answer": 0 },
+    { "q": "What time is half past 7?", "options": ["7:15", "7:30", "7:45"], "answer": 1 },
+    { "q": "How many days are in a week?", "options": ["5", "7", "12"], "answer": 1 },
+    { "q": "Type how many seconds are in one minute.", "type": "text", "answer": ["60", "sixty"] }
+  ]
+}

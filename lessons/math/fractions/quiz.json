@@ -1,0 +1,15 @@
+{
+  "title": "Fractions",
+  "info": [
+    "A fraction is part of a whole. The top number is the numerator. The bottom number is the denominator.",
+    "1/2 means one of two equal parts."
+  ],
+  "questions": [
+    { "q": "In 3/4, which number is the numerator?", "options": ["4", "3", "7"], "answer": 1, "explain": "The numerator is the top number." },
+    { "q": "What is 1/2 of 10?", "options": ["2", "4", "5", "8"], "answer": 2 },
+    { "q": "Which fraction equals 1/2?", "options": ["2/4", "1/4", "3/4"], "answer": 0, "explain": "2/4 is two parts out of four, which is the same as one half." },
+    { "q": "Which piece is bigger?", "options": ["1/8", "1/2", "They are the same size"], "answer": 1, "explain": "When the top number is 1, a smaller bottom number means a bigger piece." },
+    { "q": "How many quarters make one whole?", "options": ["2", "3", "4"], "answer": 2 },
+    { "q": "Type the numerator of 5/8.", "type": "text", "answer": ["5", "five"] }
+  ]
+}

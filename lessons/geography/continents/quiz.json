@@ -1,0 +1,15 @@
+{
+  "title": "Continents",
+  "info": [
+    "A continent is a very large area of land.",
+    "Most school maps show seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America."
+  ],
+  "questions": [
+    { "q": "How many continents do most school maps show?", "options": ["5", "6", "7"], "answer": 2 },
+    { "q": "Which continent has the most land?", "options": ["Europe", "Asia", "Australia"], "answer": 1 },
+    { "q": "Which continent is covered by a huge ice sheet?", "options": ["Africa", "Antarctica", "Europe"], "answer": 1 },
+    { "q": "Egypt is on which continent?", "options": ["Asia", "Africa", "Europe"], "answer": 1 },
+    { "q": "Brazil is on which continent?", "options": ["Europe", "South America", "Australia"], "answer": 1 },
+    { "q": "Type the continent where the country of Japan is located.", "type": "text", "answer": ["asia"] }
+  ]
+}

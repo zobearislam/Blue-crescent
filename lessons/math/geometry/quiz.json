@@ -1,0 +1,15 @@
+{
+  "title": "Geometry",
+  "info": [
+    "Shapes have sides and corners.",
+    "A right angle is a square corner, like the corner of a book."
+  ],
+  "questions": [
+    { "q": "How many sides does a triangle have?", "options": ["2", "3", "4"], "answer": 1 },
+    { "q": "How many sides does a hexagon have?", "options": ["5", "6", "8"], "answer": 1 },
+    { "q": "A square has", "options": ["4 equal sides", "3 equal sides", "5 equal sides"], "answer": 0 },
+    { "q": "What do we call a perfectly round flat shape?", "options": ["Cube", "Circle", "Pyramid"], "answer": 1 },
+    { "q": "How many corners does a rectangle have?", "options": ["3", "4", "6"], "answer": 1 },
+    { "q": "Type the number of sides on a pentagon.", "type": "text", "answer": ["5", "five"] }
+  ]
+}

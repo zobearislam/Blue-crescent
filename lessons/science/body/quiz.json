@@ -1,0 +1,15 @@
+{
+  "title": "Human body",
+  "info": [
+    "Your body has parts that work together.",
+    "The heart pumps blood. The lungs help you breathe. Bones hold you up and protect organs."
+  ],
+  "questions": [
+    { "q": "Which organ pumps blood?", "options": ["Lungs", "Heart", "Stomach"], "answer": 1 },
+    { "q": "You breathe air into your", "options": ["bones", "lungs", "hair"], "answer": 1 },
+    { "q": "How many main senses are usually named at school?", "options": ["3", "5", "10"], "answer": 1, "explain": "Sight, hearing, smell, taste, and touch." },
+    { "q": "Which bone protects your brain?", "options": ["Skull", "Knee", "Toe"], "answer": 0 },
+    { "q": "Your stomach helps you", "options": ["digest food", "hear sound", "grow feathers"], "answer": 0 },
+    { "q": "Type the body part you use to smell.", "type": "text", "answer": ["nose"] }
+  ]
+}

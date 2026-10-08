@@ -1,0 +1,15 @@
+{
+  "title": "Matter",
+  "info": [
+    "Matter is anything that takes up space. It can be a solid, a liquid, or a gas.",
+    "Ice, water, and steam are all water in different states."
+  ],
+  "questions": [
+    { "q": "Which is a solid?", "options": ["Juice", "Ice cube", "Air"], "answer": 1 },
+    { "q": "Which is a gas?", "options": ["Steam", "A book", "Milk"], "answer": 0 },
+    { "q": "Water turning into ice is called", "options": ["melting", "freezing", "boiling"], "answer": 1 },
+    { "q": "Ice turning into water is called", "options": ["freezing", "melting", "rusting"], "answer": 1 },
+    { "q": "A liquid takes the shape of", "options": ["its container", "a perfect cube every time", "nothing"], "answer": 0 },
+    { "q": "Type one state of matter.", "type": "text", "answer": ["solid", "liquid", "gas"] }
+  ]
+}

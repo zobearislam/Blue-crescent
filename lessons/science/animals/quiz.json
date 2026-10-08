@@ -1,0 +1,15 @@
+{
+  "title": "Animals",
+  "info": [
+    "Animals can be grouped by how they look and live.",
+    "Mammals have fur or hair and feed milk to their young. Birds have feathers. Insects have six legs."
+  ],
+  "questions": [
+    { "q": "Which animal is a mammal?", "options": ["Shark", "Frog", "Dolphin", "Eagle"], "answer": 2, "explain": "Dolphins breathe air and feed milk to their calves." },
+    { "q": "Birds are covered in", "options": ["scales", "feathers", "fur"], "answer": 1 },
+    { "q": "Which one is an insect?", "options": ["Spider", "Ant", "Snail"], "answer": 1, "explain": "Insects have six legs. Spiders have eight, so they are not insects." },
+    { "q": "Fish take oxygen from water with", "options": ["lungs", "gills", "feathers"], "answer": 1 },
+    { "q": "A baby frog is called a", "options": ["calf", "tadpole", "chick"], "answer": 1 },
+    { "q": "Type an animal group that has feathers.", "type": "text", "answer": ["birds", "bird"] }
+  ]
+}

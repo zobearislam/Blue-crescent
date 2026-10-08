@@ -1,0 +1,15 @@
+{
+  "title": "Synonyms",
+  "info": [
+    "Synonyms are words with almost the same meaning. Big and large are synonyms.",
+    "Antonyms are opposites, like hot and cold."
+  ],
+  "questions": [
+    { "q": "Which is a synonym of happy?", "options": ["Sad", "Glad", "Angry"], "answer": 1 },
+    { "q": "Which is an antonym of hot?", "options": ["Warm", "Cold", "Heat"], "answer": 1 },
+    { "q": "Which is a synonym of small?", "options": ["Tiny", "Huge", "Fast"], "answer": 0 },
+    { "q": "Which is an antonym of day?", "options": ["Morning", "Night", "Noon"], "answer": 1 },
+    { "q": "Which pair are synonyms?", "options": ["Begin and start", "Up and down", "Wet and dry"], "answer": 0 },
+    { "q": "Type a synonym of begin.", "type": "text", "answer": ["start", "commence"] }
+  ]
+}

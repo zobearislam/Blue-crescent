@@ -1,0 +1,15 @@
+{
+  "title": "Punctuation",
+  "info": [
+    "A sentence usually starts with a capital letter.",
+    "A telling sentence ends with a full stop. A question ends with a question mark. A strong feeling can end with an exclamation mark."
+  ],
+  "questions": [
+    { "q": "Which mark ends a question?", "options": [".", "!", "?"], "answer": 2 },
+    { "q": "Which mark can show excitement?", "options": [",", "?", "!"], "answer": 2 },
+    { "q": "Words in a list are often separated by", "options": ["question marks", "commas", "only blank lines"], "answer": 1 },
+    { "q": "Which word should start with a capital in \"where is my bag\"?", "options": ["where", "is", "bag"], "answer": 0, "explain": "The first word of a sentence starts with a capital letter." },
+    { "q": "A telling sentence ends with a", "options": ["full stop", "question mark", "comma"], "answer": 0 },
+    { "q": "Type the mark that ends a question.", "type": "text", "answer": ["?", "question mark"] }
+  ]
+}

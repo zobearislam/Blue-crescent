@@ -1,0 +1,15 @@
+{
+  "title": "What is code",
+  "info": [
+    "Code is a set of instructions a computer can follow.",
+    "People write code in a programming language. The computer does the steps in order. A mistake in code is called a bug."
+  ],
+  "questions": [
+    { "q": "Code is mainly", "options": ["instructions", "a type of weather", "a kind of rock"], "answer": 0 },
+    { "q": "A person who writes code is often called a", "options": ["programmer", "plumber", "pilot"], "answer": 0 },
+    { "q": "Computers follow instructions", "options": ["in order", "only by guessing", "never"], "answer": 0 },
+    { "q": "A bug in a program is", "options": ["a mistake", "a pet", "a song"], "answer": 0 },
+    { "q": "HTML, Python, and JavaScript are examples of", "options": ["programming languages", "planets", "oceans"], "answer": 0 },
+    { "q": "Type the word for finding and fixing a mistake in code.", "type": "text", "answer": ["debug", "debugging", "fix"] }
+  ]
+}

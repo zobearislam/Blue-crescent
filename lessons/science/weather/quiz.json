@@ -1,0 +1,15 @@
+{
+  "title": "Weather",
+  "info": [
+    "Weather is what the air is doing right now: sun, rain, wind, or snow.",
+    "A thermometer measures temperature. Rain, snow, and hail are kinds of precipitation."
+  ],
+  "questions": [
+    { "q": "What tool measures temperature?", "options": ["Ruler", "Thermometer", "Compass"], "answer": 1 },
+    { "q": "Rain, snow, and hail are all types of", "options": ["precipitation", "earthquakes", "tides"], "answer": 0 },
+    { "q": "A cloud very close to the ground is called", "options": ["fog", "lightning", "a desert"], "answer": 0 },
+    { "q": "Which one is frozen lumps of ice that fall from a storm?", "options": ["Hail", "Breeze", "Humidity"], "answer": 0 },
+    { "q": "Wind is moving", "options": ["air", "soil", "wood"], "answer": 0 },
+    { "q": "Type the season that usually has the coldest weather.", "type": "text", "answer": ["winter"] }
+  ]
+}

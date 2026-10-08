@@ -1,0 +1,15 @@
+{
+  "title": "Ancient Egypt",
+  "info": [
+    "Ancient Egypt grew along the Nile River in Africa.",
+    "People farmed beside the river, built stone pyramids, and wrote with picture symbols called hieroglyphs."
+  ],
+  "questions": [
+    { "q": "The Nile is a", "options": ["river", "mountain", "ocean"], "answer": 0 },
+    { "q": "Picture writing used in ancient Egypt is called", "options": ["hieroglyphs", "numbers only", "maps"], "answer": 0 },
+    { "q": "The great pyramids were built mostly from", "options": ["ice", "stone", "glass"], "answer": 1 },
+    { "q": "Egypt is on which continent?", "options": ["Europe", "Africa", "Australia"], "answer": 1 },
+    { "q": "The Nile's yearly flood helped farmers because it left behind", "options": ["rich soil", "desert sand only", "ice"], "answer": 0 },
+    { "q": "Type the river that ancient Egypt depended on.", "type": "text", "answer": ["nile", "the nile", "nile river"] }
+  ]
+}

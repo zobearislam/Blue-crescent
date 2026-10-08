@@ -1,0 +1,15 @@
+{
+  "title": "Sequences",
+  "info": [
+    "A sequence is steps in order. If the order changes, the result can change.",
+    "Recipes and computer programs both use sequences."
+  ],
+  "questions": [
+    { "q": "When you get dressed, which should you put on first?", "options": ["Socks", "Shoes", "A hat on your feet"], "answer": 0 },
+    { "q": "In a sequence, order", "options": ["matters", "never matters", "is a color"], "answer": 0 },
+    { "q": "Step 1: draw a circle. Step 2: color it. If you skip step 1", "options": ["there is no circle to color", "the circle colors itself", "you still have a colored circle"], "answer": 0 },
+    { "q": "A list of steps for a computer is called a", "options": ["program", "sandwich", "mountain"], "answer": 0 },
+    { "q": "Which is the right order for a sandwich?", "options": ["Bread, filling, bread", "Eat it, then make it", "Filling only, with no bread"], "answer": 0 },
+    { "q": "Type the word for steps done one after another.", "type": "text", "answer": ["sequence", "order"] }
+  ]
+}

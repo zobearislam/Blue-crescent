@@ -1,0 +1,15 @@
+{
+  "title": "Loops",
+  "info": [
+    "A loop repeats steps.",
+    "Instead of writing clap ten times, a program can say: repeat 10 times, clap."
+  ],
+  "questions": [
+    { "q": "A loop is used to", "options": ["repeat steps", "erase Earth", "change the weather"], "answer": 0 },
+    { "q": "\"Repeat 3 times: jump\" means you jump", "options": ["1 time", "3 times", "30 times"], "answer": 1 },
+    { "q": "Which one is a loop?", "options": ["Do this once and stop", "Do this again and again", "Never do this"], "answer": 1 },
+    { "q": "If a loop says \"repeat 4 times: draw a star\", how many stars do you draw?", "options": ["2", "4", "8"], "answer": 1 },
+    { "q": "A loop can stop when", "options": ["a count is finished or a goal is met", "the screen forgets numbers", "paper turns into water"], "answer": 0 },
+    { "q": "Type the word for a repeating block of code.", "type": "text", "answer": ["loop", "a loop"] }
+  ]
+}

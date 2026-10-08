@@ -1,9 +1,17 @@
 {
   "title": "Space",
+  "info": [
+    "Our solar system has the Sun and the planets that travel around it.",
+    "Earth is the planet we live on. The Moon travels around Earth."
+  ],
   "questions": [
     { "q": "Which planet is closest to the Sun?", "options": ["Venus", "Mercury", "Mars"], "answer": 1 },
     { "q": "Earth orbits the Sun.", "options": ["True", "False"], "answer": 0 },
-    { "q": "Which planet has the most famous rings?", "type": "text", "answer": ["saturn"], "explain": "Saturn's rings are made mostly of ice." },
-    { "q": "What is the name of Earth's natural satellite?", "options": ["Phobos", "Europa", "The Moon", "Titan"], "answer": 2 }
+    { "q": "Which planet has the most famous rings?", "type": "text", "answer": ["saturn"], "explain": "Saturn's rings are made mostly of ice and rock." },
+    { "q": "What is the name of Earth's natural satellite?", "options": ["Phobos", "Europa", "The Moon", "Titan"], "answer": 2 },
+    { "q": "Which is the largest planet in our solar system?", "options": ["Earth", "Jupiter", "Mars"], "answer": 1 },
+    { "q": "The Sun is a", "options": ["planet", "star", "moon"], "answer": 1, "explain": "The Sun is the star at the center of our solar system." },
+    { "q": "Which planet is known for its red color?", "options": ["Mars", "Neptune", "Mercury"], "answer": 0 },
+    { "q": "Type the planet we live on.", "type": "text", "answer": ["earth"] }
   ]
 }

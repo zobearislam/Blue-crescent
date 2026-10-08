@@ -1,15 +1,74 @@
 {
   "subjects": [
     {
-      "id": "math", "name": "Math", "icon": "➗",
+      "id": "math",
+      "name": "Math",
+      "icon": "÷",
       "chapters": [
-        { "id": "basics", "name": "Basics" }
+        { "id": "basics", "name": "Basics" },
+        { "id": "fractions", "name": "Fractions" },
+        { "id": "decimals", "name": "Decimals" },
+        { "id": "geometry", "name": "Geometry" },
+        { "id": "time", "name": "Time" },
+        { "id": "measurement", "name": "Measurement" }
       ]
     },
     {
-      "id": "science", "name": "Science", "icon": "🔬",
+      "id": "science",
+      "name": "Science",
+      "icon": "🔬",
       "chapters": [
-        { "id": "space", "name": "Space" }
+        { "id": "space", "name": "Space" },
+        { "id": "animals", "name": "Animals" },
+        { "id": "plants", "name": "Plants" },
+        { "id": "weather", "name": "Weather" },
+        { "id": "body", "name": "Human body" },
+        { "id": "matter", "name": "Matter" },
+        { "id": "water-cycle", "name": "Water cycle" }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "icon": "📝",
+      "chapters": [
+        { "id": "nouns", "name": "Nouns" },
+        { "id": "verbs", "name": "Verbs" },
+        { "id": "adjectives", "name": "Adjectives" },
+        { "id": "punctuation", "name": "Punctuation" },
+        { "id": "synonyms", "name": "Synonyms" }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "icon": "🌍",
+      "chapters": [
+        { "id": "continents", "name": "Continents" },
+        { "id": "oceans", "name": "Oceans" },
+        { "id": "maps", "name": "Maps" },
+        { "id": "landforms", "name": "Landforms" }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "icon": "📜",
+      "chapters": [
+        { "id": "ancient-egypt", "name": "Ancient Egypt" },
+        { "id": "ancient-rome", "name": "Ancient Rome" },
+        { "id": "explorers", "name": "Explorers" },
+        { "id": "inventions", "name": "Inventions" }
+      ]
+    },
+    {
+      "id": "coding",
+      "name": "Coding",
+      "icon": "💻",
+      "chapters": [
+        { "id": "what-is-code", "name": "What is code" },
+        { "id": "sequences", "name": "Sequences" },
+        { "id": "loops", "name": "Loops" }
       ]
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "title": "Oceans",
+  "info": [
+    "Most of Earth is covered by ocean.",
+    "The five oceans are the Pacific, Atlantic, Indian, Southern, and Arctic."
+  ],
+  "questions": [
+    { "q": "Which ocean is the largest?", "options": ["Arctic", "Pacific", "Indian"], "answer": 1 },
+    { "q": "Which ocean is around the North Pole?", "options": ["Southern", "Arctic", "Indian"], "answer": 1 },
+    { "q": "How many oceans do most maps name?", "options": ["3", "5", "9"], "answer": 1 },
+    { "q": "The ocean between the Americas and Europe and Africa is the", "options": ["Pacific", "Atlantic", "Arctic"], "answer": 1 },
+    { "q": "Which ocean touches the east coast of Africa and the west coast of Australia?", "options": ["Indian", "Arctic", "Southern only"], "answer": 0 },
+    { "q": "Type the name of the largest ocean.", "type": "text", "answer": ["pacific", "the pacific", "pacific ocean"] }
+  ]
+}

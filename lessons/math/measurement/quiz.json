@@ -1,0 +1,15 @@
+{
+  "title": "Measurement",
+  "info": [
+    "Length can be measured in centimetres and metres. 100 centimetres make 1 metre.",
+    "Mass can be measured in grams and kilograms. Liquids can be measured in millilitres and litres."
+  ],
+  "questions": [
+    { "q": "How many centimetres are in 1 metre?", "options": ["10", "100", "1000"], "answer": 1 },
+    { "q": "Which is longer?", "options": ["1 metre", "50 centimetres", "They are the same"], "answer": 0 },
+    { "q": "How many grams are in 1 kilogram?", "options": ["10", "100", "1000"], "answer": 2 },
+    { "q": "A ruler is best for measuring", "options": ["time", "length", "temperature"], "answer": 1 },
+    { "q": "How many millilitres are in 1 litre?", "options": ["10", "100", "1000"], "answer": 2 },
+    { "q": "Type the tool used to measure temperature.", "type": "text", "answer": ["thermometer", "a thermometer"] }
+  ]
+}

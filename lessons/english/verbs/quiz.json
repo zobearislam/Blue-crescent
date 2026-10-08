@@ -1,0 +1,15 @@
+{
+  "title": "Verbs",
+  "info": [
+    "A verb is a doing or being word.",
+    "Jump, read, and is are verbs. Past tense often tells what already happened."
+  ],
+  "questions": [
+    { "q": "Which word is a verb?", "options": ["Table", "Sing", "Purple"], "answer": 1 },
+    { "q": "Which word is the verb in \"Maya kicks the ball\"?", "options": ["Maya", "kicks", "ball"], "answer": 1 },
+    { "q": "The past tense of walk is", "options": ["walked", "walking", "walks"], "answer": 0 },
+    { "q": "Which word is a verb?", "options": ["Under", "Think", "Soft"], "answer": 1 },
+    { "q": "Which verb means to look at words and understand them?", "options": ["Read", "Chair", "Yellow"], "answer": 0 },
+    { "q": "Type the past tense of play.", "type": "text", "answer": ["played"] }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Adjectives",
+  "info": [
+    "An adjective describes a noun.",
+    "In \"a red bike\", the word red is an adjective."
+  ],
+  "questions": [
+    { "q": "Which word is an adjective?", "options": ["Jump", "Tiny", "They"], "answer": 1 },
+    { "q": "In \"the tall tree\", the adjective is", "options": ["the", "tall", "tree"], "answer": 1 },
+    { "q": "Which adjective tells about size?", "options": ["Happy", "Huge", "Quickly"], "answer": 1 },
+    { "q": "Which word describes the noun in \"a cold drink\"?", "options": ["a", "cold", "drink"], "answer": 1 },
+    { "q": "Which word is an adjective?", "options": ["Run", "Bright", "And"], "answer": 1 },
+    { "q": "Type an adjective that means the opposite of hot.", "type": "text", "answer": ["cold", "cool"] }
+  ]
+}

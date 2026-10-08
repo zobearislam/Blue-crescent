@@ -1,0 +1,15 @@
+{
+  "title": "Inventions",
+  "info": [
+    "An invention is a new tool or idea that helps people.",
+    "The wheel, writing, and the printing press changed how people traveled, remembered stories, and shared books."
+  ],
+  "questions": [
+    { "q": "The wheel helps things", "options": ["roll", "melt into rain", "grow leaves"], "answer": 0 },
+    { "q": "The printing press made it easier to", "options": ["copy books", "stop time", "move mountains"], "answer": 0 },
+    { "q": "A light bulb is used to make", "options": ["light", "rain", "soil"], "answer": 0 },
+    { "q": "Which team is often credited with a long-lasting electric light bulb that could be sold widely?", "options": ["Thomas Edison's team", "Ancient farmers only", "Fish"], "answer": 0, "explain": "Many inventors worked on light bulbs. Edison's team made one that lasted long enough to sell." },
+    { "q": "Writing lets people", "options": ["save words to read later", "turn day into night", "erase mountains"], "answer": 0 },
+    { "q": "Type how many wheels a bicycle has.", "type": "text", "answer": ["2", "two"] }
+  ]
+}

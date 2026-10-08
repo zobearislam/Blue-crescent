@@ -1,0 +1,15 @@
+{
+  "title": "Maps",
+  "info": [
+    "A map is a drawing of a place from above.",
+    "North is often at the top. A compass rose shows directions. A key, or legend, explains the symbols."
+  ],
+  "questions": [
+    { "q": "On many maps, which direction is at the top?", "options": ["South", "North", "East"], "answer": 1 },
+    { "q": "The four main directions include north, south, east, and", "options": ["up", "west", "middle"], "answer": 1 },
+    { "q": "A compass helps you find", "options": ["directions", "temperature", "weight"], "answer": 0 },
+    { "q": "A key or legend on a map explains", "options": ["the symbols", "tomorrow's weather", "your age"], "answer": 0 },
+    { "q": "The opposite of east is", "options": ["west", "north", "up"], "answer": 0 },
+    { "q": "Type the opposite direction of north.", "type": "text", "answer": ["south"] }
+  ]
+}

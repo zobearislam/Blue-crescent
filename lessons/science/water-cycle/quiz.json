@@ -1,0 +1,15 @@
+{
+  "title": "Water cycle",
+  "info": [
+    "Water moves in a cycle. The Sun warms water so it evaporates.",
+    "Water vapor can form clouds, then fall back down as rain or snow."
+  ],
+  "questions": [
+    { "q": "Water rising into the air as vapor is called", "options": ["evaporation", "freezing", "erosion"], "answer": 0 },
+    { "q": "Rain or snow falling from clouds is called", "options": ["evaporation", "precipitation", "a fossil"], "answer": 1 },
+    { "q": "Clouds are made of", "options": ["tiny water droplets or ice", "solid rock", "fire"], "answer": 0 },
+    { "q": "The Sun's heat helps water", "options": ["evaporate", "turn into metal", "stop existing"], "answer": 0 },
+    { "q": "A large body of salt water is an", "options": ["ocean", "desert", "glacier only"], "answer": 0 },
+    { "q": "Type the name of water vapor turning into droplets to form clouds.", "type": "text", "answer": ["condensation"] }
+  ]
+}

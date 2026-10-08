@@ -1,0 +1,15 @@
+{
+  "title": "Decimals",
+  "info": [
+    "A decimal point separates whole numbers from parts.",
+    "0.5 is the same as one half. 0.25 is the same as one quarter."
+  ],
+  "questions": [
+    { "q": "Which fraction is the same as 0.5?", "options": ["1/4", "1/2", "1/10"], "answer": 1 },
+    { "q": "Which decimal is bigger?", "options": ["0.2", "0.9", "They are equal"], "answer": 1 },
+    { "q": "What is 1.5 + 1.5?", "options": ["2", "3", "2.5"], "answer": 1 },
+    { "q": "0.1 is the same as which fraction?", "options": ["1/10", "1/2", "1/100"], "answer": 0 },
+    { "q": "Which is the same as one quarter?", "options": ["0.4", "0.25", "2.5"], "answer": 1 },
+    { "q": "Type the decimal for one half.", "type": "text", "answer": ["0.5", ".5", "0.50"] }
+  ]
+}

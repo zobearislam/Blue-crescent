@@ -1,0 +1,15 @@
+{
+  "title": "Plants",
+  "info": [
+    "Most plants make food using sunlight, water, and air. This is called photosynthesis.",
+    "Roots take in water. Leaves catch light."
+  ],
+  "questions": [
+    { "q": "Which part usually takes in water from the soil?", "options": ["Flower", "Root", "Seed only"], "answer": 1 },
+    { "q": "Plants use sunlight to make", "options": ["food", "rocks", "metal"], "answer": 0 },
+    { "q": "Which gas do plants give off that people breathe?", "options": ["Oxygen", "Helium", "Smoke"], "answer": 0 },
+    { "q": "A seed can grow into", "options": ["a new plant", "a cloud", "a rock"], "answer": 0 },
+    { "q": "Leaves are often green because of", "options": ["chlorophyll", "sand", "ice"], "answer": 0 },
+    { "q": "Type the plant part that is often green and catches light.", "type": "text", "answer": ["leaf", "leaves"] }
+  ]
+}

@@ -2,12 +2,16 @@
   "title": "Math basics",
   "info": [
     "Addition combines numbers. Subtraction takes one away from another.",
-    "Multiplication is repeated addition: 3 × 4 means 3 added four times."
+    "Multiplication is repeated addition: 3 × 4 means 3 added four times. Division splits a number into equal groups."
   ],
   "questions": [
     { "q": "What is 7 + 5?", "options": ["10", "12", "13", "11"], "answer": 1 },
     { "q": "What is 9 − 4?", "options": ["5", "6", "4"], "answer": 0 },
     { "q": "What is 3 × 4?", "options": ["7", "9", "12", "14"], "answer": 2, "explain": "3 added four times is 12." },
-    { "q": "Type the answer: 20 ÷ 5", "type": "text", "answer": ["4", "four"] }
+    { "q": "Type the answer: 20 ÷ 5", "type": "text", "answer": ["4", "four"] },
+    { "q": "What is 8 + 6?", "options": ["12", "14", "15", "13"], "answer": 1 },
+    { "q": "What is 15 − 7?", "options": ["8", "9", "6"], "answer": 0 },
+    { "q": "What is 6 × 2?", "options": ["8", "12", "10"], "answer": 1, "explain": "6 added two times is 12." },
+    { "q": "Type the answer: 18 ÷ 3", "type": "text", "answer": ["6", "six"] }
   ]
 }
