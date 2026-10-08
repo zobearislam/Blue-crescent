@@ -14,44 +14,12 @@
 
   var app = $('#app'), crumbsEl = $('#crumbs'), quizRoot = $('#quiz');
   var repo = { subjects: [] };
-  var local = read('bc_local', {});
-  if (!local.subjects) local.subjects = [];
-  if (!local.quizzes) local.quizzes = {};
+  try { localStorage.removeItem('bc_local'); } catch (e) {}
   var done = read('bc_done', {});
-  var saveLocal = function () { write('bc_local', local); };
 
   /* ---------- data ---------- */
-  function merged() {
-    var map = {}, order = [];
-    function add(s, isLocal) {
-      var m = map[s.id];
-      if (!m) { m = map[s.id] = { id: s.id, name: s.name, icon: s.icon || '📁', chapters: [], local: isLocal }; order.push(s.id); }
-      (s.chapters || []).forEach(function (c) {
-        if (!m.chapters.some(function (x) { return x.id === c.id; })) {
-          m.chapters.push({ id: c.id, name: c.name, quiz: c.quiz, local: isLocal });
-        }
-      });
-    }
-    repo.subjects.forEach(function (s) { add(s, false); });
-    local.subjects.forEach(function (s) { add(s, true); });
-    return order.map(function (id) { return map[id]; });
-  }
-
-  function localSubject(sub) {
-    var s = local.subjects.filter(function (x) { return x.id === sub.id; })[0];
-    if (!s) { s = { id: sub.id, name: sub.name, icon: sub.icon, chapters: [] }; local.subjects.push(s); }
-    return s;
-  }
-
-  function uniqueId(name, taken) {
-    var base = slug(name) || 'folder', id = base, n = 2;
-    while (taken.indexOf(id) !== -1) id = base + '-' + n++;
-    return id;
-  }
-
   function getQuiz(sub, ch) {
     var key = sub.id + '/' + ch.id;
-    if (local.quizzes[key]) return Promise.resolve(local.quizzes[key]);
     return fetch(encodeURI('lessons/' + (ch.quiz || key + '/quiz.json')), { cache: 'no-cache' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .catch(function () { return null; });
@@ -148,24 +116,6 @@
 
   function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
 
-  function openForm(host, title, fields, submit) {
-    host.innerHTML = '<form class="form"><strong>' + esc(title) + '</strong>' +
-      fields.map(function (f) {
-        return '<label>' + esc(f.label) + '<input type="text" name="' + f.name + '" placeholder="' + esc(f.ph || '') + '"' + (f.req ? ' required' : '') + ' autocomplete="off"></label>';
-      }).join('') +
-      '<div class="row"><button class="btn good" type="submit">Create</button><button class="btn ghost" type="button" data-cancel>Cancel</button></div>' +
-      '<small>Saved on this device. To share it with everyone, add the folder to the repo.</small></form>';
-    var form = $('form', host);
-    form.onsubmit = function (e) {
-      e.preventDefault();
-      var vals = {};
-      fields.forEach(function (f) { vals[f.name] = form.elements[f.name].value.trim(); });
-      submit(vals);
-    };
-    $('[data-cancel]', host).onclick = function () { host.innerHTML = ''; };
-    form.elements[fields[0].name].focus();
-  }
-
   function home(subs) {
     setCrumbs([]);
     app.innerHTML = '<section class="panel"><h1>Welcome 🌙</h1>' +
@@ -177,44 +127,21 @@
   function lessons(subs) {
     setCrumbs([['Lessons']]);
     app.innerHTML = '<section class="panel"><h1>📁 Lessons</h1><p class="sub">Choose a subject.</p>' +
-      (subs.length ? '' : '<div class="empty">No subjects yet. Create the first one.</div>') +
-      '<div class="folders">' + subs.map(function (s) {
-        return '<a class="folder" href="#/lessons/' + encodeURIComponent(s.id) + '"><span class="ico">' + esc(s.icon) + '</span>' +
-          '<span class="name">' + esc(s.name) + '</span><span class="meta">' + plural(s.chapters.length, 'chapter') + (s.local ? ' · this device' : '') + '</span></a>';
-      }).join('') +
-      '<button class="folder add" id="add">+ New subject</button></div><div id="form"></div></section>';
-    $('#add').onclick = function () {
-      openForm($('#form'), 'New subject folder', [
-        { name: 'name', label: 'Subject name', ph: 'e.g. History', req: true },
-        { name: 'icon', label: 'Emoji (optional)', ph: '📜' }
-      ], function (v) {
-        var id = uniqueId(v.name, subs.map(function (s) { return s.id; }));
-        local.subjects.push({ id: id, name: v.name, icon: v.icon || '📁', chapters: [] });
-        saveLocal();
-        location.hash = '#/lessons/' + encodeURIComponent(id);
-      });
-    };
+      (subs.length ? '<div class="folders">' + subs.map(function (s) {
+        return '<a class="folder" href="#/lessons/' + encodeURIComponent(s.id) + '"><span class="ico">' + esc(s.icon || '📁') + '</span>' +
+          '<span class="name">' + esc(s.name) + '</span><span class="meta">' + plural(s.chapters.length, 'chapter') + '</span></a>';
+      }).join('') + '</div>' : '<div class="empty">No subjects yet. Check back soon.</div>') + '</section>';
   }
 
   function subject(sub) {
     setCrumbs([['Lessons', '#/lessons'], [sub.name]]);
-    app.innerHTML = '<section class="panel"><h1>' + esc(sub.icon) + ' ' + esc(sub.name) + '</h1><p class="sub">Choose a chapter.</p>' +
-      (sub.chapters.length ? '' : '<div class="empty">No chapters yet. Create the first one.</div>') +
-      '<div class="folders">' + sub.chapters.map(function (c) {
+    app.innerHTML = '<section class="panel"><h1>' + esc(sub.icon || '📁') + ' ' + esc(sub.name) + '</h1><p class="sub">Choose a chapter.</p>' +
+      (sub.chapters.length ? '<div class="folders">' + sub.chapters.map(function (c) {
         var isDone = done[sub.id + '/' + c.id];
         return '<a class="folder' + (isDone ? ' done' : '') + '" href="#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(c.id) + '">' +
           '<span class="ico">' + (isDone ? '✅' : '📂') + '</span><span class="name">' + esc(c.name) + '</span>' +
-          '<span class="meta">' + (isDone ? 'Completed' : 'Not started') + (c.local ? ' · this device' : '') + '</span></a>';
-      }).join('') +
-      '<button class="folder add" id="add">+ New chapter</button></div><div id="form"></div></section>';
-    $('#add').onclick = function () {
-      openForm($('#form'), 'New chapter folder', [{ name: 'name', label: 'Chapter name', ph: 'e.g. Ancient Rome', req: true }], function (v) {
-        var id = uniqueId(v.name, sub.chapters.map(function (c) { return c.id; }));
-        localSubject(sub).chapters.push({ id: id, name: v.name });
-        saveLocal();
-        location.hash = '#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(id);
-      });
-    };
+          '<span class="meta">' + (isDone ? 'Completed' : 'Not started') + '</span></a>';
+      }).join('') + '</div>' : '<div class="empty">No chapters yet. Check back soon.</div>') + '</section>';
   }
 
   function chapter(sub, ch) {
@@ -222,38 +149,14 @@
     var key = sub.id + '/' + ch.id;
     setCrumbs([['Lessons', '#/lessons'], [sub.name, '#/lessons/' + encodeURIComponent(sub.id)], [ch.name]]);
     app.innerHTML = '<section class="panel"><h1>📂 ' + esc(ch.name) + '</h1><p class="sub">' + esc(sub.name) + '</p>' +
-      '<div id="status" class="empty">Looking for quiz.json…</div><div class="row" id="actions"></div>' +
-      '<details class="add-quiz"><summary>Add or replace quiz.json</summary><div class="form">' +
-      '<small>Add an <code>info</code> field to show a short intro before the quiz. Leave it out to go straight to the questions. Saved on this device; to share it, put the file in <code>lessons/' + esc(key) + '/quiz.json</code> in the repo.</small>' +
-      '<label>Choose a quiz.json file<input type="file" id="qfile" accept=".json,application/json"></label>' +
-      '<label>Or paste it here<textarea id="qtext" spellcheck="false" placeholder=\'{"questions":[{"q":"2+2?","options":["3","4"],"answer":1}]}\'></textarea></label>' +
-      '<div class="row"><button class="btn good" id="qsave">Save quiz</button></div><div id="qmsg"></div></div></details></section>';
-
-    $('#qfile').onchange = function (e) {
-      var f = e.target.files[0]; if (!f) return;
-      var r = new FileReader();
-      r.onload = function () { $('#qtext').value = r.result; };
-      r.readAsText(f);
-    };
-    $('#qsave').onclick = function () {
-      var msg = $('#qmsg'), data;
-      try { data = JSON.parse($('#qtext').value); } catch (e) { msg.className = 'msg'; msg.textContent = 'That is not valid JSON: ' + e.message; return; }
-      var err = validate(data);
-      if (err) { msg.className = 'msg'; msg.textContent = err; return; }
-      local.quizzes[key] = data; saveLocal();
-      msg.className = 'msg ok'; msg.textContent = 'Saved.';
-      render();
-    };
+      '<div id="status" class="empty">Loading quiz…</div><div class="row" id="actions"></div></section>';
 
     getQuiz(sub, ch).then(function (quiz) {
       if (location.hash !== hash) return;
       var st = $('#status'), act = $('#actions');
-      if (!quiz) {
-        st.textContent = 'No quiz yet. Add one below, or put a quiz.json in lessons/' + key + '/.';
-        return;
-      }
+      if (!quiz) { st.textContent = 'No quiz here yet. Check back soon.'; return; }
       var err = validate(quiz);
-      if (err) { st.className = 'msg'; st.textContent = 'quiz.json problem: ' + err; return; }
+      if (err) { st.className = 'msg'; st.textContent = 'This quiz has a problem: ' + err; return; }
       var hasInfo = [].concat(quiz.info || []).filter(Boolean).length > 0;
       st.className = ''; st.innerHTML = '<strong>' + esc(quiz.title || ch.name) + '</strong><br>' + plural(quiz.questions.length, 'question') + (hasInfo ? ' · starts with a short intro' : '');
       act.innerHTML = '<button class="btn good" id="start">' + (done[key] ? 'Practice again' : 'Start quiz') + '</button>';
@@ -268,7 +171,7 @@
 
   function render() {
     var p = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
-    var subs = merged();
+    var subs = repo.subjects;
     window.scrollTo(0, 0);
     if (p[0] !== 'lessons') return home(subs);
     if (p.length === 1) return lessons(subs);
