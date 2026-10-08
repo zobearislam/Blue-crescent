@@ -1,0 +1,9 @@
+{
+  "title": "Space",
+  "questions": [
+    { "q": "Which planet is closest to the Sun?", "options": ["Venus", "Mercury", "Mars"], "answer": 1 },
+    { "q": "Earth orbits the Sun.", "options": ["True", "False"], "answer": 0 },
+    { "q": "Which planet has the most famous rings?", "type": "text", "answer": ["saturn"], "explain": "Saturn's rings are made mostly of ice." },
+    { "q": "What is the name of Earth's natural satellite?", "options": ["Phobos", "Europa", "The Moon", "Titan"], "answer": 2 }
+  ]
+}
