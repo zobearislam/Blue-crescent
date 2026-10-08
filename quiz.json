@@ -1,0 +1,13 @@
+{
+  "title": "Math basics",
+  "info": [
+    "Addition combines numbers. Subtraction takes one away from another.",
+    "Multiplication is repeated addition: 3 × 4 means 3 added four times."
+  ],
+  "questions": [
+    { "q": "What is 7 + 5?", "options": ["10", "12", "13", "11"], "answer": 1 },
+    { "q": "What is 9 − 4?", "options": ["5", "6", "4"], "answer": 0 },
+    { "q": "What is 3 × 4?", "options": ["7", "9", "12", "14"], "answer": 2, "explain": "3 added four times is 12." },
+    { "q": "Type the answer: 20 ÷ 5", "type": "text", "answer": ["4", "four"] }
+  ]
+}

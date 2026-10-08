@@ -1,0 +1,16 @@
+{
+  "subjects": [
+    {
+      "id": "math", "name": "Math", "icon": "➗",
+      "chapters": [
+        { "id": "basics", "name": "Basics" }
+      ]
+    },
+    {
+      "id": "science", "name": "Science", "icon": "🔬",
+      "chapters": [
+        { "id": "space", "name": "Space" }
+      ]
+    }
+  ]
+}

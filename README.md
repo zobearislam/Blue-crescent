@@ -1,50 +1,45 @@
 # Blue Crescent 🌙
 
-A free, interactive educational website covering multiple subjects for learners of all ages.
+Lessons > subjects > chapters, with Duolingo-style quizzes. Baby blue and baby red checkerboard everywhere.
 
-## Features
+## Adding folders in the repo
 
-- **6 Subjects**: Math, Science, History, Languages, Technology, Arts
-- **Interactive Quizzes** with instant feedback
-- **Progress Tracking** (saved in your browser)
-- **Dark / Light Mode**
-- Fully responsive (works on phone, tablet, desktop)
-- No account needed — 100% free
-
-## How to use
-
-1. Open `index.html` in any modern browser, **or**
-2. Host it on **GitHub Pages** for free:
-
-### Deploy to GitHub Pages
-
-1. Create a new repository on GitHub (e.g. `blue-crescent`)
-2. Upload all the files in this folder
-3. Go to **Settings → Pages**
-4. Under **Source**, choose **Deploy from a branch** → `main` → `/ (root)`
-5. Click Save
-6. Your site will be live at:  
-   `https://yourusername.github.io/blue-crescent`
-
-## File Structure
+Just create them. No other file needs editing:
 
 ```
-blue-crescent/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   ├── data.js      # Subjects & quiz questions
-│   └── script.js    # All interactivity
-└── README.md
+lessons/
+└── history/                 ← subject folder
+    ├── subject.json         ← optional: {"name": "History", "icon": "📜"}
+    ├── 01-egypt/            ← chapter folder
+    │   └── quiz.json
+    └── 02-rome/
+        └── quiz.json
 ```
 
-## Customization
+- Folder names become the display names ("ancient-rome" → "Ancient rome"). A leading number sets the order and is hidden ("01-egypt" → "Egypt").
+- `subject.json` is optional and sets a nicer name and emoji.
+- A new folder appears on the site within a couple of minutes of pushing (GitHub Pages rebuild plus a short cache).
+- `lessons/lessons.json` is optional now. Use it only to override names or icons.
+- Git does not keep empty folders, so a chapter folder needs at least its `quiz.json`.
 
-- Edit subjects and lessons in `js/data.js`
-- Add more quiz questions in the same file
-- Change colors in `css/styles.css` (CSS variables at the top)
+The site finds folders through GitHub's public API, so it works when hosted on `<user>.github.io`.
 
----
+You can also add subjects, chapters and quizzes from the site itself (the "+" buttons). Those are saved on that device only.
 
-Made with curiosity for learners everywhere.
+## quiz.json
+
+```json
+{
+  "title": "Optional title",
+  "info": ["Optional intro paragraph.", "Another one. Delete this field to skip the intro."],
+  "questions": [
+    { "q": "Pick one", "options": ["A", "B", "C"], "answer": 1, "explain": "Optional" },
+    { "q": "Type it", "type": "text", "answer": ["accepted", "also accepted"] }
+  ]
+}
+```
+
+`answer` for multiple choice is the position of the right option, starting at 0.
+Three hearts per run. Wrong answers come back at the end.
+
+Open the site through GitHub Pages (or any web server). Opening `index.html` straight from disk blocks loading the JSON files.
