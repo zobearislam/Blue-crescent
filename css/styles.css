@@ -4,10 +4,12 @@
   --ink:#1f3a5f; --soft:#5d7391; --line:#d6e3f0;
   --good:#58cc02; --good-bg:#e3f9cf; --bad:#e55353; --bad-bg:#fde0e0;
   --check:repeating-conic-gradient(var(--blue) 0% 25%, var(--red) 0% 50%) 0 0 / 64px 64px;
+  --roses:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22440%22 height=%22440%22 viewBox=%220 0 440 440%22%3E%3Cg transform=%22translate%2890 100%29 rotate%28-10%29 scale%281.0%29%22%3E%3Cellipse cx=%22-30%22 cy=%2226%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%28-35 -30 26%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cellipse cx=%2232%22 cy=%2228%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%2835 32 28%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2234%22 fill=%22%23c2334f%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2225%22 fill=%22%23dc4f69%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2216%22 fill=%22%23ee7890%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cpath d=%22M0 0 m-5 0 a5 5 0 1 1 5 5 a9 9 0 1 1 -9 -9 a13 13 0 1 1 13 13%22 fill=%22none%22 stroke=%22%231f3a5f%22 stroke-width=%223%22 stroke-linecap=%22round%22/%3E%3C/g%3E%3Cg transform=%22translate%28330 200%29 rotate%2825%29 scale%280.75%29%22%3E%3Cellipse cx=%22-30%22 cy=%2226%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%28-35 -30 26%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cellipse cx=%2232%22 cy=%2228%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%2835 32 28%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2234%22 fill=%22%23c2334f%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2225%22 fill=%22%23dc4f69%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2216%22 fill=%22%23ee7890%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cpath d=%22M0 0 m-5 0 a5 5 0 1 1 5 5 a9 9 0 1 1 -9 -9 a13 13 0 1 1 13 13%22 fill=%22none%22 stroke=%22%231f3a5f%22 stroke-width=%223%22 stroke-linecap=%22round%22/%3E%3C/g%3E%3Cg transform=%22translate%28170 345%29 rotate%2815%29 scale%280.9%29%22%3E%3Cellipse cx=%22-30%22 cy=%2226%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%28-35 -30 26%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cellipse cx=%2232%22 cy=%2228%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%2835 32 28%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2234%22 fill=%22%23c2334f%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2225%22 fill=%22%23dc4f69%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2216%22 fill=%22%23ee7890%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cpath d=%22M0 0 m-5 0 a5 5 0 1 1 5 5 a9 9 0 1 1 -9 -9 a13 13 0 1 1 13 13%22 fill=%22none%22 stroke=%22%231f3a5f%22 stroke-width=%223%22 stroke-linecap=%22round%22/%3E%3C/g%3E%3Cg transform=%22translate%28400 400%29 rotate%28-30%29 scale%280.5%29%22%3E%3Cellipse cx=%22-30%22 cy=%2226%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%28-35 -30 26%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cellipse cx=%2232%22 cy=%2228%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%2835 32 28%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2234%22 fill=%22%23c2334f%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2225%22 fill=%22%23dc4f69%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2216%22 fill=%22%23ee7890%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cpath d=%22M0 0 m-5 0 a5 5 0 1 1 5 5 a9 9 0 1 1 -9 -9 a13 13 0 1 1 13 13%22 fill=%22none%22 stroke=%22%231f3a5f%22 stroke-width=%223%22 stroke-linecap=%22round%22/%3E%3C/g%3E%3Cg transform=%22translate%2830 300%29 rotate%2840%29 scale%280.45%29%22%3E%3Cellipse cx=%22-30%22 cy=%2226%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%28-35 -30 26%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cellipse cx=%2232%22 cy=%2228%22 rx=%2222%22 ry=%2211%22 transform=%22rotate%2835 32 28%29%22 fill=%22%236fb77a%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2234%22 fill=%22%23c2334f%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2225%22 fill=%22%23dc4f69%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Ccircle r=%2216%22 fill=%22%23ee7890%22 stroke=%22%231f3a5f%22 stroke-width=%223%22/%3E%3Cpath d=%22M0 0 m-5 0 a5 5 0 1 1 5 5 a9 9 0 1 1 -9 -9 a13 13 0 1 1 13 13%22 fill=%22none%22 stroke=%22%231f3a5f%22 stroke-width=%223%22 stroke-linecap=%22round%22/%3E%3C/g%3E%3C/svg%3E") 0 0 / 440px 440px repeat;
+  --bg:var(--roses), var(--check);
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;min-height:100vh;font-family:"Nunito",system-ui,sans-serif;font-weight:700;color:var(--ink);background:var(--check)}
+body{margin:0;min-height:100vh;font-family:"Nunito",system-ui,sans-serif;font-weight:700;color:var(--ink);background:var(--bg)}
 button,input,textarea{font:inherit;color:inherit}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--ink);outline-offset:2px}
@@ -30,7 +32,6 @@ main{max-width:880px;margin:0 auto;padding:24px 16px 64px}
 .folder .ico{font-size:2rem;line-height:1}
 .folder .name{font-weight:900;font-size:1.1rem}
 .folder .meta{font-size:.85rem;color:var(--soft)}
-.folder.add{background:#fff;border-style:dashed;box-shadow:none;justify-content:center;align-items:center;text-align:center;min-height:110px;color:var(--soft)}
 .folder.done{background:var(--good-bg)}
 .empty{padding:18px;border:3px dashed var(--line);border-radius:14px;color:var(--soft);margin-bottom:16px}
 
@@ -42,18 +43,12 @@ main{max-width:880px;margin:0 auto;padding:24px 16px 64px}
 .btn[disabled]{opacity:.45;cursor:not-allowed}
 .row{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
 
-.form{display:grid;gap:12px;margin-top:8px}
-.form label{display:grid;gap:4px;font-size:.9rem;color:var(--soft)}
-.form input[type=text],.form textarea{padding:12px;border:3px solid var(--ink);border-radius:12px;background:#fff;color:var(--ink)}
-.form textarea{min-height:180px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85rem}
 .msg{padding:10px 14px;border-radius:12px;border:3px solid var(--ink);background:var(--bad-bg)}
 .msg.ok{background:var(--good-bg)}
-details.add-quiz{margin-top:20px;border-top:3px solid var(--line);padding-top:16px}
-details.add-quiz summary{cursor:pointer;font-weight:900}
 code{background:#eef5fb;padding:2px 6px;border-radius:6px;font-size:.9em}
 
 /* Quiz: full-screen, Duolingo-style */
-.quiz{position:fixed;inset:0;z-index:20;background:var(--check);display:flex;justify-content:center;overflow:auto}
+.quiz{position:fixed;inset:0;z-index:20;background:var(--bg);display:flex;justify-content:center;overflow:auto}
 .quiz[hidden]{display:none}
 .q-shell{width:100%;max-width:680px;min-height:100%;display:flex;flex-direction:column;background:#fff;border-left:4px solid var(--ink);border-right:4px solid var(--ink)}
 .q-top{display:flex;align-items:center;gap:14px;padding:16px}
