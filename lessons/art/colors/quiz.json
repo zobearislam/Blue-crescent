@@ -1,0 +1,61 @@
+{
+  "title": "Colors",
+  "info": [
+    "With paint, the primary colors are red, yellow, and blue. You can mix them to make new colors.",
+    "Red and yellow make orange. Blue and yellow make green. Red and blue make purple."
+  ],
+  "questions": [
+    {
+      "q": "Which set is the primary paint colors?",
+      "options": [
+        "Red, yellow, blue",
+        "Green, orange, purple",
+        "Black, white, gray"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Red mixed with yellow makes",
+      "options": [
+        "orange",
+        "green",
+        "purple"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Blue mixed with yellow makes",
+      "options": [
+        "green",
+        "orange",
+        "pink"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Red mixed with blue makes",
+      "options": [
+        "purple",
+        "green",
+        "yellow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "White added to a color makes it",
+      "options": [
+        "lighter",
+        "always black",
+        "disappear"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the color you get from blue and yellow.",
+      "type": "text",
+      "answer": [
+        "green"
+      ]
+    }
+  ]
+}

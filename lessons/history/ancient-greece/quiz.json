@@ -1,0 +1,62 @@
+{
+  "title": "Ancient Greece",
+  "info": [
+    "Ancient Greece was a civilization in southeastern Europe, where the country of Greece is today.",
+    "Athens was a famous city. Greek builders used tall stone columns, and the Olympic Games began in ancient Greece."
+  ],
+  "questions": [
+    {
+      "q": "Ancient Greece was in",
+      "options": [
+        "Europe",
+        "South America",
+        "Australia"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which city is famous in ancient Greek history?",
+      "options": [
+        "Athens",
+        "Tokyo",
+        "Cairo"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Olympic Games began in",
+      "options": [
+        "ancient Greece",
+        "ancient Antarctica",
+        "a modern stadium only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Many Greek temples were held up by",
+      "options": [
+        "tall columns",
+        "ice blocks",
+        "rubber tires"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "In ancient Athens, some citizens could",
+      "options": [
+        "vote on laws",
+        "live on the Moon",
+        "stop the Sun"
+      ],
+      "answer": 0,
+      "explain": "Voting was an early idea of democracy, but not everyone was allowed to vote."
+    },
+    {
+      "q": "Type the famous Greek city that starts with A.",
+      "type": "text",
+      "answer": [
+        "athens"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Rocks",
+  "info": [
+    "Rocks are grouped by how they formed.",
+    "Igneous rocks cool from melted rock. Sedimentary rocks form from bits pressed together. Metamorphic rocks are changed by heat and pressure."
+  ],
+  "questions": [
+    {
+      "q": "Rock that cools from melted rock is",
+      "options": [
+        "igneous",
+        "sedimentary",
+        "a cloud"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sandstone, made from pressed sand, is",
+      "options": [
+        "sedimentary",
+        "a liquid",
+        "a gas"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Fossils are most often found in",
+      "options": [
+        "sedimentary rock",
+        "rain",
+        "pure ice from a freezer"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Melted rock under the ground is called",
+      "options": [
+        "magma",
+        "sand",
+        "chalk"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Heat and pressure can change a rock into a",
+      "options": [
+        "metamorphic rock",
+        "river",
+        "fossil fuel only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the name for melted rock that flows out of a volcano.",
+      "type": "text",
+      "answer": [
+        "lava"
+      ]
+    }
+  ]
+}

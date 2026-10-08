@@ -1,0 +1,61 @@
+{
+  "title": "Countries",
+  "info": [
+    "A country is a land with its own government and borders.",
+    "Countries sit on continents. Japan is in Asia. Brazil is in South America."
+  ],
+  "questions": [
+    {
+      "q": "Japan is on which continent?",
+      "options": [
+        "Europe",
+        "Asia",
+        "Africa"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Brazil is on which continent?",
+      "options": [
+        "South America",
+        "Europe",
+        "Australia"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which country is home to the Great Pyramids of Giza?",
+      "options": [
+        "Egypt",
+        "Canada",
+        "Japan"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which country is shaped a bit like a boot?",
+      "options": [
+        "Italy",
+        "Kenya",
+        "Peru"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "France is on which continent?",
+      "options": [
+        "Europe",
+        "Africa",
+        "North America"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the country that is also called a continent on many school maps.",
+      "type": "text",
+      "answer": [
+        "australia"
+      ]
+    }
+  ]
+}

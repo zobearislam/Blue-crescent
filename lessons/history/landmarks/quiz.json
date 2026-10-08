@@ -1,0 +1,61 @@
+{
+  "title": "Landmarks",
+  "info": [
+    "A landmark is a famous place people recognize.",
+    "Landmarks can be buildings, statues, walls, or natural places."
+  ],
+  "questions": [
+    {
+      "q": "The Eiffel Tower is in",
+      "options": [
+        "Paris, France",
+        "Cairo, Egypt",
+        "Rome, Italy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Great Wall is in",
+      "options": [
+        "China",
+        "Brazil",
+        "Norway"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Pyramids of Giza are in",
+      "options": [
+        "Egypt",
+        "Japan",
+        "Canada"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Statue of Liberty stands in the",
+      "options": [
+        "United States",
+        "Kenya",
+        "Spain"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Taj Mahal is in",
+      "options": [
+        "India",
+        "Italy",
+        "Mexico"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the country where you can visit the Eiffel Tower.",
+      "type": "text",
+      "answer": [
+        "france"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Capitals",
+  "info": [
+    "A capital is the city where a country's government meets.",
+    "The capital is not always the biggest city."
+  ],
+  "questions": [
+    {
+      "q": "What is the capital of France?",
+      "options": [
+        "Lyon",
+        "Paris",
+        "Nice"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is the capital of Japan?",
+      "options": [
+        "Osaka",
+        "Tokyo",
+        "Kyoto"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is the capital of Italy?",
+      "options": [
+        "Rome",
+        "Venice",
+        "Milan"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is the capital of Egypt?",
+      "options": [
+        "Cairo",
+        "Alexandria",
+        "Luxor"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is the capital of Canada?",
+      "options": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver"
+      ],
+      "answer": 1,
+      "explain": "Toronto is larger, but Ottawa is the capital."
+    },
+    {
+      "q": "Type the capital of Spain.",
+      "type": "text",
+      "answer": [
+        "madrid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Pictures",
+  "info": [
+    "A portrait is a picture of a person. A landscape is a picture of a place.",
+    "Artists choose colors and shapes to show a feeling or a story."
+  ],
+  "questions": [
+    {
+      "q": "A portrait is a picture of",
+      "options": [
+        "a person",
+        "only the ocean",
+        "a math chart"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A landscape is a picture of",
+      "options": [
+        "a place, such as hills or a city",
+        "only a single letter",
+        "a sound"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Who painted The Starry Night?",
+      "options": [
+        "Vincent van Gogh",
+        "A camera",
+        "A glacier"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Mona Lisa is a famous",
+      "options": [
+        "portrait",
+        "map of the oceans",
+        "sheet of music"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A picture made of shapes and colors, not a real scene, can be called",
+      "options": [
+        "abstract",
+        "a fossil",
+        "a capital city"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the last name of the artist who painted The Starry Night.",
+      "type": "text",
+      "answer": [
+        "gogh",
+        "van gogh",
+        "vincent van gogh"
+      ]
+    }
+  ]
+}

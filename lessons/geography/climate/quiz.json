@@ -1,0 +1,62 @@
+{
+  "title": "Climate",
+  "info": [
+    "Weather is what the air is doing today. Climate is the usual pattern over many years.",
+    "Places near the equator are often warm. The poles are cold. Deserts are dry."
+  ],
+  "questions": [
+    {
+      "q": "Climate means",
+      "options": [
+        "the usual weather over many years",
+        "only today's rain",
+        "a kind of map symbol"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Lands near the equator are often",
+      "options": [
+        "warmer",
+        "always frozen",
+        "under the ocean"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A desert climate is",
+      "options": [
+        "very dry",
+        "always snowy",
+        "underwater"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A tropical rainforest climate is",
+      "options": [
+        "warm and wet",
+        "cold and dry",
+        "frozen all year"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The North Pole and South Pole have a",
+      "options": [
+        "polar climate",
+        "tropical climate",
+        "rainforest climate"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word for a place that gets very little rain.",
+      "type": "text",
+      "answer": [
+        "desert",
+        "dry"
+      ]
+    }
+  ]
+}

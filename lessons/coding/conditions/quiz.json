@@ -1,0 +1,61 @@
+{
+  "title": "Conditions",
+  "info": [
+    "A condition is a question with a yes or no answer, like \"Is it raining?\"",
+    "In code, if runs steps only when the answer is yes. Else runs the other steps."
+  ],
+  "questions": [
+    {
+      "q": "\"If it is raining, take a coat\" is a",
+      "options": [
+        "condition",
+        "color",
+        "continent"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Else means",
+      "options": [
+        "the other case",
+        "repeat forever with no stop",
+        "delete the program"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If score is greater than 10, show \"You win\". The steps run when the score is",
+      "options": [
+        "11 or more",
+        "exactly 0 only",
+        "a word"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A condition is either",
+      "options": [
+        "true or false",
+        "a sandwich",
+        "a country"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If the light is red, stop. Otherwise, the condition is",
+      "options": [
+        "false, so you do not take the \"if\" path",
+        "always true",
+        "a loop"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word that starts a choice in many programming languages.",
+      "type": "text",
+      "answer": [
+        "if"
+      ]
+    }
+  ]
+}

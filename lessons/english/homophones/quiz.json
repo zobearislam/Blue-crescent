@@ -1,0 +1,63 @@
+{
+  "title": "Homophones",
+  "info": [
+    "Homophones sound the same but have different spellings and meanings.",
+    "There means a place. Their means belonging to them. They're means they are."
+  ],
+  "questions": [
+    {
+      "q": "They left ___ coats on the chair.",
+      "options": [
+        "there",
+        "their",
+        "they're"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "___ going to the library.",
+      "options": [
+        "There",
+        "Their",
+        "They're"
+      ],
+      "answer": 2,
+      "explain": "They're is short for they are."
+    },
+    {
+      "q": "The pencil is over ___.",
+      "options": [
+        "there",
+        "their",
+        "they're"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "I have ___ apples.",
+      "options": [
+        "to",
+        "too",
+        "two"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "I want ice cream ___.",
+      "options": [
+        "to",
+        "too",
+        "two"
+      ],
+      "answer": 1,
+      "explain": "Too means also, or more than enough."
+    },
+    {
+      "q": "Type the homophone of see that means the ocean.",
+      "type": "text",
+      "answer": [
+        "sea"
+      ]
+    }
+  ]
+}

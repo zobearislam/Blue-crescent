@@ -1,0 +1,63 @@
+{
+  "title": "Multiplication",
+  "info": [
+    "Multiplication is a fast way to add the same number again and again.",
+    "4 × 3 means 4 + 4 + 4, which is 12."
+  ],
+  "questions": [
+    {
+      "q": "What is 4 × 5?",
+      "options": [
+        "9",
+        "20",
+        "45"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is 7 × 2?",
+      "options": [
+        "9",
+        "14",
+        "72"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is 10 × 3?",
+      "options": [
+        "13",
+        "30",
+        "103"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is 5 × 5?",
+      "options": [
+        "10",
+        "25",
+        "55"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is 8 × 5?",
+      "options": [
+        "13",
+        "40",
+        "85"
+      ],
+      "answer": 1,
+      "explain": "8 fives are 40."
+    },
+    {
+      "q": "Type the answer: 6 × 5",
+      "type": "text",
+      "answer": [
+        "30",
+        "thirty"
+      ]
+    }
+  ]
+}

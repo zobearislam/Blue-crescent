@@ -1,0 +1,64 @@
+{
+  "title": "Habitats",
+  "info": [
+    "A habitat is the place where a living thing finds food, water, and shelter.",
+    "Deserts are dry. Oceans are salty water. Forests have many trees."
+  ],
+  "questions": [
+    {
+      "q": "A habitat is",
+      "options": [
+        "the place a living thing makes its home",
+        "a kind of rock only",
+        "a math symbol"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which habitat is very dry?",
+      "options": [
+        "Ocean",
+        "Desert",
+        "Pond"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which animal is built for life in the ocean?",
+      "options": [
+        "Camel",
+        "Fish",
+        "Woodpecker"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Polar bears live in the",
+      "options": [
+        "Arctic",
+        "Antarctica",
+        "deep desert"
+      ],
+      "answer": 0,
+      "explain": "Polar bears live in the Arctic, around the North Pole. Antarctica is the icy continent at the South Pole."
+    },
+    {
+      "q": "A forest habitat has many",
+      "options": [
+        "trees",
+        "sand dunes only",
+        "empty parking lots"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type a habitat that is covered by salty water.",
+      "type": "text",
+      "answer": [
+        "ocean",
+        "sea",
+        "the ocean"
+      ]
+    }
+  ]
+}

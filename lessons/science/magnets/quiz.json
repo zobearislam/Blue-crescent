@@ -1,0 +1,64 @@
+{
+  "title": "Magnets",
+  "info": [
+    "A magnet pulls on some metals, especially iron and steel.",
+    "Every magnet has a north pole and a south pole. Opposite poles attract. The same poles push apart."
+  ],
+  "questions": [
+    {
+      "q": "Which object will a magnet usually attract?",
+      "options": [
+        "A wooden spoon",
+        "An iron nail",
+        "A plastic cup"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Opposite poles",
+      "options": [
+        "attract",
+        "always break",
+        "turn into water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Two north poles will",
+      "options": [
+        "push apart",
+        "stick together",
+        "become south poles forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A compass needle is",
+      "options": [
+        "a small magnet",
+        "a cup of water",
+        "a light bulb"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which metal is not attracted to a typical magnet?",
+      "options": [
+        "Iron",
+        "Aluminum",
+        "Steel"
+      ],
+      "answer": 1,
+      "explain": "Aluminum is a metal, but it is not magnetic like iron and steel."
+    },
+    {
+      "q": "Which pole attracts a north pole?",
+      "type": "text",
+      "answer": [
+        "south",
+        "the south pole",
+        "south pole"
+      ]
+    }
+  ]
+}

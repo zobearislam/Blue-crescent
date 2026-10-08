@@ -5,12 +5,42 @@
       "name": "Math",
       "icon": "÷",
       "chapters": [
-        { "id": "basics", "name": "Basics" },
-        { "id": "fractions", "name": "Fractions" },
-        { "id": "decimals", "name": "Decimals" },
-        { "id": "geometry", "name": "Geometry" },
-        { "id": "time", "name": "Time" },
-        { "id": "measurement", "name": "Measurement" }
+        {
+          "id": "basics",
+          "name": "Basics"
+        },
+        {
+          "id": "place-value",
+          "name": "Place value"
+        },
+        {
+          "id": "multiplication",
+          "name": "Multiplication"
+        },
+        {
+          "id": "fractions",
+          "name": "Fractions"
+        },
+        {
+          "id": "decimals",
+          "name": "Decimals"
+        },
+        {
+          "id": "geometry",
+          "name": "Geometry"
+        },
+        {
+          "id": "time",
+          "name": "Time"
+        },
+        {
+          "id": "measurement",
+          "name": "Measurement"
+        },
+        {
+          "id": "word-problems",
+          "name": "Word problems"
+        }
       ]
     },
     {
@@ -18,13 +48,50 @@
       "name": "Science",
       "icon": "🔬",
       "chapters": [
-        { "id": "space", "name": "Space" },
-        { "id": "animals", "name": "Animals" },
-        { "id": "plants", "name": "Plants" },
-        { "id": "weather", "name": "Weather" },
-        { "id": "body", "name": "Human body" },
-        { "id": "matter", "name": "Matter" },
-        { "id": "water-cycle", "name": "Water cycle" }
+        {
+          "id": "space",
+          "name": "Space"
+        },
+        {
+          "id": "animals",
+          "name": "Animals"
+        },
+        {
+          "id": "plants",
+          "name": "Plants"
+        },
+        {
+          "id": "habitats",
+          "name": "Habitats"
+        },
+        {
+          "id": "weather",
+          "name": "Weather"
+        },
+        {
+          "id": "body",
+          "name": "Human body"
+        },
+        {
+          "id": "matter",
+          "name": "Matter"
+        },
+        {
+          "id": "water-cycle",
+          "name": "Water cycle"
+        },
+        {
+          "id": "rocks",
+          "name": "Rocks"
+        },
+        {
+          "id": "energy",
+          "name": "Energy"
+        },
+        {
+          "id": "magnets",
+          "name": "Magnets"
+        }
       ]
     },
     {
@@ -32,11 +99,38 @@
       "name": "English",
       "icon": "📝",
       "chapters": [
-        { "id": "nouns", "name": "Nouns" },
-        { "id": "verbs", "name": "Verbs" },
-        { "id": "adjectives", "name": "Adjectives" },
-        { "id": "punctuation", "name": "Punctuation" },
-        { "id": "synonyms", "name": "Synonyms" }
+        {
+          "id": "nouns",
+          "name": "Nouns"
+        },
+        {
+          "id": "verbs",
+          "name": "Verbs"
+        },
+        {
+          "id": "adjectives",
+          "name": "Adjectives"
+        },
+        {
+          "id": "sentences",
+          "name": "Sentences"
+        },
+        {
+          "id": "punctuation",
+          "name": "Punctuation"
+        },
+        {
+          "id": "spelling",
+          "name": "Spelling"
+        },
+        {
+          "id": "synonyms",
+          "name": "Synonyms"
+        },
+        {
+          "id": "homophones",
+          "name": "Homophones"
+        }
       ]
     },
     {
@@ -44,10 +138,34 @@
       "name": "Geography",
       "icon": "🌍",
       "chapters": [
-        { "id": "continents", "name": "Continents" },
-        { "id": "oceans", "name": "Oceans" },
-        { "id": "maps", "name": "Maps" },
-        { "id": "landforms", "name": "Landforms" }
+        {
+          "id": "continents",
+          "name": "Continents"
+        },
+        {
+          "id": "oceans",
+          "name": "Oceans"
+        },
+        {
+          "id": "maps",
+          "name": "Maps"
+        },
+        {
+          "id": "landforms",
+          "name": "Landforms"
+        },
+        {
+          "id": "countries",
+          "name": "Countries"
+        },
+        {
+          "id": "capitals",
+          "name": "Capitals"
+        },
+        {
+          "id": "climate",
+          "name": "Climate"
+        }
       ]
     },
     {
@@ -55,10 +173,30 @@
       "name": "History",
       "icon": "📜",
       "chapters": [
-        { "id": "ancient-egypt", "name": "Ancient Egypt" },
-        { "id": "ancient-rome", "name": "Ancient Rome" },
-        { "id": "explorers", "name": "Explorers" },
-        { "id": "inventions", "name": "Inventions" }
+        {
+          "id": "ancient-egypt",
+          "name": "Ancient Egypt"
+        },
+        {
+          "id": "ancient-greece",
+          "name": "Ancient Greece"
+        },
+        {
+          "id": "ancient-rome",
+          "name": "Ancient Rome"
+        },
+        {
+          "id": "explorers",
+          "name": "Explorers"
+        },
+        {
+          "id": "inventions",
+          "name": "Inventions"
+        },
+        {
+          "id": "landmarks",
+          "name": "Landmarks"
+        }
       ]
     },
     {
@@ -66,9 +204,75 @@
       "name": "Coding",
       "icon": "💻",
       "chapters": [
-        { "id": "what-is-code", "name": "What is code" },
-        { "id": "sequences", "name": "Sequences" },
-        { "id": "loops", "name": "Loops" }
+        {
+          "id": "what-is-code",
+          "name": "What is code"
+        },
+        {
+          "id": "sequences",
+          "name": "Sequences"
+        },
+        {
+          "id": "loops",
+          "name": "Loops"
+        },
+        {
+          "id": "conditions",
+          "name": "Conditions"
+        },
+        {
+          "id": "variables",
+          "name": "Variables"
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "name": "Art",
+      "icon": "🎨",
+      "chapters": [
+        {
+          "id": "colors",
+          "name": "Colors"
+        },
+        {
+          "id": "pictures",
+          "name": "Pictures"
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "icon": "🎵",
+      "chapters": [
+        {
+          "id": "instruments",
+          "name": "Instruments"
+        },
+        {
+          "id": "rhythm",
+          "name": "Rhythm"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "icon": "💚",
+      "chapters": [
+        {
+          "id": "sleep",
+          "name": "Sleep"
+        },
+        {
+          "id": "food",
+          "name": "Food"
+        },
+        {
+          "id": "movement",
+          "name": "Movement"
+        }
       ]
     }
   ]

@@ -1,0 +1,61 @@
+{
+  "title": "Food",
+  "info": [
+    "Your body needs different kinds of food. Fruits, vegetables, grains, and protein foods each help in their own way.",
+    "Water is a healthy drink to have every day. Sweet treats are for sometimes, not for every meal."
+  ],
+  "questions": [
+    {
+      "q": "Which drink is a healthy everyday choice?",
+      "options": [
+        "Water",
+        "Only soda",
+        "Nothing at all"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Fruits and vegetables belong",
+      "options": [
+        "on a healthy plate",
+        "nowhere",
+        "only in stories"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Breakfast before school can help you",
+      "options": [
+        "have energy for learning",
+        "forget how to read",
+        "never need sleep"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sweet treats fit best as",
+      "options": [
+        "sometimes foods",
+        "the only food you eat",
+        "a replacement for water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Trying different foods helps because",
+      "options": [
+        "your body needs more than one kind",
+        "all foods taste the same",
+        "food is only for color"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type a healthy everyday drink.",
+      "type": "text",
+      "answer": [
+        "water"
+      ]
+    }
+  ]
+}

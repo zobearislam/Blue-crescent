@@ -114,14 +114,120 @@
     }).join('');
   }
 
+  var qInput = $('#q'), hits = $('#hits'), searchForm = $('#search-form');
+
+  function chapterHref(s, c) {
+    return '#/lessons/' + encodeURIComponent(s.id) + '/' + encodeURIComponent(c.id);
+  }
+  function allItems() {
+    var list = [];
+    repo.subjects.forEach(function (s) {
+      s.chapters.forEach(function (c) { list.push({ subject: s, chapter: c }); });
+    });
+    return list;
+  }
+  function findHits(query) {
+    var q = String(query || '').trim().toLowerCase();
+    if (!q) return [];
+    var out = [];
+    repo.subjects.forEach(function (s) {
+      if ((s.name + ' ' + s.id).toLowerCase().indexOf(q) !== -1) out.push({ kind: 'subject', subject: s });
+      s.chapters.forEach(function (c) {
+        if ((c.name + ' ' + c.id + ' ' + s.name).toLowerCase().indexOf(q) !== -1) {
+          out.push({ kind: 'chapter', subject: s, chapter: c });
+        }
+      });
+    });
+    return out;
+  }
+  function card(sub, ch, meta) {
+    var isDone = !!done[sub.id + '/' + ch.id];
+    return '<a class="folder' + (isDone ? ' done' : '') + '" href="' + chapterHref(sub, ch) + '">' +
+      '<span class="ico">' + (isDone ? '✅' : esc(sub.icon || '📂')) + '</span>' +
+      '<span class="name">' + esc(ch.name) + '</span>' +
+      '<span class="meta">' + esc(meta) + '</span></a>';
+  }
+  function markTab(first) {
+    Array.prototype.forEach.call(document.querySelectorAll('#tabs a'), function (a) {
+      var on = a.getAttribute('data-tab') === first;
+      a.classList.toggle('on', on);
+      if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+    });
+  }
+  function mixOf(pool, n) {
+    var arr = pool.slice(), seed = Math.floor(Date.now() / 86400000) || 1;
+    function rnd() { seed = (seed * 1103515245 + 12345) % 2147483648; return seed / 2147483648; }
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(rnd() * (i + 1));
+      var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+    }
+    return arr.slice(0, n);
+  }
+
   function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
 
   function home(subs) {
+    var n = allItems().length;
     setCrumbs([]);
     app.innerHTML = '<section class="panel"><h1>Welcome 🌙</h1>' +
-      '<p class="sub">Open Lessons, pick a subject, then a chapter to start a quiz.</p>' +
-      '<div class="folders"><a class="folder" href="#/lessons"><span class="ico">📁</span><span class="name">Lessons</span>' +
-      '<span class="meta">' + plural(subs.length, 'subject') + '</span></a></div></section>';
+      '<p class="sub">Search at the top, open For You for a short path, or browse every subject in Lessons.</p>' +
+      '<div class="folders">' +
+      '<a class="folder" href="#/foryou"><span class="ico">✨</span><span class="name">For You</span><span class="meta">Picked from what you have not finished</span></a>' +
+      '<a class="folder" href="#/lessons"><span class="ico">📁</span><span class="name">Lessons</span><span class="meta">' + plural(subs.length, 'subject') + ' · ' + plural(n, 'chapter') + '</span></a>' +
+      '</div></section>';
+  }
+
+  function forYou() {
+    setCrumbs([['For You']]);
+    var items = allItems();
+    var total = items.length;
+    var finished = items.filter(function (it) { return done[it.subject.id + '/' + it.chapter.id]; }).length;
+    var pct = total ? Math.round(finished / total * 100) : 0;
+    var last = read('bc_last', null), lastItem = null;
+    if (last && last.s && last.c) {
+      repo.subjects.forEach(function (s) {
+        if (s.id !== last.s) return;
+        s.chapters.forEach(function (c) { if (c.id === last.c) lastItem = { subject: s, chapter: c }; });
+      });
+    }
+    var upNext = [];
+    repo.subjects.forEach(function (s) {
+      var next = null;
+      s.chapters.forEach(function (c) { if (!next && !done[s.id + '/' + c.id]) next = c; });
+      if (next) upNext.push({ subject: s, chapter: next });
+    });
+    var pool = items.filter(function (it) { return !done[it.subject.id + '/' + it.chapter.id]; });
+    if (!pool.length) pool = items.slice();
+    var mix = mixOf(pool, Math.min(4, pool.length));
+    var html = '<section class="panel"><h1>✨ For You</h1>' +
+      '<p class="sub">Unfinished chapters come first. Today\'s mix changes each day.</p>' +
+      '<div class="meter" role="img" aria-label="' + pct + ' percent finished"><i style="width:' + pct + '%"></i></div>' +
+      '<p class="sub">' + finished + ' of ' + total + ' chapters finished</p>';
+    if (lastItem) {
+      html += '<h2 class="h2">Jump back in</h2><div class="folders">' + card(lastItem.subject, lastItem.chapter, lastItem.subject.name) + '</div>';
+    }
+    html += '<h2 class="h2">Up next</h2>' + (upNext.length
+      ? '<div class="folders">' + upNext.map(function (it) { return card(it.subject, it.chapter, 'Continue ' + it.subject.name); }).join('') + '</div>'
+      : '<div class="empty">You have started every subject. Great work — practice any chapter again from Lessons.</div>');
+    html += '<h2 class="h2">Today\'s mix</h2><div class="folders">' + mix.map(function (it) {
+      return card(it.subject, it.chapter, it.subject.name);
+    }).join('') + '</div></section>';
+    app.innerHTML = html;
+  }
+
+  function searchPage(query) {
+    var q = query || '';
+    setCrumbs([['Search']]);
+    var list = findHits(q);
+    if (qInput && qInput.value !== q) qInput.value = q;
+    var body = list.length ? '<div class="folders">' + list.map(function (h) {
+      if (h.kind === 'subject') {
+        return '<a class="folder" href="#/lessons/' + encodeURIComponent(h.subject.id) + '"><span class="ico">' + esc(h.subject.icon || '📁') + '</span><span class="name">' + esc(h.subject.name) + '</span><span class="meta">Subject · ' + plural(h.subject.chapters.length, 'chapter') + '</span></a>';
+      }
+      return card(h.subject, h.chapter, h.subject.name);
+    }).join('') + '</div>' : '<div class="empty">No lessons match that. Try Math, Space, or Music.</div>';
+    app.innerHTML = '<section class="panel"><h1>Search</h1><p class="sub">' +
+      (q ? 'Results for “' + esc(q) + '”' : 'Type in the search bar to find a subject or chapter.') + '</p>' + body + '</section>';
   }
 
   function lessons(subs) {
@@ -147,6 +253,7 @@
   function chapter(sub, ch) {
     var hash = location.hash;
     var key = sub.id + '/' + ch.id;
+    write('bc_last', { s: sub.id, c: ch.id });
     setCrumbs([['Lessons', '#/lessons'], [sub.name, '#/lessons/' + encodeURIComponent(sub.id)], [ch.name]]);
     app.innerHTML = '<section class="panel"><h1>📂 ' + esc(ch.name) + '</h1><p class="sub">' + esc(sub.name) + '</p>' +
       '<div id="status" class="empty">Loading quiz…</div><div class="row" id="actions"></div></section>';
@@ -173,6 +280,12 @@
     var p = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
     var subs = repo.subjects;
     window.scrollTo(0, 0);
+    if (hits) hits.hidden = true;
+    if (qInput) qInput.setAttribute('aria-expanded', 'false');
+    markTab(p[0] || '');
+    if (!p.length) return home(subs);
+    if (p[0] === 'foryou') return forYou();
+    if (p[0] === 'search') return searchPage(p.slice(1).join('/'));
     if (p[0] !== 'lessons') return home(subs);
     if (p.length === 1) return lessons(subs);
     var sub = subs.filter(function (s) { return s.id === p[1]; })[0];
@@ -302,6 +415,52 @@
     }
 
     info.length ? intro() : begin();
+  }
+
+  /* ---------- search ---------- */
+  function paintHits() {
+    if (!qInput || !hits) return;
+    var q = qInput.value;
+    var list = findHits(q);
+    if (!q.trim()) { hits.hidden = true; hits.innerHTML = ''; qInput.setAttribute('aria-expanded', 'false'); return; }
+    if (!list.length) {
+      hits.hidden = false;
+      hits.innerHTML = '<div class="empty">No lessons match that.</div>';
+      qInput.setAttribute('aria-expanded', 'true');
+      return;
+    }
+    var shown = list.slice(0, 8).map(function (h) {
+      if (h.kind === 'subject') {
+        return '<a href="#/lessons/' + encodeURIComponent(h.subject.id) + '"><span>' + esc(h.subject.icon || '📁') + ' ' + esc(h.subject.name) + '</span><small>Subject</small></a>';
+      }
+      return '<a href="' + chapterHref(h.subject, h.chapter) + '"><span>' + esc(h.subject.icon || '📂') + ' ' + esc(h.chapter.name) + '</span><small>' + esc(h.subject.name) + '</small></a>';
+    }).join('');
+    var more = list.length > 8
+      ? '<a href="#/search/' + encodeURIComponent(q.trim()) + '"><span>See all ' + list.length + ' results</span><small>Search</small></a>'
+      : '';
+    hits.hidden = false;
+    hits.innerHTML = shown + more;
+    qInput.setAttribute('aria-expanded', 'true');
+  }
+  if (qInput && searchForm && hits) {
+    qInput.addEventListener('input', paintHits);
+    qInput.addEventListener('focus', paintHits);
+    searchForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var q = qInput.value.trim();
+      if (!q) return;
+      location.hash = '#/search/' + encodeURIComponent(q);
+      hits.hidden = true;
+      qInput.blur();
+    });
+    document.addEventListener('click', function (e) {
+      if (!searchForm.contains(e.target)) { hits.hidden = true; qInput.setAttribute('aria-expanded', 'false'); }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { hits.hidden = true; qInput.setAttribute('aria-expanded', 'false'); }
+      var typing = document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA');
+      if (e.key === '/' && !typing && quizRoot.hidden) { e.preventDefault(); qInput.focus(); }
+    });
   }
 
   /* ---------- start ---------- */

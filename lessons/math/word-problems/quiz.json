@@ -1,0 +1,62 @@
+{
+  "title": "Word problems",
+  "info": [
+    "Read the whole problem before you calculate. Look for how many groups, and whether you should add, subtract, or multiply.",
+    "Draw a quick picture if it helps."
+  ],
+  "questions": [
+    {
+      "q": "Sam has 3 bags with 4 apples in each bag. How many apples?",
+      "options": [
+        "7",
+        "12",
+        "34"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A notebook costs 8 dollars. You pay with 10 dollars. How much change?",
+      "options": [
+        "2 dollars",
+        "8 dollars",
+        "18 dollars"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "5 friends each get 2 pencils. How many pencils is that?",
+      "options": [
+        "7",
+        "10",
+        "52"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "There are 14 stickers. Half of them are blue. How many are blue?",
+      "options": [
+        "7",
+        "12",
+        "28"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Lia reads 6 pages on Monday and 5 pages on Tuesday. How many pages in all?",
+      "options": [
+        "1",
+        "11",
+        "30"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "6 birds are on a fence. 3 fly away. How many are left?",
+      "type": "text",
+      "answer": [
+        "3",
+        "three"
+      ]
+    }
+  ]
+}

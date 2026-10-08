@@ -1,0 +1,61 @@
+{
+  "title": "Spelling",
+  "info": [
+    "Look at every letter. Some words are not spelled the way they sound.",
+    "If you are unsure, try the word in a sentence and see if it looks right."
+  ],
+  "questions": [
+    {
+      "q": "Which spelling is correct?",
+      "options": [
+        "because",
+        "becuase",
+        "becaus"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which spelling is correct?",
+      "options": [
+        "freind",
+        "friend",
+        "frend"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which spelling is correct?",
+      "options": [
+        "sed",
+        "said",
+        "saied"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which spelling is correct?",
+      "options": [
+        "thay",
+        "they",
+        "tehy"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which spelling is correct?",
+      "options": [
+        "allways",
+        "always",
+        "alwayz"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the correct spelling of the word for the place you go to learn.",
+      "type": "text",
+      "answer": [
+        "school"
+      ]
+    }
+  ]
+}

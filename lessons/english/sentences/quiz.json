@@ -1,0 +1,63 @@
+{
+  "title": "Sentences",
+  "info": [
+    "A sentence is a complete thought. It starts with a capital letter and usually ends with a full stop, question mark, or exclamation mark.",
+    "A complete sentence names someone or something and tells what they do or are."
+  ],
+  "questions": [
+    {
+      "q": "Which one is a complete sentence?",
+      "options": [
+        "Birds sing.",
+        "The blue",
+        "Running fast"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A sentence should start with",
+      "options": [
+        "a capital letter",
+        "a comma",
+        "a number sign"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which mark ends the telling sentence \"I like maps\"?",
+      "options": [
+        "?",
+        ".",
+        ","
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"the cat naps\" needs",
+      "options": [
+        "a capital T",
+        "a capital C only",
+        "no change"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is NOT a complete sentence?",
+      "options": [
+        "The bus stopped.",
+        "We ate lunch.",
+        "Under the table"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the end mark for the telling sentence \"I can swim\".",
+      "type": "text",
+      "answer": [
+        ".",
+        "full stop",
+        "period"
+      ]
+    }
+  ]
+}

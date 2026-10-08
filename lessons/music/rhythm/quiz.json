@@ -1,0 +1,61 @@
+{
+  "title": "Rhythm",
+  "info": [
+    "Rhythm is the pattern of long and short, or strong and soft, sounds in time.",
+    "The beat is the steady pulse. Tempo is how fast or slow that pulse goes."
+  ],
+  "questions": [
+    {
+      "q": "Rhythm is",
+      "options": [
+        "a pattern of sounds in time",
+        "a color of paint",
+        "a country"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A steady beat is most like",
+      "options": [
+        "a clock's tick",
+        "a silent picture",
+        "a mountain"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Tempo means",
+      "options": [
+        "how fast or slow the music is",
+        "the name of a drum",
+        "a map key"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You can keep a beat by",
+      "options": [
+        "clapping",
+        "closing your eyes only",
+        "erasing a song"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Many simple songs group beats in sets of",
+      "options": [
+        "4",
+        "100",
+        "0"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word for the speed of music.",
+      "type": "text",
+      "answer": [
+        "tempo"
+      ]
+    }
+  ]
+}

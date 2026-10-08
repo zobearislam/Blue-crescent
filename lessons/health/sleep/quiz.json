@@ -1,0 +1,62 @@
+{
+  "title": "Sleep",
+  "info": [
+    "Sleep helps your body grow and helps your brain remember what you learned.",
+    "A dark, quiet room and a regular bedtime make sleep easier. Bright screens right before bed can make it harder."
+  ],
+  "questions": [
+    {
+      "q": "Sleep helps you",
+      "options": [
+        "learn and grow",
+        "skip every meal",
+        "stop needing water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A helpful place to sleep is",
+      "options": [
+        "dark and quiet",
+        "as bright as noon",
+        "full of loud noise"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Using a bright screen right before bed can",
+      "options": [
+        "make it harder to fall asleep",
+        "replace sleep completely",
+        "be the same as a full night of rest"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Most people do their long sleep",
+      "options": [
+        "at night",
+        "only at lunch for one minute",
+        "never"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If you feel very sleepy in class, a good first idea is",
+      "options": [
+        "an earlier, steadier bedtime",
+        "never sleeping again",
+        "skipping breakfast forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the time of day when most people sleep.",
+      "type": "text",
+      "answer": [
+        "night",
+        "nighttime"
+      ]
+    }
+  ]
+}

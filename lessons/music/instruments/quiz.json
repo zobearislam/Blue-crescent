@@ -1,0 +1,66 @@
+{
+  "title": "Instruments",
+  "info": [
+    "Instruments make music in different ways. Some have strings, some you blow, and some you hit.",
+    "A piano has keys. A drum is struck. A flute is a wind instrument."
+  ],
+  "questions": [
+    {
+      "q": "A piano is played with",
+      "options": [
+        "keys",
+        "a bow only",
+        "water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A drum makes sound when you",
+      "options": [
+        "hit it",
+        "plant it",
+        "fold it into paper"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A guitar has",
+      "options": [
+        "strings",
+        "keys like a piano only",
+        "no parts"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A flute is a",
+      "options": [
+        "wind instrument",
+        "string instrument",
+        "drum"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A violin is often played with a",
+      "options": [
+        "bow",
+        "hammer made of ice",
+        "keyboard only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type one string instrument.",
+      "type": "text",
+      "answer": [
+        "guitar",
+        "violin",
+        "ukulele",
+        "harp",
+        "cello",
+        "banjo"
+      ]
+    }
+  ]
+}

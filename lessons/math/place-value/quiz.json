@@ -1,0 +1,63 @@
+{
+  "title": "Place value",
+  "info": [
+    "Each digit in a number has a place. In 482, the 4 means 4 hundreds, the 8 means 8 tens, and the 2 means 2 ones.",
+    "Moving a digit one place to the left makes it worth ten times as much."
+  ],
+  "questions": [
+    {
+      "q": "In 482, the 4 is in which place?",
+      "options": [
+        "Ones",
+        "Tens",
+        "Hundreds"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "What is the value of the 7 in 175?",
+      "options": [
+        "7",
+        "70",
+        "700"
+      ],
+      "answer": 1,
+      "explain": "The 7 is in the tens place, so it is worth 70."
+    },
+    {
+      "q": "Which number has a 5 in the hundreds place?",
+      "options": [
+        "255",
+        "525",
+        "352"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How many tens are in 100?",
+      "options": [
+        "1",
+        "10",
+        "100"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "305 is made of",
+      "options": [
+        "3 hundreds and 5 ones",
+        "3 tens and 5 ones",
+        "30 hundreds"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the digit in the tens place of 64.",
+      "type": "text",
+      "answer": [
+        "6",
+        "six"
+      ]
+    }
+  ]
+}

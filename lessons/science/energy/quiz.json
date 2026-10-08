@@ -1,0 +1,61 @@
+{
+  "title": "Energy",
+  "info": [
+    "Energy makes things happen. It can move objects, make light, make sound, or make heat.",
+    "Energy can change form. A lamp turns electrical energy into light."
+  ],
+  "questions": [
+    {
+      "q": "The Sun gives Earth",
+      "options": [
+        "light and heat",
+        "only rocks",
+        "oceans of milk"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sound is a form of",
+      "options": [
+        "energy",
+        "rock",
+        "soil"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A battery stores",
+      "options": [
+        "energy",
+        "weather",
+        "daylight"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A lamp mainly turns electrical energy into",
+      "options": [
+        "light",
+        "sand",
+        "gravity"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A moving bicycle has energy of",
+      "options": [
+        "motion",
+        "silence",
+        "color only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the form of energy you hear.",
+      "type": "text",
+      "answer": [
+        "sound"
+      ]
+    }
+  ]
+}
