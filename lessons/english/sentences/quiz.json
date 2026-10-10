@@ -2,62 +2,22 @@
   "title": "Sentences",
   "info": [
     "A sentence is a complete thought. It starts with a capital letter and usually ends with a full stop, question mark, or exclamation mark.",
-    "A complete sentence names someone or something and tells what they do or are."
+    "A complete sentence names someone or something and tells what they do or are.",
+    "A statement ends with a period (.). A question ends with a question mark (?). An exclamation shows strong feeling and ends with (!).",
+    "Every sentence needs a subject (who or what) and a predicate (what they do)."
   ],
   "questions": [
-    {
-      "q": "Which one is a complete sentence?",
-      "options": [
-        "Birds sing.",
-        "The blue",
-        "Running fast"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "A sentence should start with",
-      "options": [
-        "a capital letter",
-        "a comma",
-        "a number sign"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Which mark ends the telling sentence \"I like maps\"?",
-      "options": [
-        "?",
-        ".",
-        ","
-      ],
-      "answer": 1
-    },
-    {
-      "q": "\"the cat naps\" needs",
-      "options": [
-        "a capital T",
-        "a capital C only",
-        "no change"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Which is NOT a complete sentence?",
-      "options": [
-        "The bus stopped.",
-        "We ate lunch.",
-        "Under the table"
-      ],
-      "answer": 2
-    },
-    {
-      "q": "Type the end mark for the telling sentence \"I can swim\".",
-      "type": "text",
-      "answer": [
-        ".",
-        "full stop",
-        "period"
-      ]
-    }
+    { "q": "Which one is a complete sentence?", "options": ["Birds sing.", "The blue", "Running fast"], "answer": 0 },
+    { "q": "A sentence should start with", "options": ["a capital letter", "a comma", "a number sign"], "answer": 0 },
+    { "q": "Which mark ends the telling sentence \"I like maps\"?", "options": ["?", ".", ","], "answer": 1 },
+    { "q": "\"the cat naps\" needs", "options": ["a capital T", "a capital C only", "no change"], "answer": 0 },
+    { "q": "Which is NOT a complete sentence?", "options": ["The bus stopped.", "We ate lunch.", "Under the table"], "answer": 2 },
+    { "q": "Type the end mark for the telling sentence \"I can swim\".", "type": "text", "answer": [".", "full stop", "period"] },
+    { "q": "Which is a question?", "options": ["The sun is bright.", "Is the sun bright?", "The sun is bright!"], "answer": 1 },
+    { "q": "What does an exclamation mark show?", "options": ["A question", "Strong feeling", "A list"], "answer": 1 },
+    { "q": "Type the subject of this sentence: Dogs bark loudly.", "type": "text", "answer": ["dogs", "dog"] },
+    { "q": "Which sentence is correctly written?", "options": ["where is my book?", "Where is my book?", "where is my book."], "answer": 1 },
+    { "q": "A sentence that tells something ends with", "options": ["?", ".", "!"], "answer": 1 },
+    { "q": "Which is a complete sentence?", "options": ["Running in the park.", "The children are running in the park.", "In the park."], "answer": 1 }
   ]
 }
