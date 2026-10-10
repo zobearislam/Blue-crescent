@@ -6,7 +6,7 @@
 
   var ctx, master, running = false, timer = null, nextTime = 0, step = 0;
   var KEY = 'bc-music';
-  var STEP = 0.45; // seconds per eighth note (slow and gentle)
+  var STEP = 0.48; // seconds per eighth note (slow and gentle)
 
   // MIDI notes. Progression: Am - F - C - G, 8 steps each
   var bass = [45, 41, 48, 43];
@@ -57,7 +57,7 @@
     var d = nb.getChannelData(0);
     for (var i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / d.length);
     var ns = ctx.createBufferSource(), ng = ctx.createGain();
-    ns.buffer = nb; ng.gain.value = vel * 0.12;
+    ns.buffer = nb; ng.gain.value = vel * 0.1;
     ns.connect(ng); ng.connect(lp); ns.start(t);
   }
 
@@ -68,18 +68,18 @@
       var t = nextTime + (Math.random() - 0.5) * 0.03; // human timing
 
       if (k === 0) {
-        piano(bass[c], t, 0.34, 5);
-        piano(bass[c] + 12, t, 0.2, 4);
+        piano(bass[c], t, 0.28, 5);
+        piano(bass[c] + 12, t, 0.16, 4);
       }
-      if (k === 4) piano(bass[c] + 7, t, 0.22, 3.5);
+      if (k === 4) piano(bass[c] + 7, t, 0.18, 3.5);
 
-      if (Math.random() < 0.88) {
-        var v = 0.15 + Math.random() * 0.08;
+      if (Math.random() < 0.85) {
+        var v = 0.12 + Math.random() * 0.07;
         piano(tones[c][pattern[k]], t, v, 3);
       }
       // occasional singing melody note
-      if ((k === 0 || k === 3 || k === 6) && Math.random() < 0.45) {
-        piano(melody[c][Math.floor(Math.random() * 4)], t + 0.01, 0.26, 4.5);
+      if ((k === 0 || k === 3 || k === 6) && Math.random() < 0.4) {
+        piano(melody[c][Math.floor(Math.random() * 4)], t + 0.01, 0.22, 4.5);
       }
       nextTime += STEP;
       step++;
@@ -101,11 +101,11 @@
     if (!ctx) {
       ctx = new AC();
       master = ctx.createGain();
-      master.gain.value = 0.55;
+      master.gain.value = 0.42; // softer background level
       master.connect(ctx.destination);
       try { // concert-hall reverb
         var rv = makeReverb(), wet = ctx.createGain();
-        wet.gain.value = 0.35;
+        wet.gain.value = 0.32;
         master.connect(rv); rv.connect(wet); wet.connect(ctx.destination);
       } catch (e) {}
     }
