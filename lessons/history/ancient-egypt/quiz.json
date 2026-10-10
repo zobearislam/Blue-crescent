@@ -1,15 +1,19 @@
 {
   "title": "Ancient Egypt",
   "info": [
-    "Ancient Egypt grew along the Nile River in Africa.",
-    "People farmed beside the river, built stone pyramids, and wrote with picture symbols called hieroglyphs."
+    "Ancient Egypt was a civilization along the Nile River more than 5,000 years ago.",
+    "Egyptians built pyramids as tombs for pharaohs. They wrote using hieroglyphs.",
+    "The Nile River provided water, food, and transportation, making life possible in the desert.",
+    "Pharaohs were rulers who were thought to be like gods. Famous ones include Tutankhamun and Cleopatra."
   ],
   "questions": [
-    { "q": "The Nile is a", "options": ["river", "mountain", "ocean"], "answer": 0 },
-    { "q": "Picture writing used in ancient Egypt is called", "options": ["hieroglyphs", "numbers only", "maps"], "answer": 0 },
-    { "q": "The great pyramids were built mostly from", "options": ["ice", "stone", "glass"], "answer": 1 },
-    { "q": "Egypt is on which continent?", "options": ["Europe", "Africa", "Australia"], "answer": 1 },
-    { "q": "The Nile's yearly flood helped farmers because it left behind", "options": ["rich soil", "desert sand only", "ice"], "answer": 0 },
-    { "q": "Type the river that ancient Egypt depended on.", "type": "text", "answer": ["nile", "the nile", "nile river"] }
+    { "q": "Ancient Egypt was located along which river?", "options": ["Amazon", "Nile", "Mississippi"], "answer": 1 },
+    { "q": "What did Egyptians use to write?", "options": ["Alphabet", "Hieroglyphs", "Numbers only"], "answer": 1 },
+    { "q": "Pyramids were built mainly as", "options": ["houses", "tombs", "temples"], "answer": 1 },
+    { "q": "Type the name of the famous boy pharaoh whose tomb was found full of treasures.", "type": "text", "answer": ["tutankhamun", "king tut", "tut"] },
+    { "q": "The Nile floods helped farmers by", "options": ["destroying crops", "leaving rich soil", "creating deserts"], "answer": 1 },
+    { "q": "Cleopatra was a famous", "options": ["queen of Egypt", "Roman general", "Greek philosopher"], "answer": 0 },
+    { "q": "Which animal was sacred in ancient Egypt?", "options": ["Cat", "Dog", "Horse"], "answer": 0 },
+    { "q": "Egyptians believed in many", "options": ["gods", "only one god", "no gods"], "answer": 0 }
   ]
 }

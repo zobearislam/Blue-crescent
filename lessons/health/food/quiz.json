@@ -1,61 +1,19 @@
 {
-  "title": "Food",
+  "title": "Food and nutrition",
   "info": [
-    "Your body needs different kinds of food. Fruits, vegetables, grains, and protein foods each help in their own way.",
-    "Water is a healthy drink to have every day. Sweet treats are for sometimes, not for every meal."
+    "Healthy food gives our bodies energy and nutrients to grow and stay strong.",
+    "Fruits and vegetables provide vitamins. Grains give energy. Protein helps build muscles.",
+    "Water is essential. We should drink plenty of water every day.",
+    "A balanced meal includes different food groups. Too much sugar or junk food is not healthy."
   ],
   "questions": [
-    {
-      "q": "Which drink is a healthy everyday choice?",
-      "options": [
-        "Water",
-        "Only soda",
-        "Nothing at all"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Fruits and vegetables belong",
-      "options": [
-        "on a healthy plate",
-        "nowhere",
-        "only in stories"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Breakfast before school can help you",
-      "options": [
-        "have energy for learning",
-        "forget how to read",
-        "never need sleep"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Sweet treats fit best as",
-      "options": [
-        "sometimes foods",
-        "the only food you eat",
-        "a replacement for water"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Trying different foods helps because",
-      "options": [
-        "your body needs more than one kind",
-        "all foods taste the same",
-        "food is only for color"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Type a healthy everyday drink.",
-      "type": "text",
-      "answer": [
-        "water"
-      ]
-    }
+    { "q": "Which food is a good source of protein?", "options": ["Apple", "Chicken", "Candy"], "answer": 1 },
+    { "q": "Fruits and vegetables are rich in", "options": ["vitamins", "only sugar", "nothing"], "answer": 0 },
+    { "q": "We should drink plenty of", "options": ["soda", "water", "juice only"], "answer": 1 },
+    { "q": "Type a healthy snack.", "type": "text", "answer": ["apple", "banana", "carrot", "yogurt", "nuts"] },
+    { "q": "Which meal is more balanced?", "options": ["Pizza, chips, soda", "Rice, vegetables, chicken, water", "Candy and cookies"], "answer": 1 },
+    { "q": "Dairy products like milk help build", "options": ["bones", "only muscles", "nothing"], "answer": 0 },
+    { "q": "Too much sugar can be bad for", "options": ["teeth and health", "only eyes", "nothing"], "answer": 0 },
+    { "q": "Type one food from the fruit group.", "type": "text", "answer": ["apple", "banana", "orange", "grape", "strawberry"] }
   ]
 }

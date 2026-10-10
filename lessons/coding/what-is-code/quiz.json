@@ -1,15 +1,19 @@
 {
   "title": "What is code",
   "info": [
-    "Code is a set of instructions a computer can follow.",
-    "People write code in a programming language. The computer does the steps in order. A mistake in code is called a bug."
+    "Code is a set of instructions that tell a computer what to do.",
+    "Computers follow instructions exactly, step by step, without guessing.",
+    "Programming languages like Scratch, Python, or JavaScript let people write code.",
+    "Good code is clear, so other people (and the computer) can understand it."
   ],
   "questions": [
-    { "q": "Code is mainly", "options": ["instructions", "a type of weather", "a kind of rock"], "answer": 0 },
-    { "q": "A person who writes code is often called a", "options": ["programmer", "plumber", "pilot"], "answer": 0 },
-    { "q": "Computers follow instructions", "options": ["in order", "only by guessing", "never"], "answer": 0 },
-    { "q": "A bug in a program is", "options": ["a mistake", "a pet", "a song"], "answer": 0 },
-    { "q": "HTML, Python, and JavaScript are examples of", "options": ["programming languages", "planets", "oceans"], "answer": 0 },
-    { "q": "Type the word for finding and fixing a mistake in code.", "type": "text", "answer": ["debug", "debugging", "fix"] }
+    { "q": "Code is mainly", "options": ["pictures", "instructions for computers", "songs"], "answer": 1 },
+    { "q": "Computers can guess what you mean if the code is unclear.", "options": ["True", "False"], "answer": 1 },
+    { "q": "Which is an example of a programming language?", "options": ["English", "Python", "Math"], "answer": 1 },
+    { "q": "Type one thing code can help a computer do.", "type": "text", "answer": ["calculate", "draw", "play a game", "show a website", "count"] },
+    { "q": "Scratch is a language that uses", "options": ["blocks", "only text", "music notes"], "answer": 0 },
+    { "q": "A bug in code is", "options": ["an insect", "a mistake", "a feature"], "answer": 1 },
+    { "q": "Which comes first when writing a program?", "options": ["Testing", "Planning the steps", "Deleting it"], "answer": 1 },
+    { "q": "Code must be written in a special order called a", "options": ["sequence", "picture", "song"], "answer": 0 }
   ]
 }

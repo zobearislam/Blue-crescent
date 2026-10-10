@@ -2,7 +2,10 @@
   "title": "Continents",
   "info": [
     "A continent is a very large area of land.",
-    "Most school maps show seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America."
+    "Most school maps show seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America.",
+    "Asia is the largest continent by area and population. Australia is the smallest.",
+    "Antarctica is the coldest continent and has no permanent human population.",
+    "Continents are made up of countries and oceans surround them."
   ],
   "questions": [
     { "q": "How many continents do most school maps show?", "options": ["5", "6", "7"], "answer": 2 },
@@ -10,6 +13,12 @@
     { "q": "Which continent is covered by a huge ice sheet?", "options": ["Africa", "Antarctica", "Europe"], "answer": 1 },
     { "q": "Egypt is on which continent?", "options": ["Asia", "Africa", "Europe"], "answer": 1 },
     { "q": "Brazil is on which continent?", "options": ["Europe", "South America", "Australia"], "answer": 1 },
-    { "q": "Type the continent where the country of Japan is located.", "type": "text", "answer": ["asia"] }
+    { "q": "Type the continent where the country of Japan is located.", "type": "text", "answer": ["asia"] },
+    { "q": "Which continent is the smallest?", "options": ["Europe", "Australia", "South America"], "answer": 1 },
+    { "q": "Canada is on which continent?", "options": ["North America", "Europe", "Asia"], "answer": 0 },
+    { "q": "Type the continent that has the Sahara Desert.", "type": "text", "answer": ["africa"] },
+    { "q": "Which continent is entirely in the Southern Hemisphere?", "options": ["Australia", "Europe", "North America"], "answer": 0 },
+    { "q": "India is part of which continent?", "options": ["Asia", "Africa", "Europe"], "answer": 0 },
+    { "q": "The continent with the most people is", "options": ["Africa", "Asia", "Europe"], "answer": 1 }
   ]
 }
