@@ -2,7 +2,9 @@
   "title": "Nouns",
   "info": [
     "A noun is a word for a person, place, thing, or idea.",
-    "Teacher, park, and book are nouns. A proper noun names a specific person or place and starts with a capital letter."
+    "Teacher, park, and book are nouns. A proper noun names a specific person or place and starts with a capital letter.",
+    "Common nouns are general (dog, city). Proper nouns are specific (Rover, London).",
+    "Nouns can be singular (one cat) or plural (two cats)."
   ],
   "questions": [
     { "q": "Which word is a noun?", "options": ["Run", "Happy", "School"], "answer": 2 },
@@ -10,6 +12,12 @@
     { "q": "In the sentence \"The cat sleeps\", the noun is", "options": ["sleeps", "cat", "the"], "answer": 1 },
     { "q": "Which is a proper noun?", "options": ["city", "London", "street"], "answer": 1 },
     { "q": "Which word names a thing?", "options": ["Jump", "Softly", "Pencil"], "answer": 2 },
-    { "q": "Type the noun in this sentence: Birds fly.", "type": "text", "answer": ["birds", "bird"] }
+    { "q": "Type the noun in this sentence: Birds fly.", "type": "text", "answer": ["birds", "bird"] },
+    { "q": "Which is a common noun?", "options": ["Paris", "river", "America"], "answer": 1 },
+    { "q": "The plural of 'child' is", "options": ["childs", "children", "childes"], "answer": 1 },
+    { "q": "Which sentence has a proper noun?", "options": ["The dog runs.", "Max the dog runs.", "Dogs run fast."], "answer": 1 },
+    { "q": "Type a noun that names a place.", "type": "text", "answer": ["school", "park", "home", "city", "beach", "library"] },
+    { "q": "An idea can also be a noun, like", "options": ["happiness", "running", "quickly"], "answer": 0 },
+    { "q": "Which word is NOT a noun?", "options": ["friendship", "jump", "mountain"], "answer": 1 }
   ]
 }

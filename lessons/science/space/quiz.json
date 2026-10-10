@@ -2,7 +2,10 @@
   "title": "Space",
   "info": [
     "Our solar system has the Sun and the planets that travel around it.",
-    "Earth is the planet we live on. The Moon travels around Earth."
+    "Earth is the planet we live on. The Moon travels around Earth.",
+    "The Sun is a star that gives us light and heat.",
+    "There are eight planets in our solar system. They orbit the Sun.",
+    "Stars are giant balls of hot gas. Galaxies contain billions of stars."
   ],
   "questions": [
     { "q": "Which planet is closest to the Sun?", "options": ["Venus", "Mercury", "Mars"], "answer": 1 },
@@ -12,6 +15,11 @@
     { "q": "Which is the largest planet in our solar system?", "options": ["Earth", "Jupiter", "Mars"], "answer": 1 },
     { "q": "The Sun is a", "options": ["planet", "star", "moon"], "answer": 1, "explain": "The Sun is the star at the center of our solar system." },
     { "q": "Which planet is known for its red color?", "options": ["Mars", "Neptune", "Mercury"], "answer": 0 },
-    { "q": "Type the planet we live on.", "type": "text", "answer": ["earth"] }
+    { "q": "Type the planet we live on.", "type": "text", "answer": ["earth"] },
+    { "q": "How many planets are in our solar system?", "options": ["7", "8", "9"], "answer": 1 },
+    { "q": "Which planet is farthest from the Sun?", "options": ["Neptune", "Uranus", "Saturn"], "answer": 0 },
+    { "q": "The Moon reflects light from the", "options": ["Earth", "Sun", "stars"], "answer": 1 },
+    { "q": "Type the name of our galaxy.", "type": "text", "answer": ["milky way", "the milky way"] },
+    { "q": "Astronauts travel to space in", "options": ["cars", "rockets", "boats"], "answer": 1 }
   ]
 }

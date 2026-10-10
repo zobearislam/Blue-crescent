@@ -2,7 +2,9 @@
   "title": "Animals",
   "info": [
     "Animals can be grouped by how they look and live.",
-    "Mammals have fur or hair and feed milk to their young. Birds have feathers. Insects have six legs."
+    "Mammals have fur or hair and feed milk to their young. Birds have feathers. Insects have six legs.",
+    "Reptiles have scales and lay eggs. Amphibians live part of their life in water and part on land.",
+    "Animals need food, water, shelter, and space to survive. Different animals live in different habitats."
   ],
   "questions": [
     { "q": "Which animal is a mammal?", "options": ["Shark", "Frog", "Dolphin", "Eagle"], "answer": 2, "explain": "Dolphins breathe air and feed milk to their calves." },
@@ -10,6 +12,12 @@
     { "q": "Which one is an insect?", "options": ["Spider", "Ant", "Snail"], "answer": 1, "explain": "Insects have six legs. Spiders have eight, so they are not insects." },
     { "q": "Fish take oxygen from water with", "options": ["lungs", "gills", "feathers"], "answer": 1 },
     { "q": "A baby frog is called a", "options": ["calf", "tadpole", "chick"], "answer": 1 },
-    { "q": "Type an animal group that has feathers.", "type": "text", "answer": ["birds", "bird"] }
+    { "q": "Type an animal group that has feathers.", "type": "text", "answer": ["birds", "bird"] },
+    { "q": "Which animal is a reptile?", "options": ["Dog", "Snake", "Eagle"], "answer": 1 },
+    { "q": "Penguins are birds that cannot", "options": ["swim", "fly", "eat fish"], "answer": 1 },
+    { "q": "Type a mammal that lives in the ocean.", "type": "text", "answer": ["whale", "dolphin", "seal"] },
+    { "q": "Insects have how many legs?", "options": ["4", "6", "8"], "answer": 1 },
+    { "q": "Which animal is an amphibian?", "options": ["Frog", "Lizard", "Fish"], "answer": 0 },
+    { "q": "Animals that eat only plants are called", "options": ["carnivores", "herbivores", "omnivores"], "answer": 1 }
   ]
 }
