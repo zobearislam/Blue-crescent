@@ -1,0 +1,18 @@
+{
+  "title": "Greetings",
+  "info": [
+    "In French, hello is \"bonjour\" (bohn-zhoor).",
+    "\"Au revoir\" means goodbye. \"Merci\" means thank you.",
+    "\"Oui\" means yes and \"non\" means no."
+  ],
+  "questions": [
+    { "q": "How do you say hello in French?", "options": ["Hola", "Bonjour", "Ciao"], "answer": 1 },
+    { "q": "What does \"merci\" mean?", "options": ["Please", "Thank you", "Sorry"], "answer": 1 },
+    { "q": "\"Au revoir\" means", "options": ["Hello", "Goodbye", "Please"], "answer": 1 },
+    { "q": "How do you say yes in French?", "options": ["Oui", "Non", "Si"], "answer": 0 },
+    { "q": "\"Non\" means", "options": ["Yes", "No", "Maybe"], "answer": 1 },
+    { "q": "Type the French word for thank you.", "type": "text", "answer": ["merci"] },
+    { "q": "\"Bonsoir\" is used in the", "options": ["morning", "evening", "afternoon only"], "answer": 1 },
+    { "q": "Which is a polite greeting?", "options": ["Bonjour", "Non", "Chat"], "answer": 0 }
+  ]
+}

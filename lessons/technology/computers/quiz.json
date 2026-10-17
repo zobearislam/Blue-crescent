@@ -1,0 +1,18 @@
+{
+  "title": "Computers",
+  "info": [
+    "A computer is a machine that follows instructions to do work.",
+    "Hardware is the physical parts (screen, keyboard). Software is the programs.",
+    "The brain of a computer is the CPU (central processing unit)."
+  ],
+  "questions": [
+    { "q": "Hardware means", "options": ["Programs", "Physical parts", "The internet"], "answer": 1 },
+    { "q": "Software means", "options": ["The keyboard", "Programs and apps", "The mouse"], "answer": 1 },
+    { "q": "The CPU is like the computer's", "options": ["Screen", "Brain", "Speaker"], "answer": 1 },
+    { "q": "You type with a", "options": ["Monitor", "Keyboard", "Speaker"], "answer": 1 },
+    { "q": "Type what CPU stands for (central processing unit is fine).", "type": "text", "answer": ["central processing unit", "cpu"] },
+    { "q": "A laptop is a", "options": ["Type of software", "Portable computer", "Only a phone"], "answer": 1 },
+    { "q": "Saving a file stores it in", "options": ["The air", "Memory or storage", "The mouse"], "answer": 1 },
+    { "q": "Which is hardware?", "options": ["A game app", "A keyboard", "A website"], "answer": 1 }
+  ]
+}

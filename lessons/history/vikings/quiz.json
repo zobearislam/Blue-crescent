@@ -1,0 +1,18 @@
+{
+  "title": "Vikings",
+  "info": [
+    "Vikings were seafarers from Scandinavia (Norway, Sweden, Denmark) around 800–1100 CE.",
+    "They traveled in longships and explored, traded, and sometimes raided.",
+    "They reached places from Britain to Iceland, Greenland, and even North America."
+  ],
+  "questions": [
+    { "q": "Vikings came mainly from", "options": ["Egypt", "Scandinavia", "China"], "answer": 1 },
+    { "q": "Viking ships were called", "options": ["Canoes only", "Longships", "Submarines"], "answer": 1 },
+    { "q": "Vikings lived around the years", "options": ["100 BCE", "800–1100 CE", "1900 CE"], "answer": 1 },
+    { "q": "Besides raiding, Vikings also", "options": ["Only slept", "Traded and explored", "Built pyramids"], "answer": 1 },
+    { "q": "Type one modern country from Viking homelands (Norway, Sweden, or Denmark).", "type": "text", "answer": ["norway", "sweden", "denmark"] },
+    { "q": "Vikings reached", "options": ["Only one village", "Iceland and beyond", "The Moon"], "answer": 1 },
+    { "q": "A longship was good for", "options": ["Flying", "Traveling by sea", "Climbing mountains"], "answer": 1 },
+    { "q": "Scandinavia is in", "options": ["Northern Europe", "South America", "Australia"], "answer": 0 }
+  ]
+}

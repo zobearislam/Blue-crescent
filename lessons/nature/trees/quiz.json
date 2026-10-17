@@ -1,0 +1,18 @@
+{
+  "title": "Trees",
+  "info": [
+    "Trees have roots, a trunk, branches, and leaves.",
+    "Roots take water from the soil. Leaves make food using sunlight (photosynthesis).",
+    "Evergreen trees keep their leaves all year. Deciduous trees lose leaves in autumn."
+  ],
+  "questions": [
+    { "q": "What part of a tree takes water from the soil?", "options": ["Leaves", "Roots", "Bark"], "answer": 1 },
+    { "q": "Leaves make food using", "options": ["Moonlight", "Sunlight", "Wind"], "answer": 1 },
+    { "q": "The thick main stem of a tree is the", "options": ["Branch", "Trunk", "Root"], "answer": 1 },
+    { "q": "Trees that keep leaves all year are called", "options": ["Deciduous", "Evergreen", "Flowering"], "answer": 1 },
+    { "q": "Type the process where leaves make food from sunlight.", "type": "text", "answer": ["photosynthesis"] },
+    { "q": "Deciduous trees lose leaves in", "options": ["Spring", "Autumn", "Summer"], "answer": 1 },
+    { "q": "What do branches hold?", "options": ["Roots", "Leaves", "Soil"], "answer": 1 },
+    { "q": "Bark protects the", "options": ["Leaves", "Trunk", "Fruit only"], "answer": 1 }
+  ]
+}

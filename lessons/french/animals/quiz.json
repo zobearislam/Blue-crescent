@@ -1,0 +1,17 @@
+{
+  "title": "Animals",
+  "info": [
+    "Chat = cat, chien = dog, oiseau = bird, poisson = fish.",
+    "Cheval = horse, vache = cow, lapin = rabbit."
+  ],
+  "questions": [
+    { "q": "\"Chat\" means", "options": ["Dog", "Cat", "Bird"], "answer": 1 },
+    { "q": "How do you say dog in French?", "options": ["Chat", "Chien", "Cheval"], "answer": 1 },
+    { "q": "\"Oiseau\" is a", "options": ["Fish", "Bird", "Horse"], "answer": 1 },
+    { "q": "\"Poisson\" means", "options": ["Fish", "Chicken", "Cow"], "answer": 0 },
+    { "q": "Type the French word for horse.", "type": "text", "answer": ["cheval"] },
+    { "q": "\"Vache\" is a", "options": ["Pig", "Cow", "Sheep"], "answer": 1 },
+    { "q": "\"Lapin\" means", "options": ["Rabbit", "Mouse", "Fox"], "answer": 0 },
+    { "q": "Which word means cat?", "options": ["Chien", "Chat", "Oiseau"], "answer": 1 }
+  ]
+}

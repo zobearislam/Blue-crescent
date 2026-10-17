@@ -1,0 +1,18 @@
+{
+  "title": "Conjunctions",
+  "info": [
+    "Conjunctions join words or sentences. Common ones: and, but, or, because, so.",
+    "\"And\" adds ideas. \"But\" shows a contrast. \"Or\" gives a choice.",
+    "\"Because\" gives a reason."
+  ],
+  "questions": [
+    { "q": "Which word is a conjunction?", "options": ["Happy", "And", "Dog"], "answer": 1 },
+    { "q": "\"I want apples ___ oranges.\" Best word:", "options": ["but", "and", "because"], "answer": 1 },
+    { "q": "\"She is tired ___ she worked hard.\" Best word:", "options": ["or", "because", "apple"], "answer": 1 },
+    { "q": "\"But\" shows", "options": ["Only addition", "A contrast", "Only time"], "answer": 1 },
+    { "q": "Type a conjunction that means \"also / plus\".", "type": "text", "answer": ["and"] },
+    { "q": "\"Tea ___ coffee?\" shows a choice with", "options": ["and", "or", "because"], "answer": 1 },
+    { "q": "Which joins two ideas?", "options": ["The", "But", "Quickly"], "answer": 1 },
+    { "q": "\"I studied, ___ I passed.\" Best fit:", "options": ["or", "so", "apple"], "answer": 1 }
+  ]
+}

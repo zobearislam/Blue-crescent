@@ -1,0 +1,18 @@
+{
+  "title": "Robots",
+  "info": [
+    "A robot is a machine that can sense, think (follow a program), and act.",
+    "Robots help in factories, hospitals, space, and homes.",
+    "Robots need sensors (to see/hear) and actuators (motors to move)."
+  ],
+  "questions": [
+    { "q": "A robot is a", "options": ["Plant", "Machine that can act", "Only a toy always"], "answer": 1 },
+    { "q": "Robots follow", "options": ["Random guesses only", "Programs and instructions", "Nothing"], "answer": 1 },
+    { "q": "Sensors help a robot", "options": ["Cook only", "Detect the world", "Print paper"], "answer": 1 },
+    { "q": "Motors that move robot parts are called", "options": ["Sensors", "Actuators", "Screens"], "answer": 1 },
+    { "q": "Type one place robots are used (factory, hospital, space, home...).", "type": "text", "answer": ["factory", "factories", "hospital", "hospitals", "space", "home", "homes", "warehouse", "mars"] },
+    { "q": "Mars rovers are", "options": ["Robots", "Animals", "Clouds"], "answer": 0 },
+    { "q": "A vacuum robot cleans", "options": ["Floors", "The sky", "Oceans only"], "answer": 0 },
+    { "q": "Robots need", "options": ["Food like humans", "Energy/power", "Sleep only"], "answer": 1 }
+  ]
+}

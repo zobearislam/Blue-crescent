@@ -1,0 +1,18 @@
+{
+  "title": "Insects",
+  "info": [
+    "Insects have six legs and usually three body parts: head, thorax, and abdomen.",
+    "Many insects have wings. Butterflies, bees, ants, and beetles are insects.",
+    "Spiders are not insects — they have eight legs."
+  ],
+  "questions": [
+    { "q": "How many legs do insects have?", "options": ["4", "6", "8"], "answer": 1 },
+    { "q": "Which is NOT an insect?", "options": ["Bee", "Spider", "Ant"], "answer": 1 },
+    { "q": "Insects usually have how many body parts?", "options": ["2", "3", "5"], "answer": 1 },
+    { "q": "A butterfly is an", "options": ["Arachnid", "Insect", "Mammal"], "answer": 1 },
+    { "q": "Type how many legs a spider has.", "type": "text", "answer": ["8", "eight"] },
+    { "q": "Bees help plants by", "options": ["Eating leaves", "Pollinating flowers", "Cutting trunks"], "answer": 1 },
+    { "q": "The middle body part of an insect is the", "options": ["Head", "Thorax", "Wing"], "answer": 1 },
+    { "q": "Which animal is an insect?", "options": ["Centipede", "Beetle", "Scorpion"], "answer": 1 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Weather types",
+  "info": [
+    "Weather is the condition of the air outside right now: sunny, rainy, cloudy, windy, snowy.",
+    "Temperature tells how hot or cold it is. Wind is moving air.",
+    "A forecast predicts what weather may come next."
+  ],
+  "questions": [
+    { "q": "Weather means", "options": ["Only next year", "Conditions outside now", "Only mountains"], "answer": 1 },
+    { "q": "Moving air is called", "options": ["Rock", "Wind", "Soil"], "answer": 1 },
+    { "q": "A forecast", "options": ["Changes the past", "Predicts upcoming weather", "Builds houses"], "answer": 1 },
+    { "q": "Snow falls when it is", "options": ["Very hot", "Cold enough", "Only at the equator always"], "answer": 1 },
+    { "q": "Type one word for weather when the sun is out and skies are clear.", "type": "text", "answer": ["sunny", "clear", "fine"] },
+    { "q": "Rain comes from", "options": ["Underground only", "Clouds", "Rocks"], "answer": 1 },
+    { "q": "Temperature measures", "options": ["How loud it is", "How hot or cold", "Only color"], "answer": 1 },
+    { "q": "Cloudy means", "options": ["Many clouds", "No sky", "Only night"], "answer": 0 }
+  ]
+}

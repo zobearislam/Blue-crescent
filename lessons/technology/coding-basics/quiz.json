@@ -1,0 +1,18 @@
+{
+  "title": "Coding basics",
+  "info": [
+    "Coding means writing instructions a computer can follow.",
+    "An algorithm is a step-by-step plan to solve a problem.",
+    "Bugs are mistakes in code. Debugging means finding and fixing them."
+  ],
+  "questions": [
+    { "q": "Coding is writing", "options": ["Stories only", "Instructions for computers", "Music only"], "answer": 1 },
+    { "q": "An algorithm is a", "options": ["Random guess", "Step-by-step plan", "Type of keyboard"], "answer": 1 },
+    { "q": "A bug in code is a", "options": ["Feature", "Mistake", "Battery"], "answer": 1 },
+    { "q": "Debugging means", "options": ["Adding more bugs", "Finding and fixing mistakes", "Deleting the computer"], "answer": 1 },
+    { "q": "Type the word for a step-by-step plan to solve a problem.", "type": "text", "answer": ["algorithm"] },
+    { "q": "A loop in code", "options": ["Runs steps again and again", "Stops the computer forever", "Draws only circles"], "answer": 0 },
+    { "q": "If-then is used for", "options": ["Decisions", "Only printing", "Only sound"], "answer": 0 },
+    { "q": "Which is part of coding?", "options": ["Writing clear steps", "Ignoring errors", "Never testing"], "answer": 0 }
+  ]
+}

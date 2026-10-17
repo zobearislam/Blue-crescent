@@ -1,0 +1,17 @@
+{
+  "title": "Plant parts",
+  "info": [
+    "Roots hold the plant and take water. The stem supports the plant.",
+    "Leaves make food. Flowers help make seeds. Fruits protect seeds."
+  ],
+  "questions": [
+    { "q": "Roots mainly", "options": ["Make flowers", "Take water and hold the plant", "Fly"], "answer": 1 },
+    { "q": "Leaves help the plant", "options": ["Walk", "Make food", "Dig"], "answer": 1 },
+    { "q": "The stem", "options": ["Only sleeps", "Supports the plant", "Is always underground"], "answer": 1 },
+    { "q": "Flowers help plants", "options": ["Make seeds", "Only look pretty for no reason", "Eat meat always"], "answer": 0 },
+    { "q": "Type the plant part that makes food using sunlight.", "type": "text", "answer": ["leaf", "leaves"] },
+    { "q": "Fruit often protects", "options": ["Roots", "Seeds", "Only the stem"], "answer": 1 },
+    { "q": "Which part is usually underground?", "options": ["Flower", "Roots", "Fruit always"], "answer": 1 },
+    { "q": "A tree trunk is a kind of", "options": ["Root", "Stem", "Petal"], "answer": 1 }
+  ]
+}

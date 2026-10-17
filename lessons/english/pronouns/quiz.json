@@ -1,0 +1,18 @@
+{
+  "title": "Pronouns",
+  "info": [
+    "A pronoun takes the place of a noun. Examples: I, you, he, she, it, we, they.",
+    "\"He\" can replace \"Tom\". \"They\" can replace \"the children\".",
+    "Using pronouns avoids repeating the same name again and again."
+  ],
+  "questions": [
+    { "q": "Which word is a pronoun?", "options": ["Happy", "She", "Run"], "answer": 1 },
+    { "q": "Replace \"Maria\" with a pronoun: Maria runs → ___ runs.", "options": ["He", "She", "It"], "answer": 1 },
+    { "q": "\"They\" can replace", "options": ["One cat only", "More than one person or thing", "Only verbs"], "answer": 1 },
+    { "q": "Which is a pronoun?", "options": ["School", "We", "Quickly"], "answer": 1 },
+    { "q": "Type a pronoun that means \"you and I\".", "type": "text", "answer": ["we", "us"] },
+    { "q": "\"It\" often replaces", "options": ["A person's name always", "A thing or animal", "Only cities"], "answer": 1 },
+    { "q": "In \"Sam is tall. He is kind.\", \"He\" refers to", "options": ["Tall", "Sam", "Kind"], "answer": 1 },
+    { "q": "Which sentence uses a pronoun?", "options": ["The dog barks.", "It barks.", "Barking loudly."], "answer": 1 }
+  ]
+}

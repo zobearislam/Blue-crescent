@@ -1,0 +1,18 @@
+{
+  "title": "Graphs",
+  "info": [
+    "Graphs show information with pictures: bar graphs, line graphs, and pie charts.",
+    "A bar graph uses bars of different heights. A line graph shows change over time.",
+    "The title and labels help you read a graph correctly."
+  ],
+  "questions": [
+    { "q": "A bar graph uses", "options": ["Only circles", "Bars of different heights", "Only words"], "answer": 1 },
+    { "q": "A line graph is good for", "options": ["Change over time", "Only one number ever", "Cooking only"], "answer": 0 },
+    { "q": "A pie chart looks like a", "options": ["Line", "Circle divided into slices", "Triangle only"], "answer": 1 },
+    { "q": "Graph labels help you", "options": ["Ignore the data", "Understand what the numbers mean", "Delete the graph"], "answer": 1 },
+    { "q": "Type the graph that uses rectangular bars.", "type": "text", "answer": ["bar graph", "bar", "bar chart"] },
+    { "q": "The tallest bar on a bar graph shows", "options": ["The smallest value", "The largest value", "Always zero"], "answer": 1 },
+    { "q": "A title on a graph tells", "options": ["Nothing", "What the graph is about", "Only the date always"], "answer": 1 },
+    { "q": "Which shows parts of a whole well?", "options": ["Pie chart", "Only a blank page", "A single dot"], "answer": 0 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Percentages",
+  "info": [
+    "Percent means \"out of 100\". 50% means 50 out of 100, or half.",
+    "25% is one quarter. 100% is the whole.",
+    "10% of 50 is 5, because 10% means divide by 10."
+  ],
+  "questions": [
+    { "q": "Percent means out of", "options": ["10", "100", "1000"], "answer": 1 },
+    { "q": "50% of something is", "options": ["All of it", "Half of it", "None of it"], "answer": 1 },
+    { "q": "25% is the same as", "options": ["One half", "One quarter", "One tenth"], "answer": 1 },
+    { "q": "100% means", "options": ["Nothing", "The whole", "Only 1%"], "answer": 1 },
+    { "q": "Type what 10% of 50 is.", "type": "text", "answer": ["5", "five"] },
+    { "q": "Half of 20 is the same as", "options": ["10% of 20", "50% of 20", "200% of 20"], "answer": 1 },
+    { "q": "1% of 100 is", "options": ["1", "10", "100"], "answer": 0 },
+    { "q": "Which is largest?", "options": ["10%", "50%", "25%"], "answer": 1 }
+  ]
+}

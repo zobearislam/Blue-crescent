@@ -1,0 +1,18 @@
+{
+  "title": "Oceans",
+  "info": [
+    "Oceans cover most of Earth's surface. Salt water is denser than fresh water.",
+    "The five oceans are the Pacific, Atlantic, Indian, Southern, and Arctic.",
+    "Coral reefs are underwater homes for many sea animals."
+  ],
+  "questions": [
+    { "q": "How many oceans are there on Earth?", "options": ["3", "5", "7"], "answer": 1 },
+    { "q": "The largest ocean is the", "options": ["Atlantic", "Pacific", "Arctic"], "answer": 1 },
+    { "q": "Ocean water is", "options": ["Fresh", "Salty", "Sweet"], "answer": 1 },
+    { "q": "Coral reefs are found", "options": ["In deserts", "Underwater", "On mountains"], "answer": 1 },
+    { "q": "Type the name of the coldest ocean.", "type": "text", "answer": ["arctic", "arctic ocean"] },
+    { "q": "Whales live in the", "options": ["Desert", "Ocean", "Forest"], "answer": 1 },
+    { "q": "Tides are caused mainly by the", "options": ["Sun only", "Moon", "Wind only"], "answer": 1 },
+    { "q": "Which is an ocean?", "options": ["Mediterranean", "Pacific", "Amazon"], "answer": 1 }
+  ]
+}

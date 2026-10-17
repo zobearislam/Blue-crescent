@@ -1,0 +1,18 @@
+{
+  "title": "Internet",
+  "info": [
+    "The internet connects computers around the world so they can share information.",
+    "A website has an address called a URL. A browser (like Chrome) opens websites.",
+    "Be careful online: never share passwords or personal details with strangers."
+  ],
+  "questions": [
+    { "q": "The internet connects", "options": ["Only one room", "Computers worldwide", "Only phones"], "answer": 1 },
+    { "q": "A URL is a", "options": ["Password", "Website address", "Keyboard key"], "answer": 1 },
+    { "q": "A browser is used to", "options": ["Cook food", "Open websites", "Print only"], "answer": 1 },
+    { "q": "You should NOT share online", "options": ["Favorite color", "Passwords", "Hobby names"], "answer": 1 },
+    { "q": "Type a safe habit online: never share your ____ with strangers.", "type": "text", "answer": ["password", "passwords", "personal information", "address", "phone number"] },
+    { "q": "Email is a way to", "options": ["Send messages", "Bake bread", "Drive a car"], "answer": 0 },
+    { "q": "Wi-Fi lets devices connect", "options": ["Only with cables", "Without wires nearby", "Only underwater"], "answer": 1 },
+    { "q": "Which is a browser?", "options": ["A keyboard", "Chrome", "A printer"], "answer": 1 }
+  ]
+}

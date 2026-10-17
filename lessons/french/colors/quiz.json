@@ -1,0 +1,17 @@
+{
+  "title": "Colors",
+  "info": [
+    "Rouge = red, bleu = blue, vert = green, jaune = yellow.",
+    "Noir = black, blanc = white, rose = pink."
+  ],
+  "questions": [
+    { "q": "\"Rouge\" means", "options": ["Blue", "Red", "Green"], "answer": 1 },
+    { "q": "How do you say blue in French?", "options": ["Bleu", "Vert", "Jaune"], "answer": 0 },
+    { "q": "\"Vert\" is", "options": ["Yellow", "Green", "Pink"], "answer": 1 },
+    { "q": "\"Jaune\" means", "options": ["Yellow", "Black", "White"], "answer": 0 },
+    { "q": "Type the French word for black.", "type": "text", "answer": ["noir"] },
+    { "q": "\"Blanc\" means", "options": ["Black", "White", "Brown"], "answer": 1 },
+    { "q": "\"Rose\" is", "options": ["Red", "Pink", "Purple"], "answer": 1 },
+    { "q": "Which word means green?", "options": ["Rouge", "Vert", "Bleu"], "answer": 1 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Seasons",
+  "info": [
+    "The four seasons are spring, summer, autumn (fall), and winter.",
+    "Seasons happen because Earth tilts as it goes around the Sun.",
+    "In summer it is warmer; in winter it is colder."
+  ],
+  "questions": [
+    { "q": "How many seasons are there?", "options": ["2", "3", "4"], "answer": 2 },
+    { "q": "The warmest season is usually", "options": ["Winter", "Summer", "Spring"], "answer": 1 },
+    { "q": "Leaves often change color in", "options": ["Spring", "Autumn", "Summer"], "answer": 1 },
+    { "q": "Seasons happen because Earth is", "options": ["Flat", "Tilted", "Hollow"], "answer": 1 },
+    { "q": "Type the season when many plants start growing new leaves.", "type": "text", "answer": ["spring"] },
+    { "q": "Snow is most common in", "options": ["Summer", "Winter", "Spring"], "answer": 1 },
+    { "q": "Autumn is also called", "options": ["Fall", "Rise", "Dawn"], "answer": 0 },
+    { "q": "Which comes after summer?", "options": ["Spring", "Autumn", "Winter only"], "answer": 1 }
+  ]
+}

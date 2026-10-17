@@ -1,0 +1,17 @@
+{
+  "title": "Numbers",
+  "info": [
+    "French numbers: un (1), deux (2), trois (3), quatre (4), cinq (5).",
+    "Six (6), sept (7), huit (8), neuf (9), dix (10)."
+  ],
+  "questions": [
+    { "q": "What is \"un\"?", "options": ["1", "2", "3"], "answer": 0 },
+    { "q": "\"Deux\" means", "options": ["1", "2", "10"], "answer": 1 },
+    { "q": "How do you say 3 in French?", "options": ["Trois", "Quatre", "Cinq"], "answer": 0 },
+    { "q": "\"Dix\" means", "options": ["5", "8", "10"], "answer": 2 },
+    { "q": "Type the French word for five.", "type": "text", "answer": ["cinq"] },
+    { "q": "\"Sept\" is", "options": ["6", "7", "8"], "answer": 1 },
+    { "q": "Which number is \"huit\"?", "options": ["6", "8", "9"], "answer": 1 },
+    { "q": "\"Quatre\" means", "options": ["3", "4", "5"], "answer": 1 }
+  ]
+}

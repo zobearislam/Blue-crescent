@@ -1,0 +1,18 @@
+{
+  "title": "Middle Ages",
+  "info": [
+    "The Middle Ages in Europe lasted roughly from the fall of Rome to about 1500.",
+    "Castles, knights, and kings were common ideas of this time.",
+    "People farmed the land. Towns and trade slowly grew."
+  ],
+  "questions": [
+    { "q": "The Middle Ages came after the fall of", "options": ["The USA", "Rome", "The internet"], "answer": 1 },
+    { "q": "Knights often lived near", "options": ["Spaceships", "Castles", "Skyscrapers"], "answer": 1 },
+    { "q": "Most people in the Middle Ages worked as", "options": ["Astronauts", "Farmers", "Pilots"], "answer": 1 },
+    { "q": "A castle was used for", "options": ["Only parties", "Defense and living", "Only shopping"], "answer": 1 },
+    { "q": "Type what a soldier on horseback in armor was often called.", "type": "text", "answer": ["knight", "knights"] },
+    { "q": "Trade in the Middle Ages", "options": ["Never happened", "Grew in towns", "Only used rockets"], "answer": 1 },
+    { "q": "The Middle Ages ended around", "options": ["500 CE", "1500 CE", "2000 CE"], "answer": 1 },
+    { "q": "Which belongs to the Middle Ages image?", "options": ["Smartphones", "Castles", "Airplanes"], "answer": 1 }
+  ]
+}

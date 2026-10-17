@@ -1,0 +1,18 @@
+{
+  "title": "Birds",
+  "info": [
+    "Birds have feathers, wings, and beaks. Most birds can fly.",
+    "Birds lay eggs. Some birds migrate long distances each year.",
+    "Owls hunt at night. Penguins cannot fly but swim well."
+  ],
+  "questions": [
+    { "q": "Birds are covered in", "options": ["Fur", "Feathers", "Scales only"], "answer": 1 },
+    { "q": "Birds reproduce by", "options": ["Live birth only", "Laying eggs", "Spores"], "answer": 1 },
+    { "q": "Which bird cannot fly?", "options": ["Eagle", "Penguin", "Sparrow"], "answer": 1 },
+    { "q": "Migrating means birds", "options": ["Sleep all winter", "Travel long distances", "Change color only"], "answer": 1 },
+    { "q": "Type an animal that has feathers.", "type": "text", "answer": ["bird", "eagle", "owl", "sparrow", "penguin", "duck", "chicken"] },
+    { "q": "Owls often hunt", "options": ["At night", "Only underwater", "Only in deserts"], "answer": 0 },
+    { "q": "A bird's mouth is called a", "options": ["Snout", "Beak", "Trunk"], "answer": 1 },
+    { "q": "Which is a bird?", "options": ["Bat", "Eagle", "Butterfly"], "answer": 1 }
+  ]
+}
