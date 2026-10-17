@@ -1,0 +1,63 @@
+{
+  "title": "The planets",
+  "info": [
+    "Eight planets orbit the Sun.",
+    "In order from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+    "The first four are rocky. The last four are much larger."
+  ],
+  "questions": [
+    {
+      "q": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Earth"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which planet do we live on?",
+      "options": [
+        "Mars",
+        "Earth",
+        "Venus"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which is the largest planet?",
+      "options": [
+        "Earth",
+        "Jupiter",
+        "Mars"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which planet is famous for rings you can see easily?",
+      "options": [
+        "Saturn",
+        "Mars",
+        "Mercury"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many planets are in our solar system?",
+      "type": "text",
+      "answer": [
+        "8",
+        "eight"
+      ]
+    },
+    {
+      "q": "Which planet comes right after Earth as you move away from the Sun?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": 1
+    }
+  ]
+}

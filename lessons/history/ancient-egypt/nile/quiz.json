@@ -1,0 +1,63 @@
+{
+  "title": "The Nile",
+  "info": [
+    "Ancient Egypt grew along the Nile River in Africa.",
+    "The river's floods left rich soil for growing food.",
+    "The Nile flows north into the Mediterranean Sea."
+  ],
+  "questions": [
+    {
+      "q": "Ancient Egypt grew along which river?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Thames"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The Nile's floods helped farmers because they",
+      "options": [
+        "left rich soil",
+        "froze the fields",
+        "covered the land with sand only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Nile is in",
+      "options": [
+        "Africa",
+        "Europe",
+        "Australia"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Nile flows into the",
+      "options": [
+        "Mediterranean Sea",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Name the river of ancient Egypt.",
+      "type": "text",
+      "answer": [
+        "nile",
+        "the nile"
+      ]
+    },
+    {
+      "q": "Without the Nile, farming in that desert land would have been",
+      "options": [
+        "much harder",
+        "exactly the same",
+        "impossible to imagine as important"
+      ],
+      "answer": 0
+    }
+  ]
+}

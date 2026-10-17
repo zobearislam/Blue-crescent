@@ -1,0 +1,63 @@
+{
+  "title": "Functions",
+  "info": [
+    "A function is a named set of steps you can use again.",
+    "Like a recipe name: say the name, and the steps run.",
+    "Using a function keeps code shorter and easier to fix."
+  ],
+  "questions": [
+    {
+      "q": "A function is",
+      "options": [
+        "a named set of steps",
+        "a mistake",
+        "only a picture"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Calling a function means",
+      "options": [
+        "running its steps",
+        "erasing its name",
+        "closing the computer"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Why name a set of steps?",
+      "options": [
+        "So you can reuse them",
+        "So nobody can run them",
+        "So they run only once ever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A function is a bit like",
+      "options": [
+        "a recipe you can follow by name",
+        "a broken loop only",
+        "a map of rivers"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call a named group of steps?",
+      "type": "text",
+      "answer": [
+        "function",
+        "a function"
+      ]
+    },
+    {
+      "q": "If drawSquare is a function, using it twice",
+      "options": [
+        "draws the square steps two times",
+        "deletes the name",
+        "turns the square into a circle automatically"
+      ],
+      "answer": 0
+    }
+  ]
+}

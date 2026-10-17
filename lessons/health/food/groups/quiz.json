@@ -1,0 +1,63 @@
+{
+  "title": "Food groups",
+  "info": [
+    "Food groups help you build a balanced plate.",
+    "Common groups are fruits, vegetables, grains, protein foods, and dairy.",
+    "A meal can include more than one group."
+  ],
+  "questions": [
+    {
+      "q": "An apple belongs with",
+      "options": [
+        "fruits",
+        "grains",
+        "dairy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Bread is usually a",
+      "options": [
+        "grain",
+        "fruit",
+        "vegetable"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Chicken is a",
+      "options": [
+        "protein food",
+        "dairy food",
+        "fruit"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Broccoli is a",
+      "options": [
+        "vegetable",
+        "grain",
+        "dairy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Name the food group of rice and bread.",
+      "type": "text",
+      "answer": [
+        "grains",
+        "grain"
+      ]
+    },
+    {
+      "q": "A balanced plate includes",
+      "options": [
+        "more than one food group",
+        "only candy",
+        "only one food ever"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Patterns in art",
+  "info": [
+    "A pattern repeats shapes, colors, or lines in a planned way.",
+    "Tiles, wallpaper, and fabric often use patterns.",
+    "A tessellation covers a surface with shapes and no gaps."
+  ],
+  "questions": [
+    {
+      "q": "A pattern",
+      "options": [
+        "repeats in a planned way",
+        "never repeats",
+        "is always one single dot"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Tiles on a floor often show",
+      "options": [
+        "a pattern",
+        "a random single color with no repeat",
+        "only words"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A tessellation",
+      "options": [
+        "covers a surface with no gaps",
+        "is a type of river",
+        "must use only circles that leave holes"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Red, blue, red, blue is",
+      "options": [
+        "a color pattern",
+        "a noun",
+        "a continent"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call a planned repeat of shapes or colors?",
+      "type": "text",
+      "answer": [
+        "pattern",
+        "a pattern"
+      ]
+    },
+    {
+      "q": "Changing the repeat on purpose can",
+      "options": [
+        "make a new pattern",
+        "stop it from being art",
+        "erase the idea of color"
+      ],
+      "answer": 0
+    }
+  ]
+}

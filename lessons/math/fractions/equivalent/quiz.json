@@ -1,0 +1,65 @@
+{
+  "title": "Equivalent fractions",
+  "info": [
+    "Equivalent fractions look different but name the same amount.",
+    "1/2 and 2/4 are equivalent. You can multiply the top and bottom by the same number."
+  ],
+  "questions": [
+    {
+      "q": "Which fraction equals 1/2?",
+      "options": [
+        "1/3",
+        "2/4",
+        "2/3"
+      ],
+      "answer": 1,
+      "explain": "2/4 is two parts out of four, the same as one half."
+    },
+    {
+      "q": "Which fraction equals 1/3?",
+      "options": [
+        "2/6",
+        "1/6",
+        "2/3"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do you do to make an equivalent fraction?",
+      "options": [
+        "Multiply top and bottom by the same number",
+        "Add 1 to the top only",
+        "Swap the top and bottom"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type a fraction equal to 1/2. Use a slash, like 2/4.",
+      "type": "text",
+      "answer": [
+        "2/4",
+        "3/6",
+        "4/8",
+        "5/10"
+      ]
+    },
+    {
+      "q": "2/4 is the same as",
+      "options": [
+        "1/2",
+        "1/4",
+        "2/2"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which pair is equivalent?",
+      "options": [
+        "1/4 and 2/8",
+        "1/3 and 1/4",
+        "2/5 and 2/6"
+      ],
+      "answer": 0
+    }
+  ]
+}

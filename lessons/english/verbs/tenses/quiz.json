@@ -1,0 +1,61 @@
+{
+  "title": "Verb tenses",
+  "info": [
+    "Tense tells when the action happens.",
+    "Present: walk or walks. Past: walked. Future: will walk."
+  ],
+  "questions": [
+    {
+      "q": "Which verb is past tense?",
+      "options": [
+        "walk",
+        "walked",
+        "will walk"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which shows the future?",
+      "options": [
+        "will play",
+        "played",
+        "plays"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "'She jumps' is",
+      "options": [
+        "present",
+        "past",
+        "future"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The past of play is",
+      "options": [
+        "played",
+        "plays",
+        "playing"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the past tense of jump.",
+      "type": "text",
+      "answer": [
+        "jumped"
+      ]
+    },
+    {
+      "q": "'They will sing' happens",
+      "options": [
+        "in the future",
+        "in the past",
+        "never"
+      ],
+      "answer": 0
+    }
+  ]
+}

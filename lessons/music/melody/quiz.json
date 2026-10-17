@@ -1,0 +1,63 @@
+{
+  "title": "Melody",
+  "info": [
+    "A melody is the tune you can hum.",
+    "Pitch is how high or low a note sounds.",
+    "Rhythm is the timing. Melody is the line of pitches over that timing."
+  ],
+  "questions": [
+    {
+      "q": "A melody is",
+      "options": [
+        "the tune",
+        "only the volume knob",
+        "a type of map"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Pitch means",
+      "options": [
+        "how high or low a note is",
+        "how many drums you own",
+        "the composer’s name"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You can often hum",
+      "options": [
+        "a melody",
+        "a silence only",
+        "a continent"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Rhythm and melody are",
+      "options": [
+        "different ideas that work together",
+        "exactly the same word",
+        "both types of rivers"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call the tune of a song?",
+      "type": "text",
+      "answer": [
+        "melody",
+        "the melody"
+      ]
+    },
+    {
+      "q": "A higher pitch sounds",
+      "options": [
+        "higher",
+        "always slower",
+        "like a drum hit only"
+      ],
+      "answer": 0
+    }
+  ]
+}

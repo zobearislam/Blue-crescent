@@ -1,0 +1,62 @@
+{
+  "title": "Mixing colors",
+  "info": [
+    "Red and yellow make orange.",
+    "Yellow and blue make green.",
+    "Red and blue make purple."
+  ],
+  "questions": [
+    {
+      "q": "Red + yellow =",
+      "options": [
+        "orange",
+        "green",
+        "brown only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Yellow + blue =",
+      "options": [
+        "green",
+        "purple",
+        "red"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Red + blue =",
+      "options": [
+        "purple",
+        "orange",
+        "yellow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "To make green you mix",
+      "options": [
+        "yellow and blue",
+        "red and yellow",
+        "red and blue"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What color do red and yellow make?",
+      "type": "text",
+      "answer": [
+        "orange"
+      ]
+    },
+    {
+      "q": "Mixing two primaries gives a",
+      "options": [
+        "secondary color",
+        "primary color",
+        "number"
+      ],
+      "answer": 0
+    }
+  ]
+}

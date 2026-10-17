@@ -1,0 +1,62 @@
+{
+  "title": "Hygiene",
+  "info": [
+    "Hygiene means habits that keep you clean and help stop germs from spreading.",
+    "Wash your hands with soap and water, especially before you eat and after you use the bathroom.",
+    "Brush your teeth two times a day and cover a cough with your elbow."
+  ],
+  "questions": [
+    {
+      "q": "Wash hands",
+      "options": [
+        "with soap and water",
+        "only with sand",
+        "never"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A good time to wash hands is",
+      "options": [
+        "before eating",
+        "only once a year",
+        "never after the bathroom"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Brush teeth",
+      "options": [
+        "two times a day",
+        "never",
+        "only on holidays"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Cover a cough with",
+      "options": [
+        "your elbow or a tissue",
+        "your open hands on a friend",
+        "nothing"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do you use with water to wash hands well?",
+      "type": "text",
+      "answer": [
+        "soap"
+      ]
+    },
+    {
+      "q": "Hygiene habits help",
+      "options": [
+        "keep germs from spreading",
+        "make more germs on purpose",
+        "replace sleep"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Rounding",
+  "info": [
+    "Rounding gives a nearby simpler number.",
+    "To the nearest ten, look at the ones digit. 5 or more rounds up. 4 or less rounds down.",
+    "24 rounds down to 20. 25 rounds up to 30."
+  ],
+  "questions": [
+    {
+      "q": "24 to the nearest ten is",
+      "options": [
+        "20",
+        "24",
+        "30"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "25 to the nearest ten is",
+      "options": [
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": 2,
+      "explain": "The ones digit is 5, so round up."
+    },
+    {
+      "q": "61 to the nearest ten is",
+      "options": [
+        "60",
+        "70",
+        "50"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which digit do you check to round to the nearest ten?",
+      "options": [
+        "Ones",
+        "Hundreds",
+        "Thousands"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Round 86 to the nearest ten.",
+      "type": "text",
+      "answer": [
+        "90",
+        "ninety"
+      ]
+    },
+    {
+      "q": "32 to the nearest ten is",
+      "options": [
+        "30",
+        "40",
+        "32"
+      ],
+      "answer": 0
+    }
+  ]
+}

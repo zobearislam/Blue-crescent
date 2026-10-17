@@ -1,0 +1,62 @@
+{
+  "title": "Instrument families",
+  "info": [
+    "Orchestral instruments are often sorted into four families.",
+    "Strings are bowed or plucked. Woodwinds use air and usually a reed or an edge. Brass use buzzing lips. Percussion is struck or shaken."
+  ],
+  "questions": [
+    {
+      "q": "A violin belongs to",
+      "options": [
+        "strings",
+        "brass",
+        "percussion"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A drum belongs to",
+      "options": [
+        "percussion",
+        "strings",
+        "brass"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A trumpet belongs to",
+      "options": [
+        "brass",
+        "woodwind",
+        "strings"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A flute is usually grouped with",
+      "options": [
+        "woodwinds",
+        "percussion only",
+        "brass"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which family is a violin in?",
+      "type": "text",
+      "answer": [
+        "strings",
+        "string"
+      ]
+    },
+    {
+      "q": "Percussion instruments are",
+      "options": [
+        "struck or shaken",
+        "always blown only",
+        "always bowed"
+      ],
+      "answer": 0
+    }
+  ]
+}

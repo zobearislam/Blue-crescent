@@ -1,0 +1,62 @@
+{
+  "title": "Hello and goodbye",
+  "info": [
+    "Spanish is spoken in Spain and in many countries in the Americas.",
+    "Hola means hello. Adiós means goodbye.",
+    "Buenos días means good morning. Buenas tardes means good afternoon. Buenas noches means good evening or good night."
+  ],
+  "questions": [
+    {
+      "q": "Hola means",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Adiós means",
+      "options": [
+        "goodbye",
+        "please",
+        "good morning"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Buenos días is used",
+      "options": [
+        "in the morning",
+        "only at midnight",
+        "as a number"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Good afternoon is",
+      "options": [
+        "buenas tardes",
+        "buenos días",
+        "hola"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Spanish word for hello.",
+      "type": "text",
+      "answer": [
+        "hola"
+      ]
+    },
+    {
+      "q": "Buenas noches can mean",
+      "options": [
+        "good night",
+        "thank you",
+        "the number two"
+      ],
+      "answer": 0
+    }
+  ]
+}

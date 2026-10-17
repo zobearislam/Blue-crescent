@@ -1,0 +1,63 @@
+{
+  "title": "Life cycles",
+  "info": [
+    "A life cycle is the stages a living thing goes through.",
+    "A butterfly goes egg, caterpillar, chrysalis, then butterfly.",
+    "A frog goes egg, tadpole, then frog."
+  ],
+  "questions": [
+    {
+      "q": "A butterfly starts as",
+      "options": [
+        "a tadpole",
+        "an egg",
+        "a seed"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The caterpillar stage comes",
+      "options": [
+        "before the egg",
+        "after the egg and before the chrysalis",
+        "after the adult butterfly"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A tadpole is a young",
+      "options": [
+        "frog",
+        "bird",
+        "mammal"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is a chrysalis?",
+      "options": [
+        "The resting stage before a butterfly",
+        "A fish egg",
+        "A mammal's nest"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What hatches from a frog egg and lives in water?",
+      "type": "text",
+      "answer": [
+        "tadpole",
+        "a tadpole"
+      ]
+    },
+    {
+      "q": "Adult butterflies can",
+      "options": [
+        "only swim",
+        "fly",
+        "only stay inside the egg"
+      ],
+      "answer": 1
+    }
+  ]
+}

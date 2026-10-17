@@ -1,0 +1,66 @@
+{
+  "title": "Kinds of sentences",
+  "info": [
+    "A statement tells something and ends with a period.",
+    "A question asks something and ends with a question mark.",
+    "An exclamation shows strong feeling and ends with an exclamation mark.",
+    "A command tells someone to do something."
+  ],
+  "questions": [
+    {
+      "q": "Where is the park? is a",
+      "options": [
+        "question",
+        "statement",
+        "command"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The sky is blue. is a",
+      "options": [
+        "statement",
+        "question",
+        "command"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A question ends with",
+      "options": [
+        "a period",
+        "a question mark",
+        "a comma"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Please sit down. is a",
+      "options": [
+        "command",
+        "question",
+        "exclamation only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Wow, that kite is high! is an",
+      "options": [
+        "exclamation",
+        "question",
+        "command"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What mark ends a statement?",
+      "type": "text",
+      "answer": [
+        ".",
+        "period",
+        "a period",
+        "full stop"
+      ]
+    }
+  ]
+}

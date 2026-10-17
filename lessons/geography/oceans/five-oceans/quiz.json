@@ -1,0 +1,63 @@
+{
+  "title": "Five oceans",
+  "info": [
+    "Earth has five oceans: Pacific, Atlantic, Indian, Southern, and Arctic.",
+    "The Pacific is the largest. The Arctic is the smallest and is in the far north."
+  ],
+  "questions": [
+    {
+      "q": "How many oceans do geographers usually name?",
+      "options": [
+        "3",
+        "5",
+        "8"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The largest ocean is the",
+      "options": [
+        "Pacific",
+        "Arctic",
+        "Indian"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The ocean at the far north is the",
+      "options": [
+        "Arctic",
+        "Southern",
+        "Indian"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The ocean between the Americas and Europe/Africa is the",
+      "options": [
+        "Atlantic",
+        "Pacific",
+        "Southern"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the largest ocean.",
+      "type": "text",
+      "answer": [
+        "pacific",
+        "the pacific",
+        "pacific ocean"
+      ]
+    },
+    {
+      "q": "The Southern Ocean is around",
+      "options": [
+        "Antarctica",
+        "Europe only",
+        "the North Pole"
+      ],
+      "answer": 0
+    }
+  ]
+}

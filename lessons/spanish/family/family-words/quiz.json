@@ -1,0 +1,62 @@
+{
+  "title": "Family words",
+  "info": [
+    "Mamá means mom. Papá means dad.",
+    "Hermano means brother. Hermana means sister.",
+    "Abuelo means grandfather. Abuela means grandmother."
+  ],
+  "questions": [
+    {
+      "q": "Mamá means",
+      "options": [
+        "mom",
+        "brother",
+        "baby"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Hermana means",
+      "options": [
+        "sister",
+        "father",
+        "uncle"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Abuelo means",
+      "options": [
+        "grandfather",
+        "sister",
+        "cousin"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Papá means",
+      "options": [
+        "dad",
+        "grandmother",
+        "aunt"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Spanish word for sister.",
+      "type": "text",
+      "answer": [
+        "hermana"
+      ]
+    },
+    {
+      "q": "Abuela means",
+      "options": [
+        "grandmother",
+        "brother",
+        "dad"
+      ],
+      "answer": 0
+    }
+  ]
+}

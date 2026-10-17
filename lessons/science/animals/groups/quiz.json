@@ -1,0 +1,62 @@
+{
+  "title": "Animal groups",
+  "info": [
+    "Scientists sort animals into groups that share features.",
+    "Mammals have fur or hair and mothers make milk. Birds have feathers. Fish have gills. Reptiles have dry scales. Amphibians often start in water and can live on land later."
+  ],
+  "questions": [
+    {
+      "q": "A dog is a",
+      "options": [
+        "mammal",
+        "bird",
+        "fish"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which animal has feathers?",
+      "options": [
+        "Snake",
+        "Robin",
+        "Frog"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Fish breathe with",
+      "options": [
+        "lungs only",
+        "gills",
+        "feathers"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A frog is an",
+      "options": [
+        "amphibian",
+        "bird",
+        "reptile"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which has dry scales?",
+      "options": [
+        "Goldfish",
+        "Lizard",
+        "Cow"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A cat is covered in fur and the mother makes milk. Which group?",
+      "type": "text",
+      "answer": [
+        "mammal",
+        "mammals"
+      ]
+    }
+  ]
+}

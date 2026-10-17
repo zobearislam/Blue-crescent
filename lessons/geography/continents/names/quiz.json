@@ -1,0 +1,62 @@
+{
+  "title": "Seven continents",
+  "info": [
+    "A continent is a very large land mass.",
+    "The seven continents are Africa, Antarctica, Asia, Australia, Europe, North America, and South America."
+  ],
+  "questions": [
+    {
+      "q": "How many continents are there?",
+      "options": [
+        "5",
+        "7",
+        "10"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which continent is the coldest and sits at the South Pole?",
+      "options": [
+        "Africa",
+        "Antarctica",
+        "Europe"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which continent is the largest by land area?",
+      "options": [
+        "Europe",
+        "Asia",
+        "Australia"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Brazil is in",
+      "options": [
+        "South America",
+        "Europe",
+        "Asia"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Name the continent where Egypt is located.",
+      "type": "text",
+      "answer": [
+        "africa",
+        "Africa"
+      ]
+    },
+    {
+      "q": "Australia is",
+      "options": [
+        "both a country and a continent",
+        "only a city",
+        "an ocean"
+      ],
+      "answer": 0
+    }
+  ]
+}

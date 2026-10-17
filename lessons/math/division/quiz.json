@@ -1,0 +1,64 @@
+{
+  "title": "Division",
+  "info": [
+    "Division splits a number into equal groups.",
+    "12 ÷ 3 = 4 means 12 split into 3 groups gives 4 in each group.",
+    "Division undoes multiplication. If 4 × 3 = 12, then 12 ÷ 3 = 4."
+  ],
+  "questions": [
+    {
+      "q": "12 ÷ 3 =",
+      "options": [
+        "3",
+        "4",
+        "9"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "10 ÷ 2 =",
+      "options": [
+        "5",
+        "8",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Division splits into",
+      "options": [
+        "equal groups",
+        "random piles",
+        "only pairs"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If 5 × 4 = 20, then 20 ÷ 5 =",
+      "options": [
+        "4",
+        "5",
+        "15"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is 18 ÷ 3?",
+      "type": "text",
+      "answer": [
+        "6",
+        "six"
+      ]
+    },
+    {
+      "q": "8 ÷ 1 =",
+      "options": [
+        "1",
+        "8",
+        "0"
+      ],
+      "answer": 1,
+      "explain": "A number divided by 1 stays the same."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "US coin names",
+  "info": [
+    "These are United States coins.",
+    "A penny is 1 cent. A nickel is 5 cents. A dime is 10 cents. A quarter is 25 cents.",
+    "100 cents make 1 dollar."
+  ],
+  "questions": [
+    {
+      "q": "A penny is worth",
+      "options": [
+        "1 cent",
+        "5 cents",
+        "25 cents"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A dime is worth",
+      "options": [
+        "10 cents",
+        "5 cents",
+        "1 cent"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A quarter is worth",
+      "options": [
+        "25 cents",
+        "10 cents",
+        "50 cents"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A nickel is worth",
+      "options": [
+        "5 cents",
+        "25 cents",
+        "1 cent"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many cents are in one dollar?",
+      "type": "text",
+      "answer": [
+        "100",
+        "one hundred"
+      ]
+    },
+    {
+      "q": "Which coin is worth the most of these?",
+      "options": [
+        "quarter",
+        "dime",
+        "penny"
+      ],
+      "answer": 0
+    }
+  ]
+}

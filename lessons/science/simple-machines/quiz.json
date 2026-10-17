@@ -1,0 +1,64 @@
+{
+  "title": "Simple machines",
+  "info": [
+    "A simple machine makes work easier.",
+    "Six kinds: lever, wheel and axle, pulley, inclined plane, wedge, and screw.",
+    "A ramp is an inclined plane. A seesaw is a lever."
+  ],
+  "questions": [
+    {
+      "q": "A ramp is",
+      "options": [
+        "an inclined plane",
+        "a pulley",
+        "a screw"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A seesaw is a",
+      "options": [
+        "lever",
+        "wedge",
+        "wheel"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A flagpole rope over a wheel is closest to a",
+      "options": [
+        "pulley",
+        "screw",
+        "wedge"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many classic simple machines are there?",
+      "options": [
+        "3",
+        "6",
+        "12"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A doorstop shaped like a triangle is a",
+      "options": [
+        "wedge",
+        "lever",
+        "pulley"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Name the simple machine that is a slanted surface.",
+      "type": "text",
+      "answer": [
+        "inclined plane",
+        "ramp",
+        "a ramp"
+      ]
+    }
+  ]
+}

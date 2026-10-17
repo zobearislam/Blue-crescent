@@ -1,0 +1,62 @@
+{
+  "title": "Repeat",
+  "info": [
+    "A loop repeats instructions so you do not write them many times.",
+    "Repeat 4 times: step forward. That is four steps."
+  ],
+  "questions": [
+    {
+      "q": "A loop is used to",
+      "options": [
+        "repeat instructions",
+        "stop the computer forever",
+        "delete a file name"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Repeat 3: clap. How many claps?",
+      "options": [
+        "1",
+        "3",
+        "6"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Why use a loop?",
+      "options": [
+        "To avoid writing the same step many times",
+        "To make the code longer for no reason",
+        "To remove all steps"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Repeat 5: draw a star. You draw",
+      "options": [
+        "5 stars",
+        "1 star",
+        "0 stars"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many times does 'repeat 4' run the steps?",
+      "type": "text",
+      "answer": [
+        "4",
+        "four"
+      ]
+    },
+    {
+      "q": "A loop that never stops is often",
+      "options": [
+        "a bug",
+        "always correct",
+        "a color"
+      ],
+      "answer": 0
+    }
+  ]
+}

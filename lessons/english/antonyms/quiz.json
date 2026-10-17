@@ -1,0 +1,62 @@
+{
+  "title": "Antonyms",
+  "info": [
+    "Antonyms are words with opposite meanings.",
+    "Hot and cold are antonyms. Big and small are antonyms."
+  ],
+  "questions": [
+    {
+      "q": "The antonym of hot is",
+      "options": [
+        "warm",
+        "cold",
+        "heat"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The antonym of big is",
+      "options": [
+        "large",
+        "huge",
+        "small"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The antonym of up is",
+      "options": [
+        "down",
+        "high",
+        "over"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which pair are antonyms?",
+      "options": [
+        "happy and glad",
+        "fast and slow",
+        "tiny and small"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the antonym of day.",
+      "type": "text",
+      "answer": [
+        "night"
+      ]
+    },
+    {
+      "q": "The antonym of open is",
+      "options": [
+        "shut",
+        "wide",
+        "ajar"
+      ],
+      "answer": 0,
+      "explain": "Shut and closed are antonyms of open."
+    }
+  ]
+}

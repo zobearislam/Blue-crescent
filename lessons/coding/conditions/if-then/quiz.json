@@ -1,0 +1,64 @@
+{
+  "title": "If and then",
+  "info": [
+    "A condition chooses what to do.",
+    "IF it is raining THEN take a coat. Otherwise you can leave the coat.",
+    "The computer checks whether the IF part is true."
+  ],
+  "questions": [
+    {
+      "q": "In IF hungry THEN eat, you eat when",
+      "options": [
+        "hungry is true",
+        "hungry is false",
+        "always, no check"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A condition helps the program",
+      "options": [
+        "choose a path",
+        "forget all steps",
+        "turn off the screen always"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "IF score > 10 THEN show a star. A score of 12",
+      "options": [
+        "shows a star",
+        "hides the star",
+        "deletes the score"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The word THEN introduces",
+      "options": [
+        "what to do when the check is true",
+        "a color",
+        "a loop only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Fill the blank idea: IF cold THEN put on a ___.",
+      "type": "text",
+      "answer": [
+        "coat",
+        "jacket",
+        "sweater"
+      ]
+    },
+    {
+      "q": "IF it is not raining, the coat instruction",
+      "options": [
+        "can be skipped",
+        "must still run",
+        "breaks the computer"
+      ],
+      "answer": 0
+    }
+  ]
+}

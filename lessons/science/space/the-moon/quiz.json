@@ -1,0 +1,63 @@
+{
+  "title": "The Moon",
+  "info": [
+    "The Moon is Earth's natural satellite. It travels around Earth.",
+    "The Moon does not make its own light. We see sunlight bouncing off it.",
+    "A full moon looks like a bright circle. A new moon is hard to see."
+  ],
+  "questions": [
+    {
+      "q": "The Moon travels around",
+      "options": [
+        "the Sun only",
+        "Earth",
+        "Mars"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Moonlight is really",
+      "options": [
+        "sunlight reflecting off the Moon",
+        "light the Moon makes",
+        "light from Earth"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A full moon looks",
+      "options": [
+        "like a bright round disk",
+        "always like a thin smile",
+        "invisible every night"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is a satellite?",
+      "options": [
+        "An object that orbits a planet",
+        "A kind of star",
+        "A comet's tail"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the name of Earth's natural satellite.",
+      "type": "text",
+      "answer": [
+        "moon",
+        "the moon"
+      ]
+    },
+    {
+      "q": "We see different moon shapes during the month because",
+      "options": [
+        "the lit part we can see changes",
+        "the Moon shrinks",
+        "Earth turns the Moon off"
+      ],
+      "answer": 0
+    }
+  ]
+}

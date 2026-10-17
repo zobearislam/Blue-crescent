@@ -1,0 +1,63 @@
+{
+  "title": "Times tables",
+  "info": [
+    "Knowing times tables makes bigger math faster.",
+    "A number times 1 stays the same. A number times 0 is 0."
+  ],
+  "questions": [
+    {
+      "q": "6 × 2 =",
+      "options": [
+        "8",
+        "12",
+        "14"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "7 × 1 =",
+      "options": [
+        "1",
+        "7",
+        "8"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "9 × 0 =",
+      "options": [
+        "0",
+        "9",
+        "90"
+      ],
+      "answer": 0,
+      "explain": "Any number times 0 is 0."
+    },
+    {
+      "q": "5 × 5 =",
+      "options": [
+        "10",
+        "25",
+        "55"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is 4 × 3?",
+      "type": "text",
+      "answer": [
+        "12",
+        "twelve"
+      ]
+    },
+    {
+      "q": "8 × 2 =",
+      "options": [
+        "10",
+        "16",
+        "18"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Please and thank you",
+  "info": [
+    "Por favor means please.",
+    "Gracias means thank you.",
+    "De nada means you're welcome. Sí means yes. No means no."
+  ],
+  "questions": [
+    {
+      "q": "Por favor means",
+      "options": [
+        "please",
+        "hello",
+        "water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Gracias means",
+      "options": [
+        "thank you",
+        "goodbye",
+        "good morning"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "De nada means",
+      "options": [
+        "you're welcome",
+        "please",
+        "good night"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sí means",
+      "options": [
+        "yes",
+        "no",
+        "maybe later only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Spanish word for thank you.",
+      "type": "text",
+      "answer": [
+        "gracias"
+      ]
+    },
+    {
+      "q": "The Spanish word for no is",
+      "options": [
+        "no",
+        "sí",
+        "hola"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Counting coins",
+  "info": [
+    "Add the cent values.",
+    "Two dimes are 20 cents. One quarter and one nickel are 30 cents."
+  ],
+  "questions": [
+    {
+      "q": "Two nickels equal",
+      "options": [
+        "10 cents",
+        "5 cents",
+        "25 cents"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A quarter and a dime equal",
+      "options": [
+        "35 cents",
+        "15 cents",
+        "30 cents"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Four pennies equal",
+      "options": [
+        "4 cents",
+        "40 cents",
+        "25 cents"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Two quarters equal",
+      "options": [
+        "50 cents",
+        "25 cents",
+        "75 cents"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A dime plus a nickel is how many cents?",
+      "type": "text",
+      "answer": [
+        "15",
+        "fifteen"
+      ]
+    },
+    {
+      "q": "Which set is 30 cents?",
+      "options": [
+        "a quarter and a nickel",
+        "three pennies",
+        "a dime only"
+      ],
+      "answer": 0
+    }
+  ]
+}

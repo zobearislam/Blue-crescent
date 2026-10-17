@@ -1,6 +1,6 @@
 # Blue Crescent 🌙
 
-Lessons > subjects > chapters, with Duolingo-style quizzes. Baby blue and baby red checkerboard everywhere.
+Lessons > subjects > chapters > subchapters, with Duolingo-style quizzes. Baby blue and baby red checkerboard everywhere.
 
 ## Adding folders in the repo
 
@@ -10,17 +10,22 @@ Just create them. No other file needs editing:
 lessons/
 └── history/                 ← subject folder
     ├── subject.json         ← optional: {"name": "History", "icon": "📜"}
-    ├── 01-egypt/            ← chapter folder
-    │   └── quiz.json
+    ├── ancient-egypt/       ← chapter folder
+    │   ├── quiz.json        ← optional chapter quiz
+    │   └── nile/            ← subchapter folder
+    │       └── quiz.json
     └── 02-rome/
         └── quiz.json
 ```
 
 - Folder names become the display names ("ancient-rome" → "Ancient rome"). A leading number sets the order and is hidden ("01-egypt" → "Egypt").
+- A chapter can hold its own `quiz.json`, subchapter folders, or both. Subchapters are folders inside the chapter, each with a `quiz.json`.
+- If a chapter has subchapters, the site lists them and also shows the chapter quiz when `quiz.json` is there.
+- In `lessons.json`, set `"hasQuiz": false` on a chapter that only contains subchapters.
 - `subject.json` is optional and sets a nicer name and emoji.
 - A new folder appears on the site within a couple of minutes of pushing (GitHub Pages rebuild plus a short cache).
 - `lessons/lessons.json` is optional now. Use it only to override names or icons.
-- Git does not keep empty folders, so a chapter folder needs at least its `quiz.json`.
+- Git does not keep empty folders, so every chapter or subchapter needs a `quiz.json` inside it.
 
 The site finds folders through GitHub's public API, so it works when hosted on `<user>.github.io`.
 

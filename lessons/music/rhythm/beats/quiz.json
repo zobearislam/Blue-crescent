@@ -1,0 +1,62 @@
+{
+  "title": "Beats",
+  "info": [
+    "Rhythm is the pattern of long and short, or strong and soft, sounds in time.",
+    "A beat is a steady pulse, like a clock tick you can clap to.",
+    "Tempo is how fast or slow the beat is."
+  ],
+  "questions": [
+    {
+      "q": "A beat is",
+      "options": [
+        "a steady pulse",
+        "a color",
+        "a map symbol"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Tempo tells",
+      "options": [
+        "how fast or slow the music is",
+        "the name of a country",
+        "how many continents"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Clapping with the pulse means you are clapping",
+      "options": [
+        "on the beat",
+        "only the words",
+        "the volume knob"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Rhythm is about",
+      "options": [
+        "the pattern of sounds in time",
+        "only how high a note is",
+        "paint mixing"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What word means the speed of the beat?",
+      "type": "text",
+      "answer": [
+        "tempo"
+      ]
+    },
+    {
+      "q": "A faster tempo means",
+      "options": [
+        "the beats come sooner",
+        "the beats stop",
+        "the song has no rhythm"
+      ],
+      "answer": 0
+    }
+  ]
+}

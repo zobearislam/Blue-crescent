@@ -1,0 +1,62 @@
+{
+  "title": "Groups",
+  "info": [
+    "Multiplication is a fast way to add equal groups.",
+    "3 groups of 4 is 3 × 4 = 12."
+  ],
+  "questions": [
+    {
+      "q": "3 groups of 2 is",
+      "options": [
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "4 × 5 means",
+      "options": [
+        "4 groups of 5",
+        "4 plus 5",
+        "4 minus 5"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "2 groups of 10 equals",
+      "options": [
+        "12",
+        "20",
+        "210"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How many is 5 groups of 2?",
+      "type": "text",
+      "answer": [
+        "10",
+        "ten"
+      ]
+    },
+    {
+      "q": "Which story matches 3 × 4?",
+      "options": [
+        "3 bags with 4 apples each",
+        "3 apples and then 4 more",
+        "4 apples shared by 3 people"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "1 group of 7 is",
+      "options": [
+        "1",
+        "7",
+        "8"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Primary colors",
+  "info": [
+    "In painting, the primary colors are red, yellow, and blue.",
+    "They cannot be mixed from other paint colors. Other colors are mixed from them."
+  ],
+  "questions": [
+    {
+      "q": "Which set is the primary paint colors?",
+      "options": [
+        "red, yellow, blue",
+        "green, orange, purple",
+        "black, white, gray"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Primary colors are special because",
+      "options": [
+        "other paint colors are mixed from them",
+        "they are always neon",
+        "they are only used on computers"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is a primary color?",
+      "options": [
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Purple paint is",
+      "options": [
+        "a mix, not a primary",
+        "a primary color",
+        "the same as yellow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Name one primary color.",
+      "type": "text",
+      "answer": [
+        "red",
+        "yellow",
+        "blue"
+      ]
+    },
+    {
+      "q": "Blue is",
+      "options": [
+        "primary",
+        "made only from orange and green",
+        "not a color"
+      ],
+      "answer": 0
+    }
+  ]
+}

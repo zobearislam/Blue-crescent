@@ -1,0 +1,61 @@
+{
+  "title": "Spanish colors",
+  "info": [
+    "Rojo is red. Azul is blue. Verde is green. Amarillo is yellow.",
+    "Negro is black. Blanco is white. Naranja is orange. Rosa is pink."
+  ],
+  "questions": [
+    {
+      "q": "Rojo means",
+      "options": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Azul means",
+      "options": [
+        "blue",
+        "yellow",
+        "white"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Verde means",
+      "options": [
+        "green",
+        "black",
+        "pink"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Blanco means",
+      "options": [
+        "white",
+        "black",
+        "red"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Spanish word for yellow.",
+      "type": "text",
+      "answer": [
+        "amarillo"
+      ]
+    },
+    {
+      "q": "Negro means",
+      "options": [
+        "black",
+        "white",
+        "orange"
+      ],
+      "answer": 0
+    }
+  ]
+}

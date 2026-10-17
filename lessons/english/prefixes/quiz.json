@@ -1,0 +1,63 @@
+{
+  "title": "Prefixes",
+  "info": [
+    "A prefix is a word part added to the front of a word.",
+    "un- often means not: unhappy means not happy.",
+    "re- often means again: redo means do again.",
+    "pre- often means before: preview means see before."
+  ],
+  "questions": [
+    {
+      "q": "What does un- often mean in unhappy?",
+      "options": [
+        "not",
+        "again",
+        "before"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Redo means",
+      "options": [
+        "do again",
+        "do not",
+        "do before"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A prefix is added",
+      "options": [
+        "at the front of a word",
+        "only at the end",
+        "in the middle only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Preview means",
+      "options": [
+        "see before",
+        "see again",
+        "not see"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Add un- to kind to make the opposite.",
+      "type": "text",
+      "answer": [
+        "unkind"
+      ]
+    },
+    {
+      "q": "Which word uses re-?",
+      "options": [
+        "rewrite",
+        "preview",
+        "unsafe"
+      ],
+      "answer": 0
+    }
+  ]
+}

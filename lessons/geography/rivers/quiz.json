@@ -1,0 +1,63 @@
+{
+  "title": "Rivers",
+  "info": [
+    "A river is a large stream of water that flows downhill.",
+    "The start of a river is the source. The end, where it meets a larger body of water, is the mouth.",
+    "The Nile in Africa is often called the world's longest river. The Amazon in South America carries the most water."
+  ],
+  "questions": [
+    {
+      "q": "The start of a river is called the",
+      "options": [
+        "mouth",
+        "source",
+        "delta only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The end of a river is called the",
+      "options": [
+        "source",
+        "mouth",
+        "peak"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which river is famous as the world's longest?",
+      "options": [
+        "Nile",
+        "Thames",
+        "Seine"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Amazon is known for",
+      "options": [
+        "carrying a huge amount of water",
+        "being a desert",
+        "being on the Moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Rivers flow",
+      "options": [
+        "downhill",
+        "only uphill",
+        "in circles forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call the end of a river?",
+      "type": "text",
+      "answer": [
+        "mouth",
+        "the mouth"
+      ]
+    }
+  ]
+}

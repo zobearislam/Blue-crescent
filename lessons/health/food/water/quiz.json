@@ -1,0 +1,62 @@
+{
+  "title": "Water",
+  "info": [
+    "Water helps your body every day.",
+    "Drink water with meals and when you feel thirsty, especially when you play and get warm.",
+    "Juice and milk are drinks too, but water is the everyday thirst drink."
+  ],
+  "questions": [
+    {
+      "q": "A healthy everyday drink is",
+      "options": [
+        "water",
+        "only soda",
+        "nothing at all"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You may need more water when",
+      "options": [
+        "you have been running and feel hot",
+        "you are asleep all day without waking",
+        "you never move and it is cold only, always"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Thirst is",
+      "options": [
+        "a signal to drink",
+        "a kind of grain",
+        "a musical note"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Water is important because the body",
+      "options": [
+        "uses it all day",
+        "never uses liquid",
+        "is made without any water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What should you drink when you are thirsty?",
+      "type": "text",
+      "answer": [
+        "water"
+      ]
+    },
+    {
+      "q": "Carrying a water bottle at practice is",
+      "options": [
+        "a smart habit",
+        "not allowed in healthy plans",
+        "only for adults"
+      ],
+      "answer": 0
+    }
+  ]
+}

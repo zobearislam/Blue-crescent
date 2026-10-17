@@ -1,0 +1,56 @@
+{
+  "title": "True or false thinking",
+  "info": [
+    "A statement is true if it matches the facts, and false if it does not.",
+    "Check the words all, some, and none. They change the meaning."
+  ],
+  "questions": [
+    {
+      "q": "All birds are airplanes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Some coins are worth more than other coins.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A week has 7 days.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "'None of the oceans are made of water' is",
+      "options": [
+        "false",
+        "true"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "True or false: 5 is greater than 2. Type true or false.",
+      "type": "text",
+      "answer": [
+        "true"
+      ]
+    },
+    {
+      "q": "If a rule says all multiples of 2 are even, then 8 is even.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ]
+}

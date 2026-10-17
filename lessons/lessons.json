@@ -15,11 +15,31 @@
         },
         {
           "id": "multiplication",
-          "name": "Multiplication"
+          "name": "Multiplication",
+          "subs": [
+            {
+              "id": "groups",
+              "name": "Equal groups"
+            },
+            {
+              "id": "tables",
+              "name": "Times tables"
+            }
+          ]
         },
         {
           "id": "fractions",
-          "name": "Fractions"
+          "name": "Fractions",
+          "subs": [
+            {
+              "id": "equivalent",
+              "name": "Equivalent fractions"
+            },
+            {
+              "id": "comparing",
+              "name": "Comparing"
+            }
+          ]
         },
         {
           "id": "decimals",
@@ -40,6 +60,24 @@
         {
           "id": "word-problems",
           "name": "Word problems"
+        },
+        {
+          "id": "division",
+          "name": "Division",
+          "subs": [
+            {
+              "id": "sharing",
+              "name": "Sharing equally"
+            },
+            {
+              "id": "remainders",
+              "name": "Remainders"
+            }
+          ]
+        },
+        {
+          "id": "rounding",
+          "name": "Rounding"
         }
       ]
     },
@@ -50,11 +88,31 @@
       "chapters": [
         {
           "id": "space",
-          "name": "Space"
+          "name": "Space",
+          "subs": [
+            {
+              "id": "planets",
+              "name": "The planets"
+            },
+            {
+              "id": "the-moon",
+              "name": "The Moon"
+            }
+          ]
         },
         {
           "id": "animals",
-          "name": "Animals"
+          "name": "Animals",
+          "subs": [
+            {
+              "id": "groups",
+              "name": "Animal groups"
+            },
+            {
+              "id": "life-cycles",
+              "name": "Life cycles"
+            }
+          ]
         },
         {
           "id": "plants",
@@ -91,6 +149,10 @@
         {
           "id": "magnets",
           "name": "Magnets"
+        },
+        {
+          "id": "simple-machines",
+          "name": "Simple machines"
         }
       ]
     },
@@ -101,11 +163,27 @@
       "chapters": [
         {
           "id": "nouns",
-          "name": "Nouns"
+          "name": "Nouns",
+          "subs": [
+            {
+              "id": "plurals",
+              "name": "Plurals"
+            },
+            {
+              "id": "proper",
+              "name": "Proper nouns"
+            }
+          ]
         },
         {
           "id": "verbs",
-          "name": "Verbs"
+          "name": "Verbs",
+          "subs": [
+            {
+              "id": "tenses",
+              "name": "Tenses"
+            }
+          ]
         },
         {
           "id": "adjectives",
@@ -113,7 +191,13 @@
         },
         {
           "id": "sentences",
-          "name": "Sentences"
+          "name": "Sentences",
+          "subs": [
+            {
+              "id": "kinds",
+              "name": "Kinds of sentences"
+            }
+          ]
         },
         {
           "id": "punctuation",
@@ -130,6 +214,14 @@
         {
           "id": "homophones",
           "name": "Homophones"
+        },
+        {
+          "id": "antonyms",
+          "name": "Antonyms"
+        },
+        {
+          "id": "prefixes",
+          "name": "Prefixes"
         }
       ]
     },
@@ -140,11 +232,23 @@
       "chapters": [
         {
           "id": "continents",
-          "name": "Continents"
+          "name": "Continents",
+          "subs": [
+            {
+              "id": "names",
+              "name": "Seven continents"
+            }
+          ]
         },
         {
           "id": "oceans",
-          "name": "Oceans"
+          "name": "Oceans",
+          "subs": [
+            {
+              "id": "five-oceans",
+              "name": "Five oceans"
+            }
+          ]
         },
         {
           "id": "maps",
@@ -165,6 +269,14 @@
         {
           "id": "climate",
           "name": "Climate"
+        },
+        {
+          "id": "rivers",
+          "name": "Rivers"
+        },
+        {
+          "id": "compass",
+          "name": "Compass"
         }
       ]
     },
@@ -175,7 +287,13 @@
       "chapters": [
         {
           "id": "ancient-egypt",
-          "name": "Ancient Egypt"
+          "name": "Ancient Egypt",
+          "subs": [
+            {
+              "id": "nile",
+              "name": "The Nile"
+            }
+          ]
         },
         {
           "id": "ancient-greece",
@@ -191,11 +309,25 @@
         },
         {
           "id": "inventions",
-          "name": "Inventions"
+          "name": "Inventions",
+          "subs": [
+            {
+              "id": "transport",
+              "name": "Transport"
+            }
+          ]
         },
         {
           "id": "landmarks",
           "name": "Landmarks"
+        },
+        {
+          "id": "ancient-china",
+          "name": "Ancient China"
+        },
+        {
+          "id": "timelines",
+          "name": "Timelines"
         }
       ]
     },
@@ -214,15 +346,35 @@
         },
         {
           "id": "loops",
-          "name": "Loops"
+          "name": "Loops",
+          "subs": [
+            {
+              "id": "repeat",
+              "name": "Repeat"
+            }
+          ]
         },
         {
           "id": "conditions",
-          "name": "Conditions"
+          "name": "Conditions",
+          "subs": [
+            {
+              "id": "if-then",
+              "name": "If and then"
+            }
+          ]
         },
         {
           "id": "variables",
           "name": "Variables"
+        },
+        {
+          "id": "debugging",
+          "name": "Debugging"
+        },
+        {
+          "id": "functions",
+          "name": "Functions"
         }
       ]
     },
@@ -233,11 +385,25 @@
       "chapters": [
         {
           "id": "colors",
-          "name": "Colors"
+          "name": "Colors",
+          "subs": [
+            {
+              "id": "primary",
+              "name": "Primary colors"
+            },
+            {
+              "id": "mixing",
+              "name": "Mixing colors"
+            }
+          ]
         },
         {
           "id": "pictures",
           "name": "Pictures"
+        },
+        {
+          "id": "patterns",
+          "name": "Patterns"
         }
       ]
     },
@@ -248,11 +414,27 @@
       "chapters": [
         {
           "id": "instruments",
-          "name": "Instruments"
+          "name": "Instruments",
+          "subs": [
+            {
+              "id": "families",
+              "name": "Families"
+            }
+          ]
         },
         {
           "id": "rhythm",
-          "name": "Rhythm"
+          "name": "Rhythm",
+          "subs": [
+            {
+              "id": "beats",
+              "name": "Beats"
+            }
+          ]
+        },
+        {
+          "id": "melody",
+          "name": "Melody"
         }
       ]
     },
@@ -267,11 +449,158 @@
         },
         {
           "id": "food",
-          "name": "Food"
+          "name": "Food",
+          "subs": [
+            {
+              "id": "groups",
+              "name": "Food groups"
+            },
+            {
+              "id": "water",
+              "name": "Water"
+            }
+          ]
         },
         {
           "id": "movement",
           "name": "Movement"
+        },
+        {
+          "id": "hygiene",
+          "name": "Hygiene"
+        }
+      ]
+    },
+    {
+      "id": "spanish",
+      "name": "Spanish",
+      "icon": "🗣️",
+      "chapters": [
+        {
+          "id": "greetings",
+          "name": "Greetings",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "hello",
+              "name": "Hello and goodbye"
+            },
+            {
+              "id": "manners",
+              "name": "Please and thank you"
+            }
+          ]
+        },
+        {
+          "id": "numbers",
+          "name": "Numbers",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "one-to-ten",
+              "name": "1 to 10"
+            },
+            {
+              "id": "teens",
+              "name": "11 to 20"
+            }
+          ]
+        },
+        {
+          "id": "colors",
+          "name": "Colors",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "basic-colors",
+              "name": "Basic colors"
+            }
+          ]
+        },
+        {
+          "id": "family",
+          "name": "Family",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "family-words",
+              "name": "Family words"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "icon": "🪙",
+      "chapters": [
+        {
+          "id": "coins",
+          "name": "Coins",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "coin-names",
+              "name": "Coin names"
+            },
+            {
+              "id": "counting-coins",
+              "name": "Counting coins"
+            }
+          ]
+        },
+        {
+          "id": "choices",
+          "name": "Choices",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "needs-wants",
+              "name": "Needs and wants"
+            },
+            {
+              "id": "saving",
+              "name": "Saving"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logic",
+      "name": "Logic",
+      "icon": "🧩",
+      "chapters": [
+        {
+          "id": "patterns",
+          "name": "Patterns",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "what-next",
+              "name": "What comes next"
+            },
+            {
+              "id": "odd-one-out",
+              "name": "Odd one out"
+            }
+          ]
+        },
+        {
+          "id": "thinking",
+          "name": "Thinking",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "order",
+              "name": "Putting steps in order"
+            },
+            {
+              "id": "true-false",
+              "name": "True or false"
+            }
+          ]
         }
       ]
     }

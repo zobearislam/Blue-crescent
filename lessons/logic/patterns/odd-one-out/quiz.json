@@ -1,0 +1,63 @@
+{
+  "title": "Odd one out",
+  "info": [
+    "The odd one out does not follow the same rule as the others.",
+    "Name the rule first: all animals, all even numbers, all closed shapes."
+  ],
+  "questions": [
+    {
+      "q": "Which does not belong: 2, 4, 6, 9?",
+      "options": [
+        "9",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "explain": "9 is the only odd number."
+    },
+    {
+      "q": "Which does not belong: cat, dog, bus, horse?",
+      "options": [
+        "bus",
+        "cat",
+        "dog"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which does not belong: red, blue, seven, green?",
+      "options": [
+        "seven",
+        "red",
+        "blue"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which does not belong: triangle, square, circle, banana?",
+      "options": [
+        "banana",
+        "circle",
+        "square"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Odd one out: 3, 6, 9, 10. Type the number.",
+      "type": "text",
+      "answer": [
+        "10",
+        "ten"
+      ]
+    },
+    {
+      "q": "Which does not belong: penny, nickel, apple, dime?",
+      "options": [
+        "apple",
+        "penny",
+        "dime"
+      ],
+      "answer": 0
+    }
+  ]
+}

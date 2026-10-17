@@ -1,0 +1,63 @@
+{
+  "title": "Ancient China",
+  "info": [
+    "Ancient China was a long-lasting civilization in East Asia.",
+    "People there made silk, improved paper, and built the Great Wall.",
+    "The Yellow River is an important river in China's history."
+  ],
+  "questions": [
+    {
+      "q": "The Great Wall is in",
+      "options": [
+        "China",
+        "Egypt",
+        "Italy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Silk is a cloth first famous from",
+      "options": [
+        "ancient China",
+        "ancient Rome only",
+        "the Arctic"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Paper was developed in",
+      "options": [
+        "ancient China",
+        "ancient Antarctica",
+        "the ocean"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Yellow River is in",
+      "options": [
+        "China",
+        "Brazil",
+        "Canada"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Name the long wall built in ancient China.",
+      "type": "text",
+      "answer": [
+        "great wall",
+        "the great wall"
+      ]
+    },
+    {
+      "q": "China is on which continent?",
+      "options": [
+        "Asia",
+        "Africa",
+        "Europe"
+      ],
+      "answer": 0
+    }
+  ]
+}

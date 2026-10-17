@@ -1,0 +1,62 @@
+{
+  "title": "Needs and wants",
+  "info": [
+    "A need is something you must have to live and stay well, like food, water, and a safe place to sleep.",
+    "A want is something nice to have but not required, like a toy or a sticker."
+  ],
+  "questions": [
+    {
+      "q": "Drinking water is a",
+      "options": [
+        "need",
+        "want",
+        "coin"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A new toy is usually a",
+      "options": [
+        "want",
+        "need",
+        "tax"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Food is a",
+      "options": [
+        "need",
+        "want only",
+        "kind of dime"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which question helps?",
+      "options": [
+        "Do I need this, or do I only want it?",
+        "Is it the brightest color?",
+        "Does it make a sound?"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Is a safe place to sleep a need or a want?",
+      "type": "text",
+      "answer": [
+        "need",
+        "a need"
+      ]
+    },
+    {
+      "q": "Wants can be fun, but needs come",
+      "options": [
+        "first when you plan spending",
+        "never",
+        "only on weekends"
+      ],
+      "answer": 0
+    }
+  ]
+}

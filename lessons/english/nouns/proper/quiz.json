@@ -1,0 +1,61 @@
+{
+  "title": "Proper nouns",
+  "info": [
+    "A common noun is a general name: city, girl, river.",
+    "A proper noun names a specific person, place, or thing and starts with a capital letter: Maya, London, Nile."
+  ],
+  "questions": [
+    {
+      "q": "Which is a proper noun?",
+      "options": [
+        "city",
+        "London",
+        "river"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Proper nouns start with",
+      "options": [
+        "a capital letter",
+        "a number",
+        "a question mark"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is a common noun?",
+      "options": [
+        "Egypt",
+        "school",
+        "Maria"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The name Maya is",
+      "options": [
+        "a proper noun",
+        "a verb",
+        "an adjective"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Capitalize this proper noun: paris",
+      "type": "text",
+      "answer": [
+        "Paris"
+      ]
+    },
+    {
+      "q": "Which sentence uses a proper noun?",
+      "options": [
+        "The dog ran.",
+        "Sam ran home.",
+        "A dog can run."
+      ],
+      "answer": 1
+    }
+  ]
+}

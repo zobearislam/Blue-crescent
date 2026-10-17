@@ -1,0 +1,62 @@
+{
+  "title": "Compass directions",
+  "info": [
+    "The four main directions are north, east, south, and west.",
+    "On most maps, north is toward the top.",
+    "A memory phrase is Never Eat Soggy Waffles: North, East, South, West, clockwise."
+  ],
+  "questions": [
+    {
+      "q": "On most maps, the top is",
+      "options": [
+        "north",
+        "south",
+        "west"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The opposite of north is",
+      "options": [
+        "south",
+        "east",
+        "west"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If you face north, east is",
+      "options": [
+        "to your right",
+        "to your left",
+        "behind you"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many main compass directions are there?",
+      "options": [
+        "2",
+        "4",
+        "8 only and no main four"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the direction opposite of west.",
+      "type": "text",
+      "answer": [
+        "east"
+      ]
+    },
+    {
+      "q": "Never Eat Soggy Waffles helps you remember",
+      "options": [
+        "N, E, S, W",
+        "the oceans",
+        "the planets"
+      ],
+      "answer": 0
+    }
+  ]
+}

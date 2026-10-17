@@ -1,0 +1,62 @@
+{
+  "title": "Plurals",
+  "info": [
+    "A plural noun means more than one.",
+    "Many nouns add -s: cat, cats. Add -es after s, x, ch, or sh: box, boxes.",
+    "Some nouns change: child, children. Words ending in consonant + y often change y to i and add -es: baby, babies."
+  ],
+  "questions": [
+    {
+      "q": "The plural of cat is",
+      "options": [
+        "cat's",
+        "cats",
+        "cates"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The plural of box is",
+      "options": [
+        "boxs",
+        "boxes",
+        "boxies"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The plural of baby is",
+      "options": [
+        "babys",
+        "babies",
+        "babyes"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word is already plural?",
+      "options": [
+        "children",
+        "child",
+        "goose"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the plural of dog.",
+      "type": "text",
+      "answer": [
+        "dogs"
+      ]
+    },
+    {
+      "q": "Add -es to words ending in",
+      "options": [
+        "s, x, ch, or sh",
+        "only a",
+        "only e"
+      ],
+      "answer": 0
+    }
+  ]
+}

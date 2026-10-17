@@ -1,0 +1,62 @@
+{
+  "title": "Sharing equally",
+  "info": [
+    "Sharing equally means each person gets the same number.",
+    "If 12 stickers are shared by 4 friends, each friend gets 12 ÷ 4 = 3."
+  ],
+  "questions": [
+    {
+      "q": "8 cookies shared by 4 friends. Each gets",
+      "options": [
+        "2",
+        "4",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "9 pencils shared by 3 students. Each gets",
+      "options": [
+        "3",
+        "6",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which story is sharing equally?",
+      "options": [
+        "6 apples put into 2 bags of 3",
+        "6 apples and 2 oranges",
+        "A bag that holds 6 apples"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "15 stickers shared by 5 children. How many each?",
+      "type": "text",
+      "answer": [
+        "3",
+        "three"
+      ]
+    },
+    {
+      "q": "20 ÷ 4 =",
+      "options": [
+        "5",
+        "16",
+        "24"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If someone gets more than the others, the share is",
+      "options": [
+        "equal",
+        "not equal",
+        "a fraction only"
+      ],
+      "answer": 1
+    }
+  ]
+}

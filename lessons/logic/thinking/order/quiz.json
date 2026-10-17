@@ -1,0 +1,61 @@
+{
+  "title": "Putting steps in order",
+  "info": [
+    "Some jobs only work in the right order.",
+    "You put on socks before shoes. You open a book before you read a page."
+  ],
+  "questions": [
+    {
+      "q": "Which comes first?",
+      "options": [
+        "Put on socks",
+        "Put on shoes"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "To drink water from a closed bottle you first",
+      "options": [
+        "open the bottle",
+        "finish the drink",
+        "recycle it"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A plant grows in which order?",
+      "options": [
+        "seed, sprout, plant",
+        "plant, seed, sprout",
+        "sprout, seed, nothing"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is the right order for a sandwich?",
+      "options": [
+        "bread, filling, top bread",
+        "eat it, then add bread",
+        "top bread only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do you put on before shoes? One word.",
+      "type": "text",
+      "answer": [
+        "socks",
+        "sock"
+      ]
+    },
+    {
+      "q": "Morning routine: which is last?",
+      "options": [
+        "leave for school",
+        "wake up",
+        "get dressed"
+      ],
+      "answer": 0
+    }
+  ]
+}

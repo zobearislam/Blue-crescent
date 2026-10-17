@@ -1,0 +1,62 @@
+{
+  "title": "Numbers 11 to 20",
+  "info": [
+    "Once 11, doce 12, trece 13, catorce 14, quince 15.",
+    "Dieciséis 16, diecisiete 17, dieciocho 18, diecinueve 19, veinte 20.",
+    "You may type them without the accent mark."
+  ],
+  "questions": [
+    {
+      "q": "Once means",
+      "options": [
+        "11",
+        "1",
+        "15"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quince means",
+      "options": [
+        "15",
+        "5",
+        "14"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Veinte means",
+      "options": [
+        "20",
+        "12",
+        "2"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is 12?",
+      "options": [
+        "doce",
+        "dos",
+        "diez"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type 20 in Spanish. An accent is optional.",
+      "type": "text",
+      "answer": [
+        "veinte"
+      ]
+    },
+    {
+      "q": "Catorce is",
+      "options": [
+        "14",
+        "4",
+        "40"
+      ],
+      "answer": 0
+    }
+  ]
+}

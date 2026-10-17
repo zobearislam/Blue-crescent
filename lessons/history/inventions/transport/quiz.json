@@ -1,0 +1,64 @@
+{
+  "title": "Transport inventions",
+  "info": [
+    "People have invented new ways to travel.",
+    "The wheel made carts possible. Trains run on rails. Cars use engines. Airplanes fly."
+  ],
+  "questions": [
+    {
+      "q": "Which invention made carts much more useful?",
+      "options": [
+        "the wheel",
+        "the light bulb",
+        "paper"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Trains travel on",
+      "options": [
+        "rails",
+        "rivers only",
+        "clouds"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Wright brothers are famous for an early",
+      "options": [
+        "airplane",
+        "submarine only",
+        "space station"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A car is powered by",
+      "options": [
+        "an engine",
+        "a sail only",
+        "horses only today"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do trains ride on? Type one word.",
+      "type": "text",
+      "answer": [
+        "rails",
+        "tracks",
+        "a track",
+        "rail"
+      ]
+    },
+    {
+      "q": "Boats are mainly for travel",
+      "options": [
+        "on water",
+        "underground only",
+        "in space"
+      ],
+      "answer": 0
+    }
+  ]
+}

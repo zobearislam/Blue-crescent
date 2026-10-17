@@ -1,0 +1,63 @@
+{
+  "title": "Saving",
+  "info": [
+    "Saving means keeping some money for later instead of spending it all now.",
+    "A goal is something you are saving for, like a book.",
+    "Small amounts add up."
+  ],
+  "questions": [
+    {
+      "q": "Saving means",
+      "options": [
+        "keeping money for later",
+        "spending every coin today",
+        "hiding a coin from counting class"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A savings goal is",
+      "options": [
+        "something you plan to buy later",
+        "a type of nickel",
+        "a map direction"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If you save 2 dollars each week for 3 weeks, you have",
+      "options": [
+        "6 dollars",
+        "5 dollars",
+        "23 dollars"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Spending all of your money today means",
+      "options": [
+        "nothing is left for later",
+        "you automatically save",
+        "the coins double"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call keeping money for later?",
+      "type": "text",
+      "answer": [
+        "saving",
+        "save"
+      ]
+    },
+    {
+      "q": "Putting coins in a jar each week is",
+      "options": [
+        "a way to save",
+        "the same as losing them",
+        "a food group"
+      ],
+      "answer": 0
+    }
+  ]
+}

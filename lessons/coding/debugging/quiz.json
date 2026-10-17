@@ -1,0 +1,63 @@
+{
+  "title": "Debugging",
+  "info": [
+    "A bug is a mistake in the instructions.",
+    "The computer does exactly what the code says, even if that was not what you meant.",
+    "To debug, read each step, find the mistake, and try again."
+  ],
+  "questions": [
+    {
+      "q": "A bug is",
+      "options": [
+        "a mistake in the code",
+        "always a real insect",
+        "a type of loop"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The computer follows",
+      "options": [
+        "exactly what the code says",
+        "what you hoped, even if the code differs",
+        "a random plan"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Debugging means",
+      "options": [
+        "finding and fixing mistakes",
+        "adding more bugs",
+        "turning the screen off"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If a step says turn left but you wanted right, you should",
+      "options": [
+        "change that step",
+        "blame the computer for guessing",
+        "delete the whole idea of code"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call a mistake in code?",
+      "type": "text",
+      "answer": [
+        "bug",
+        "a bug"
+      ]
+    },
+    {
+      "q": "A good first debugging step is",
+      "options": [
+        "read the steps in order",
+        "never look at the code",
+        "add random lines"
+      ],
+      "answer": 0
+    }
+  ]
+}
