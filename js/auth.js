@@ -32,8 +32,9 @@
   async function signIn() {
     var { error } = await sb.auth.signInWithOAuth({
       provider: 'github',
-      options: { redirectTo: location.origin + location.pathname }
-    });
+    options: {
+  redirectTo: 'https://zobearislam.github.io/Blue-crescent/'
+}
     if (error) console.error(error);
   }
 
