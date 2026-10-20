@@ -1,0 +1,81 @@
+{
+  "title": "Star brightness",
+  "info": [
+    "Apparent magnitude is how bright a star looks from Earth. A smaller number means brighter.",
+    "The Sun is about magnitude -27. The full Moon is about -13. Sirius, the brightest night star, is about -1.5. The faintest stars most people can see are about magnitude 6.",
+    "Absolute magnitude imagines every star at the same distance, so you can compare real power.",
+    "A star can look bright because it is close, truly luminous, or both."
+  ],
+  "questions": [
+    {
+      "q": "In apparent magnitude, a smaller number means",
+      "options": [
+        "brighter",
+        "farther for sure",
+        "colder for sure"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which looks brightest from Earth?",
+      "options": [
+        "The Sun, about -27",
+        "Sirius, about -1.5",
+        "A magnitude 6 star"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sirius looks very bright at night partly because",
+      "options": [
+        "it is relatively close",
+        "it is the Sun",
+        "magnitude numbers go up when stars are brighter"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Absolute magnitude compares stars",
+      "options": [
+        "as if they were the same distance away",
+        "only by their names",
+        "by moon phase"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A magnitude 6 star is",
+      "options": [
+        "near the limit of unaided eyes",
+        "brighter than the full Moon",
+        "always a planet"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is the brightest star in the night sky?",
+      "type": "text",
+      "answer": [
+        "sirius"
+      ]
+    },
+    {
+      "q": "Vega is about magnitude 0. A star of magnitude 1 looks",
+      "options": [
+        "a bit dimmer than Vega",
+        "brighter than the Sun",
+        "closer than the Moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Two stars with the same absolute magnitude",
+      "options": [
+        "have similar true power",
+        "must look identical from Earth",
+        "are the same constellation"
+      ],
+      "answer": 0
+    }
+  ]
+}

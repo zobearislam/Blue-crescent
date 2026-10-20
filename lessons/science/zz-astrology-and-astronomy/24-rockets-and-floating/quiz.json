@@ -1,0 +1,84 @@
+{
+  "title": "Rockets and floating",
+  "info": [
+    "A rocket flies by pushing gas backward. The rocket is pushed forward. That is action and reaction.",
+    "The International Space Station orbits Earth about every 90 minutes.",
+    "Astronauts float because they are falling around Earth together with the station. Gravity there is still strong. This is called free fall.",
+    "Space has almost no air, so sound does not travel the way it does in a classroom, and people need suits or ships with air."
+  ],
+  "questions": [
+    {
+      "q": "A rocket moves forward because it",
+      "options": [
+        "pushes gas backward",
+        "turns off gravity",
+        "is lighter than a feather"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The space station orbits Earth about once every",
+      "options": [
+        "90 minutes",
+        "90 days",
+        "24 years"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Astronauts float mainly because",
+      "options": [
+        "they are in free fall around Earth",
+        "space has no gravity anywhere",
+        "their mass disappears"
+      ],
+      "answer": 0,
+      "explain": "Gravity at the station is still most of what you feel on the ground. The station and the crew fall together."
+    },
+    {
+      "q": "There is still gravity on the space station. It is",
+      "options": [
+        "a bit weaker than on the ground, but not zero",
+        "exactly zero",
+        "stronger than inside the Sun"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Why can't you hear a normal shout in empty space?",
+      "options": [
+        "There is almost no air to carry the sound",
+        "ears stop working near stars",
+        "the Moon absorbs all noise"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call falling together around Earth so you feel weightless?",
+      "type": "text",
+      "answer": [
+        "free fall",
+        "freefall",
+        "free-fall"
+      ]
+    },
+    {
+      "q": "To stay outside the station, an astronaut needs",
+      "options": [
+        "a spacesuit with air",
+        "only a winter coat",
+        "a bigger telescope"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If the station stopped moving sideways but gravity stayed, it would",
+      "options": [
+        "fall toward Earth",
+        "hover with no pull",
+        "become a star"
+      ],
+      "answer": 0
+    }
+  ]
+}

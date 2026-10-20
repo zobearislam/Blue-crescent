@@ -1,0 +1,73 @@
+{
+  "title": "Space rocks",
+  "info": [
+    "An asteroid is a rocky leftover, often found between Mars and Jupiter.",
+    "A comet is ice and dust. Near the Sun it can grow a tail that points away from the Sun.",
+    "A meteor is a streak of light in the air. A meteorite is a rock that reaches the ground."
+  ],
+  "questions": [
+    {
+      "q": "Many asteroids orbit",
+      "options": [
+        "between Mars and Jupiter",
+        "inside Earth's clouds",
+        "beyond every galaxy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A comet's tail points",
+      "options": [
+        "away from the Sun",
+        "always toward Saturn",
+        "straight down to Earth"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A meteor is",
+      "options": [
+        "a streak of light in the sky",
+        "a full planet",
+        "a kind of star picture"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A space rock that lands on the ground is a",
+      "options": [
+        "meteorite",
+        "constellation",
+        "galaxy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Comets are made mostly of",
+      "options": [
+        "ice and dust",
+        "liquid oceans",
+        "green leaves"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call a rocky body, often in the belt between Mars and Jupiter?",
+      "type": "text",
+      "answer": [
+        "asteroid",
+        "an asteroid"
+      ]
+    },
+    {
+      "q": "A 'shooting star' is usually",
+      "options": [
+        "a meteor, not a star",
+        "a planet falling over",
+        "the Moon"
+      ],
+      "answer": 0,
+      "explain": "The rock heats up in the air and glows. The star itself stays put."
+    }
+  ]
+}

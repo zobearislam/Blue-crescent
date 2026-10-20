@@ -1,0 +1,65 @@
+{
+  "title": "The Sun",
+  "info": [
+    "The Sun is the star at the center of our solar system.",
+    "It gives Earth light and heat. Life on Earth needs that light.",
+    "The Sun is huge, but it looks small because it is very far away.",
+    "Never look straight at the Sun. It can hurt your eyes."
+  ],
+  "questions": [
+    {
+      "q": "The Sun is a",
+      "options": [
+        "planet",
+        "star",
+        "moon"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The Sun gives Earth",
+      "options": [
+        "light and heat",
+        "only rain",
+        "only wind"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Why does the Sun look small in the sky?",
+      "options": [
+        "It is a tiny flashlight",
+        "It is very far away",
+        "It is behind the Moon all day"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Is it safe to stare at the Sun?",
+      "options": [
+        "Yes, at noon",
+        "No, it can hurt your eyes",
+        "Only if you blink fast"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Earth travels around the",
+      "options": [
+        "Moon",
+        "Sun",
+        "North Star"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the name of the star closest to Earth.",
+      "type": "text",
+      "answer": [
+        "sun",
+        "the sun"
+      ],
+      "explain": "The Sun is our closest star."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "title": "The Milky Way",
+  "info": [
+    "The Milky Way is the galaxy we live in. It holds billions of stars.",
+    "On a dark night it can look like a pale band across the sky.",
+    "The Sun is one star in the Milky Way. It is not at the galaxy's center."
+  ],
+  "questions": [
+    {
+      "q": "The Milky Way is",
+      "options": [
+        "our galaxy",
+        "Earth's atmosphere",
+        "one planet"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "That pale band is",
+      "options": [
+        "the light of a huge number of stars",
+        "a cloud of milk",
+        "the Moon stretched out"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Sun sits",
+      "options": [
+        "inside the Milky Way, not at its center",
+        "outside every galaxy",
+        "in the middle of the Moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A galaxy is",
+      "options": [
+        "a huge collection of stars, gas, and dust",
+        "a single moon",
+        "a phase of Venus"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the name of our galaxy.",
+      "type": "text",
+      "answer": [
+        "milky way",
+        "the milky way"
+      ]
+    },
+    {
+      "q": "About how many stars are in the Milky Way?",
+      "options": [
+        "A few dozen",
+        "Billions",
+        "Exactly eight"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "City lights make the Milky Way",
+      "options": [
+        "harder to see",
+        "brighter",
+        "closer"
+      ],
+      "answer": 0
+    }
+  ]
+}

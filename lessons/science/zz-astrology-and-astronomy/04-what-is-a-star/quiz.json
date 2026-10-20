@@ -1,0 +1,63 @@
+{
+  "title": "What is a star",
+  "info": [
+    "A star is a giant ball of hot gas that makes its own light.",
+    "The Sun is a star. Other stars look tiny because they are much farther away.",
+    "Stars twinkle in our sky because their light wobbles through Earth's air."
+  ],
+  "questions": [
+    {
+      "q": "A star makes its own",
+      "options": [
+        "light",
+        "oceans",
+        "moons"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Sun is",
+      "options": [
+        "Earth's moon",
+        "a star",
+        "a cold rock"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Other stars look tiny because they are",
+      "options": [
+        "smaller than dust",
+        "very far away",
+        "turned off"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Stars seem to twinkle mostly because of",
+      "options": [
+        "Earth's moving air",
+        "the stars jumping",
+        "the Moon blinking"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is closest to Earth?",
+      "options": [
+        "The North Star",
+        "The Sun",
+        "A star in Orion"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is a giant ball of hot gas that shines?",
+      "type": "text",
+      "answer": [
+        "a star",
+        "star"
+      ]
+    }
+  ]
+}

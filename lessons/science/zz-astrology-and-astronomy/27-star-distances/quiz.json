@@ -1,0 +1,80 @@
+{
+  "title": "How we measure star distances",
+  "info": [
+    "Nearby stars seem to shift a tiny bit when Earth moves from one side of its orbit to the other. That shift is called parallax.",
+    "A bigger shift means a closer star. A tiny shift means a farther star.",
+    "Parallax works well only for nearby stars. Farther stars need other clues, such as how bright they truly are."
+  ],
+  "questions": [
+    {
+      "q": "Stellar parallax is",
+      "options": [
+        "a tiny shift of a nearby star as Earth orbits",
+        "a moon phase",
+        "a solar eclipse"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Astronomers use a wide baseline, which is",
+      "options": [
+        "Earth's orbit from one side to the other",
+        "the length of a pencil",
+        "the Moon's width only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A larger parallax shift means the star is",
+      "options": [
+        "closer",
+        "always hotter",
+        "outside the universe"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Parallax is a poor tool for extremely distant galaxies because",
+      "options": [
+        "the shift is too tiny to see",
+        "galaxies have no light",
+        "Earth does not orbit"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If two stars show the same shift, they are about",
+      "options": [
+        "the same distance from us",
+        "the same color for sure",
+        "inside the solar system"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call the apparent shift of a nearby star as Earth orbits?",
+      "type": "text",
+      "answer": [
+        "parallax"
+      ]
+    },
+    {
+      "q": "A star with almost no parallax is",
+      "options": [
+        "very far away",
+        "closer than the Moon",
+        "a planet"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Distance matters because a star can look dim",
+      "options": [
+        "because it is far, even if it is powerful",
+        "only if it is a planet",
+        "only during an eclipse"
+      ],
+      "answer": 0
+    }
+  ]
+}

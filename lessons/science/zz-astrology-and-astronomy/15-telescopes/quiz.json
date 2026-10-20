@@ -1,0 +1,72 @@
+{
+  "title": "Telescopes",
+  "info": [
+    "A telescope gathers light so faraway things look brighter and more detailed.",
+    "A refracting telescope uses lenses. A reflecting telescope uses mirrors.",
+    "Galileo used a telescope to study the sky. Never point a telescope at the Sun unless it has a special solar filter."
+  ],
+  "questions": [
+    {
+      "q": "A telescope helps us",
+      "options": [
+        "collect light from far away",
+        "stop Earth's spin",
+        "make new planets"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A reflecting telescope uses",
+      "options": [
+        "mirrors",
+        "only a paper tube",
+        "ocean water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A refracting telescope uses",
+      "options": [
+        "lenses",
+        "a comet's tail",
+        "sound"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Galileo is famous for",
+      "options": [
+        "studying the sky with a telescope",
+        "building the first city",
+        "naming every galaxy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Pointing a normal telescope at the Sun is",
+      "options": [
+        "dangerous",
+        "the best way to see stars at noon",
+        "how phases work"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What tool do astronomers use to gather light from space?",
+      "type": "text",
+      "answer": [
+        "telescope",
+        "a telescope"
+      ]
+    },
+    {
+      "q": "Binoculars can start skywatching because they",
+      "options": [
+        "gather more light than your eyes alone",
+        "remove gravity",
+        "turn stars into planets"
+      ],
+      "answer": 0
+    }
+  ]
+}

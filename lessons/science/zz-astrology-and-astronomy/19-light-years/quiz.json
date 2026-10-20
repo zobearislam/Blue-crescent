@@ -1,0 +1,83 @@
+{
+  "title": "Light-years",
+  "info": [
+    "A light-year is a distance: how far light travels in one year.",
+    "Light from the Sun takes about 8 minutes to reach Earth.",
+    "The nearest star after the Sun, Proxima Centauri, is about 4 light-years away."
+  ],
+  "questions": [
+    {
+      "q": "A light-year measures",
+      "options": [
+        "distance",
+        "time on a clock",
+        "weight"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sunlight reaches Earth in about",
+      "options": [
+        "8 minutes",
+        "8 years",
+        "1 second from the nearest other star"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Proxima Centauri is about",
+      "options": [
+        "4 light-years away",
+        "4 kilometers away",
+        "inside the Moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Light from far stars shows us",
+      "options": [
+        "the past, because the trip takes time",
+        "next year",
+        "only the Moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is farther?",
+      "options": [
+        "A star 10 light-years away",
+        "The Moon",
+        "The Sun"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What unit is the distance light travels in one year?",
+      "type": "text",
+      "answer": [
+        "light-year",
+        "light year",
+        "a light-year",
+        "a light year"
+      ]
+    },
+    {
+      "q": "If a star is 10 light-years away, its light left",
+      "options": [
+        "10 years ago",
+        "10 minutes ago",
+        "tomorrow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Moon is about one light-second away, which means moonlight takes about",
+      "options": [
+        "one second",
+        "one year",
+        "one century"
+      ],
+      "answer": 0
+    }
+  ]
+}

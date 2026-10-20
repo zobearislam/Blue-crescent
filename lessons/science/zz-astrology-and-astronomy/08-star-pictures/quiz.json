@@ -1,0 +1,63 @@
+{
+  "title": "Star pictures",
+  "info": [
+    "A constellation is a picture people imagined by connecting stars.",
+    "The stars in one picture can be very different distances from Earth.",
+    "Different cultures have drawn different pictures in the same sky."
+  ],
+  "questions": [
+    {
+      "q": "A constellation is",
+      "options": [
+        "a picture made from stars",
+        "a planet's moon",
+        "a type of cloud"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Stars in one constellation",
+      "options": [
+        "are always stuck together",
+        "can be different distances from us",
+        "are all the same star"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Orion is",
+      "options": [
+        "a famous constellation",
+        "Earth's second moon",
+        "a kind of telescope"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Who can invent a star picture?",
+      "options": [
+        "Only one country forever",
+        "People in many cultures",
+        "Nobody, stars draw themselves"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What do we call a named star picture?",
+      "type": "text",
+      "answer": [
+        "a constellation",
+        "constellation"
+      ]
+    },
+    {
+      "q": "The lines in a constellation drawing are",
+      "options": [
+        "real glowing strings",
+        "imagined by people",
+        "roads in space"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "The zodiac",
+  "info": [
+    "The zodiac is a band of constellations along the ecliptic, the path the Sun seems to follow in a year.",
+    "That path is really Earth's orbit seen from here. Traditional names include Aries, Leo, and others.",
+    "A zodiac picture is a star map. It is not a science test of someone's personality."
+  ],
+  "questions": [
+    {
+      "q": "The zodiac follows",
+      "options": [
+        "the Sun's yearly path through the stars",
+        "the ocean floor",
+        "only the Big Dipper"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Sun seems to move through the zodiac because",
+      "options": [
+        "Earth orbits the Sun",
+        "the constellations orbit your house",
+        "the Moon pushes the Sun sideways each day"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Leo, as a zodiac constellation, is",
+      "options": [
+        "a star picture",
+        "a planet",
+        "a telescope"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which sentence is scientific?",
+      "options": [
+        "The Sun's position among stars can be measured",
+        "A birthday sign decides your favorite food",
+        "A constellation controls the weather tomorrow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The ecliptic is",
+      "options": [
+        "the Sun's apparent yearly path",
+        "a crater on the Moon",
+        "Saturn's brightest ring"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call the band of constellations along the Sun's path?",
+      "type": "text",
+      "answer": [
+        "zodiac",
+        "the zodiac"
+      ]
+    },
+    {
+      "q": "Star-sign calendars are",
+      "options": [
+        "a tradition, not a measurement of personality",
+        "the same thing as a light-year",
+        "how eclipses are predicted only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "People long ago used zodiac constellations to",
+      "options": [
+        "track the season of the year in the sky",
+        "weigh planets",
+        "stop Earth's tilt"
+      ],
+      "answer": 0
+    }
+  ]
+}

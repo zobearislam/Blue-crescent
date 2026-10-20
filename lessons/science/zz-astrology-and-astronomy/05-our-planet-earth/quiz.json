@@ -1,0 +1,62 @@
+{
+  "title": "Our planet Earth",
+  "info": [
+    "Earth is the third planet from the Sun.",
+    "Earth has liquid water, air, and living things.",
+    "One Moon orbits Earth."
+  ],
+  "questions": [
+    {
+      "q": "Earth is which planet from the Sun?",
+      "options": [
+        "First",
+        "Third",
+        "Eighth"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Earth is special in our solar system because it has",
+      "options": [
+        "liquid water and life",
+        "giant bright rings",
+        "no air at all"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many moons does Earth have?",
+      "options": [
+        "None",
+        "One",
+        "Ten"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The air around Earth is called the",
+      "options": [
+        "atmosphere",
+        "asteroid belt",
+        "galaxy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the name of the planet we live on.",
+      "type": "text",
+      "answer": [
+        "earth"
+      ]
+    },
+    {
+      "q": "Earth is a",
+      "options": [
+        "star",
+        "planet",
+        "constellation"
+      ],
+      "answer": 1
+    }
+  ]
+}

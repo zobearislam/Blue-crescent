@@ -1,0 +1,83 @@
+{
+  "title": "Orbits and years",
+  "info": [
+    "An orbit is the path one body takes around another.",
+    "Earth's year is one orbit of the Sun, about 365.25 days. Leap days catch up the extra quarter day.",
+    "Planets closer to the Sun generally have shorter years. Mercury's year is about 88 Earth days. Neptune's year is about 165 Earth years.",
+    "Orbits are ellipses, a stretched circle, not perfect circles."
+  ],
+  "questions": [
+    {
+      "q": "A year on Earth is",
+      "options": [
+        "one orbit around the Sun",
+        "one spin of Earth",
+        "one moon phase"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "We add a leap day because",
+      "options": [
+        "a year is about 365.25 days",
+        "the Moon asks for it",
+        "gravity turns off"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Mercury's year is shorter than Earth's because",
+      "options": [
+        "it orbits closer to the Sun",
+        "it is colder",
+        "it has no spin"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Neptune's year is",
+      "options": [
+        "much longer than Earth's",
+        "one day",
+        "shorter than Mercury's"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Planet orbits are",
+      "options": [
+        "ellipses",
+        "squares",
+        "straight lines that never return"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many Earth days are in Mercury's year, about?",
+      "type": "text",
+      "answer": [
+        "88",
+        "eighty eight",
+        "eighty-eight"
+      ]
+    },
+    {
+      "q": "One day is",
+      "options": [
+        "one spin of a planet",
+        "one trip around the Sun",
+        "one light-year"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A world farther from the Sun usually has",
+      "options": [
+        "a longer year",
+        "no gravity",
+        "a shorter year than Mercury"
+      ],
+      "answer": 0
+    }
+  ]
+}

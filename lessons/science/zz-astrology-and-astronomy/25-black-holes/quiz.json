@@ -1,0 +1,83 @@
+{
+  "title": "Black holes",
+  "info": [
+    "A black hole is a place where gravity is so strong that light cannot escape past a boundary called the event horizon.",
+    "Some form when a very massive star collapses at the end of its life.",
+    "A black hole does not suck up everything in the galaxy. Far away, its gravity feels like any other mass of the same size.",
+    "The huge black hole at the center of the Milky Way is called Sagittarius A*."
+  ],
+  "questions": [
+    {
+      "q": "Light cannot escape a black hole once it passes the",
+      "options": [
+        "event horizon",
+        "asteroid belt",
+        "atmosphere"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A stellar black hole can form when",
+      "options": [
+        "a very massive star collapses",
+        "a comet melts",
+        "Earth stops spinning"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Far from a black hole, its gravity",
+      "options": [
+        "acts like the gravity of the same mass",
+        "turns off all other stars",
+        "makes time run backward for everyone"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sagittarius A* is",
+      "options": [
+        "the giant black hole at the Milky Way's center",
+        "Earth's second moon",
+        "a bright planet you can see every evening"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "We learn about black holes by",
+      "options": [
+        "watching how nearby stars and light behave",
+        "catching them in a jar",
+        "reading a constellation line"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is the boundary where light cannot get back out?",
+      "type": "text",
+      "answer": [
+        "event horizon",
+        "the event horizon"
+      ]
+    },
+    {
+      "q": "If the Sun became a black hole of the same mass, Earth's orbit would",
+      "options": [
+        "stay about the same distance, but we would lose sunlight",
+        "fling Earth into the next galaxy at once",
+        "stop gravity"
+      ],
+      "answer": 0,
+      "explain": "The pull depends on mass and distance. The danger of no sunlight is separate from being 'sucked in' instantly."
+    },
+    {
+      "q": "A black hole is not",
+      "options": [
+        "a vacuum cleaner that grabs every faraway planet",
+        "a real prediction of gravity",
+        "something astronomers search for"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "title": "Eclipses",
+  "info": [
+    "A solar eclipse happens when the Moon passes between the Sun and Earth and its shadow falls on Earth.",
+    "A lunar eclipse happens when Earth is between the Sun and the Moon, and Earth's shadow falls on the Moon.",
+    "They do not happen every month because the Moon's orbit is tilted. Never look at the Sun during a solar eclipse without a proper filter."
+  ],
+  "questions": [
+    {
+      "q": "A solar eclipse needs the Moon",
+      "options": [
+        "between the Sun and Earth",
+        "behind Earth",
+        "inside the Sun"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A lunar eclipse happens when",
+      "options": [
+        "Earth's shadow falls on the Moon",
+        "the Moon covers Jupiter",
+        "stars line up into a picture"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Why isn't there an eclipse every month?",
+      "options": [
+        "The Moon's orbit is tilted",
+        "The Sun turns off",
+        "Earth stops spinning"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "During a total solar eclipse, the Moon",
+      "options": [
+        "covers the Sun's bright face for a short time",
+        "erases all stars forever",
+        "lands on Earth"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Looking at the Sun, even during an eclipse, is safe only with",
+      "options": [
+        "a proper solar filter",
+        "ordinary sunglasses",
+        "your hands"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which eclipse darkens the Moon: solar or lunar?",
+      "type": "text",
+      "answer": [
+        "lunar",
+        "a lunar eclipse",
+        "lunar eclipse"
+      ]
+    },
+    {
+      "q": "The Moon can cover the Sun in our sky because",
+      "options": [
+        "it is much smaller but also much closer, so it looks similar in size",
+        "they are the same rock",
+        "Earth is flat"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A lunar eclipse is safe to watch because",
+      "options": [
+        "you are looking at the Moon, not the Sun",
+        "the Moon has no light left ever",
+        "eclipses remove gravity"
+      ],
+      "answer": 0
+    }
+  ]
+}

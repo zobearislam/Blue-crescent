@@ -1,0 +1,72 @@
+{
+  "title": "Moon phases",
+  "info": [
+    "The Moon looks different through the month: new, crescent, quarter, gibbous, and full.",
+    "Half of the Moon is always lit by the Sun. We see different amounts of that lit half.",
+    "A full cycle of phases takes about 29.5 days. Phases are not Earth's shadow. That shadow makes a lunar eclipse."
+  ],
+  "questions": [
+    {
+      "q": "Moon phases happen because",
+      "options": [
+        "we see different amounts of the Moon's sunlit half",
+        "Earth's shadow covers the Moon every night",
+        "the Moon turns its light on and off"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A full moon looks",
+      "options": [
+        "completely dark",
+        "like a bright round disk",
+        "always like a thin smile"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "About how long is one cycle of phases?",
+      "options": [
+        "1 day",
+        "29.5 days",
+        "1 year"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A new moon happens when",
+      "options": [
+        "the lit side faces mostly away from Earth",
+        "Earth has no gravity",
+        "the Sun goes out"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Earth's shadow on the Moon is",
+      "options": [
+        "a normal phase every week",
+        "a lunar eclipse",
+        "a solar panel"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the phase when the Moon looks fully bright and round.",
+      "type": "text",
+      "answer": [
+        "full",
+        "full moon"
+      ]
+    },
+    {
+      "q": "A crescent moon is",
+      "options": [
+        "a thin lit edge",
+        "the whole sky",
+        "a planet"
+      ],
+      "answer": 0
+    }
+  ]
+}

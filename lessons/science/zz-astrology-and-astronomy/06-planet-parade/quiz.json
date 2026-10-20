@@ -1,0 +1,63 @@
+{
+  "title": "The planet parade",
+  "info": [
+    "Eight planets orbit the Sun.",
+    "From the Sun outward they are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+    "Pluto is a dwarf planet, not one of the eight planets."
+  ],
+  "questions": [
+    {
+      "q": "How many planets are in our solar system?",
+      "options": [
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which planet is closest to the Sun?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which planet is farthest from the Sun?",
+      "options": [
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Pluto is now called a",
+      "options": [
+        "moon",
+        "dwarf planet",
+        "star"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which list is in order from the Sun?",
+      "options": [
+        "Mercury, Venus, Earth, Mars",
+        "Mars, Mercury, Earth, Venus",
+        "Earth, Mercury, Venus, Mars"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the largest planet's name.",
+      "type": "text",
+      "answer": [
+        "jupiter"
+      ],
+      "explain": "Jupiter is the biggest planet in our solar system."
+    }
+  ]
+}

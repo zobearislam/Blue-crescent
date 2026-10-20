@@ -1,0 +1,71 @@
+{
+  "title": "The solar system",
+  "info": [
+    "The solar system is the Sun and everything that travels around it.",
+    "That includes planets, moons, dwarf planets, asteroids, and comets.",
+    "Gravity from the Sun keeps most of these objects in orbit."
+  ],
+  "questions": [
+    {
+      "q": "The center of our solar system is",
+      "options": [
+        "Earth",
+        "the Sun",
+        "the Milky Way's edge"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which belongs in the solar system?",
+      "options": [
+        "Planets, moons, asteroids, and comets",
+        "Only the Sun and Earth",
+        "Other galaxies"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What keeps planets moving around the Sun?",
+      "options": [
+        "Glue",
+        "Gravity",
+        "Wind from the Moon"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A moon orbits",
+      "options": [
+        "a planet",
+        "a constellation line",
+        "a rainbow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Dwarf planets, such as Pluto,",
+      "options": [
+        "are not one of the eight main planets",
+        "are bigger than Jupiter",
+        "are stars"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What force from the Sun holds planets in orbit?",
+      "type": "text",
+      "answer": [
+        "gravity"
+      ]
+    },
+    {
+      "q": "Our solar system is",
+      "options": [
+        "the whole universe",
+        "one star's family of objects",
+        "a single constellation"
+      ],
+      "answer": 1
+    }
+  ]
+}

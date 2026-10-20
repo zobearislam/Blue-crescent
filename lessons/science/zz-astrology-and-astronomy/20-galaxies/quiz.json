@@ -1,0 +1,82 @@
+{
+  "title": "Galaxies",
+  "info": [
+    "Galaxies are enormous groups of stars, gas, and dust.",
+    "Shapes include spiral, elliptical, and irregular. The Milky Way is a spiral.",
+    "Andromeda is the nearest large galaxy. It and the Milky Way sit in a small neighborhood called the Local Group."
+  ],
+  "questions": [
+    {
+      "q": "A galaxy contains",
+      "options": [
+        "huge numbers of stars",
+        "exactly one star",
+        "only Earth's clouds"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Milky Way's shape is a",
+      "options": [
+        "spiral",
+        "single ring of Saturn",
+        "square"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Andromeda is",
+      "options": [
+        "the nearest large galaxy",
+        "a moon of Mars",
+        "Earth's twin planet"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "An elliptical galaxy looks more like",
+      "options": [
+        "a smooth oval glow",
+        "a comet tail on Earth",
+        "a sundial"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Local Group is",
+      "options": [
+        "our neighborhood of galaxies",
+        "the eight planets",
+        "a moon phase"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Name one galaxy shape.",
+      "type": "text",
+      "answer": [
+        "spiral",
+        "elliptical",
+        "irregular"
+      ]
+    },
+    {
+      "q": "You can see Andromeda's center as a faint smudge because",
+      "options": [
+        "it is a whole galaxy of stars",
+        "it is a planet inside our sky",
+        "it is the North Star"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Other galaxies show that",
+      "options": [
+        "the universe is far bigger than our solar system",
+        "Earth is the only object with gravity",
+        "stars are painted on a dome"
+      ],
+      "answer": 0
+    }
+  ]
+}

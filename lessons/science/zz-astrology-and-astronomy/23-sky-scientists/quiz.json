@@ -1,0 +1,82 @@
+{
+  "title": "Sky scientists",
+  "info": [
+    "Copernicus argued that Earth moves around the Sun.",
+    "Galileo used a telescope and saw moons orbiting Jupiter and phases of Venus. Those clues did not fit Earth sitting still at the center.",
+    "Newton showed that the same gravity explains falling apples and orbiting planets.",
+    "Later, Edwin Hubble showed that many fuzzy patches are galaxies beyond the Milky Way."
+  ],
+  "questions": [
+    {
+      "q": "Copernicus is linked to the idea that",
+      "options": [
+        "Earth orbits the Sun",
+        "the Moon is a star",
+        "telescopes do not work"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Galileo saw moons orbiting",
+      "options": [
+        "Jupiter",
+        "a constellation drawing",
+        "Earth only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Phases of Venus were a clue that",
+      "options": [
+        "Venus goes around the Sun",
+        "Venus is a comet",
+        "stars are holes"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Newton's big idea connected",
+      "options": [
+        "falling objects and orbiting planets with gravity",
+        "zodiac signs and birthdays",
+        "tides and rainbows only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Hubble helped show that",
+      "options": [
+        "other galaxies exist beyond the Milky Way",
+        "Earth is the only planet",
+        "the Sun orbits the Moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Who used a telescope to study Jupiter's moons?",
+      "type": "text",
+      "answer": [
+        "galileo",
+        "galileo galilei"
+      ]
+    },
+    {
+      "q": "A good science idea",
+      "options": [
+        "can be checked with observations",
+        "must never change",
+        "works only if it sounds magical"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Before telescopes, careful sky watchers could still",
+      "options": [
+        "track planets and predict some eclipses",
+        "visit black holes",
+        "measure light-years with a ruler"
+      ],
+      "answer": 0
+    }
+  ]
+}

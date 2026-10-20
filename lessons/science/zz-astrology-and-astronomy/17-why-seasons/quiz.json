@@ -1,0 +1,83 @@
+{
+  "title": "Why we have seasons",
+  "info": [
+    "Earth's axis is tilted about 23.5 degrees.",
+    "When a hemisphere leans toward the Sun, that hemisphere has summer. Sunlight hits it more directly and days are longer.",
+    "Seasons are not caused by Earth being much closer to the Sun in summer. Earth is actually closest to the Sun in early January."
+  ],
+  "questions": [
+    {
+      "q": "Seasons happen mainly because",
+      "options": [
+        "Earth's axis is tilted",
+        "the Moon blocks the Sun each season",
+        "Earth's orbit is a perfect square"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Earth's axis is tilted about",
+      "options": [
+        "23.5 degrees",
+        "90 degrees",
+        "0 degrees"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "When the Northern Hemisphere leans toward the Sun, it is",
+      "options": [
+        "summer in the north",
+        "summer everywhere",
+        "night for a whole year"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Southern Hemisphere's seasons are",
+      "options": [
+        "opposite the north",
+        "always the same day as the north",
+        "controlled by constellations"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Earth is closest to the Sun in",
+      "options": [
+        "early January",
+        "the middle of northern summer only",
+        "never"
+      ],
+      "answer": 0,
+      "explain": "Distance changes a little, but tilt is the main reason for seasons."
+    },
+    {
+      "q": "What is tilted to give Earth its seasons: the axis or the Moon?",
+      "type": "text",
+      "answer": [
+        "axis",
+        "the axis",
+        "earth's axis"
+      ]
+    },
+    {
+      "q": "In summer, your hemisphere gets",
+      "options": [
+        "more direct sunlight and longer days",
+        "no sunlight",
+        "only moonlight"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If Earth were not tilted, seasons would be",
+      "options": [
+        "much weaker or gone",
+        "twice as long",
+        "backwards every day"
+      ],
+      "answer": 0
+    }
+  ]
+}

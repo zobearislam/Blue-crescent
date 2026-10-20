@@ -1,0 +1,63 @@
+{
+  "title": "The Moon",
+  "info": [
+    "The Moon is Earth's natural satellite. It travels around Earth.",
+    "The Moon does not make its own light. It reflects light from the Sun.",
+    "The Moon has no air to breathe and no liquid water on its surface."
+  ],
+  "questions": [
+    {
+      "q": "The Moon travels around",
+      "options": [
+        "the Sun by itself",
+        "Earth",
+        "Jupiter"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The Moon shines because it",
+      "options": [
+        "is a star",
+        "reflects sunlight",
+        "is made of ice that glows"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "People need a spacesuit on the Moon because",
+      "options": [
+        "the Moon is made of water",
+        "there is no air to breathe",
+        "the Moon is always dark"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which one is Earth's natural satellite?",
+      "options": [
+        "The Sun",
+        "Mars",
+        "The Moon"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "What do we call the body that orbits Earth and lights the night sky?",
+      "type": "text",
+      "answer": [
+        "moon",
+        "the moon"
+      ]
+    },
+    {
+      "q": "The footprints of astronauts can stay a long time on the Moon because",
+      "options": [
+        "there is almost no wind or rain to erase them",
+        "the Moon is made of glue",
+        "Earth washes them every night"
+      ],
+      "answer": 0
+    }
+  ]
+}

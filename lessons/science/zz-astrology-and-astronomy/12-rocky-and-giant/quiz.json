@@ -1,0 +1,72 @@
+{
+  "title": "Rocky and giant planets",
+  "info": [
+    "Mercury, Venus, Earth, and Mars are smaller rocky planets.",
+    "Jupiter and Saturn are gas giants. Uranus and Neptune are ice giants.",
+    "Venus is the hottest planet because its thick air traps heat. Saturn's rings are mostly ice."
+  ],
+  "questions": [
+    {
+      "q": "Which set is the rocky planets?",
+      "options": [
+        "Mercury, Venus, Earth, Mars",
+        "Jupiter, Saturn, Uranus, Neptune",
+        "Earth, Jupiter, Saturn, Pluto"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The largest planet is",
+      "options": [
+        "Earth",
+        "Jupiter",
+        "Mars"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Saturn is famous for",
+      "options": [
+        "bright icy rings",
+        "being the closest planet to the Sun",
+        "having forests"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Why is Venus hotter than Mercury?",
+      "options": [
+        "Its thick atmosphere traps heat",
+        "It is farther from the Sun so it stores summer",
+        "It is a star"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Mars is",
+      "options": [
+        "a rocky planet past Earth",
+        "a gas giant",
+        "Earth's moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type one gas giant.",
+      "type": "text",
+      "answer": [
+        "jupiter",
+        "saturn"
+      ]
+    },
+    {
+      "q": "Uranus and Neptune are often called",
+      "options": [
+        "ice giants",
+        "moons",
+        "constellations"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Day and night",
+  "info": [
+    "Earth spins like a top. One full spin takes about 24 hours.",
+    "The side facing the Sun has daytime. The side facing away has nighttime.",
+    "The Sun is not moving around Earth each day. Earth is turning."
+  ],
+  "questions": [
+    {
+      "q": "Day and night happen because",
+      "options": [
+        "Earth spins",
+        "the Moon covers the Sun every night",
+        "Earth stops moving"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "About how long is one full spin of Earth?",
+      "options": [
+        "1 hour",
+        "24 hours",
+        "1 year"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "It is daytime on the side of Earth that",
+      "options": [
+        "faces the Sun",
+        "faces away from the Sun",
+        "is closest to the Moon only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "When your home has night, the other side of Earth can have",
+      "options": [
+        "no sky at all",
+        "daytime",
+        "no Sun anywhere in space"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the number of hours in one day and night together.",
+      "type": "text",
+      "answer": [
+        "24",
+        "twenty four",
+        "twenty-four"
+      ]
+    },
+    {
+      "q": "The Sun seems to rise and set because",
+      "options": [
+        "Earth turns",
+        "the Sun hides behind planets",
+        "stars push the Sun"
+      ],
+      "answer": 0
+    }
+  ]
+}

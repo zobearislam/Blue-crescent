@@ -1,0 +1,84 @@
+{
+  "title": "The expanding universe",
+  "info": [
+    "Distant galaxies, beyond our local neighborhood, show light stretched toward the red end of the rainbow. That is cosmological redshift.",
+    "Space itself is stretching. Earth is not the unique center. Every distant galaxy sees others moving away.",
+    "Andromeda is an exception nearby: it is moving toward the Milky Way.",
+    "The Big Bang is the name for the hot, dense early universe, not an explosion into empty space that already existed. A faint glow across the sky is leftover from when the universe first became see-through."
+  ],
+  "questions": [
+    {
+      "q": "Cosmological redshift means",
+      "options": [
+        "light is stretched as space expands",
+        "stars turn into planets",
+        "Earth is the center of the universe"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "In an expanding universe, a far galaxy sees other far galaxies",
+      "options": [
+        "moving away too",
+        "all falling only toward Earth",
+        "stopping their light"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Andromeda is special among nearby large galaxies because it is",
+      "options": [
+        "moving toward the Milky Way",
+        "leaving the universe",
+        "a moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Big Bang model says the early universe was",
+      "options": [
+        "hotter and denser",
+        "empty and cold forever",
+        "a single black hole that ate time"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The leftover faint glow from the early universe is evidence that",
+      "options": [
+        "space was once hot enough to shine everywhere",
+        "constellations predict birthdays",
+        "the Moon is older than light"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call the stretching of light from distant galaxies?",
+      "type": "text",
+      "answer": [
+        "redshift",
+        "red shift",
+        "cosmological redshift"
+      ]
+    },
+    {
+      "q": "Expansion does not mean",
+      "options": [
+        "the solar system is exploding apart today",
+        "distant galaxies can recede",
+        "space can stretch"
+      ],
+      "answer": 0,
+      "explain": "Gravity holds the solar system and the Local Group together. Expansion shows up over much larger distances."
+    },
+    {
+      "q": "If every place sees others receding, then",
+      "options": [
+        "there is no single center on a map of galaxies",
+        "only Earth is allowed to measure redshift",
+        "parallax replaces gravity"
+      ],
+      "answer": 0
+    }
+  ]
+}

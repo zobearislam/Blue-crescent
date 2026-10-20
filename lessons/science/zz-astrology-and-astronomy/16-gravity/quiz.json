@@ -1,0 +1,73 @@
+{
+  "title": "Gravity",
+  "info": [
+    "Gravity is a pull between things that have mass.",
+    "Earth's gravity keeps you on the ground and keeps the Moon in orbit.",
+    "More mass means a stronger pull. Being farther away makes the pull weaker.",
+    "The Moon's gravity is the main reason ocean tides rise and fall."
+  ],
+  "questions": [
+    {
+      "q": "Gravity is",
+      "options": [
+        "a pull between masses",
+        "a color of starlight",
+        "a moon phase"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What keeps the Moon orbiting Earth?",
+      "options": [
+        "Gravity",
+        "Wind",
+        "Magnet stickers"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If two objects have more mass, their gravity is usually",
+      "options": [
+        "stronger",
+        "gone",
+        "always zero"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Ocean tides are caused mainly by",
+      "options": [
+        "the Moon's gravity",
+        "Saturn's rings",
+        "constellations"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You weigh less on the Moon than on Earth because",
+      "options": [
+        "the Moon's gravity is weaker",
+        "the Moon removes your mass",
+        "air pushes you upward there"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What do we call the pull that keeps planets in orbit?",
+      "type": "text",
+      "answer": [
+        "gravity"
+      ]
+    },
+    {
+      "q": "Your mass on the Moon",
+      "options": [
+        "stays the same even if your weight changes",
+        "becomes zero",
+        "turns into light"
+      ],
+      "answer": 0,
+      "explain": "Mass is how much matter is in you. Weight is the pull of gravity on that mass."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "title": "Stories and science",
+  "info": [
+    "Astronomy measures the sky and keeps ideas that survive tests. Astrology says the positions of the Sun and planets at a birth describe people or predict events.",
+    "Stars in a constellation are usually not neighbors in space. They only line up in our view.",
+    "Earth's axis slowly wobbles, a motion called precession, about once every 26,000 years. Because of that, the constellation behind the Sun on a given date slowly changes.",
+    "Many horoscopes use a tropical zodiac tied to the seasons, not to the constellation the Sun is actually in. Ophiuchus is another constellation on the Sun's real path.",
+    "A vague sentence can feel true for almost anyone. That feeling is not a scientific test. Star stories can still be wonderful art and history."
+  ],
+  "questions": [
+    {
+      "q": "Astronomy and astrology both mention planets, but astronomy",
+      "options": [
+        "tests ideas with measurements",
+        "assigns personalities by birthday",
+        "rejects telescopes"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Stars in one constellation usually",
+      "options": [
+        "are at very different distances and only line up from here",
+        "formed side by side as one object",
+        "orbit the person looking at them"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Precession is",
+      "options": [
+        "a slow wobble of Earth's axis, about 26,000 years",
+        "a moon phase",
+        "a rocket engine"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Because of precession,",
+      "options": [
+        "the Sun's star backdrop on a calendar date slowly shifts",
+        "gravity stops",
+        "light-years become minutes"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Many modern horoscopes follow signs tied to",
+      "options": [
+        "seasons, not the constellation the Sun is in",
+        "parallax measurements",
+        "absolute magnitude"
+      ],
+      "answer": 0,
+      "explain": "That seasonal system is called the tropical zodiac. It starts a sign near an equinox, even if the Sun is in a different star picture."
+    },
+    {
+      "q": "Ophiuchus matters because",
+      "options": [
+        "it also lies on the Sun's real path among the stars",
+        "it is a planet past Neptune",
+        "it is the event horizon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What slow wobble shifts the constellations over thousands of years?",
+      "type": "text",
+      "answer": [
+        "precession"
+      ]
+    },
+    {
+      "q": "A sentence that could fit almost anyone",
+      "options": [
+        "can feel personal without being evidence",
+        "proves a star sign",
+        "is a light-year"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The fair conclusion for a young scientist is",
+      "options": [
+        "enjoy star stories as culture, and use astronomy when you want tested facts",
+        "throw away every myth and every measurement",
+        "trust a horoscope more than a telescope"
+      ],
+      "answer": 0
+    }
+  ]
+}

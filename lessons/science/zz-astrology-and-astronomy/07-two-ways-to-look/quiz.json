@@ -1,0 +1,62 @@
+{
+  "title": "Two ways to look up",
+  "info": [
+    "Astronomy is the science of stars, planets, and space. Astronomers measure and test ideas.",
+    "People also tell stories about star pictures. Those stories are part of culture and art.",
+    "A story about the sky is not the same thing as a measurement."
+  ],
+  "questions": [
+    {
+      "q": "Astronomy is",
+      "options": [
+        "the science of space",
+        "a kind of weather",
+        "a board game"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "An astronomer tries to",
+      "options": [
+        "measure and test ideas",
+        "guess a secret password from a birthday",
+        "turn off the stars"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Star stories are best described as",
+      "options": [
+        "culture and art",
+        "the same thing as a science measurement",
+        "proof about next week's weather"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which question fits astronomy?",
+      "options": [
+        "How far away is that star?",
+        "What is my favorite color?",
+        "Which sock is luckier?"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the science of stars and planets.",
+      "type": "text",
+      "answer": [
+        "astronomy"
+      ]
+    },
+    {
+      "q": "Blue Crescent treats star stories as",
+      "options": [
+        "fun history, not lab measurements",
+        "rules you must obey",
+        "a way to skip science"
+      ],
+      "answer": 0
+    }
+  ]
+}

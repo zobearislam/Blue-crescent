@@ -1,0 +1,83 @@
+{
+  "title": "A changing night sky",
+  "info": [
+    "Earth's spin makes stars rise in the east and set in the west.",
+    "Earth's orbit changes which constellations are up at night through the year.",
+    "Polaris stays nearly still in the northern sky because it lines up with Earth's axis. Most of the Southern Hemisphere cannot use it.",
+    "The Southern Cross is a famous guide in southern skies."
+  ],
+  "questions": [
+    {
+      "q": "Stars rise in the east because",
+      "options": [
+        "Earth spins",
+        "constellations orbit your city",
+        "the Moon pushes them"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Different seasons show different constellations because",
+      "options": [
+        "Earth orbits the Sun",
+        "stars are replaced every month",
+        "the zodiac turns the telescope"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Polaris barely moves in the northern sky because",
+      "options": [
+        "it is almost along Earth's axis",
+        "it is the closest star",
+        "it is a planet"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A sky watcher in Australia should not rely on Polaris because",
+      "options": [
+        "it is below the northern horizon for much of the south",
+        "Australia has no stars",
+        "Polaris only works in winter"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Southern Cross helps people",
+      "options": [
+        "find direction in southern skies",
+        "measure their age",
+        "see the Sun at midnight safely"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which star marks north for much of the Northern Hemisphere?",
+      "type": "text",
+      "answer": [
+        "polaris",
+        "the north star",
+        "north star"
+      ]
+    },
+    {
+      "q": "Orion is a winter evening constellation for many northern viewers and",
+      "options": [
+        "a summer evening one for many southern viewers",
+        "invisible from every country",
+        "a planet"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A star map for tonight depends on",
+      "options": [
+        "your date, time, and place on Earth",
+        "only your birthday sign",
+        "the color of the telescope"
+      ],
+      "answer": 0
+    }
+  ]
+}

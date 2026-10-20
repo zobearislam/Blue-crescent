@@ -1,4 +1,4 @@
-/* Blue Crescent — lessons > subjects > chapters > subchapters, with quizzes */
+/* Blue Crescent — lessons > subjects > chapters > subchapters, plus optional sub-subjects */
 (function () {
   'use strict';
   if (window.__bcApp) return;
@@ -18,40 +18,57 @@
   try { localStorage.removeItem('bc_local'); } catch (e) {}
   var done = read('bc_done', {});
 
-  function quizUrl(sub, ch, leaf) {
+  function quizUrl(sub, ch, leaf, group) {
     if (leaf && leaf.quiz) return leaf.quiz;
     if (!leaf && ch.quiz) return ch.quiz;
-    return 'lessons/' + sub.id + '/' + ch.id + (leaf ? '/' + leaf.id : '') + '/quiz.json';
+    return 'lessons/' + sub.id + '/' + (group ? group.id + '/' : '') + ch.id + (leaf ? '/' + leaf.id : '') + '/quiz.json';
   }
-  function getQuiz(sub, ch, leaf) {
-    return fetch(encodeURI(quizUrl(sub, ch, leaf)), { cache: 'no-cache' })
+  function getQuiz(sub, ch, leaf, group) {
+    return fetch(encodeURI(quizUrl(sub, ch, leaf, group)), { cache: 'no-cache' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .catch(function () { return null; });
   }
   function hasQuiz(ch) { return ch.hasQuiz !== false; }
-  function itemKey(s, c, sub) { return s.id + '/' + c.id + (sub ? '/' + sub.id : ''); }
-  function itemHref(s, c, sub) {
-    var base = '#/lessons/' + encodeURIComponent(s.id) + '/' + encodeURIComponent(c.id);
+  function itemKey(s, c, sub, group) { return s.id + '/' + (group ? group.id + '/' : '') + c.id + (sub ? '/' + sub.id : ''); }
+  function itemHref(s, c, sub, group) {
+    var base = '#/lessons/' + encodeURIComponent(s.id) + (group ? '/' + encodeURIComponent(group.id) : '') + '/' + encodeURIComponent(c.id);
     if (sub) return base + '/' + encodeURIComponent(sub.id);
     if (c.subs && c.subs.length && hasQuiz(c)) return base + '/quiz';
     return base;
   }
-  function leavesOf(s, c) {
+  function leavesOf(s, c, group) {
     var list = [];
-    if (hasQuiz(c)) list.push({ subject: s, chapter: c, sub: null });
-    (c.subs || []).forEach(function (sub) { list.push({ subject: s, chapter: c, sub: sub }); });
+    if (hasQuiz(c)) list.push({ subject: s, chapter: c, sub: null, group: group || null });
+    (c.subs || []).forEach(function (sub) { list.push({ subject: s, chapter: c, sub: sub, group: group || null }); });
+    return list;
+  }
+  function chaptersInOrder(s) {
+    var list = (s.chapters || []).map(function (c) { return { c: c, g: null }; });
+    (s.groups || []).forEach(function (g) {
+      (g.chapters || []).forEach(function (c) { list.push({ c: c, g: g }); });
+    });
     return list;
   }
   function allLeaves() {
     var list = [];
     repo.subjects.forEach(function (s) {
-      s.chapters.forEach(function (c) { leavesOf(s, c).forEach(function (leaf) { list.push(leaf); }); });
+      chaptersInOrder(s).forEach(function (row) {
+        leavesOf(s, row.c, row.g).forEach(function (leaf) { list.push(leaf); });
+      });
     });
     return list;
   }
-  function chapterDone(s, c) {
-    var leaves = leavesOf(s, c);
-    return leaves.length > 0 && leaves.every(function (leaf) { return done[itemKey(leaf.subject, leaf.chapter, leaf.sub)]; });
+  function chapterDone(s, c, group) {
+    var leaves = leavesOf(s, c, group);
+    return leaves.length > 0 && leaves.every(function (leaf) { return done[itemKey(leaf.subject, leaf.chapter, leaf.sub, leaf.group)]; });
+  }
+  function groupDone(s, g) {
+    return (g.chapters || []).length > 0 && g.chapters.every(function (c) { return chapterDone(s, c, g); });
+  }
+  function quizCount(chapters) {
+    return (chapters || []).reduce(function (n, c) {
+      return n + (hasQuiz(c) ? 1 : 0) + ((c.subs || []).length);
+    }, 0);
   }
 
   function validate(d) {
@@ -71,12 +88,23 @@
   }
 
   function pretty(id) {
-    var t = id.replace(/^\d+[-_.\s]*/, '').replace(/[-_]+/g, ' ').trim() || id;
+    var t = id.replace(/^\d+[-_.\s]*/, '').replace(/^zz-/, '').replace(/[-_]+/g, ' ').trim() || id;
     return t.charAt(0).toUpperCase() + t.slice(1);
   }
 
   function fromTree(paths) {
+    var groupSet = {};
+    paths.forEach(function (p) {
+      var parts = p.split('/');
+      if (parts.length === 4 && parts[0] === 'lessons' && parts[3] === 'subsubject.json' && parts[1].indexOf('.') === -1 && parts[2].indexOf('.') === -1) {
+        groupSet[parts[1] + '/' + parts[2]] = true;
+      }
+    });
     var map = {}, order = [];
+    function tidyChapter(c) {
+      delete c.seenSub;
+      c.subs.sort(function (a, b) { return a.id < b.id ? -1 : a.id > b.id ? 1 : 0; });
+    }
     paths.forEach(function (p) {
       var parts = p.split('/');
       if (parts[0] !== 'lessons' || parts.length < 3) return;
@@ -84,12 +112,37 @@
       if (!sid || sid.indexOf('.') !== -1) return;
       var s = map[sid];
       if (!s) {
-        s = map[sid] = { id: sid, name: pretty(sid), icon: '📁', chapters: [], seen: {} };
+        s = map[sid] = { id: sid, name: pretty(sid), icon: '📁', chapters: [], groups: [], seen: {}, seenGroup: {} };
         order.push(sid);
       }
       if (parts[2] === 'subject.json') { s.hasMeta = true; return; }
       var cid = parts[2];
       if (!cid || cid.indexOf('.') !== -1) return;
+      if (groupSet[sid + '/' + cid]) {
+        var g = s.seenGroup[cid];
+        if (!g) {
+          g = s.seenGroup[cid] = { id: cid, name: pretty(cid.replace(/^zz-/, '')), icon: '📚', chapters: [], seen: {}, hasMeta: false };
+          s.groups.push(g);
+        }
+        if (parts.length === 4 && parts[3] === 'subsubject.json') { g.hasMeta = true; return; }
+        if (parts.length < 5) return;
+        var gcid = parts[3];
+        if (!gcid || gcid.indexOf('.') !== -1) return;
+        var gch = g.seen[gcid];
+        if (!gch) {
+          gch = g.seen[gcid] = { id: gcid, name: pretty(gcid), subs: [], seenSub: {}, hasQuiz: false };
+          g.chapters.push(gch);
+        }
+        if (parts.length === 5 && parts[4] === 'quiz.json') { gch.hasQuiz = true; return; }
+        if (parts.length >= 6 && parts[4].indexOf('.') === -1) {
+          var gsubid = parts[4];
+          if (!gch.seenSub[gsubid]) {
+            gch.seenSub[gsubid] = 1;
+            gch.subs.push({ id: gsubid, name: pretty(gsubid) });
+          }
+        }
+        return;
+      }
       var ch = s.seen[cid];
       if (!ch) {
         ch = s.seen[cid] = { id: cid, name: pretty(cid), subs: [], seenSub: {}, hasQuiz: false };
@@ -108,10 +161,14 @@
     return order.map(function (id) {
       var s = map[id];
       delete s.seen;
+      delete s.seenGroup;
       s.chapters.sort(function (a, b) { return a.id < b.id ? -1 : a.id > b.id ? 1 : 0; });
-      s.chapters.forEach(function (c) {
-        delete c.seenSub;
-        c.subs.sort(function (a, b) { return a.id < b.id ? -1 : a.id > b.id ? 1 : 0; });
+      s.chapters.forEach(tidyChapter);
+      s.groups.sort(function (a, b) { return a.id < b.id ? -1 : a.id > b.id ? 1 : 0; });
+      s.groups.forEach(function (g) {
+        delete g.seen;
+        g.chapters.sort(function (a, b) { return a.id < b.id ? -1 : a.id > b.id ? 1 : 0; });
+        g.chapters.forEach(tidyChapter);
       });
       return s;
     });
@@ -122,7 +179,7 @@
     if (!/\.github\.io$/.test(host)) return Promise.resolve([]);
     var owner = host.split('.')[0];
     var repoName = parts[0] && parts[0].indexOf('.') === -1 ? parts[0] : host;
-    var cacheKey = 'bc_tree_v2', cached = read(cacheKey, null);
+    var cacheKey = 'bc_tree_v3', cached = read(cacheKey, null);
     var tree = cached && Date.now() - cached.t < 120000
       ? Promise.resolve(cached.paths)
       : fetch('https://api.github.com/repos/' + owner + '/' + repoName + '/git/trees/HEAD?recursive=1')
@@ -135,10 +192,30 @@
     return tree.then(function (paths) {
       var subs = fromTree(paths);
       return Promise.all(subs.map(function (s) {
-        if (!s.hasMeta) return s;
-        return fetch(encodeURI('lessons/' + s.id + '/subject.json'), { cache: 'no-cache' })
+        var subjectMeta = !s.hasMeta ? Promise.resolve(s) : fetch(encodeURI('lessons/' + s.id + '/subject.json'), { cache: 'no-cache' })
           .then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
           .then(function (m) { if (m.name) s.name = m.name; if (m.icon) s.icon = m.icon; return s; });
+        return subjectMeta.then(function () {
+          return Promise.all((s.groups || []).map(function (g) {
+            if (!g.hasMeta) return g;
+            return fetch(encodeURI('lessons/' + s.id + '/' + g.id + '/subsubject.json'), { cache: 'no-cache' })
+              .then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
+              .then(function (m) {
+                if (m.name) g.name = m.name;
+                if (m.icon) g.icon = m.icon;
+                if (m.blurb) g.blurb = m.blurb;
+                var byId = {};
+                (m.chapters || []).forEach(function (c) { if (c && c.id) byId[c.id] = c; });
+                g.chapters.forEach(function (c) {
+                  var o = byId[c.id];
+                  if (!o) return;
+                  if (o.name) c.name = o.name;
+                  if (o.level) c.level = o.level;
+                });
+                return g;
+              });
+          })).then(function () { return s; });
+        });
       }));
     }).catch(function () { return []; });
   }
@@ -148,24 +225,38 @@
     function takeSub(ch, sub) {
       if (!ch.subs.some(function (x) { return x.id === sub.id; })) ch.subs.push({ id: sub.id, name: sub.name, quiz: sub.quiz });
     }
+    function mergeChapter(list, c) {
+      var existing = list.filter(function (x) { return x.id === c.id; })[0];
+      if (!existing) {
+        existing = { id: c.id, name: c.name, quiz: c.quiz, subs: [], hasQuiz: c.hasQuiz, level: c.level };
+        list.push(existing);
+      } else {
+        if (c.level && !existing.level) existing.level = c.level;
+        if (c.hasQuiz === true) existing.hasQuiz = true;
+        else if (c.hasQuiz === false && existing.hasQuiz !== true) existing.hasQuiz = false;
+      }
+      (c.subs || []).forEach(function (sub) { takeSub(existing, sub); });
+    }
     manifest.concat(found).forEach(function (s) {
       var m = map[s.id];
-      if (!m) { m = map[s.id] = { id: s.id, name: s.name, icon: s.icon, chapters: [] }; order.push(s.id); }
+      if (!m) { m = map[s.id] = { id: s.id, name: s.name, icon: s.icon, chapters: [], groups: [] }; order.push(s.id); }
       else {
         if (!m.name && s.name) m.name = s.name;
         if (!m.icon && s.icon) m.icon = s.icon;
+        if (!m.groups) m.groups = [];
       }
-      (s.chapters || []).forEach(function (c) {
-        var existing = m.chapters.filter(function (x) { return x.id === c.id; })[0];
+      (s.chapters || []).forEach(function (c) { mergeChapter(m.chapters, c); });
+      (s.groups || []).forEach(function (g) {
+        var existing = m.groups.filter(function (x) { return x.id === g.id; })[0];
         if (!existing) {
-          existing = { id: c.id, name: c.name, quiz: c.quiz, subs: [], hasQuiz: c.hasQuiz };
-          m.chapters.push(existing);
-        } else if (c.hasQuiz === true) {
-          existing.hasQuiz = true;
-        } else if (c.hasQuiz === false && existing.hasQuiz !== true) {
-          existing.hasQuiz = false;
+          existing = { id: g.id, name: g.name, icon: g.icon || '📚', blurb: g.blurb, chapters: [] };
+          m.groups.push(existing);
+        } else {
+          if (g.name && existing.name === pretty(g.id.replace(/^zz-/, ''))) existing.name = g.name;
+          if (g.icon) existing.icon = g.icon;
+          if (g.blurb) existing.blurb = g.blurb;
         }
-        (c.subs || []).forEach(function (sub) { takeSub(existing, sub); });
+        (g.chapters || []).forEach(function (c) { mergeChapter(existing.chapters, c); });
       });
     });
     return order.map(function (id) { return map[id]; });
@@ -180,38 +271,47 @@
   var qInput = $('#q'), hits = $('#hits'), searchForm = $('#search-form');
 
   function counts() {
-    var chapters = 0, subs = 0;
+    var chapters = 0, subs = 0, groups = 0;
     repo.subjects.forEach(function (s) {
-      s.chapters.forEach(function (c) {
+      groups += (s.groups || []).length;
+      chaptersInOrder(s).forEach(function (row) {
         chapters++;
-        subs += (c.subs || []).length;
+        subs += (row.c.subs || []).length;
       });
     });
-    return { chapters: chapters, subs: subs, quizzes: allLeaves().length };
+    return { chapters: chapters, subs: subs, groups: groups, quizzes: allLeaves().length };
   }
   function findHits(query) {
     var q = String(query || '').trim().toLowerCase();
     if (!q) return [];
     var out = [];
+    function walkChapter(s, c, group) {
+      var gname = group ? group.name : '';
+      if ((c.name + ' ' + c.id + ' ' + s.name + ' ' + gname).toLowerCase().indexOf(q) !== -1) {
+        out.push({ kind: 'chapter', subject: s, chapter: c, group: group || null });
+      }
+      (c.subs || []).forEach(function (sub) {
+        if ((sub.name + ' ' + sub.id + ' ' + c.name + ' ' + s.name + ' ' + gname).toLowerCase().indexOf(q) !== -1) {
+          out.push({ kind: 'sub', subject: s, chapter: c, sub: sub, group: group || null });
+        }
+      });
+    }
     repo.subjects.forEach(function (s) {
       if ((s.name + ' ' + s.id).toLowerCase().indexOf(q) !== -1) out.push({ kind: 'subject', subject: s });
-      s.chapters.forEach(function (c) {
-        if ((c.name + ' ' + c.id + ' ' + s.name).toLowerCase().indexOf(q) !== -1) out.push({ kind: 'chapter', subject: s, chapter: c });
-        (c.subs || []).forEach(function (sub) {
-          if ((sub.name + ' ' + sub.id + ' ' + c.name + ' ' + s.name).toLowerCase().indexOf(q) !== -1) {
-            out.push({ kind: 'sub', subject: s, chapter: c, sub: sub });
-          }
-        });
+      s.chapters.forEach(function (c) { walkChapter(s, c, null); });
+      (s.groups || []).forEach(function (g) {
+        if ((g.name + ' ' + g.id + ' ' + s.name).toLowerCase().indexOf(q) !== -1) out.push({ kind: 'group', subject: s, group: g });
+        g.chapters.forEach(function (c) { walkChapter(s, c, g); });
       });
     });
     return out;
   }
-  function leafCard(s, c, sub, meta, title) {
-    var key = itemKey(s, c, sub);
+  function leafCard(s, c, sub, meta, title, group) {
+    var key = itemKey(s, c, sub, group);
     var isDone = !!done[key];
     var name = title || (sub ? sub.name : c.name);
-    return '<a class="folder' + (isDone ? ' done' : '') + '" href="' + itemHref(s, c, sub) + '">' +
-      '<span class="ico">' + (isDone ? '✅' : esc(sub ? '📄' : (s.icon || '📂'))) + '</span>' +
+    return '<a class="folder' + (isDone ? ' done' : '') + '" href="' + itemHref(s, c, sub, group) + '">' +
+      '<span class="ico">' + (isDone ? '✅' : esc(sub ? '📄' : (group ? '📄' : (s.icon || '📂')))) + '</span>' +
       '<span class="name">' + esc(name) + '</span>' +
       '<span class="meta">' + esc(meta) + '</span></a>';
   }
@@ -235,20 +335,32 @@
   function chapterBits(c) {
     var n = (c.subs || []).length;
     var bits = [];
+    if (c.level) bits.push(c.level);
     if (hasQuiz(c)) bits.push('quiz');
     if (n) bits.push(plural(n, 'subchapter'));
     return bits.join(' · ') || 'Quiz';
+  }
+  function subjectMeta(s) {
+    var subCount = s.chapters.reduce(function (n, c) { return n + (c.subs || []).length; }, 0);
+    var gcount = (s.groups || []).length;
+    return plural(s.chapters.length, 'chapter') + (gcount ? ' · ' + plural(gcount, 'sub-subject') : '') + (subCount ? ' · ' + plural(subCount, 'subchapter') : '');
+  }
+  function leafContext(it) {
+    var base = it.group ? it.subject.name + ' · ' + it.group.name : it.subject.name;
+    if (it.sub) base += ' · ' + it.chapter.name;
+    if (!it.sub && it.chapter.level) base += ' · ' + it.chapter.level;
+    return base;
   }
 
   function home() {
     var c = counts();
     setCrumbs([]);
     app.innerHTML = '<section class="panel"><h1>Welcome 🌙</h1>' +
-      '<p class="sub">Search at the top, open For You for a short path, or browse subjects, chapters, and subchapters.</p>' +
+      '<p class="sub">Search at the top, open For You for a short path, or browse subjects, sub-subjects, chapters, and subchapters.</p>' +
       '<div class="folders">' +
       '<a class="folder" href="#/foryou"><span class="ico">✨</span><span class="name">For You</span><span class="meta">Picked from quizzes you have not finished</span></a>' +
       '<a class="folder" href="#/lessons"><span class="ico">📁</span><span class="name">Lessons</span><span class="meta">' +
-      plural(repo.subjects.length, 'subject') + ' · ' + plural(c.chapters, 'chapter') + ' · ' + plural(c.subs, 'subchapter') + '</span></a>' +
+      plural(repo.subjects.length, 'subject') + (c.groups ? ' · ' + plural(c.groups, 'sub-subject') : '') + ' · ' + plural(c.chapters, 'chapter') + ' · ' + plural(c.subs, 'subchapter') + '</span></a>' +
       '</div></section>';
   }
 
@@ -256,32 +368,33 @@
     setCrumbs([['For You']]);
     var items = allLeaves();
     var total = items.length;
-    var finished = items.filter(function (it) { return done[itemKey(it.subject, it.chapter, it.sub)]; }).length;
+    var finished = items.filter(function (it) { return done[itemKey(it.subject, it.chapter, it.sub, it.group)]; }).length;
     var pct = total ? Math.round(finished / total * 100) : 0;
     var last = read('bc_last', null), lastItem = null;
     if (last && last.s && last.c) {
       repo.subjects.forEach(function (s) {
         if (s.id !== last.s) return;
-        s.chapters.forEach(function (c) {
-          if (c.id !== last.c) return;
+        chaptersInOrder(s).forEach(function (row) {
+          if (row.c.id !== last.c) return;
+          if ((row.g ? row.g.id : null) !== (last.g || null)) return;
           if (last.sub) {
-            (c.subs || []).forEach(function (sub) { if (sub.id === last.sub) lastItem = { subject: s, chapter: c, sub: sub }; });
-          } else if (hasQuiz(c)) lastItem = { subject: s, chapter: c, sub: null };
+            (row.c.subs || []).forEach(function (sub) { if (sub.id === last.sub) lastItem = { subject: s, chapter: row.c, sub: sub, group: row.g }; });
+          } else if (hasQuiz(row.c)) lastItem = { subject: s, chapter: row.c, sub: null, group: row.g };
         });
       });
     }
     var upNext = [];
     repo.subjects.forEach(function (s) {
       var next = null;
-      s.chapters.forEach(function (c) {
+      chaptersInOrder(s).forEach(function (row) {
         if (next) return;
-        leavesOf(s, c).forEach(function (leaf) {
-          if (!next && !done[itemKey(leaf.subject, leaf.chapter, leaf.sub)]) next = leaf;
+        leavesOf(s, row.c, row.g).forEach(function (leaf) {
+          if (!next && !done[itemKey(leaf.subject, leaf.chapter, leaf.sub, leaf.group)]) next = leaf;
         });
       });
       if (next) upNext.push(next);
     });
-    var pool = items.filter(function (it) { return !done[itemKey(it.subject, it.chapter, it.sub)]; });
+    var pool = items.filter(function (it) { return !done[itemKey(it.subject, it.chapter, it.sub, it.group)]; });
     if (!pool.length) pool = items.slice();
     var mix = mixOf(pool, Math.min(4, pool.length));
     var html = '<section class="panel"><h1>✨ For You</h1>' +
@@ -290,16 +403,16 @@
       '<p class="sub">' + finished + ' of ' + total + ' quizzes finished</p>';
     if (lastItem) {
       html += '<h2 class="h2">Jump back in</h2><div class="folders">' +
-        leafCard(lastItem.subject, lastItem.chapter, lastItem.sub, lastItem.sub ? lastItem.subject.name + ' · ' + lastItem.chapter.name : lastItem.subject.name) +
+        leafCard(lastItem.subject, lastItem.chapter, lastItem.sub, leafContext(lastItem), null, lastItem.group) +
         '</div>';
     }
     html += '<h2 class="h2">Up next</h2>' + (upNext.length
       ? '<div class="folders">' + upNext.map(function (it) {
-          return leafCard(it.subject, it.chapter, it.sub, it.sub ? 'Continue ' + it.subject.name + ' · ' + it.chapter.name : 'Continue ' + it.subject.name);
+          return leafCard(it.subject, it.chapter, it.sub, 'Continue ' + leafContext(it), null, it.group);
         }).join('') + '</div>'
       : '<div class="empty">You have started every subject. Great work — practice any quiz again from Lessons.</div>');
     html += '<h2 class="h2">Today\'s mix</h2><div class="folders">' + mix.map(function (it) {
-      return leafCard(it.subject, it.chapter, it.sub, it.sub ? it.subject.name + ' · ' + it.chapter.name : it.subject.name);
+      return leafCard(it.subject, it.chapter, it.sub, leafContext(it), null, it.group);
     }).join('') + '</div></section>';
     app.innerHTML = html;
   }
@@ -312,65 +425,106 @@
     var body = list.length ? '<div class="folders">' + list.map(function (h) {
       if (h.kind === 'subject') {
         var subCount = h.subject.chapters.reduce(function (n, c) { return n + (c.subs || []).length; }, 0);
-        return '<a class="folder" href="#/lessons/' + encodeURIComponent(h.subject.id) + '"><span class="ico">' + esc(h.subject.icon || '📁') + '</span><span class="name">' + esc(h.subject.name) + '</span><span class="meta">Subject · ' + plural(h.subject.chapters.length, 'chapter') + (subCount ? ' · ' + plural(subCount, 'subchapter') : '') + '</span></a>';
+        var gcount = (h.subject.groups || []).length;
+        return '<a class="folder" href="#/lessons/' + encodeURIComponent(h.subject.id) + '"><span class="ico">' + esc(h.subject.icon || '📁') + '</span><span class="name">' + esc(h.subject.name) + '</span><span class="meta">Subject · ' + plural(h.subject.chapters.length, 'chapter') + (gcount ? ' · ' + plural(gcount, 'sub-subject') : '') + (subCount ? ' · ' + plural(subCount, 'subchapter') : '') + '</span></a>';
       }
-      if (h.kind === 'sub') return leafCard(h.subject, h.chapter, h.sub, h.subject.name + ' · ' + h.chapter.name);
-      var href = (h.chapter.subs && h.chapter.subs.length) ? '#/lessons/' + encodeURIComponent(h.subject.id) + '/' + encodeURIComponent(h.chapter.id) : itemHref(h.subject, h.chapter, null);
-      var isDone = chapterDone(h.subject, h.chapter);
-      return '<a class="folder' + (isDone ? ' done' : '') + '" href="' + href + '"><span class="ico">' + (isDone ? '✅' : '📂') + '</span><span class="name">' + esc(h.chapter.name) + '</span><span class="meta">' + esc(h.subject.name + ' · ' + chapterBits(h.chapter)) + '</span></a>';
+      if (h.kind === 'group') {
+        return '<a class="folder" href="#/lessons/' + encodeURIComponent(h.subject.id) + '/' + encodeURIComponent(h.group.id) + '"><span class="ico">' + esc(h.group.icon || '📚') + '</span><span class="name">' + esc(h.group.name) + '</span><span class="meta">' + esc(h.subject.name) + ' · sub-subject · ' + plural(quizCount(h.group.chapters), 'quiz') + '</span></a>';
+      }
+      if (h.kind === 'sub') return leafCard(h.subject, h.chapter, h.sub, leafContext(h), null, h.group);
+      var href = (h.chapter.subs && h.chapter.subs.length)
+        ? '#/lessons/' + encodeURIComponent(h.subject.id) + (h.group ? '/' + encodeURIComponent(h.group.id) : '') + '/' + encodeURIComponent(h.chapter.id)
+        : itemHref(h.subject, h.chapter, null, h.group);
+      var isDone = chapterDone(h.subject, h.chapter, h.group);
+      var where = h.group ? h.subject.name + ' · ' + h.group.name : h.subject.name;
+      return '<a class="folder' + (isDone ? ' done' : '') + '" href="' + href + '"><span class="ico">' + (isDone ? '✅' : '📂') + '</span><span class="name">' + esc(h.chapter.name) + '</span><span class="meta">' + esc(where + ' · ' + chapterBits(h.chapter)) + '</span></a>';
     }).join('') + '</div>' : '<div class="empty">No lessons match that. Try Fractions, Planets, or Spanish.</div>';
     app.innerHTML = '<section class="panel"><h1>Search</h1><p class="sub">' +
-      (q ? 'Results for “' + esc(q) + '”' : 'Type in the search bar to find a subject, chapter, or subchapter.') + '</p>' + body + '</section>';
+      (q ? 'Results for “' + esc(q) + '”' : 'Type in the search bar to find a subject, sub-subject, chapter, or subchapter.') + '</p>' + body + '</section>';
   }
 
   function lessons(subs) {
     setCrumbs([['Lessons']]);
-    app.innerHTML = '<section class="panel"><h1>📁 Lessons</h1><p class="sub">Choose a subject. Each subject has chapters, and many chapters have subchapters.</p>' +
+    app.innerHTML = '<section class="panel"><h1>📁 Lessons</h1><p class="sub">Choose a subject. Big subjects can hold sub-subjects. Chapters can hold subchapters.</p>' +
       (subs.length ? '<div class="folders">' + subs.map(function (s) {
-        var subCount = s.chapters.reduce(function (n, c) { return n + (c.subs || []).length; }, 0);
         return '<a class="folder" href="#/lessons/' + encodeURIComponent(s.id) + '"><span class="ico">' + esc(s.icon || '📁') + '</span>' +
-          '<span class="name">' + esc(s.name) + '</span><span class="meta">' + plural(s.chapters.length, 'chapter') + (subCount ? ' · ' + plural(subCount, 'subchapter') : '') + '</span></a>';
+          '<span class="name">' + esc(s.name) + '</span><span class="meta">' + subjectMeta(s) + '</span></a>';
       }).join('') + '</div>' : '<div class="empty">No subjects yet. Check back soon.</div>') + '</section>';
   }
 
   function subject(sub) {
     setCrumbs([['Lessons', '#/lessons'], [sub.name]]);
-    app.innerHTML = '<section class="panel"><h1>' + esc(sub.icon || '📁') + ' ' + esc(sub.name) + '</h1><p class="sub">Choose a chapter.</p>' +
-      (sub.chapters.length ? '<div class="folders">' + sub.chapters.map(function (c) {
-        var isDone = chapterDone(sub, c);
-        var href = (c.subs && c.subs.length) ? '#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(c.id) : itemHref(sub, c, null);
-        return '<a class="folder' + (isDone ? ' done' : '') + '" href="' + href + '">' +
-          '<span class="ico">' + (isDone ? '✅' : '📂') + '</span><span class="name">' + esc(c.name) + '</span>' +
-          '<span class="meta">' + esc(isDone ? 'Completed' : chapterBits(c)) + '</span></a>';
-      }).join('') + '</div>' : '<div class="empty">No chapters yet. Check back soon.</div>') + '</section>';
+    var groups = sub.groups || [];
+    var cards = sub.chapters.map(function (c) {
+      var isDone = chapterDone(sub, c, null);
+      var href = (c.subs && c.subs.length) ? '#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(c.id) : itemHref(sub, c, null);
+      return '<a class="folder' + (isDone ? ' done' : '') + '" href="' + href + '">' +
+        '<span class="ico">' + (isDone ? '✅' : '📂') + '</span><span class="name">' + esc(c.name) + '</span>' +
+        '<span class="meta">' + esc(isDone ? 'Completed' : chapterBits(c)) + '</span></a>';
+    }).join('');
+    var groupCards = groups.map(function (g) {
+      var isDone = groupDone(sub, g);
+      return '<a class="folder' + (isDone ? ' done' : '') + '" href="#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(g.id) + '">' +
+        '<span class="ico">' + (isDone ? '✅' : esc(g.icon || '📚')) + '</span><span class="name">' + esc(g.name) + '</span>' +
+        '<span class="meta">' + (isDone ? 'Completed · ' : '') + 'Sub-subject · ' + plural(quizCount(g.chapters), 'quiz') + '</span></a>';
+    }).join('');
+    app.innerHTML = '<section class="panel"><h1>' + esc(sub.icon || '📁') + ' ' + esc(sub.name) + '</h1><p class="sub">' +
+      (groups.length ? 'Choose a chapter. Sub-subjects are at the end.' : 'Choose a chapter.') + '</p>' +
+      ((cards || groupCards) ? '<div class="folders">' + cards + groupCards + '</div>' : '<div class="empty">No chapters yet. Check back soon.</div>') + '</section>';
   }
 
-  function chapterFolder(sub, ch) {
-    setCrumbs([['Lessons', '#/lessons'], [sub.name, '#/lessons/' + encodeURIComponent(sub.id)], [ch.name]]);
+  function groupFolder(sub, g) {
+    setCrumbs([['Lessons', '#/lessons'], [sub.name, '#/lessons/' + encodeURIComponent(sub.id)], [g.name]]);
+    var cards = (g.chapters || []).map(function (c) {
+      var isDone = chapterDone(sub, c, g);
+      var href = (c.subs && c.subs.length)
+        ? '#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(g.id) + '/' + encodeURIComponent(c.id)
+        : itemHref(sub, c, null, g);
+      return '<a class="folder' + (isDone ? ' done' : '') + '" href="' + href + '">' +
+        '<span class="ico">' + (isDone ? '✅' : '📄') + '</span><span class="name">' + esc(c.name) + '</span>' +
+        '<span class="meta">' + esc(isDone ? 'Completed' : chapterBits(c)) + '</span></a>';
+    }).join('');
+    app.innerHTML = '<section class="panel"><h1>' + esc(g.icon || '📚') + ' ' + esc(g.name) + '</h1><p class="sub">' +
+      esc(g.blurb || (sub.name + ' · sub-subject. Choose a quiz.')) + '</p>' +
+      (cards ? '<div class="folders">' + cards + '</div>' : '<div class="empty">No quizzes yet. Check back soon.</div>') + '</section>';
+  }
+
+  function chapterFolder(sub, ch, group) {
+    var crumbs = [['Lessons', '#/lessons'], [sub.name, '#/lessons/' + encodeURIComponent(sub.id)]];
+    if (group) crumbs.push([group.name, '#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(group.id)]);
+    crumbs.push([ch.name]);
+    setCrumbs(crumbs);
     var cards = '';
     if (hasQuiz(ch)) {
-      cards += leafCard(sub, ch, null, done[itemKey(sub, ch, null)] ? 'Completed' : 'Quiz for the whole chapter', 'Chapter quiz');
+      cards += leafCard(sub, ch, null, done[itemKey(sub, ch, null, group)] ? 'Completed' : 'Quiz for the whole chapter', 'Chapter quiz', group);
     }
     (ch.subs || []).forEach(function (leaf) {
-      cards += leafCard(sub, ch, leaf, done[itemKey(sub, ch, leaf)] ? 'Completed' : 'Subchapter quiz');
+      cards += leafCard(sub, ch, leaf, done[itemKey(sub, ch, leaf, group)] ? 'Completed' : 'Subchapter quiz', null, group);
     });
-    app.innerHTML = '<section class="panel"><h1>📂 ' + esc(ch.name) + '</h1><p class="sub">' + esc(sub.name) + ' · chapter. Open a subchapter, or take the chapter quiz.</p>' +
+    var where = group ? sub.name + ' · ' + group.name : sub.name;
+    app.innerHTML = '<section class="panel"><h1>📂 ' + esc(ch.name) + '</h1><p class="sub">' + esc(where) + ' · chapter. Open a subchapter, or take the chapter quiz.</p>' +
       (cards ? '<div class="folders">' + cards + '</div>' : '<div class="empty">No subchapters yet. Check back soon.</div>') + '</section>';
   }
 
-  function openLeaf(sub, ch, leaf) {
+  function openLeaf(sub, ch, leaf, group) {
     var hash = location.hash;
-    var key = itemKey(sub, ch, leaf);
-    write('bc_last', { s: sub.id, c: ch.id, sub: leaf ? leaf.id : null });
+    var key = itemKey(sub, ch, leaf, group);
+    write('bc_last', { s: sub.id, c: ch.id, sub: leaf ? leaf.id : null, g: group ? group.id : null });
     var crumbs = [['Lessons', '#/lessons'], [sub.name, '#/lessons/' + encodeURIComponent(sub.id)]];
-    if (ch.subs && ch.subs.length) crumbs.push([ch.name, '#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(ch.id)]);
+    if (group) crumbs.push([group.name, '#/lessons/' + encodeURIComponent(sub.id) + '/' + encodeURIComponent(group.id)]);
+    if (ch.subs && ch.subs.length) {
+      crumbs.push([ch.name, '#/lessons/' + encodeURIComponent(sub.id) + (group ? '/' + encodeURIComponent(group.id) : '') + '/' + encodeURIComponent(ch.id)]);
+    }
     crumbs.push([leaf ? leaf.name : ch.name]);
     setCrumbs(crumbs);
     var heading = leaf ? leaf.name : ch.name;
-    var blurb = leaf ? sub.name + ' · ' + ch.name + ' · subchapter' : sub.name + ' · chapter';
-    app.innerHTML = '<section class="panel"><h1>' + (leaf ? '📄 ' : '📂 ') + esc(heading) + '</h1><p class="sub">' + esc(blurb) + '</p>' +
+    var blurb = group
+      ? sub.name + ' · ' + group.name + (leaf ? ' · ' + ch.name + ' · subchapter' : ' · quiz')
+      : (leaf ? sub.name + ' · ' + ch.name + ' · subchapter' : sub.name + ' · chapter');
+    if (!leaf && ch.level) blurb += ' · ' + ch.level;
+    app.innerHTML = '<section class="panel"><h1>' + (leaf ? '📄 ' : (group ? '📄 ' : '📂 ')) + esc(heading) + '</h1><p class="sub">' + esc(blurb) + '</p>' +
       '<div id="status" class="empty">Loading quiz…</div><div class="row" id="actions"></div></section>';
-    getQuiz(sub, ch, leaf).then(function (quiz) {
+    getQuiz(sub, ch, leaf, group).then(function (quiz) {
       if (location.hash !== hash) return;
       var st = $('#status'), act = $('#actions');
       if (!st) return;
@@ -405,16 +559,30 @@
     var sub = subs.filter(function (s) { return s.id === p[1]; })[0];
     if (!sub) return notFound();
     if (p.length === 2) return subject(sub);
+    var group = (sub.groups || []).filter(function (g) { return g.id === p[2]; })[0];
+    if (group) {
+      if (p.length === 3) return groupFolder(sub, group);
+      var gch = group.chapters.filter(function (c) { return c.id === p[3]; })[0];
+      if (!gch) return notFound();
+      if (p.length === 4) {
+        if (gch.subs && gch.subs.length) return chapterFolder(sub, gch, group);
+        return openLeaf(sub, gch, null, group);
+      }
+      if (p[4] === 'quiz') return openLeaf(sub, gch, null, group);
+      var gleaf = (gch.subs || []).filter(function (s) { return s.id === p[4]; })[0];
+      if (!gleaf) return notFound();
+      return openLeaf(sub, gch, gleaf, group);
+    }
     var ch = sub.chapters.filter(function (c) { return c.id === p[2]; })[0];
     if (!ch) return notFound();
     if (p.length === 3) {
-      if (ch.subs && ch.subs.length) return chapterFolder(sub, ch);
-      return openLeaf(sub, ch, null);
+      if (ch.subs && ch.subs.length) return chapterFolder(sub, ch, null);
+      return openLeaf(sub, ch, null, null);
     }
-    if (p[3] === 'quiz') return openLeaf(sub, ch, null);
+    if (p[3] === 'quiz') return openLeaf(sub, ch, null, null);
     var leaf = (ch.subs || []).filter(function (s) { return s.id === p[3]; })[0];
     if (!leaf) return notFound();
-    openLeaf(sub, ch, leaf);
+    openLeaf(sub, ch, leaf, null);
   }
 
   function runQuiz(quiz, key, title, isSub) {
@@ -545,11 +713,16 @@
       if (h.kind === 'subject') {
         return '<a href="#/lessons/' + encodeURIComponent(h.subject.id) + '"><span>' + esc(h.subject.icon || '📁') + ' ' + esc(h.subject.name) + '</span><small>Subject</small></a>';
       }
-      if (h.kind === 'sub') {
-        return '<a href="' + itemHref(h.subject, h.chapter, h.sub) + '"><span>📄 ' + esc(h.sub.name) + '</span><small>' + esc(h.subject.name + ' · ' + h.chapter.name) + '</small></a>';
+      if (h.kind === 'group') {
+        return '<a href="#/lessons/' + encodeURIComponent(h.subject.id) + '/' + encodeURIComponent(h.group.id) + '"><span>' + esc(h.group.icon || '📚') + ' ' + esc(h.group.name) + '</span><small>' + esc(h.subject.name) + ' · sub-subject</small></a>';
       }
-      var href = (h.chapter.subs && h.chapter.subs.length) ? '#/lessons/' + encodeURIComponent(h.subject.id) + '/' + encodeURIComponent(h.chapter.id) : itemHref(h.subject, h.chapter, null);
-      return '<a href="' + href + '"><span>' + esc(h.subject.icon || '📂') + ' ' + esc(h.chapter.name) + '</span><small>' + esc(h.subject.name) + '</small></a>';
+      if (h.kind === 'sub') {
+        return '<a href="' + itemHref(h.subject, h.chapter, h.sub, h.group) + '"><span>📄 ' + esc(h.sub.name) + '</span><small>' + esc(leafContext(h)) + '</small></a>';
+      }
+      var href = (h.chapter.subs && h.chapter.subs.length)
+        ? '#/lessons/' + encodeURIComponent(h.subject.id) + (h.group ? '/' + encodeURIComponent(h.group.id) : '') + '/' + encodeURIComponent(h.chapter.id)
+        : itemHref(h.subject, h.chapter, null, h.group);
+      return '<a href="' + href + '"><span>' + (h.group ? '📄' : esc(h.subject.icon || '📂')) + ' ' + esc(h.chapter.name) + '</span><small>' + esc(leafContext({ subject: h.subject, chapter: h.chapter, sub: null, group: h.group || null })) + '</small></a>';
     }).join('');
     var more = list.length > 8
       ? '<a href="#/search/' + encodeURIComponent(q.trim()) + '"><span>See all ' + list.length + ' results</span><small>Search</small></a>'

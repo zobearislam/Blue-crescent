@@ -1,0 +1,74 @@
+{
+  "title": "The Big Dipper",
+  "info": [
+    "The Big Dipper is a bright group of seven stars. It looks like a pot with a handle.",
+    "It is part of the bigger constellation Ursa Major, the Great Bear. A small pattern like this is called an asterism.",
+    "Two stars in the bowl point toward Polaris, the North Star."
+  ],
+  "questions": [
+    {
+      "q": "The Big Dipper is part of",
+      "options": [
+        "Orion",
+        "Ursa Major",
+        "the Moon"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A small familiar star pattern, like the Dipper, is an",
+      "options": [
+        "asterism",
+        "eclipse",
+        "orbit"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The pointer stars of the Big Dipper help you find",
+      "options": [
+        "Polaris",
+        "the Sun at noon",
+        "Saturn's rings"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Polaris is famous because it",
+      "options": [
+        "stays near the north direction",
+        "is the brightest star in the whole sky",
+        "is closer than the Sun"
+      ],
+      "answer": 0,
+      "explain": "Sirius looks brighter than Polaris. Polaris is useful because it marks north."
+    },
+    {
+      "q": "How many bright stars shape the Dipper?",
+      "options": [
+        "3",
+        "7",
+        "20"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the constellation that contains the Big Dipper.",
+      "type": "text",
+      "answer": [
+        "ursa major",
+        "the great bear",
+        "great bear"
+      ]
+    },
+    {
+      "q": "The North Star is useful for",
+      "options": [
+        "finding north at night",
+        "telling you your birthday",
+        "lighting the daytime"
+      ],
+      "answer": 0
+    }
+  ]
+}
