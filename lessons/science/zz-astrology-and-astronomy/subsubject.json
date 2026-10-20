@@ -1,0 +1,157 @@
+{
+  "name": "Astrology and astronomy",
+  "icon": "\ud83c\udf0c",
+  "blurb": "Science \u00b7 sub-subject. Thirty quizzes, easy at the start and super hard at the end. Astronomy is the science. Star stories are culture, not measurements.",
+  "chapters": [
+    {
+      "id": "01-the-sun",
+      "name": "The Sun",
+      "level": "Easy"
+    },
+    {
+      "id": "02-the-moon",
+      "name": "The Moon",
+      "level": "Easy"
+    },
+    {
+      "id": "03-day-and-night",
+      "name": "Day and night",
+      "level": "Easy"
+    },
+    {
+      "id": "04-what-is-a-star",
+      "name": "What is a star",
+      "level": "Easy"
+    },
+    {
+      "id": "05-our-planet-earth",
+      "name": "Our planet Earth",
+      "level": "Easy"
+    },
+    {
+      "id": "06-planet-parade",
+      "name": "The planet parade",
+      "level": "Easy"
+    },
+    {
+      "id": "07-two-ways-to-look",
+      "name": "Two ways to look up",
+      "level": "Easy"
+    },
+    {
+      "id": "08-star-pictures",
+      "name": "Star pictures",
+      "level": "Easy"
+    },
+    {
+      "id": "09-the-big-dipper",
+      "name": "The Big Dipper",
+      "level": "Medium"
+    },
+    {
+      "id": "10-moon-phases",
+      "name": "Moon phases",
+      "level": "Medium"
+    },
+    {
+      "id": "11-the-solar-system",
+      "name": "The solar system",
+      "level": "Medium"
+    },
+    {
+      "id": "12-rocky-and-giant",
+      "name": "Rocky and giant planets",
+      "level": "Medium"
+    },
+    {
+      "id": "13-space-rocks",
+      "name": "Space rocks",
+      "level": "Medium"
+    },
+    {
+      "id": "14-the-milky-way",
+      "name": "The Milky Way",
+      "level": "Medium"
+    },
+    {
+      "id": "15-telescopes",
+      "name": "Telescopes",
+      "level": "Medium"
+    },
+    {
+      "id": "16-gravity",
+      "name": "Gravity",
+      "level": "Medium"
+    },
+    {
+      "id": "17-why-seasons",
+      "name": "Why we have seasons",
+      "level": "Hard"
+    },
+    {
+      "id": "18-eclipses",
+      "name": "Eclipses",
+      "level": "Hard"
+    },
+    {
+      "id": "19-light-years",
+      "name": "Light-years",
+      "level": "Hard"
+    },
+    {
+      "id": "20-galaxies",
+      "name": "Galaxies",
+      "level": "Hard"
+    },
+    {
+      "id": "21-the-zodiac",
+      "name": "The zodiac",
+      "level": "Hard"
+    },
+    {
+      "id": "22-orbits-and-years",
+      "name": "Orbits and years",
+      "level": "Hard"
+    },
+    {
+      "id": "23-sky-scientists",
+      "name": "Sky scientists",
+      "level": "Hard"
+    },
+    {
+      "id": "24-rockets-and-floating",
+      "name": "Rockets and floating",
+      "level": "Super hard"
+    },
+    {
+      "id": "25-black-holes",
+      "name": "Black holes",
+      "level": "Super hard"
+    },
+    {
+      "id": "26-changing-night-sky",
+      "name": "A changing night sky",
+      "level": "Super hard"
+    },
+    {
+      "id": "27-star-distances",
+      "name": "How we measure star distances",
+      "level": "Super hard"
+    },
+    {
+      "id": "28-expanding-universe",
+      "name": "The expanding universe",
+      "level": "Super hard"
+    },
+    {
+      "id": "29-star-brightness",
+      "name": "Star brightness",
+      "level": "Super hard"
+    },
+    {
+      "id": "30-stories-and-science",
+      "name": "Stories and science",
+      "level": "Super hard"
+    }
+  ]
+}
