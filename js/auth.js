@@ -29,15 +29,15 @@
     }
   }
 
-  async function signIn() {
-var { error } = await sb.auth.signInWithOAuth({
-provider: ‘github’,
-options: {
-redirectTo: ‘https://zobearislam.github.io/Blue-crescent/’
-}
-});
-if (error) console.error(error);
-}
+    async function signIn() {
+    var { error } = await sb.auth.signInWithOAuth({
+      provider: 'github',
+      options: {
+        redirectTo: 'https://zobearislam.github.io/Blue-crescent/'
+      }
+    });
+    if (error) console.error(error);
+  }
 
   async function signOut() {
     await sb.auth.signOut();
