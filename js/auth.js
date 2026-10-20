@@ -15,9 +15,15 @@
   function $(s) { return document.querySelector(s); }
 
   function updateUI() {
-    var btn = $('#auth-btn');
-    var info = $('#auth-info');
-    if (!btn) return;
+  var btn = $('#auth-btn');
+var info = $('#auth-info');
+var streakEl = $('#streak-count');
+
+if (streakEl) {
+  streakEl.textContent = '🔥 ' + streak + ' day' + (streak === 1 ? '' : 's');
+}
+
+if (!btn) return;
     if (user) {
       btn.textContent = 'Sign out';
       btn.onclick = signOut;
