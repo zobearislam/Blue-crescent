@@ -77,7 +77,7 @@ if (data && data.last_active === today) {
 }
 
 updateUI();
-  
+}
 
   async function saveProgress() {
     if (!user) return;
