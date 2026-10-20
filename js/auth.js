@@ -38,8 +38,6 @@ redirectTo: ‘https://zobearislam.github.io/Blue-crescent/’
 });
 if (error) console.error(error);
 }
-    if (error) console.error(error);
-  }
 
   async function signOut() {
     await sb.auth.signOut();
