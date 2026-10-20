@@ -64,13 +64,20 @@ if (!btn) return;
     }
     // simple streak check
     var today = new Date().toISOString().slice(0, 10);
-    if (data && data.last_active !== today) {
-      var yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-      if (data.last_active === yesterday) streak = (data.streak || 0) + 1;
-      else if (data.last_active !== today) streak = 1;
-      await saveProgress();
-    }
-  }
+  var yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+
+if (data && data.last_active === today) {
+  streak = data.streak || 1;
+} else if (data && data.last_active === yesterday) {
+  streak = (data.streak || 0) + 1;
+  await saveProgress();
+} else {
+  streak = 1;
+  await saveProgress();
+}
+
+updateUI();
+  
 
   async function saveProgress() {
     if (!user) return;
@@ -109,8 +116,9 @@ if (!btn) return;
   if (header) {
     var wrap = document.createElement('div');
     wrap.style.cssText = 'display:flex;align-items:center;gap:8px;margin-left:auto;';
-    wrap.innerHTML = '<span id="auth-info" style="font-size:.85rem;color:var(--soft)"></span>' +
-      '<button id="auth-btn" class="btn" style="padding:8px 14px;font-size:.9rem">Sign in</button>';
+    wrap.innerHTML = '<span id="streak-count" style="font-size:.9rem;font-weight:900;white-space:nowrap">🔥 0 days</span>' +
+  '<span id="auth-info" style="font-size:.85rem;color:var(--soft)"></span>' +
+  '<button id="auth-btn" class="btn" style="padding:8px 14px;font-size:.9rem">Sign in</button>';
     header.appendChild(wrap);
   }
 
