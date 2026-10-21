@@ -1,0 +1,64 @@
+{
+  "title": "Triangles and values",
+  "info": [
+    "In a right triangle, sin = opposite/hypotenuse, cos = adjacent/hypotenuse, and tan = opposite/adjacent.",
+    "cosec A is 1/sin A. The greatest value of sin θ is 1."
+  ],
+  "questions": [
+    {
+      "q": "tan θ = 3/4. What is the hypotenuse of the right triangle with opposite side 3 and adjacent side 4?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explain": "Hypotenuse = √(3² + 4²) = √(9 + 16) = √25 = 5."
+    },
+    {
+      "q": "sin A = 1/2. What is cosec A?",
+      "options": [
+        "1/2",
+        "−1/2",
+        "2",
+        "+1/2"
+      ],
+      "answer": 2,
+      "explain": "cosec A = 1/sin A = 1 ÷ (1/2) = 2."
+    },
+    {
+      "q": "What is the greatest value of sin θ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "−1"
+      ],
+      "answer": 1,
+      "explain": "Sine is always between −1 and 1, so its greatest value is 1."
+    },
+    {
+      "q": "sin θ = 0. What is tan θ? (Take θ = 0°.)",
+      "options": [
+        "0",
+        "−1",
+        "1/√2",
+        "1/2"
+      ],
+      "answer": 0,
+      "explain": "sin 0° = 0 and tan 0° = 0. Also tan θ = sin θ / cos θ = 0/1 = 0."
+    },
+    {
+      "q": "sin θ = 6/7 and θ is acute. What is cos θ?",
+      "options": [
+        "√13/7",
+        "7/√13",
+        "−√13/7",
+        "7/√13"
+      ],
+      "answer": 0,
+      "explain": "Opposite side 6, hypotenuse 7. Adjacent side = √(7² − 6²) = √(49 − 36) = √13. cos θ = √13/7."
+    }
+  ]
+}

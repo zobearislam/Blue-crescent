@@ -78,6 +78,21 @@
         {
           "id": "rounding",
           "name": "Rounding"
+        },
+        {
+          "id": "trigonometry",
+          "name": "Trigonometry",
+          "hasQuiz": false,
+          "subs": [
+            {
+              "id": "simplify",
+              "name": "Simplify"
+            },
+            {
+              "id": "right-triangles",
+              "name": "Right triangles"
+            }
+          ]
         }
       ]
     },

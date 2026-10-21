@@ -1,0 +1,64 @@
+{
+  "title": "Simplify",
+  "info": [
+    "These use the identities 1 + tan²A = sec²A, 1 − sin²A = cos²A, and sin²A + cos²A = 1.",
+    "Square roots are taken as positive, the way they are in the worked examples."
+  ],
+  "questions": [
+    {
+      "q": "Simplify 1/cos²A − 1/cot²A.",
+      "options": [
+        "tan A",
+        "cot A",
+        "1",
+        "−1"
+      ],
+      "answer": 2,
+      "explain": "1/cot²A = sin²A/cos²A. So 1/cos²A − sin²A/cos²A = (1 − sin²A)/cos²A = cos²A/cos²A = 1."
+    },
+    {
+      "q": "Simplify tan θ × √(1 − sin²θ).",
+      "options": [
+        "sec θ",
+        "cot θ",
+        "sin θ",
+        "tan θ"
+      ],
+      "answer": 2,
+      "explain": "1 − sin²θ = cos²θ, so the positive square root is cos θ. tan θ × cos θ = (sin θ/cos θ) × cos θ = sin θ."
+    },
+    {
+      "q": "What is 1/sec²A + 1/cosec²A?",
+      "options": [
+        "0",
+        "−1",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "explain": "1/sec²A = cos²A and 1/cosec²A = sin²A. cos²A + sin²A = 1."
+    },
+    {
+      "q": "Simplify 1 / √(1 + tan²A).",
+      "options": [
+        "tan A",
+        "cos A",
+        "sec A",
+        "cot A"
+      ],
+      "answer": 1,
+      "explain": "1 + tan²A = sec²A, so the positive square root is sec A. 1/sec A = cos A."
+    },
+    {
+      "q": "Simplify sec A / √(1 − sin²A).",
+      "options": [
+        "1",
+        "cos²A",
+        "sec²A",
+        "sin²A"
+      ],
+      "answer": 2,
+      "explain": "1 − sin²A = cos²A, so the positive square root is cos A. sec A / cos A = 1/cos²A = sec²A."
+    }
+  ]
+}
