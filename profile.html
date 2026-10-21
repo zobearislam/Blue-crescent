@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>My Profile — Blue Crescent</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<style>
+:root{--blue:#89cff0;--red:#f4a6a6;--ink:#1f3a5f;--soft:#5d7391;--line:#d6e3f0;--good:#58cc02}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:repeating-conic-gradient(var(--blue) 0% 25%,var(--red) 0% 50%) 0 0/56px 56px;min-height:100vh}
+header{background:#fff;border-bottom:3px solid var(--ink);padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+a{color:var(--ink);font-weight:800}main{max-width:720px;margin:26px auto;padding:0 14px 40px}.card{background:#fff;border:3px solid var(--ink);border-radius:20px;padding:22px;box-shadow:0 5px 0 var(--ink);margin-bottom:18px}
+h1{margin:0 0 5px;font-size:1.8rem}h2{margin:0 0 12px}.muted{color:var(--soft)}label{display:block;font-weight:800;margin:14px 0 5px}input{width:100%;padding:12px;border:2px solid var(--line);border-radius:12px;font:inherit;color:var(--ink)}
+button,.button{display:inline-block;border:3px solid var(--ink);border-radius:12px;background:var(--blue);color:var(--ink);padding:10px 16px;font:inherit;font-weight:900;cursor:pointer;text-decoration:none;box-shadow:0 3px 0 var(--ink)}button:active,.button:active{transform:translateY(3px);box-shadow:none}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.stat{border:2px solid var(--line);border-radius:14px;padding:12px;text-align:center}.stat b{display:block;font-size:1.5rem}.avatar{width:76px;height:76px;border-radius:50%;object-fit:cover;border:3px solid var(--ink);background:var(--blue)}#message{font-weight:800;margin-top:12px;overflow-wrap:anywhere}
+@media(max-width:480px){.card{padding:16px}.stats{grid-template-columns:1fr 1fr}.stats .stat:last-child{grid-column:1/-1}}
+</style>
+</head>
+<body>
+<header><strong>🌙 Blue Crescent</strong><nav><a href="index.html">Lessons</a> · <a href="leaderboard.html">Leaderboard</a> · <a href="games.html">Games</a></nav></header>
+<main>
+<section class="card">
+<h1>My learner profile</h1><p class="muted">Choose the name other learners will see on the leaderboard.</p>
+<div id="signed-out" hidden><p>You need to sign in with GitHub to create or edit your profile.</p><button id="sign-in">Sign in with GitHub</button></div>
+<div id="profile-area" hidden>
+<div class="row" style="align-items:center"><img id="avatar-preview" class="avatar" alt="Profile avatar"><div><strong id="account-label"></strong><div class="muted">Your account</div></div></div>
+<label for="display-name">Display name (1–40 characters)</label><input id="display-name" maxlength="40" autocomplete="nickname" placeholder="Moon learner">
+<label for="avatar-url">Avatar image URL (optional)</label><input id="avatar-url" type="url" placeholder="https://example.com/avatar.png">
+<p class="muted">Use an image URL you trust. Leave it blank to use the default moon avatar.</p>
+<div class="row"><button id="save">Save profile</button><button id="refresh" type="button">Refresh stats</button><button id="sign-out" type="button">Sign out</button></div>
+</div>
+<div id="message" role="status"></div>
+</section>
+<section class="card">
+<h2>Your learning stats</h2><div class="stats">
+<div class="stat"><b id="xp">—</b>XP</div><div class="stat"><b id="completed">—</b>Quizzes completed</div><div class="stat"><b id="streak">—</b>Day streak 🔥</div>
+</div>
+<p class="muted">Blue Crescent currently awards 10 XP for each completed quiz. Stats sync when you finish a quiz while signed in.</p>
+</section>
+</main>
+<script>
+(function(){
+'use strict';
+var SUPABASE_URL='https://qdviglvmnqhdamymfwhs.supabase.co';
+var KEY='sb_publishable_uS1vL0jWipIXHYhL68fm1A_gBAenhXv';
+var sb=window.supabase.createClient(SUPABASE_URL,KEY), user=null;
+var $=function(id){return document.getElementById(id)};
+function msg(s){$('message').textContent=s}
+function defaultAvatar(){return 'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="50" fill="#89cff0"/><text x="50" y="66" text-anchor="middle" font-size="58">🌙</text></svg>')}
+function setAvatar(u){$('avatar-preview').src=u||defaultAvatar();$('avatar-preview').onerror=function(){this.onerror=null;this.src=defaultAvatar()}}
+function signedInUI(){
+$('signed-out').hidden=!!user;$('profile-area').hidden=!user;
+if(user){$('account-label').textContent=(user.user_metadata&&(user.user_metadata.user_name||user.user_metadata.full_name||user.user_metadata.name))||user.email||'Signed in';}
+}
+async function signIn(){var r=await sb.auth.signInWithOAuth({provider:'github',options:{redirectTo:location.origin+location.pathname.replace(/[^/]*$/,'index.html')}});if(r.error)msg(r.error.message)}
+async function load(){
+var p=await sb.from('profiles').select('*').eq('user_id',user.id).maybeSingle();
+if(p.error){msg('Could not load profile: '+p.error.message);return}
+if(p.data){$('display-name').value=p.data.display_name||'';$('avatar-url').value=p.data.avatar_url||'';setAvatar(p.data.avatar_url)}
+else{
+var m=user.user_metadata||{};$('display-name').value=(m.full_name||m.name||m.user_name||m.preferred_username||(user.email||'Moon learner').split('@')[0]).slice(0,40);setAvatar('');
+}
+await refreshStats();
+}
+async function refreshStats(){
+if(!user)return;
+var r=await sb.from('progress').select('done,streak').eq('user_id',user.id).maybeSingle();
+if(r.error){msg('Could not load progress: '+r.error.message);return}
+var done=r.data&&r.data.done&&typeof r.data.done==='object'?r.data.done:{};
+var count=Object.keys(done).length, streak=(r.data&&r.data.streak)||0;
+var s=await sb.from('leaderboard_stats').upsert({user_id:user.id,xp:count*10,lessons_completed:count,streak:streak,updated_at:new Date().toISOString()},{onConflict:'user_id'}).select().single();
+if(s.error) console.warn('leaderboard stats',s.error);
+$('xp').textContent=count*10;$('completed').textContent=count;$('streak').textContent=streak;
+msg('Stats refreshed.');
+}
+async function save(){
+if(!user)return;
+var name=$('display-name').value.trim(), avatar=$('avatar-url').value.trim();
+if(!name||name.length>40){msg('Please enter a display name between 1 and 40 characters.');return}
+if(avatar){try{var u=new URL(avatar);if(!['http:','https:'].includes(u.protocol))throw Error()}catch(e){msg('Avatar must be a valid http or https URL.');return}}
+var r=await sb.from('profiles').upsert({user_id:user.id,display_name:name,avatar_url:avatar||null,updated_at:new Date().toISOString()},{onConflict:'user_id'});
+if(r.error){msg('Could not save: '+r.error.message);return}
+setAvatar(avatar);msg('Profile saved!');
+}
+$('sign-in').onclick=signIn;$('save').onclick=save;$('refresh').onclick=refreshStats;
+$('sign-out').onclick=async function(){await sb.auth.signOut();location.reload()};
+sb.auth.getSession().then(function(r){user=r.data.session&&r.data.session.user;signedInUI();if(user)load()});
+sb.auth.onAuthStateChange(function(_,session){user=session&&session.user;signedInUI();if(user)load()});
+})();
+</script>
+</body>
+</html>
