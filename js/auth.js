@@ -93,7 +93,31 @@ updateUI();
     });
     if (error) console.warn('save progress', error);
   }
+// Update the leaderboard after a quiz is completed
+async function updateLeaderboardStats() {
+  if (!user) return;
 
+  var done = {};
+  try {
+    done = JSON.parse(localStorage.getItem('bc_done') || '{}');
+  } catch (e) {}
+
+  var completed = Object.keys(done).filter(function (key) {
+    return done[key] === true;
+  }).length;
+
+  var { error } = await sb.from('leaderboard_stats').upsert({
+    user_id: user.id,
+    xp: completed * 10,
+    lessons_completed: completed,
+    streak: streak,
+    updated_at: new Date().toISOString()
+  }, { onConflict: 'user_id' });
+
+  if (error) console.warn('Leaderboard update failed:', error);
+}
+
+window.bcUpdateLeaderboard = updateLeaderboardStats;
   // expose so app.js can call it after finishing a quiz
   window.bcSaveProgress = saveProgress;
   window.bcGetStreak = function () { return streak; };
