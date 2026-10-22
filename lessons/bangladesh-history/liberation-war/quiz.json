@@ -1,0 +1,21 @@
+{
+  "title": "The Liberation War of 1971",
+  "info": [
+    "In 1971, the people of Bangladesh fought for independence from Pakistan.",
+    "The war led to the birth of the independent country of Bangladesh. Victory Day is celebrated on December 16."
+  ],
+  "questions": [
+    { "q": "In which year did Bangladesh become independent?", "options": ["1971", "1952", "1947"], "answer": 0 },
+    { "q": "What is celebrated on December 16 in Bangladesh?", "options": ["Victory Day", "Christmas", "New Year"], "answer": 0 },
+    { "q": "The Liberation War was fought for", "options": ["Independence", "Ice cream", "Sports"], "answer": 0 },
+    { "q": "Before independence, the area was called", "options": ["East Pakistan", "West Bengal only", "Europe"], "answer": 0 },
+    { "q": "The people of Bangladesh wanted their own", "options": ["Country and language rights", "Only mountains", "Deserts"], "answer": 0 },
+    { "q": "Type the year Bangladesh became independent.", "type": "text", "answer": ["1971"] },
+    { "q": "Victory Day is on", "options": ["December 16", "January 1", "July 4"], "answer": 0 },
+    { "q": "The war ended with", "options": ["Independence for Bangladesh", "Building pyramids", "Going to space"], "answer": 0 },
+    { "q": "Bangladesh is now an independent", "options": ["Country", "City only", "Island in the ocean"], "answer": 0 },
+    { "q": "Many people worked together for", "options": ["Freedom", "Only games", "Snowmen"], "answer": 0 },
+    { "q": "Which day honors the victory in 1971?", "options": ["Victory Day", "Language Day", "Independence Day only"], "answer": 0 },
+    { "q": "Type one thing the Liberation War achieved.", "type": "text", "answer": ["independence", "freedom", "country", "bangladesh"] }
+  ]
+}
