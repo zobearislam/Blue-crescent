@@ -1,0 +1,21 @@
+{
+  "title": "Ancient Bengal",
+  "info": [
+    "The land of Bangladesh has a very long history. People lived here thousands of years ago.",
+    "Ancient kingdoms like Vanga and Pundra existed in this region. The area was known for trade and culture."
+  ],
+  "questions": [
+    { "q": "What is the modern name of the land that includes Bangladesh?", "options": ["Bengal", "Europe", "Africa"], "answer": 0 },
+    { "q": "Which ancient kingdom was in the Bengal region?", "options": ["Vanga", "Rome", "Egypt"], "answer": 0 },
+    { "q": "People in ancient Bengal were known for", "options": ["Trade and farming", "Building pyramids", "Ice skating"], "answer": 0 },
+    { "q": "The Ganges and Brahmaputra rivers helped", "options": ["Farming and travel", "Only fishing", "Mountain climbing"], "answer": 0 },
+    { "q": "Ancient Bengal had connections with", "options": ["India and other Asian lands", "Only Antarctica", "Outer space"], "answer": 0 },
+    { "q": "Type the name of an ancient kingdom in Bengal.", "type": "text", "answer": ["vanga", "pundra", "samatata"] },
+    { "q": "Rice farming was important in ancient Bengal because", "options": ["The land was fertile", "It was a desert", "There were no rivers"], "answer": 0 },
+    { "q": "Which river is important in Bangladesh history?", "options": ["Ganges", "Nile", "Amazon"], "answer": 0 },
+    { "q": "Ancient people in this region traded", "options": ["Goods like textiles and spices", "Only ice", "Cars"], "answer": 0 },
+    { "q": "The history of Bengal goes back", "options": ["Thousands of years", "Only 100 years", "Just yesterday"], "answer": 0 },
+    { "q": "Which area is part of the Bengal region today?", "options": ["Bangladesh", "Brazil", "Canada"], "answer": 0 },
+    { "q": "Type one thing ancient Bengal was known for.", "type": "text", "answer": ["trade", "farming", "culture", "rice"] }
+  ]
+}
