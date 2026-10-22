@@ -1,0 +1,21 @@
+{
+  "title": "Animals",
+  "info": [
+    "Learn animal names in German.",
+    "Hund is dog, Katze is cat, Vogel is bird."
+  ],
+  "questions": [
+    { "q": "How do you say dog in German?", "options": ["Hund", "Perro", "Chien"], "answer": 0 },
+    { "q": "What animal is \"Katze\"?", "options": ["Dog", "Cat", "Bird"], "answer": 1 },
+    { "q": "How do you say bird in German?", "options": ["Vogel", "Pájaro", "Oiseau"], "answer": 0 },
+    { "q": "What animal is \"Pferd\"?", "options": ["Cat", "Horse", "Fish"], "answer": 1 },
+    { "q": "How do you say fish in German?", "options": ["Fisch", "Pez", "Poisson"], "answer": 0 },
+    { "q": "Type the German word for cat.", "type": "text", "answer": ["katze"] },
+    { "q": "What animal is \"Maus\"?", "options": ["Elephant", "Mouse", "Lion"], "answer": 1 },
+    { "q": "How do you say cow in German?", "options": ["Kuh", "Vaca", "Vache"], "answer": 0 },
+    { "q": "What animal is \"Löwe\"?", "options": ["Tiger", "Lion", "Bear"], "answer": 1 },
+    { "q": "Type the German word for dog.", "type": "text", "answer": ["hund"] },
+    { "q": "How do you say bird in German?", "options": ["Vogel", "Pájaro", "Oiseau"], "answer": 0 },
+    { "q": "Which animal is \"Katze\"?", "options": ["Dog", "Cat", "Horse"], "answer": 1 }
+  ]
+}
