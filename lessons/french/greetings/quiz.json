@@ -13,6 +13,10 @@
     { "q": "\"Non\" means", "options": ["Yes", "No", "Maybe"], "answer": 1 },
     { "q": "Type the French word for thank you.", "type": "text", "answer": ["merci"] },
     { "q": "\"Bonsoir\" is used in the", "options": ["morning", "evening", "afternoon only"], "answer": 1 },
-    { "q": "Which is a polite greeting?", "options": ["Bonjour", "Non", "Chat"], "answer": 0 }
+    { "q": "Which is a polite greeting?", "options": ["Bonjour", "Non", "Chat"], "answer": 0 },
+    { "q": "How do you say goodbye in French?", "options": ["Bonjour", "Au revoir", "Merci"], "answer": 1 },
+    { "q": "Type the French word for yes.", "type": "text", "answer": ["oui"] },
+    { "q": "\"Bonjour\" is usually said in the", "options": ["morning or daytime", "only at night", "never"], "answer": 0 },
+    { "q": "Which word means thank you?", "options": ["Merci", "Non", "Oui"], "answer": 0 }
   ]
 }
