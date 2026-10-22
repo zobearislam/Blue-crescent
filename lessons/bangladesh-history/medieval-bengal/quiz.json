@@ -1,0 +1,21 @@
+{
+  "title": "Medieval Bengal",
+  "info": [
+    "In the medieval period, Bengal had sultans and rich culture. Cities like Gaur and Sonargaon were important.",
+    "This time saw growth in trade, architecture, and learning."
+  ],
+  "questions": [
+    { "q": "Who ruled parts of Bengal in the medieval period?", "options": ["Sultans", "Dinosaurs", "Astronauts"], "answer": 0 },
+    { "q": "Which city was an important center in medieval Bengal?", "options": ["Sonargaon", "New York", "Paris"], "answer": 0 },
+    { "q": "Medieval Bengal was known for", "options": ["Trade and beautiful buildings", "Only deserts", "Ice palaces"], "answer": 0 },
+    { "q": "The Bengal Sultanate was a", "options": ["Muslim kingdom", "Roman empire", "Greek city"], "answer": 0 },
+    { "q": "Trade in medieval Bengal included", "options": ["Textiles and spices", "Only snow", "Spaceships"], "answer": 0 },
+    { "q": "Type the name of a medieval city in Bengal.", "type": "text", "answer": ["sonargaon", "gaur", "pandua"] },
+    { "q": "Architecture in this period included", "options": ["Mosques and palaces", "Only tents", "Igloos"], "answer": 0 },
+    { "q": "The rivers helped medieval Bengal with", "options": ["Trade and farming", "Only skiing", "Flying"], "answer": 0 },
+    { "q": "Which period came after ancient times?", "options": ["Medieval", "Future", "Stone age only"], "answer": 0 },
+    { "q": "Learning and culture grew during", "options": ["The medieval period", "Only winter", "Space travel"], "answer": 0 },
+    { "q": "Bengal was an important region because of its", "options": ["Fertile land and rivers", "High mountains only", "Deserts"], "answer": 0 },
+    { "q": "Type one thing medieval Bengal was famous for.", "type": "text", "answer": ["trade", "sultans", "culture", "architecture"] }
+  ]
+}
