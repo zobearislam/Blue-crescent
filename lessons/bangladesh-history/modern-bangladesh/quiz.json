@@ -1,0 +1,21 @@
+{
+  "title": "Modern Bangladesh",
+  "info": [
+    "After 1971, Bangladesh became an independent nation. It has grown in many ways.",
+    "Dhaka is the capital. The country is known for its rivers, culture, and people."
+  ],
+  "questions": [
+    { "q": "What is the capital of Bangladesh?", "options": ["Dhaka", "Paris", "Tokyo"], "answer": 0 },
+    { "q": "Bangladesh became independent in", "options": ["1971", "1857", "2000"], "answer": 0 },
+    { "q": "Which river system is important in Bangladesh?", "options": ["Ganges-Brahmaputra", "Nile", "Amazon"], "answer": 0 },
+    { "q": "The flag of Bangladesh has", "options": ["A red circle on green", "Only stars", "Stripes of blue"], "answer": 0 },
+    { "q": "Bengali is the official language of", "options": ["Bangladesh", "Japan", "Brazil"], "answer": 0 },
+    { "q": "Type the capital of Bangladesh.", "type": "text", "answer": ["dhaka"] },
+    { "q": "Bangladesh is located in", "options": ["South Asia", "Europe", "South America"], "answer": 0 },
+    { "q": "The country has many", "options": ["Rivers and fertile land", "Only deserts", "High mountains everywhere"], "answer": 0 },
+    { "q": "Independence Day in Bangladesh is on", "options": ["March 26", "December 25", "July 4"], "answer": 0 },
+    { "q": "People in Bangladesh celebrate", "options": ["Victory Day and Language Day", "Only Halloween", "Thanksgiving"], "answer": 0 },
+    { "q": "Modern Bangladesh has grown in", "options": ["Education, culture, and development", "Only ice cream shops", "Space colonies"], "answer": 0 },
+    { "q": "Type one important river in Bangladesh.", "type": "text", "answer": ["ganges", "brahmaputra", "padma", "jamuna", "meghna"] }
+  ]
+}
