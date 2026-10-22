@@ -10,6 +10,12 @@
     { "q": "The past tense of walk is", "options": ["walked", "walking", "walks"], "answer": 0 },
     { "q": "Which word is a verb?", "options": ["Under", "Think", "Soft"], "answer": 1 },
     { "q": "Which verb means to look at words and understand them?", "options": ["Read", "Chair", "Yellow"], "answer": 0 },
-    { "q": "Type the past tense of play.", "type": "text", "answer": ["played"] }
+    { "q": "Type the past tense of play.", "type": "text", "answer": ["played"] },
+    { "q": "Which word is a verb?", "options": ["Jump", "Blue", "House"], "answer": 0 },
+    { "q": "In \"The dog runs\", the verb is", "options": ["The", "dog", "runs"], "answer": 2 },
+    { "q": "The past tense of eat is", "options": ["ate", "eats", "eating"], "answer": 0 },
+    { "q": "Type the past tense of jump.", "type": "text", "answer": ["jumped"] },
+    { "q": "Which word shows action?", "options": ["Dance", "Table", "Quiet"], "answer": 0 },
+    { "q": "\"Is\" is a verb that means", "options": ["to be", "to run", "to jump"], "answer": 0 }
   ]
 }
