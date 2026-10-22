@@ -15,7 +15,8 @@ a{color:inherit}
 :focus-visible{outline:3px solid var(--ink);outline-offset:2px}
 
 .top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding:14px 20px;background:#fff;border-bottom:4px solid var(--ink)}
-.brand{font-weight:900;font-size:1.25rem;text-decoration:none}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.25rem;text-decoration:none}
+.logo{height:42px;width:auto;display:block;flex:none;filter:drop-shadow(0 2px 0 var(--ink))}
 .crumbs{display:flex;flex-wrap:wrap;gap:6px;font-size:.95rem;color:var(--soft)}
 .crumbs a{text-decoration:none}
 .crumbs a:hover{text-decoration:underline}
@@ -86,6 +87,7 @@ code{background:#eef5fb;padding:2px 6px;border-radius:6px;font-size:.9em}
   .panel{padding:16px}
   .panel h1{font-size:1.5rem}
   .q-shell{border:0}
+  .logo{height:36px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
