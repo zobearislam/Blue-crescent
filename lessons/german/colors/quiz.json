@@ -1,0 +1,21 @@
+{
+  "title": "Colors",
+  "info": [
+    "Colors in German are fun to learn.",
+    "Rot is red, blau is blue, gelb is yellow."
+  ],
+  "questions": [
+    { "q": "How do you say red in German?", "options": ["Rot", "Rojo", "Rouge"], "answer": 0 },
+    { "q": "What color is \"blau\"?", "options": ["Red", "Blue", "Green"], "answer": 1 },
+    { "q": "How do you say yellow in German?", "options": ["Gelb", "Amarillo", "Jaune"], "answer": 0 },
+    { "q": "What color is \"grün\"?", "options": ["Blue", "Green", "Yellow"], "answer": 1 },
+    { "q": "How do you say black in German?", "options": ["Schwarz", "Negro", "Noir"], "answer": 0 },
+    { "q": "Type the German word for blue.", "type": "text", "answer": ["blau"] },
+    { "q": "What color is \"weiß\"?", "options": ["Black", "White", "Red"], "answer": 1 },
+    { "q": "How do you say green in German?", "options": ["Grün", "Verde", "Vert"], "answer": 0 },
+    { "q": "What color is \"orange\"?", "options": ["Orange", "Pink", "Purple"], "answer": 0 },
+    { "q": "Type the German word for red.", "type": "text", "answer": ["rot"] },
+    { "q": "How do you say white in German?", "options": ["Weiß", "Blanco", "Blanc"], "answer": 0 },
+    { "q": "Which color is \"gelb\"?", "options": ["Blue", "Yellow", "Green"], "answer": 1 }
+  ]
+}
