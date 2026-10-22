@@ -1,0 +1,21 @@
+{
+  "title": "Important People and Culture",
+  "info": [
+    "Bangladesh has a rich culture with poetry, music, and festivals. Many people have contributed to its history.",
+    "Poets, leaders, and everyday people helped shape the nation."
+  ],
+  "questions": [
+    { "q": "Which poet is very famous in Bengali culture?", "options": ["Rabindranath Tagore", "Shakespeare only", "Only modern singers"], "answer": 0 },
+    { "q": "Bengali culture includes", "options": ["Poetry, music, and festivals", "Only snow sports", "Desert dances"], "answer": 0 },
+    { "q": "Pohela Boishakh is", "options": ["The Bengali New Year festival", "Christmas", "Halloween"], "answer": 0 },
+    { "q": "The national anthem of Bangladesh was written by", "options": ["Rabindranath Tagore", "A robot", "Only kings"], "answer": 0 },
+    { "q": "Culture in Bangladesh includes", "options": ["Traditional music and food", "Only pizza", "Ice hockey"], "answer": 0 },
+    { "q": "Type the name of the famous Bengali poet.", "type": "text", "answer": ["tagore", "rabindranath tagore", "rabindranath"] },
+    { "q": "Festivals in Bangladesh often include", "options": ["Music, food, and family", "Only silence", "Snowball fights"], "answer": 0 },
+    { "q": "Bengali literature is rich with", "options": ["Poems and stories", "Only numbers", "Maps"], "answer": 0 },
+    { "q": "The people of Bangladesh value", "options": ["Their language and culture", "Only video games", "Deserts"], "answer": 0 },
+    { "q": "Traditional clothing includes", "options": ["Sarees and panjabis", "Only spacesuits", "Winter coats only"], "answer": 0 },
+    { "q": "Culture helps people remember", "options": ["Their history and identity", "Only the future", "Nothing"], "answer": 0 },
+    { "q": "Type one festival celebrated in Bangladesh.", "type": "text", "answer": ["pohela boishakh", "eid", "durga puja", "victory day"] }
+  ]
+}
