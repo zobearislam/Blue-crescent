@@ -10,6 +10,12 @@
     { "q": "Which adjective tells about size?", "options": ["Happy", "Huge", "Quickly"], "answer": 1 },
     { "q": "Which word describes the noun in \"a cold drink\"?", "options": ["a", "cold", "drink"], "answer": 1 },
     { "q": "Which word is an adjective?", "options": ["Run", "Bright", "And"], "answer": 1 },
-    { "q": "Type an adjective that means the opposite of hot.", "type": "text", "answer": ["cold", "cool"] }
+    { "q": "Type an adjective that means the opposite of hot.", "type": "text", "answer": ["cold", "cool"] },
+    { "q": "Which word describes how something feels?", "options": ["Soft", "Run", "They"], "answer": 0 },
+    { "q": "In \"a shiny star\", the adjective is", "options": ["a", "shiny", "star"], "answer": 1 },
+    { "q": "Which adjective tells about color?", "options": ["Blue", "Jump", "Quickly"], "answer": 0 },
+    { "q": "Type an adjective for a happy feeling.", "type": "text", "answer": ["happy", "glad", "joyful", "cheerful"] },
+    { "q": "Which word is NOT an adjective?", "options": ["Small", "Beautiful", "Run"], "answer": 2 },
+    { "q": "In \"the loud music\", the adjective is", "options": ["the", "loud", "music"], "answer": 1 }
   ]
 }
