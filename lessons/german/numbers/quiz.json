@@ -1,0 +1,21 @@
+{
+  "title": "Numbers",
+  "info": [
+    "In German, numbers are useful for counting.",
+    "Eins is 1, zwei is 2, drei is 3."
+  ],
+  "questions": [
+    { "q": "How do you say 1 in German?", "options": ["Eins", "Uno", "One"], "answer": 0 },
+    { "q": "What is \"zwei\"?", "options": ["1", "2", "3"], "answer": 1 },
+    { "q": "How do you say 3 in German?", "options": ["Drei", "Tres", "Three"], "answer": 0 },
+    { "q": "What is \"vier\"?", "options": ["3", "4", "5"], "answer": 1 },
+    { "q": "How do you say 5 in German?", "options": ["Fünf", "Cinco", "Five"], "answer": 0 },
+    { "q": "Type the German word for 2.", "type": "text", "answer": ["zwei"] },
+    { "q": "What is \"zehn\"?", "options": ["8", "10", "12"], "answer": 1 },
+    { "q": "How do you say 10 in German?", "options": ["Zehn", "Diez", "Ten"], "answer": 0 },
+    { "q": "What is \"sechs\"?", "options": ["5", "6", "7"], "answer": 1 },
+    { "q": "Type the German word for 1.", "type": "text", "answer": ["eins"] },
+    { "q": "How do you say 4 in German?", "options": ["Vier", "Cuatro", "Four"], "answer": 0 },
+    { "q": "Which number is \"drei\"?", "options": ["2", "3", "4"], "answer": 1 }
+  ]
+}
