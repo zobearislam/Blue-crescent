@@ -5,58 +5,17 @@
     "If apples = 4, the name is apples and the value is 4."
   ],
   "questions": [
-    {
-      "q": "A variable is",
-      "options": [
-        "a named place that holds a value",
-        "a type of cloud",
-        "a finished book only"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "If score starts at 0 and you add 1, score is",
-      "options": [
-        "1",
-        "0",
-        "10"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "In apples = 4, the value is",
-      "options": [
-        "4",
-        "apples",
-        "equals"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "You can change a variable later. If stars = 2 and then stars = 5, stars is",
-      "options": [
-        "5",
-        "2",
-        "7"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "The name of a variable helps you",
-      "options": [
-        "remember what the value is for",
-        "paint the screen blue automatically",
-        "turn off the computer"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "If hearts = 3, type the value.",
-      "type": "text",
-      "answer": [
-        "3",
-        "three"
-      ]
-    }
+    { "q": "A variable is", "options": ["a named place that holds a value", "a type of cloud", "a finished book only"], "answer": 0 },
+    { "q": "If score starts at 0 and you add 1, score is", "options": ["1", "0", "10"], "answer": 0 },
+    { "q": "In apples = 4, the value is", "options": ["4", "apples", "equals"], "answer": 0 },
+    { "q": "You can change a variable later. If stars = 2 and then stars = 5, stars is", "options": ["5", "2", "7"], "answer": 0 },
+    { "q": "The name of a variable helps you", "options": ["remember what the value is for", "paint the screen blue automatically", "turn off the computer"], "answer": 0 },
+    { "q": "If hearts = 3, type the value.", "type": "text", "answer": ["3", "three"] },
+    { "q": "If points = 10 and you add 5 more, points becomes", "options": ["15", "10", "5"], "answer": 0 },
+    { "q": "A variable can hold", "options": ["numbers or words", "only pictures", "nothing"], "answer": 0 },
+    { "q": "If name = \"Sam\", the value is", "options": ["Sam", "name", "equals"], "answer": 0 },
+    { "q": "Type a good variable name for the number of cookies.", "type": "text", "answer": ["cookies", "cookie_count", "num_cookies"] },
+    { "q": "If lives = 2 and you lose 1, lives is", "options": ["1", "2", "3"], "answer": 0 },
+    { "q": "Variables help programs", "options": ["remember information", "only draw shapes", "close automatically"], "answer": 0 }
   ]
 }
