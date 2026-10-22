@@ -5,57 +5,17 @@
     "Red and yellow make orange. Blue and yellow make green. Red and blue make purple."
   ],
   "questions": [
-    {
-      "q": "Which set is the primary paint colors?",
-      "options": [
-        "Red, yellow, blue",
-        "Green, orange, purple",
-        "Black, white, gray"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Red mixed with yellow makes",
-      "options": [
-        "orange",
-        "green",
-        "purple"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Blue mixed with yellow makes",
-      "options": [
-        "green",
-        "orange",
-        "pink"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Red mixed with blue makes",
-      "options": [
-        "purple",
-        "green",
-        "yellow"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "White added to a color makes it",
-      "options": [
-        "lighter",
-        "always black",
-        "disappear"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Type the color you get from blue and yellow.",
-      "type": "text",
-      "answer": [
-        "green"
-      ]
-    }
+    { "q": "Which set is the primary paint colors?", "options": ["Red, yellow, blue", "Green, orange, purple", "Black, white, gray"], "answer": 0 },
+    { "q": "Red mixed with yellow makes", "options": ["orange", "green", "purple"], "answer": 0 },
+    { "q": "Blue mixed with yellow makes", "options": ["green", "orange", "pink"], "answer": 0 },
+    { "q": "Red mixed with blue makes", "options": ["purple", "green", "yellow"], "answer": 0 },
+    { "q": "White added to a color makes it", "options": ["lighter", "always black", "disappear"], "answer": 0 },
+    { "q": "Type the color you get from blue and yellow.", "type": "text", "answer": ["green"] },
+    { "q": "Yellow mixed with red makes", "options": ["orange", "blue", "black"], "answer": 0 },
+    { "q": "Which colors make green?", "options": ["Blue and yellow", "Red and blue", "Red and yellow"], "answer": 0 },
+    { "q": "Black added to a color makes it", "options": ["darker", "always white", "disappear"], "answer": 0 },
+    { "q": "Type the color you get from red and blue.", "type": "text", "answer": ["purple", "violet"] },
+    { "q": "Primary colors cannot be made by", "options": ["mixing other colors", "using paint", "drawing"], "answer": 0 },
+    { "q": "Which is a secondary color?", "options": ["Orange", "Red", "Yellow"], "answer": 0 }
   ]
 }
