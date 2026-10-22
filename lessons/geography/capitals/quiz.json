@@ -5,58 +5,17 @@
     "The capital is not always the biggest city."
   ],
   "questions": [
-    {
-      "q": "What is the capital of France?",
-      "options": [
-        "Lyon",
-        "Paris",
-        "Nice"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "What is the capital of Japan?",
-      "options": [
-        "Osaka",
-        "Tokyo",
-        "Kyoto"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "What is the capital of Italy?",
-      "options": [
-        "Rome",
-        "Venice",
-        "Milan"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "What is the capital of Egypt?",
-      "options": [
-        "Cairo",
-        "Alexandria",
-        "Luxor"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "What is the capital of Canada?",
-      "options": [
-        "Toronto",
-        "Ottawa",
-        "Vancouver"
-      ],
-      "answer": 1,
-      "explain": "Toronto is larger, but Ottawa is the capital."
-    },
-    {
-      "q": "Type the capital of Spain.",
-      "type": "text",
-      "answer": [
-        "madrid"
-      ]
-    }
+    { "q": "What is the capital of France?", "options": ["Lyon", "Paris", "Nice"], "answer": 1 },
+    { "q": "What is the capital of Japan?", "options": ["Osaka", "Tokyo", "Kyoto"], "answer": 1 },
+    { "q": "What is the capital of Italy?", "options": ["Rome", "Venice", "Milan"], "answer": 0 },
+    { "q": "What is the capital of Egypt?", "options": ["Cairo", "Alexandria", "Luxor"], "answer": 0 },
+    { "q": "What is the capital of Canada?", "options": ["Toronto", "Ottawa", "Vancouver"], "answer": 1, "explain": "Toronto is larger, but Ottawa is the capital." },
+    { "q": "Type the capital of Spain.", "type": "text", "answer": ["madrid"] },
+    { "q": "What is the capital of Australia?", "options": ["Sydney", "Canberra", "Melbourne"], "answer": 1 },
+    { "q": "What is the capital of Brazil?", "options": ["Rio de Janeiro", "Brasília", "São Paulo"], "answer": 1 },
+    { "q": "What is the capital of the United Kingdom?", "options": ["London", "Manchester", "Edinburgh"], "answer": 0 },
+    { "q": "Type the capital of Germany.", "type": "text", "answer": ["berlin"] },
+    { "q": "What is the capital of India?", "options": ["Mumbai", "New Delhi", "Kolkata"], "answer": 1 },
+    { "q": "What is the capital of Mexico?", "options": ["Mexico City", "Cancún", "Guadalajara"], "answer": 0 }
   ]
 }
