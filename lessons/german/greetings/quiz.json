@@ -1,0 +1,22 @@
+{
+  "title": "Greetings",
+  "info": [
+    "In German, hello is \"Hallo\" or \"Guten Tag\".",
+    "\"Auf Wiedersehen\" means goodbye. \"Danke\" means thank you.",
+    "\"Ja\" means yes and \"Nein\" means no."
+  ],
+  "questions": [
+    { "q": "How do you say hello in German?", "options": ["Hola", "Hallo", "Bonjour"], "answer": 1 },
+    { "q": "What does \"Danke\" mean?", "options": ["Please", "Thank you", "Sorry"], "answer": 1 },
+    { "q": "\"Auf Wiedersehen\" means", "options": ["Hello", "Goodbye", "Please"], "answer": 1 },
+    { "q": "How do you say yes in German?", "options": ["Ja", "Nein", "Si"], "answer": 0 },
+    { "q": "\"Nein\" means", "options": ["Yes", "No", "Maybe"], "answer": 1 },
+    { "q": "Type the German word for thank you.", "type": "text", "answer": ["danke"] },
+    { "q": "\"Guten Morgen\" means", "options": ["Good morning", "Good night", "Goodbye"], "answer": 0 },
+    { "q": "Which is a polite greeting?", "options": ["Hallo", "Nein", "Katze"], "answer": 0 },
+    { "q": "How do you say goodbye in German?", "options": ["Hallo", "Auf Wiedersehen", "Danke"], "answer": 1 },
+    { "q": "Type the German word for yes.", "type": "text", "answer": ["ja"] },
+    { "q": "\"Bitte\" can mean", "options": ["Please or You're welcome", "No", "Hello"], "answer": 0 },
+    { "q": "Which word means thank you?", "options": ["Danke", "Nein", "Ja"], "answer": 0 }
+  ]
+}
