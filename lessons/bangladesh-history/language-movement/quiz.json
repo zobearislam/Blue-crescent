@@ -1,0 +1,21 @@
+{
+  "title": "The Language Movement",
+  "info": [
+    "In 1952, people in East Pakistan (now Bangladesh) fought to keep Bengali as their language.",
+    "February 21 is now International Mother Language Day because of this movement."
+  ],
+  "questions": [
+    { "q": "What year did the Language Movement happen?", "options": ["1952", "1971", "1947"], "answer": 0 },
+    { "q": "What language did people want to protect?", "options": ["Bengali", "Only English", "French"], "answer": 0 },
+    { "q": "February 21 is celebrated as", "options": ["International Mother Language Day", "Christmas", "New Year"], "answer": 0 },
+    { "q": "The Language Movement took place in", "options": ["East Pakistan (now Bangladesh)", "Only West Pakistan", "Europe"], "answer": 0 },
+    { "q": "People protested to keep their", "options": ["Mother language", "Only money", "Cars"], "answer": 0 },
+    { "q": "Type the year of the Language Movement.", "type": "text", "answer": ["1952"] },
+    { "q": "The movement showed the importance of", "options": ["Culture and language", "Only sports", "Ice cream"], "answer": 0 },
+    { "q": "Bengali is the language of", "options": ["Bangladesh", "Only Japan", "Brazil"], "answer": 0 },
+    { "q": "Students and people joined the", "options": ["Language Movement", "Space race", "Olympics"], "answer": 0 },
+    { "q": "International Mother Language Day honors", "options": ["All languages of the world", "Only one language", "Computers"], "answer": 0 },
+    { "q": "The Language Movement helped lead to", "options": ["Greater identity for Bengali people", "Building pyramids", "Discovering America"], "answer": 0 },
+    { "q": "Type the month and day celebrated for languages (like February 21).", "type": "text", "answer": ["february 21", "21 february", "feb 21"] }
+  ]
+}
