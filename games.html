@@ -1,326 +1,295 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Games — Blue Crescent</title>
-  <meta name="description" content="Play educational neon retro mini-games: Memory Match, Speed Math, and Word Scramble.">
-  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Play Blue Crescent games: Memory Match, Speed Math, Word Scramble, and Orbit Lab.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
   <style>
-    .games-hero {
-      padding: 3.5rem 0 2rem;
-      text-align: center;
+    :root {
+      --blue: #89cff0;
+      --rose: #f4a6a6;
+      --ink: #1f3a5f;
+      --soft: #5d7391;
+      --line: #d6e3f0;
+      --good: #58cc02;
+      --neon-cyan: #05d9e8;
+      --neon-pink: #ff2a6d;
+      --bg: #07111f;
+      --bg-card: #10233c;
+      --bg-secondary: #0c1b30;
+      --text: #f4fbff;
+      --text-muted: #b7c9dc;
+      --border: #2a4a6e;
+      --radius: 16px;
     }
-    .games-hero h1 {
-      font-size: clamp(1.8rem, 4vw, 2.8rem);
-      margin-bottom: 0.75rem;
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Nunito", system-ui, sans-serif;
+      font-weight: 700;
+      color: var(--text);
+      background:
+        radial-gradient(900px 420px at 50% -10%, #1a4a7a 0%, transparent 60%),
+        repeating-conic-gradient(#12304e 0% 25%, #0d2138 0% 50%) 0 0 / 56px 56px;
     }
-    .games-hero p {
-      color: var(--text-muted);
-      max-width: 520px;
-      margin: 0 auto 2rem;
+    a { color: inherit; }
+    header {
+      background: #fff;
+      color: var(--ink);
+      border-bottom: 3px solid var(--ink);
+      padding: 14px 18px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
     }
+    header a { color: var(--ink); font-weight: 900; text-decoration: none; }
+    header strong { font-size: 1.15rem; }
+    header nav { display: flex; gap: 14px; flex-wrap: wrap; }
+    header nav a.on { color: #0a6ea8; }
+    main { max-width: 980px; margin: 0 auto; padding: 28px 16px 64px; }
+    .hero { text-align: center; margin-bottom: 22px; }
+    .hero p.tag {
+      margin: 0 0 6px;
+      letter-spacing: 0.16em;
+      font-size: 0.78rem;
+      color: var(--blue);
+    }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(1.8rem, 4vw, 2.6rem); }
+    .hero h1 span { color: var(--rose); }
+    .hero p { margin: 0 auto; max-width: 540px; color: var(--text-muted); }
     .game-menu {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.5rem;
-      margin-bottom: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 14px;
+      margin-bottom: 22px;
     }
     .game-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.75rem;
-      cursor: pointer;
-      transition: all 0.25s ease;
+      background: #fff;
+      color: var(--ink);
+      border: 3px solid var(--ink);
+      border-radius: 20px;
+      padding: 18px 16px;
       text-align: center;
+      cursor: pointer;
+      box-shadow: 0 5px 0 var(--ink);
     }
-    .game-card:hover {
-      border-color: var(--neon-pink);
-      box-shadow: 0 0 24px #ff2a6d33;
-      transform: translateY(-4px);
-    }
-    .game-card.active {
-      border-color: var(--neon-cyan);
-      box-shadow: 0 0 24px #05d9e844;
-    }
-    .game-card .icon {
-      font-size: 2.5rem;
-      margin-bottom: 0.75rem;
-      filter: drop-shadow(0 0 10px #05d9e888);
-    }
-    .game-card h3 {
-      font-size: 1.1rem;
-      color: var(--neon-cyan);
-      margin-bottom: 0.5rem;
-    }
-    .game-card p {
-      color: var(--text-muted);
-      font-size: 0.95rem;
-    }
+    .game-card:active { transform: translateY(4px); box-shadow: none; }
+    .game-card.active { background: #e7f6ff; }
+    .game-card .icon { font-size: 2.2rem; margin-bottom: 6px; }
+    .game-card h3 { margin: 0 0 6px; font-size: 1rem; }
+    .game-card p { margin: 0; color: var(--soft); font-size: 0.95rem; }
     .game-stage {
-      background: var(--bg-secondary);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 2rem;
-      min-height: 360px;
-      margin-bottom: 3rem;
-      box-shadow: inset 0 0 40px #05d9e808;
+      background: #fff;
+      color: var(--ink);
+      border: 3px solid var(--ink);
+      border-radius: 20px;
+      padding: 18px;
+      box-shadow: 0 5px 0 var(--ink);
     }
     .game-stage.hidden { display: none; }
     .game-hud {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      gap: 10px;
       flex-wrap: wrap;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.85rem;
-      letter-spacing: 0.08em;
+      margin-bottom: 12px;
+      font-family: Orbitron, sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
     }
-    .game-hud span {
-      color: var(--neon-cyan);
-      text-shadow: 0 0 8px #05d9e8;
+    .game-hud span { color: #0a6ea8; }
+    .game-hud .score { color: #c2334f; }
+    .game-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+    .btn {
+      border: 3px solid var(--ink);
+      border-radius: 14px;
+      background: var(--good);
+      color: #143000;
+      padding: 10px 16px;
+      font: inherit;
+      font-weight: 900;
+      cursor: pointer;
+      box-shadow: 0 3px 0 var(--ink);
     }
-    .game-hud .score { color: var(--neon-pink); text-shadow: 0 0 8px #ff2a6d; }
+    .btn:active { transform: translateY(3px); box-shadow: none; }
 
-    /* Memory */
     .memory-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 0.75rem;
+      gap: 10px;
       max-width: 480px;
       margin: 0 auto;
     }
-    .memory-card {
+    button.memory-card {
       aspect-ratio: 1;
-      background: var(--bg-card);
-      border: 2px solid var(--border);
-      border-radius: var(--radius);
+      padding: 0;
+      font: inherit;
+      color: inherit;
+      background: #fff;
+      border: 3px solid var(--ink);
+      border-radius: 14px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 1.6rem;
       cursor: pointer;
-      transition: all 0.2s ease;
-      user-select: none;
-    }
-    .memory-card:hover:not(.flipped):not(.matched) {
-      border-color: var(--neon-cyan);
-      box-shadow: 0 0 12px #05d9e844;
-    }
-    .memory-card.flipped,
-    .memory-card.matched {
-      background: #1a1030;
-      border-color: var(--neon-pink);
-      box-shadow: 0 0 16px #ff2a6d44;
-    }
-    .memory-card.matched {
-      border-color: var(--neon-cyan);
-      opacity: 0.7;
-      cursor: default;
     }
     .memory-card .face { display: none; }
-    .memory-card.flipped .face,
-    .memory-card.matched .face { display: block; }
-    .memory-card .back {
-      color: var(--neon-pink);
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.2rem;
-      text-shadow: 0 0 8px #ff2a6d;
-    }
-    .memory-card.flipped .back,
-    .memory-card.matched .back { display: none; }
+    .memory-card .back { color: #0a6ea8; font-family: Orbitron, sans-serif; }
+    .memory-card.flipped, .memory-card.matched { background: #fff4f6; }
+    .memory-card.flipped .face, .memory-card.matched .face { display: block; }
+    .memory-card.flipped .back, .memory-card.matched .back { display: none; }
+    .memory-card.matched { opacity: 0.72; }
 
-    /* Speed Math */
-    .math-question {
-      text-align: center;
-      margin: 2rem 0;
-    }
+    .math-question { text-align: center; margin: 12px 0; }
     .math-question .expr {
-      font-family: 'Orbitron', sans-serif;
-      font-size: clamp(2rem, 6vw, 3.2rem);
-      color: var(--neon-cyan);
-      text-shadow: 0 0 20px #05d9e888;
-      margin-bottom: 1.5rem;
+      font-family: Orbitron, sans-serif;
+      font-size: clamp(1.8rem, 6vw, 2.8rem);
+      color: #0a6ea8;
+      margin-bottom: 14px;
     }
     .math-options {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
-      max-width: 400px;
+      gap: 10px;
+      max-width: 420px;
       margin: 0 auto;
     }
     .math-opt {
-      padding: 1rem;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.3rem;
-      background: var(--bg-card);
-      border: 2px solid var(--border);
-      border-radius: var(--radius);
-      color: var(--text);
+      padding: 14px;
+      font: inherit;
+      font-weight: 900;
+      font-size: 1.2rem;
+      background: #fff;
+      border: 3px solid var(--ink);
+      border-radius: 14px;
+      color: var(--ink);
       cursor: pointer;
-      transition: all 0.2s;
     }
-    .math-opt:hover { border-color: var(--neon-pink); box-shadow: 0 0 14px #ff2a6d44; }
-    .math-opt.correct { border-color: var(--neon-cyan); background: rgba(5,217,232,0.15); }
-    .math-opt.wrong { border-color: var(--neon-pink); background: rgba(255,42,109,0.15); }
+    .math-opt.correct { background: #e5f8d4; }
+    .math-opt.wrong { background: #ffe4ea; }
 
-    /* Scramble */
     .scramble-word {
-      font-family: 'Orbitron', sans-serif;
-      font-size: clamp(1.8rem, 5vw, 2.6rem);
-      letter-spacing: 0.25em;
-      color: var(--neon-pink);
-      text-shadow: 0 0 16px #ff2a6d88;
+      font-family: Orbitron, sans-serif;
+      font-size: clamp(1.4rem, 5vw, 2.2rem);
+      letter-spacing: 0.18em;
       text-align: center;
-      margin: 1.5rem 0;
+      color: #c2334f;
+      margin: 12px 0;
     }
-    .scramble-hint {
-      text-align: center;
-      color: var(--text-muted);
-      margin-bottom: 1.25rem;
-    }
+    .scramble-hint { text-align: center; color: var(--soft); margin-bottom: 12px; }
     .scramble-input-wrap {
       display: flex;
-      gap: 0.75rem;
-      max-width: 400px;
-      margin: 0 auto 1rem;
+      gap: 10px;
+      max-width: 420px;
+      margin: 0 auto 10px;
       flex-wrap: wrap;
       justify-content: center;
     }
     .scramble-input-wrap input {
       flex: 1;
-      min-width: 180px;
-      padding: 0.75rem 1rem;
-      font-size: 1.1rem;
-      font-family: 'Rajdhani', sans-serif;
-      background: var(--bg);
-      border: 2px solid var(--border);
-      border-radius: var(--radius);
-      color: var(--text);
+      min-width: 160px;
+      padding: 12px;
+      font: inherit;
+      border: 3px solid var(--ink);
+      border-radius: 14px;
       text-align: center;
-      letter-spacing: 0.1em;
       text-transform: uppercase;
+      color: var(--ink);
     }
-    .scramble-input-wrap input:focus {
-      outline: none;
-      border-color: var(--neon-cyan);
-      box-shadow: 0 0 12px #05d9e844;
-    }
-    .scramble-feedback {
-      text-align: center;
-      min-height: 1.5rem;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.9rem;
-      letter-spacing: 0.08em;
-    }
-    .scramble-feedback.ok { color: var(--neon-cyan); }
-    .scramble-feedback.bad { color: var(--neon-pink); }
+    .scramble-feedback { text-align: center; min-height: 1.4rem; }
+    .scramble-feedback.ok { color: #2e7d32; }
+    .scramble-feedback.bad { color: #c2334f; }
+    .game-over { text-align: center; }
+    .game-over h3 { margin: 0 0 6px; }
+    .game-over p { color: var(--soft); }
 
-    .game-over {
-      text-align: center;
-      padding: 2rem 0;
+    .orbit-shell { position: relative; }
+    .orbit-canvas {
+      width: 100%;
+      height: min(68vh, 640px);
+      display: block;
+      border-radius: 16px;
+      background: #070714;
+      touch-action: none;
+      cursor: crosshair;
+      border: 3px solid var(--ink);
     }
-    .game-over h3 {
-      font-size: 1.6rem;
-      color: var(--neon-cyan);
-      text-shadow: 0 0 12px #05d9e8;
-      margin-bottom: 0.75rem;
+    .orbit-note { text-align: center; color: var(--soft); min-height: 1.4rem; margin: 12px 0 0; }
+    .orbit-row { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 10px; }
+    .orbit-row button {
+      font: inherit;
+      font-weight: 900;
+      font-size: 0.92rem;
+      padding: 10px 12px;
+      min-height: 44px;
+      border-radius: 12px;
+      border: 3px solid var(--ink);
+      background: #fff;
+      color: var(--ink);
+      cursor: pointer;
     }
-    .game-over p {
-      color: var(--text-muted);
-      margin-bottom: 1.5rem;
-    }
-    .game-actions {
-      display: flex;
-      gap: 0.75rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 1.5rem;
-    }
+    .orbit-row button.on { background: var(--blue); }
+    .orbit-row button.primary { background: var(--good); }
 
-    @media (max-width: 500px) {
-      .memory-grid { grid-template-columns: repeat(3, 1fr); }
+    @media (max-width: 520px) {
+      .memory-grid { grid-template-columns: repeat(4, 1fr); gap: 6px; }
       .math-options { grid-template-columns: 1fr; }
+      .game-stage, .game-card { padding: 14px; }
     }
   </style>
 </head>
 <body>
-  <div class="scanlines"></div>
-  <div class="grid-bg"></div>
-
-  <nav class="navbar" id="navbar">
-    <div class="container nav-container">
-      <a href="index.html" class="logo">
-        <span class="logo-icon">🌙</span>
-        <span class="logo-text">BLUE CRESCENT</span>
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html#subjects">Subjects</a></li>
-        <li><a href="index.html#quizzes">Quizzes</a></li>
-        <li><a href="games.html" class="active">Games</a></li>
-        <li><a href="index.html#about">About</a></li>
-      </ul>
-      <div class="nav-actions">
-        <button class="hamburger" id="hamburger" aria-label="Menu">
-          <span></span><span></span><span></span>
-        </button>
+  <header>
+    <a href="index.html"><strong>🌙 Blue Crescent</strong></a>
+    <nav>
+      <a href="index.html">Lessons</a>
+      <a href="leaderboard.html">Leaderboard</a>
+      <a href="games.html" class="on">Games</a>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <p class="tag">PLAY AND LEARN</p>
+      <h1>Blue Crescent <span>Games</span></h1>
+      <p>Match, race through math, unscramble words, or launch smaller worlds so they circle bigger ones.</p>
+    </div>
+    <div class="game-menu" id="gameMenu">
+      <div class="game-card" data-game="memory">
+        <div class="icon">🃏</div>
+        <h3>MEMORY MATCH</h3>
+        <p>Flip cards and match the pairs.</p>
+      </div>
+      <div class="game-card" data-game="math">
+        <div class="icon">⚡</div>
+        <h3>SPEED MATH</h3>
+        <p>Solve as many as you can before time runs out.</p>
+      </div>
+      <div class="game-card" data-game="scramble">
+        <div class="icon">🔤</div>
+        <h3>WORD SCRAMBLE</h3>
+        <p>Unscramble words from science and space.</p>
+      </div>
+      <div class="game-card" data-game="orbit">
+        <div class="icon">🪐</div>
+        <h3>ORBIT LAB</h3>
+        <p>Drag to launch. Smaller worlds circle bigger ones.</p>
       </div>
     </div>
-  </nav>
-
-  <section class="games-hero">
-    <div class="container">
-      <p class="hero-tag">// ARCADE MODULE</p>
-      <h1>NEON <span class="neon-pink">GAMES</span></h1>
-      <p>Train your brain with retro mini-games. Memory, math speed, and word power — all in neon.</p>
+    <div class="game-stage hidden" id="gameStage">
+      <div class="game-hud" id="gameHud"></div>
+      <div id="gameArea"></div>
+      <div class="game-actions" id="gameActions"></div>
     </div>
-  </section>
-
-  <section class="subjects" style="padding-top: 0;">
-    <div class="container">
-      <div class="game-menu" id="gameMenu">
-        <div class="game-card" data-game="memory">
-          <div class="icon">🃏</div>
-          <h3>MEMORY MATCH</h3>
-          <p>Flip cards and match science & tech pairs. Test your recall.</p>
-        </div>
-        <div class="game-card" data-game="math">
-          <div class="icon">⚡</div>
-          <h3>SPEED MATH</h3>
-          <p>Solve as many problems as you can before time runs out.</p>
-        </div>
-        <div class="game-card" data-game="scramble">
-          <div class="icon">🔤</div>
-          <h3>WORD SCRAMBLE</h3>
-          <p>Unscramble educational terms. How many can you crack?</p>
-        </div>
-      </div>
-
-      <div class="game-stage hidden" id="gameStage">
-        <div class="game-hud" id="gameHud"></div>
-        <div id="gameArea"></div>
-        <div class="game-actions" id="gameActions"></div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container footer-content">
-      <div class="footer-brand">
-        <span class="logo-icon">🌙</span>
-        <span>BLUE CRESCENT</span>
-      </div>
-      <p>Games module · Neon edition</p>
-    </div>
-  </footer>
-
+  </main>
   <script src="js/games.js"></script>
 </body>
 </html>
