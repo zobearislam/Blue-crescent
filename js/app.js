@@ -331,7 +331,10 @@
     }
     return arr.slice(0, n);
   }
-  function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
+  function plural(n, w) {
+    var word = n === 1 ? w : (w === 'quiz' ? 'quizzes' : w + 's');
+    return n + ' ' + word;
+  }
   function chapterBits(c) {
     var n = (c.subs || []).length;
     var bits = [];
