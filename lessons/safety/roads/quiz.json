@@ -1,0 +1,71 @@
+{
+  "title": "Roads",
+  "info": [
+    "In Bangladesh, cars drive on the left side of the road.",
+    "The closest cars come from your right, so look right, then left, then right again before you cross.",
+    "Use a zebra crossing when there is one, and hold a trusted adult's hand on a busy road."
+  ],
+  "questions": [
+    {
+      "q": "In Bangladesh, cars drive on the",
+      "options": [
+        "Left",
+        "Pavement only",
+        "Roof"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Before you cross, look",
+      "options": [
+        "Only straight up",
+        "Right, then left, then right again",
+        "Only at your shoes"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A zebra crossing is for",
+      "options": [
+        "Parking a bicycle in the lane",
+        "Racing",
+        "People walking across the road"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "On a busy road you should",
+      "options": [
+        "Hold a trusted adult's hand",
+        "Run without looking",
+        "Play in the lane"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If a car is coming, you should",
+      "options": [
+        "Close your eyes and step out",
+        "Wait until it is safe",
+        "Wave it toward you"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The pavement, or sidewalk, is the safer place to",
+      "options": [
+        "Play football in traffic",
+        "Walk",
+        "Lie down"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the side of the road that cars use in Bangladesh.",
+      "type": "text",
+      "answer": [
+        "left"
+      ]
+    }
+  ]
+}

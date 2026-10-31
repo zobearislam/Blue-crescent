@@ -1,0 +1,63 @@
+{
+  "title": "Pets",
+  "info": [
+    "A pet is an animal people care for at home.",
+    "El perro is the dog. El gato is the cat.",
+    "Pets need food, water, and kind handling. They are not toys to squeeze."
+  ],
+  "questions": [
+    {
+      "q": "A common pet in these words is",
+      "options": [
+        "El perro",
+        "El volcán",
+        "El tiburón as a house pet in this quiz"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "El gato is",
+      "options": [
+        "The horse",
+        "The cat",
+        "The water"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Pets need",
+      "options": [
+        "Food, water, and gentle care",
+        "Only a costume",
+        "To be ignored"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is a pet word, not a food word?",
+      "options": [
+        "Gato",
+        "Pan",
+        "Leche"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Un pez can live",
+      "options": [
+        "On the ceiling",
+        "In water",
+        "In a closed drawer with no water"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the Spanish word for dog.",
+      "type": "text",
+      "answer": [
+        "perro",
+        "el perro"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Pitch",
+  "info": [
+    "Pitch is how high or low a sound is.",
+    "A short, tight, or fast vibration sounds higher. A slow vibration sounds lower.",
+    "Loudness is different from pitch. A low sound can still be loud."
+  ],
+  "questions": [
+    {
+      "q": "Pitch describes",
+      "options": [
+        "Only how far away a star is",
+        "How high or low a sound is",
+        "The color of a drum"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A small whistle usually sounds",
+      "options": [
+        "Like silence",
+        "Higher than a big drum",
+        "Lower than thunder always"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Loudness and pitch are",
+      "options": [
+        "Both types of rocks",
+        "The exact same idea",
+        "Different"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Faster vibrations usually mean",
+      "options": [
+        "A higher pitch",
+        "No sound",
+        "A darker shadow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A bird's chirp is often",
+      "options": [
+        "Not a sound",
+        "Lower than a truck horn always",
+        "Higher in pitch than a cow's moo"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the word for how high or low a sound is.",
+      "type": "text",
+      "answer": [
+        "pitch"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "title": "The hills",
+  "info": [
+    "Most of Bangladesh is flat and low. Hills rise in the east and southeast.",
+    "The Chittagong Hill Tracts are in the southeast, beside the Chattogram region.",
+    "Hills catch rain, which feeds streams and the tea gardens nearby."
+  ],
+  "questions": [
+    {
+      "q": "Most of the country is",
+      "options": [
+        "A single volcano",
+        "Flat and low",
+        "Covered in tall mountains"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The Chittagong Hill Tracts are in the",
+      "options": [
+        "Southeast",
+        "Middle of the Bay of Bengal",
+        "Far west desert"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Hills can cause air to rise and",
+      "options": [
+        "Stop all rivers forever",
+        "Erase seasons",
+        "Drop rain"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Tea grows well in",
+      "options": [
+        "Sand dunes of a hot desert",
+        "Salt water",
+        "Cooler, rainy hills"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A flat river plain is different from a hill because it is",
+      "options": [
+        "Always icy",
+        "Low and level",
+        "Above the clouds"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the direction of the Chittagong Hill Tracts.",
+      "type": "text",
+      "answer": [
+        "southeast",
+        "south east",
+        "south-east"
+      ]
+    }
+  ]
+}

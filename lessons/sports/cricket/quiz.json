@@ -1,0 +1,63 @@
+{
+  "title": "Cricket",
+  "info": [
+    "Cricket uses a bat, a ball, and wickets. Bangladesh's national team is known as the Tigers.",
+    "One team bowls and fields while the other team bats.",
+    "A match is built from overs: groups of legal balls bowled."
+  ],
+  "questions": [
+    {
+      "q": "Cricket is played with a",
+      "options": [
+        "Hoop only",
+        "Bat and ball",
+        "Puck and ice"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Bangladesh's men's national team is nicknamed the",
+      "options": [
+        "Eagles of the desert",
+        "Penguins",
+        "Tigers"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "While one team bats, the other team",
+      "options": [
+        "Bowls and fields",
+        "Swims",
+        "Leaves the ground"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The three wooden stumps form a",
+      "options": [
+        "Wicket",
+        "Goal",
+        "Net"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A bowler",
+      "options": [
+        "Is the same as the referee in football",
+        "Sends the ball toward the batter",
+        "Keeps the score only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the animal in the Bangladesh cricket nickname.",
+      "type": "text",
+      "answer": [
+        "tiger",
+        "tigers"
+      ]
+    }
+  ]
+}

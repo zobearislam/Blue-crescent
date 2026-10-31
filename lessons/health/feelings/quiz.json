@@ -1,0 +1,65 @@
+{
+  "title": "Feelings",
+  "info": [
+    "Feelings are signals. Happy, sad, angry, proud, and nervous are all real.",
+    "It is all right to feel them. It is not all right to hurt someone because you feel angry.",
+    "Name the feeling, breathe slowly, and tell a trusted person if it feels too big."
+  ],
+  "questions": [
+    {
+      "q": "Feeling sad sometimes is",
+      "options": [
+        "Normal",
+        "Against science",
+        "A kind of tooth"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If you feel angry, you still should not",
+      "options": [
+        "Tell a trusted adult",
+        "Take a slow breath",
+        "Hurt people"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Nervous can mean you",
+      "options": [
+        "Care about something coming up",
+        "Have no feelings",
+        "Must hide forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Naming a feeling can",
+      "options": [
+        "Erase your friends",
+        "Replace water",
+        "Help you understand it"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A trusted person might be",
+      "options": [
+        "Nobody, ever",
+        "A stranger online",
+        "A parent or teacher"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type a feeling you might have at a party you enjoy.",
+      "type": "text",
+      "answer": [
+        "happy",
+        "excited",
+        "glad",
+        "joy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Bangladesh",
+  "icon": "🇧🇩",
+  "blurb": "A path of short quizzes about the land, from the flag to the hills.",
+  "chapters": [
+    {
+      "id": "01-on-the-map",
+      "name": "On the map",
+      "level": "Easy"
+    },
+    {
+      "id": "02-flag-and-symbols",
+      "name": "Flag and symbols",
+      "level": "Easy"
+    },
+    {
+      "id": "03-dhaka",
+      "name": "Dhaka",
+      "level": "Easy"
+    },
+    {
+      "id": "04-great-rivers",
+      "name": "Great rivers",
+      "level": "Easy"
+    },
+    {
+      "id": "05-the-bay",
+      "name": "The Bay of Bengal",
+      "level": "Medium"
+    },
+    {
+      "id": "06-eight-divisions",
+      "name": "Eight divisions",
+      "level": "Medium"
+    },
+    {
+      "id": "07-neighbors",
+      "name": "Neighbors",
+      "level": "Medium"
+    },
+    {
+      "id": "08-six-seasons",
+      "name": "Six seasons",
+      "level": "Medium"
+    },
+    {
+      "id": "09-the-sundarbans",
+      "name": "The Sundarbans",
+      "level": "Hard"
+    },
+    {
+      "id": "10-crops",
+      "name": "Crops",
+      "level": "Hard"
+    },
+    {
+      "id": "11-the-hills",
+      "name": "The hills",
+      "level": "Hard"
+    },
+    {
+      "id": "12-the-language",
+      "name": "The language",
+      "level": "Hard"
+    }
+  ]
+}

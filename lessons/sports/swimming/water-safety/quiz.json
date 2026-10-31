@@ -1,0 +1,65 @@
+{
+  "title": "Water safety",
+  "info": [
+    "Swim only where an adult said it is safe. Rivers can have currents you cannot see.",
+    "Do not dive into water if you do not know how deep it is.",
+    "If someone is in trouble, call an adult. Do not jump in if you cannot rescue safely."
+  ],
+  "questions": [
+    {
+      "q": "Before you dive, you must know",
+      "options": [
+        "Yesterday's score",
+        "How deep the water is",
+        "The color of the towels"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A river can hide",
+      "options": [
+        "A swimming lane line always",
+        "Nothing dangerous",
+        "A strong current"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If someone needs help in the water and you are not a trained rescuer",
+      "options": [
+        "Jump in immediately even if you cannot swim",
+        "Call an adult and do not jump in",
+        "Film it only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Floodwater is",
+      "options": [
+        "Always clean",
+        "The best pool",
+        "Unsafe for swimming"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Walking near the edge of a pond",
+      "options": [
+        "Is always dry concrete",
+        "Replaces a lesson",
+        "Can be slippery"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type who should know before you swim.",
+      "type": "text",
+      "answer": [
+        "an adult",
+        "adult",
+        "a parent",
+        "parent"
+      ]
+    }
+  ]
+}

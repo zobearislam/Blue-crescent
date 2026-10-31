@@ -1,0 +1,62 @@
+{
+  "title": "Notes",
+  "info": [
+    "The musical alphabet in many songs runs A B C D E F G, then starts again at A.",
+    "Do re mi fa sol la ti do is a way to sing the steps of a scale.",
+    "A higher note has a higher pitch."
+  ],
+  "questions": [
+    {
+      "q": "After G, the letter names start again at",
+      "options": [
+        "H",
+        "Z",
+        "A"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Do re mi is",
+      "options": [
+        "A river system",
+        "A way to sing scale steps",
+        "A traffic light"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A higher note sounds",
+      "options": [
+        "Like a shadow",
+        "Higher in pitch",
+        "Louder only, never higher"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How many letter names are in the basic set A to G?",
+      "options": [
+        "7",
+        "10",
+        "2"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Ti comes just before",
+      "options": [
+        "Do, when the scale returns",
+        "Silence forever",
+        "A drumroll only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the first solfege syllable.",
+      "type": "text",
+      "answer": [
+        "do"
+      ]
+    }
+  ]
+}

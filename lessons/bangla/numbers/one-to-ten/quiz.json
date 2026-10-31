@@ -1,0 +1,71 @@
+{
+  "title": "1 to 10",
+  "info": [
+    "Count from 1 to 10: ek, dui, tin, char, pach, choy, shat, at, noy, dosh.",
+    "Char is 4. Pach is 5. Choy is 6. At is 8. Noy is 9."
+  ],
+  "questions": [
+    {
+      "q": "Char means",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word means 5?",
+      "options": [
+        "At",
+        "Noy",
+        "Pach"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Choy means",
+      "options": [
+        "9",
+        "7",
+        "6"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "At means",
+      "options": [
+        "18",
+        "80",
+        "8"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Noy means",
+      "options": [
+        "9",
+        "0",
+        "19"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What comes just after tin?",
+      "options": [
+        "Char",
+        "Dui",
+        "Dosh"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Bangla word, in English letters, for 10.",
+      "type": "text",
+      "answer": [
+        "dosh",
+        "dos"
+      ]
+    }
+  ]
+}

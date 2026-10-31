@@ -1,0 +1,62 @@
+{
+  "title": "Subtraction",
+  "info": [
+    "Subtraction takes away. The sign is −.",
+    "The answer is the difference.",
+    "Addition can check a subtraction: if 9 − 4 = 5, then 5 + 4 = 9."
+  ],
+  "questions": [
+    {
+      "q": "9 − 4 =",
+      "options": [
+        "13",
+        "5",
+        "6"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The answer to a subtraction is the",
+      "options": [
+        "Difference",
+        "Sum",
+        "Product"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "8 − 0 =",
+      "options": [
+        "80",
+        "0",
+        "8"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "7 − 7 =",
+      "options": [
+        "14",
+        "0",
+        "1"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If 6 + 3 = 9, then 9 − 3 =",
+      "options": [
+        "3",
+        "12",
+        "6"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the difference of 15 and 6.",
+      "type": "text",
+      "answer": [
+        "9"
+      ]
+    }
+  ]
+}

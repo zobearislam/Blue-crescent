@@ -1,0 +1,62 @@
+{
+  "title": "Friction",
+  "info": [
+    "Friction is a force that opposes sliding. Rough surfaces make more friction.",
+    "Friction lets your shoes grip the ground so you do not slip.",
+    "Ice has less friction, so it is slippery. Brakes use friction to slow a bicycle."
+  ],
+  "questions": [
+    {
+      "q": "Friction opposes",
+      "options": [
+        "Day and night",
+        "Sliding",
+        "All color"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Rough ground usually has",
+      "options": [
+        "More friction than smooth ice",
+        "No friction",
+        "Less grip"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Shoes help you walk because of",
+      "options": [
+        "Friction",
+        "The national flag",
+        "Thunder"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Bicycle brakes use friction to",
+      "options": [
+        "Slow the wheels",
+        "Erase gravity",
+        "Make the bike heavier forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Ice is slippery because it has",
+      "options": [
+        "No temperature",
+        "More sand",
+        "Less friction"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the force that makes ice slippery when it is low.",
+      "type": "text",
+      "answer": [
+        "friction"
+      ]
+    }
+  ]
+}

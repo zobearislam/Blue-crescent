@@ -1,0 +1,66 @@
+{
+  "title": "Rules",
+  "info": [
+    "Rules help people share space safely.",
+    "School rules might include walking in the hall, raising a hand, and keeping hands to yourself.",
+    "Fair rules apply to everyone, not only to people you dislike."
+  ],
+  "questions": [
+    {
+      "q": "A good reason for a rule is",
+      "options": [
+        "Making learning impossible",
+        "Keeping people safe",
+        "Letting one person do anything"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Raising your hand",
+      "options": [
+        "Ends the school day",
+        "Lets people speak one at a time",
+        "Is a way to grab"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Fair rules apply to",
+      "options": [
+        "Everyone",
+        "Only new students",
+        "Only visitors"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Walking in a busy hall",
+      "options": [
+        "Is slower so it is never useful",
+        "Helps prevent crashes",
+        "Is against every rule"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If a rule seems confusing",
+      "options": [
+        "Ignore all rules",
+        "Invent a secret opposite rule",
+        "Ask a teacher what it means"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type a place that has rules besides school.",
+      "type": "text",
+      "answer": [
+        "home",
+        "road",
+        "library",
+        "park",
+        "games"
+      ]
+    }
+  ]
+}

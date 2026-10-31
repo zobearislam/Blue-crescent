@@ -1,0 +1,62 @@
+{
+  "title": "Food",
+  "info": [
+    "Pan is bread. Agua is water. Leche is milk.",
+    "Manzana is apple. Arroz is rice. Queso is cheese.",
+    "Agua is feminine, but we say el agua because of the sound. This quiz accepts the meaning."
+  ],
+  "questions": [
+    {
+      "q": "Pan means",
+      "options": [
+        "Dog",
+        "Bread",
+        "Water"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Agua means",
+      "options": [
+        "Water",
+        "Rice",
+        "Milk"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Leche means",
+      "options": [
+        "Apple",
+        "Milk",
+        "Cat"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Manzana means",
+      "options": [
+        "Apple",
+        "Bread",
+        "Fish"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Queso means",
+      "options": [
+        "Cheese",
+        "Bird",
+        "Rice"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the English meaning of arroz.",
+      "type": "text",
+      "answer": [
+        "rice"
+      ]
+    }
+  ]
+}

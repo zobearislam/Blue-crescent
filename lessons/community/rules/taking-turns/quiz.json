@@ -1,0 +1,64 @@
+{
+  "title": "Taking turns",
+  "info": [
+    "Taking turns means everyone gets a chance.",
+    "You wait, then you go. Cutting in line is unfair.",
+    "In a game, turns keep the rules the same for each player."
+  ],
+  "questions": [
+    {
+      "q": "Taking turns gives",
+      "options": [
+        "Each person a chance",
+        "The ball to one person forever",
+        "No one a turn"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Cutting in line is",
+      "options": [
+        "The rule in every library",
+        "Unfair",
+        "A kind of hello"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "While you wait, you can",
+      "options": [
+        "Leave space and be patient",
+        "Hide the equipment",
+        "Push"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "In a board game, turns",
+      "options": [
+        "Do not matter",
+        "Give each player the same kind of chance",
+        "Belong only to the oldest player"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If you forget whose turn it is",
+      "options": [
+        "Take both turns",
+        "End the game by grabbing",
+        "Ask and check the order"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the word for waiting until it is your chance.",
+      "type": "text",
+      "answer": [
+        "turn",
+        "turns",
+        "patience"
+      ]
+    }
+  ]
+}

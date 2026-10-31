@@ -1,0 +1,64 @@
+{
+  "title": "Articles",
+  "info": [
+    "A, an, and the are articles. They come before nouns.",
+    "Use a before a consonant sound: a book. Use an before a vowel sound: an apple.",
+    "The points to a specific thing: the Sun, the book on my desk."
+  ],
+  "questions": [
+    {
+      "q": "Use an before",
+      "options": [
+        "A verb",
+        "Every plural",
+        "A vowel sound"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is correct?",
+      "options": [
+        "An book",
+        "A hour",
+        "An hour"
+      ],
+      "answer": 2,
+      "explain": "Hour starts with a vowel sound, even though it is spelled with h."
+    },
+    {
+      "q": "The is used for",
+      "options": [
+        "Nothing",
+        "A specific noun",
+        "Only adverbs"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which is correct?",
+      "options": [
+        "A apple",
+        "An university",
+        "A university"
+      ],
+      "answer": 2,
+      "explain": "University starts with a 'you' sound, a consonant sound."
+    },
+    {
+      "q": "Articles are",
+      "options": [
+        "A, an, and the",
+        "Run, jump, and sit",
+        "Red, blue, and green"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the article that fits: ___ elephant.",
+      "type": "text",
+      "answer": [
+        "an"
+      ]
+    }
+  ]
+}

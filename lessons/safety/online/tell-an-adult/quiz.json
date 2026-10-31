@@ -1,0 +1,65 @@
+{
+  "title": "Tell an adult",
+  "info": [
+    "Telling a trusted adult is a safety skill, not tattling about a tiny accident.",
+    "Save mean messages if you can, then show a parent or teacher. Do not answer unkindness with more unkindness.",
+    "Blocking someone and leaving a chat are allowed."
+  ],
+  "questions": [
+    {
+      "q": "If a chat turns mean, a good step is",
+      "options": [
+        "Show a trusted adult",
+        "Give them your address",
+        "Insult them back"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You can",
+      "options": [
+        "Be forced to stay",
+        "Never tell a teacher",
+        "Block and leave"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Saving a mean message can",
+      "options": [
+        "Make you unkind",
+        "Send your password",
+        "Help an adult see what happened"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A trusted adult might be",
+      "options": [
+        "A parent or teacher",
+        "Nobody",
+        "A stranger in a game"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You are telling because",
+      "options": [
+        "You want to start a fight",
+        "You want help staying safe",
+        "Secrets online must stay secret even if you are scared"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type one adult you can tell at school.",
+      "type": "text",
+      "answer": [
+        "teacher",
+        "a teacher",
+        "principal",
+        "counselor"
+      ]
+    }
+  ]
+}

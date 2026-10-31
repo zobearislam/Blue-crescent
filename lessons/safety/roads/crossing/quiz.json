@@ -1,0 +1,64 @@
+{
+  "title": "Crossing",
+  "info": [
+    "Stop at the edge. Look right, look left, look right again.",
+    "Cross straight across. Do not stop in the middle to pick something up.",
+    "Drivers may not see you. Make sure they have stopped before you step out."
+  ],
+  "questions": [
+    {
+      "q": "The first look when traffic keeps left is",
+      "options": [
+        "Right",
+        "Behind you only",
+        "At a phone"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You should cross",
+      "options": [
+        "With your eyes closed",
+        "Straight across when it is clear",
+        "Diagonally while looking at a game"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If you drop a ball in the road",
+      "options": [
+        "Ask an adult for help",
+        "Tell a friend to dash",
+        "Dash after it"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A parked car can",
+      "options": [
+        "Make you invisible to every danger",
+        "Replace a crossing",
+        "Hide you from drivers"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Headphones on a busy road",
+      "options": [
+        "Help cars see you",
+        "Make it harder to hear traffic",
+        "Are required"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for the striped place where people cross.",
+      "type": "text",
+      "answer": [
+        "zebra",
+        "crossing",
+        "zebra crossing"
+      ]
+    }
+  ]
+}

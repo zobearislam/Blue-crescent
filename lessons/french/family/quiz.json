@@ -1,0 +1,63 @@
+{
+  "title": "Family",
+  "info": [
+    "Mère means mother. Père means father.",
+    "Frère means brother. Sœur means sister. Famille means family.",
+    "These quizzes spell the words so you can read them. Sœur sounds close to 'sur'."
+  ],
+  "questions": [
+    {
+      "q": "Mère means",
+      "options": [
+        "Water",
+        "Mother",
+        "Brother"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Père means",
+      "options": [
+        "Bread",
+        "Sister",
+        "Father"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Frère means",
+      "options": [
+        "Please",
+        "Apple",
+        "Brother"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sœur means",
+      "options": [
+        "Father",
+        "Cat",
+        "Sister"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Famille means",
+      "options": [
+        "School",
+        "Family",
+        "Blue"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the English meaning of mère.",
+      "type": "text",
+      "answer": [
+        "mother",
+        "mom"
+      ]
+    }
+  ]
+}

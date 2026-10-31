@@ -1,0 +1,62 @@
+{
+  "title": "Lightning",
+  "info": [
+    "Lightning is a giant spark. Thunder is the sound it makes.",
+    "If you can hear thunder, you are close enough to be in danger.",
+    "Inside a solid building, stay away from windows and do not shower until the storm has passed."
+  ],
+  "questions": [
+    {
+      "q": "Thunder is",
+      "options": [
+        "A kind of raindrop",
+        "A cloud animal",
+        "The sound of lightning"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If you hear thunder, you should",
+      "options": [
+        "Get inside",
+        "Fly a kite",
+        "Swim"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Metal playground equipment in a storm",
+      "options": [
+        "Protects you",
+        "Stops thunder",
+        "Is not a safe place to sit"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A safe shelter is",
+      "options": [
+        "A solid building",
+        "A boat on open water",
+        "A lone tree"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You should wait to go back out until",
+      "options": [
+        "The thunder has stopped for a while",
+        "You see one flash",
+        "The first raindrop"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the giant spark in a storm.",
+      "type": "text",
+      "answer": [
+        "lightning"
+      ]
+    }
+  ]
+}

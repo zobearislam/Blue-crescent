@@ -1,0 +1,63 @@
+{
+  "title": "Football",
+  "info": [
+    "Football, also called soccer, is played with a round ball and two goals.",
+    "Each team has 11 players. Only the goalkeeper may use hands, and only inside their own penalty area.",
+    "A goal counts when the whole ball crosses the goal line."
+  ],
+  "questions": [
+    {
+      "q": "How many players does one football team put on the field?",
+      "options": [
+        "5",
+        "15",
+        "11"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Who may use their hands?",
+      "options": [
+        "The goalkeeper, inside the penalty area",
+        "Nobody, ever",
+        "Every player"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A goal counts when",
+      "options": [
+        "The ball touches a post",
+        "A player shouts goal",
+        "The whole ball crosses the goal line"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A match starts with",
+      "options": [
+        "A coin on the goal",
+        "A kick-off",
+        "A swim"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The Bangladesh game most people call football is also called",
+      "options": [
+        "Soccer",
+        "Chess",
+        "Cricket"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type how many players one team has on the field.",
+      "type": "text",
+      "answer": [
+        "11",
+        "eleven"
+      ]
+    }
+  ]
+}

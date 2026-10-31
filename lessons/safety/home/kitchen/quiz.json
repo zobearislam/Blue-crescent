@@ -1,0 +1,62 @@
+{
+  "title": "Kitchen",
+  "info": [
+    "The kitchen has heat, knives, and slippery floors.",
+    "Wash your hands before you touch food.",
+    "Knives and the stove are adult jobs unless an adult is teaching you and watching."
+  ],
+  "questions": [
+    {
+      "q": "Before you touch food, you should",
+      "options": [
+        "Lick the spoon and put it back",
+        "Wash your hands",
+        "Skip soap"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A knife is safe when",
+      "options": [
+        "You leave it in soapy water hidden",
+        "You run with it",
+        "An adult is teaching you and watching"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Handles of pots should point",
+      "options": [
+        "Inward, not over the edge",
+        "Out where arms can knock them",
+        "At a little child"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If oil in a pan smokes or flames",
+      "options": [
+        "Pour water in",
+        "Pick the pan up and run",
+        "Get an adult. Do not throw water on an oil fire"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A wet floor in the kitchen",
+      "options": [
+        "Dries only if you ignore it",
+        "Can make you slip",
+        "Is the best place to race"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the room where the stove usually is.",
+      "type": "text",
+      "answer": [
+        "kitchen"
+      ]
+    }
+  ]
+}

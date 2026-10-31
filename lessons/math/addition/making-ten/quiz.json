@@ -1,0 +1,62 @@
+{
+  "title": "Making ten",
+  "info": [
+    "Pairs that make 10 are useful: 1 and 9, 2 and 8, 3 and 7, 4 and 6, 5 and 5.",
+    "To add 8 + 5, you can make 10 first: 8 + 2 = 10, and 3 are left from the 5, so 13.",
+    "10 + a one-digit number is that many tens and ones: 10 + 4 = 14."
+  ],
+  "questions": [
+    {
+      "q": "7 + what makes 10?",
+      "options": [
+        "2",
+        "3",
+        "7"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "4 + 6 =",
+      "options": [
+        "46",
+        "10",
+        "2"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "8 + 5 = 8 + 2 + 3 =",
+      "options": [
+        "15",
+        "13",
+        "10"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "10 + 4 =",
+      "options": [
+        "14",
+        "104",
+        "6"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which pair makes 10?",
+      "options": [
+        "2 and 7",
+        "3 and 6",
+        "2 and 8"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the number that adds to 9 to make 10.",
+      "type": "text",
+      "answer": [
+        "1"
+      ]
+    }
+  ]
+}

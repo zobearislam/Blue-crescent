@@ -1,0 +1,64 @@
+{
+  "title": "Flowers",
+  "info": [
+    "Many plants grow flowers. A flower can have petals, and it often makes seeds.",
+    "Bees and other insects move pollen, which helps some plants make seeds. That is pollination.",
+    "The shapla, a water lily, is the national flower of Bangladesh."
+  ],
+  "questions": [
+    {
+      "q": "Petals are part of a",
+      "options": [
+        "Root only",
+        "Rock",
+        "Flower"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Pollination helps some plants",
+      "options": [
+        "Make seeds",
+        "Stop needing water",
+        "Become mammals"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A bee can carry",
+      "options": [
+        "The national flag",
+        "Thunder",
+        "Pollen"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The national flower of Bangladesh is the",
+      "options": [
+        "Shapla",
+        "Pine cone",
+        "Cactus"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Roots usually",
+      "options": [
+        "Make thunder",
+        "Hold the plant and take in water",
+        "Fly"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the national flower of Bangladesh.",
+      "type": "text",
+      "answer": [
+        "shapla",
+        "water lily",
+        "waterlily"
+      ]
+    }
+  ]
+}

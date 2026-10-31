@@ -1,0 +1,62 @@
+{
+  "title": "Sequence",
+  "info": [
+    "Sequence means order. First, next, and last keep a story straight.",
+    "Clue words include first, then, next, after, and finally.",
+    "If the order changes, the story can stop making sense."
+  ],
+  "questions": [
+    {
+      "q": "Sequence means",
+      "options": [
+        "Order",
+        "A character's shoe size",
+        "The font"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which word is a sequence clue?",
+      "options": [
+        "Purple",
+        "Loudly",
+        "Then"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Finally usually marks",
+      "options": [
+        "The first step",
+        "The last step",
+        "A question"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "In a recipe, order matters because",
+      "options": [
+        "Some steps must happen before others",
+        "Numbers are decorations",
+        "Flour can be added after eating"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "First you plant a seed. Next you water it. Last it may",
+      "options": [
+        "Turn into a chapter title",
+        "Become the first step again with no water",
+        "Grow"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the sequence word that often starts a list of steps.",
+      "type": "text",
+      "answer": [
+        "first"
+      ]
+    }
+  ]
+}

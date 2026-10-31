@@ -1,0 +1,70 @@
+{
+  "title": "Animals",
+  "info": [
+    "Biral is a cat. Kukur is a dog. Pakhi is a bird. Mach is a fish.",
+    "Goru is a cow. Bagh is a tiger. Hati is an elephant. Banor is a monkey."
+  ],
+  "questions": [
+    {
+      "q": "Biral means",
+      "options": [
+        "Cow",
+        "Cat",
+        "Dog"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word means dog?",
+      "options": [
+        "Bagh",
+        "Hati",
+        "Kukur"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Bagh means",
+      "options": [
+        "Fish",
+        "Bird",
+        "Tiger"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Hati means",
+      "options": [
+        "Horse",
+        "Elephant",
+        "Goat"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Pakhi means",
+      "options": [
+        "Snake",
+        "Bird",
+        "Frog"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The national animal of Bangladesh is the",
+      "options": [
+        "Royal Bengal tiger",
+        "Crow",
+        "House cat"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the English meaning of kukur.",
+      "type": "text",
+      "answer": [
+        "dog"
+      ]
+    }
+  ]
+}

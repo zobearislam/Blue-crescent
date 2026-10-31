@@ -1,0 +1,72 @@
+{
+  "title": "Eight divisions",
+  "info": [
+    "Bangladesh is divided into eight divisions.",
+    "They are Dhaka, Chattogram, Rajshahi, Khulna, Barishal, Sylhet, Rangpur, and Mymensingh.",
+    "Mymensingh became its own division in 2015. Chattogram is also spelled Chittagong in older English."
+  ],
+  "questions": [
+    {
+      "q": "How many divisions are there?",
+      "options": [
+        "64 only, with no divisions",
+        "6",
+        "8"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is a division?",
+      "options": [
+        "Sylhet",
+        "Kathmandu",
+        "Yangon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Chattogram is also known in older English as",
+      "options": [
+        "Chittagong",
+        "Calcutta",
+        "Colombo"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which list has only divisions?",
+      "options": [
+        "Bangkok and Rangpur",
+        "Delhi and Dhaka",
+        "Khulna and Barishal"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Mymensingh is",
+      "options": [
+        "A bay",
+        "The national bird",
+        "One of the eight divisions"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Rajshahi is a",
+      "options": [
+        "Ocean",
+        "Division",
+        "Month"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type how many divisions Bangladesh has.",
+      "type": "text",
+      "answer": [
+        "8",
+        "eight"
+      ]
+    }
+  ]
+}

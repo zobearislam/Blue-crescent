@@ -1,0 +1,74 @@
+{
+  "title": "Greetings",
+  "info": [
+    "These quizzes use simple Bangla. The word in Bangla letters is followed by a way to say it in English letters.",
+    "Assalamu alaikum and nomoskar are both polite hellos in Bangladesh. Shubho shokal means good morning.",
+    "Dhonnobad means thank you. Doya kore means please."
+  ],
+  "questions": [
+    {
+      "q": "Which is a polite hello in Bangla?",
+      "options": [
+        "Dhonnobad",
+        "Pani",
+        "Assalamu alaikum"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Shubho shokal means",
+      "options": [
+        "Good night",
+        "Goodbye",
+        "Good morning"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "How do you say thank you?",
+      "options": [
+        "Bhalo",
+        "Na",
+        "Dhonnobad"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Doya kore means",
+      "options": [
+        "Water",
+        "Please",
+        "Sorry"
+      ],
+      "answer": 1,
+      "explain": "You use it when you ask for something politely."
+    },
+    {
+      "q": "Kemon acho? is asking",
+      "options": [
+        "What is your name?",
+        "Where is the school?",
+        "How are you?"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which answer fits Kemon acho?",
+      "options": [
+        "Bhalo achi",
+        "Shubho ratri",
+        "Lal"
+      ],
+      "answer": 0,
+      "explain": "Bhalo achi means I am well."
+    },
+    {
+      "q": "Type the English meaning of dhonnobad.",
+      "type": "text",
+      "answer": [
+        "thank you",
+        "thanks"
+      ]
+    }
+  ]
+}

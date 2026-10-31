@@ -1,0 +1,64 @@
+{
+  "title": "Sound",
+  "info": [
+    "Sound is made when something vibrates, moving back and forth quickly.",
+    "Sound travels through air, water, and solids. It travels faster in solids than in air.",
+    "You hear sound when those vibrations reach your ears."
+  ],
+  "questions": [
+    {
+      "q": "Sound starts with a",
+      "options": [
+        "Vibration",
+        "Shadow",
+        "Magnet that is always silent"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sound travels faster in",
+      "options": [
+        "Solids than in air",
+        "A vacuum than in steel",
+        "Empty space with no matter"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "In space, where there is no air, sound",
+      "options": [
+        "Is louder than thunder",
+        "Turns into rice",
+        "Cannot travel to your ears the way it does on Earth"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A guitar string makes sound when it",
+      "options": [
+        "Disappears",
+        "Vibrates",
+        "Becomes a liquid"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Speaking louder means the vibration is",
+      "options": [
+        "Always higher in pitch",
+        "A different planet",
+        "Stronger"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type what an object must do to make a sound.",
+      "type": "text",
+      "answer": [
+        "vibrate",
+        "vibrates",
+        "vibration"
+      ]
+    }
+  ]
+}

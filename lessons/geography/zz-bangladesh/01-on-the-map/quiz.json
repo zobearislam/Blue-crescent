@@ -1,0 +1,63 @@
+{
+  "title": "On the map",
+  "info": [
+    "Bangladesh is a country in South Asia.",
+    "It sits on the delta of great rivers and opens south onto the Bay of Bengal.",
+    "The capital is Dhaka."
+  ],
+  "questions": [
+    {
+      "q": "Bangladesh is in",
+      "options": [
+        "Northern Europe",
+        "South America",
+        "South Asia"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The capital is",
+      "options": [
+        "Colombo",
+        "Dhaka",
+        "Kathmandu"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "South of Bangladesh is",
+      "options": [
+        "The Bay of Bengal",
+        "The Arctic Ocean",
+        "The Mediterranean Sea"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A delta is",
+      "options": [
+        "Land built where rivers meet the sea",
+        "A mountain made of ice",
+        "A kind of flag"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which city is the capital?",
+      "options": [
+        "Sylhet",
+        "Chattogram",
+        "Dhaka"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the capital of Bangladesh.",
+      "type": "text",
+      "answer": [
+        "dhaka",
+        "dhaka city"
+      ]
+    }
+  ]
+}

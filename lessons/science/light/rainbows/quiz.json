@@ -1,0 +1,64 @@
+{
+  "title": "Rainbows",
+  "info": [
+    "White sunlight is a mix of colors. Raindrops can spread those colors apart.",
+    "A rainbow shows red, orange, yellow, green, blue, indigo, and violet.",
+    "You see a rainbow when the Sun is behind you and rain is in front of you."
+  ],
+  "questions": [
+    {
+      "q": "Raindrops can",
+      "options": [
+        "Spread sunlight into colors",
+        "Erase color forever",
+        "Make sound faster than light"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The top color of a common rainbow is",
+      "options": [
+        "Violet only, with red at the top never",
+        "Black",
+        "Red"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "To see a rainbow, the Sun is usually",
+      "options": [
+        "Under the ground",
+        "In front of you, shining in your eyes at the rain",
+        "Behind you"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A rainbow is made of",
+      "options": [
+        "Sound waves only",
+        "Paint falling from clouds",
+        "Light"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is a rainbow color?",
+      "options": [
+        "Green",
+        "Brown as a required band",
+        "Gold as a required band"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the weather drop that can make a rainbow.",
+      "type": "text",
+      "answer": [
+        "rain",
+        "raindrop",
+        "raindrops"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Take away",
+  "info": [
+    "Start with the whole. Take some away. Count what is left.",
+    "There are 12 mangoes. You give away 5. 7 are left.",
+    "You cannot take away more than you have if you are using whole objects and no negative numbers yet."
+  ],
+  "questions": [
+    {
+      "q": "12 take away 5 is",
+      "options": [
+        "8",
+        "17",
+        "7"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "You had 10 tickets and used 1. You have",
+      "options": [
+        "0",
+        "11",
+        "9"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "20 − 10 =",
+      "options": [
+        "2",
+        "10",
+        "30"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A story for 6 − 2 could be",
+      "options": [
+        "6 birds, 2 fly away, 4 stay",
+        "6 times 2 birds",
+        "6 birds arrive and 2 more arrive"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "14 − 9 =",
+      "options": [
+        "23",
+        "5",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type how many are left if you have 11 and take away 3.",
+      "type": "text",
+      "answer": [
+        "8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "The language",
+  "info": [
+    "The official language is Bangla, also called Bengali.",
+    "Bangla is written in its own script, from left to right.",
+    "21 February is International Mother Language Day, linked to the Language Movement honored in Bangladesh."
+  ],
+  "questions": [
+    {
+      "q": "The official language is",
+      "options": [
+        "Bangla",
+        "Spanish",
+        "Japanese"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Bangla is also called",
+      "options": [
+        "Bengali",
+        "Latin",
+        "Swahili"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Bangla script is read",
+      "options": [
+        "In a circle",
+        "From left to right",
+        "Only from the bottom"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "21 February honors",
+      "options": [
+        "Mother languages",
+        "The founding of football",
+        "The longest night only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A mother language is",
+      "options": [
+        "A language you grow up speaking at home",
+        "Only a secret code",
+        "A river name"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type another English name for Bangla.",
+      "type": "text",
+      "answer": [
+        "bengali"
+      ]
+    }
+  ]
+}

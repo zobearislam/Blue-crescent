@@ -1,0 +1,62 @@
+{
+  "title": "Athletics",
+  "info": [
+    "Athletics includes running, jumping, and throwing.",
+    "A sprint is a short fast race. A long-distance race takes patience.",
+    "Warm up before you race so your muscles are ready."
+  ],
+  "questions": [
+    {
+      "q": "A sprint is",
+      "options": [
+        "A  swimming stroke",
+        "A type of wicket",
+        "A short fast race"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Athletics includes",
+      "options": [
+        "Running, jumping, and throwing",
+        "Only board games",
+        "Only cycling indoors"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A warm-up helps",
+      "options": [
+        "Prepare your muscles",
+        "Skip the rules",
+        "Replace water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The long jump measures",
+      "options": [
+        "How loud you shout",
+        "How many wickets you take",
+        "How far you jump"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "In a race you should",
+      "options": [
+        "Push other runners",
+        "Stay in the rules of your lane or event",
+        "Start before the signal"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the short fast kind of race.",
+      "type": "text",
+      "answer": [
+        "sprint"
+      ]
+    }
+  ]
+}

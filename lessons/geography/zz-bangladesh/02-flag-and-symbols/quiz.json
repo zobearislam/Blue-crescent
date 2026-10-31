@@ -1,0 +1,62 @@
+{
+  "title": "Flag and symbols",
+  "info": [
+    "The national flag is green with a red disc.",
+    "The national flower is the shapla, a water lily. The national fruit is the jackfruit.",
+    "The national animal is the Royal Bengal tiger. The national bird is the doyel, a magpie robin. The national fish is the ilish, or hilsa."
+  ],
+  "questions": [
+    {
+      "q": "The national flower is the",
+      "options": [
+        "Shapla, a water lily",
+        "Rose only",
+        "Cactus"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The national fruit is the",
+      "options": [
+        "Apple",
+        "Jackfruit",
+        "Grape"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The national animal is the",
+      "options": [
+        "House sparrow",
+        "Royal Bengal tiger",
+        "Goat"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The doyel is the national",
+      "options": [
+        "River",
+        "Bird",
+        "Fish"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Ilish, or hilsa, is the national",
+      "options": [
+        "Fish",
+        "Month",
+        "Flower"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the background color of the flag.",
+      "type": "text",
+      "answer": [
+        "green"
+      ]
+    }
+  ]
+}

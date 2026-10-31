@@ -1,0 +1,62 @@
+{
+  "title": "Fire",
+  "info": [
+    "Do not play with matches or lighters.",
+    "If your clothes catch fire: stop, drop, and roll. Crawl low under smoke.",
+    "Leave the building, go to the family meeting place, and do not go back in for toys."
+  ],
+  "questions": [
+    {
+      "q": "Matches and lighters are",
+      "options": [
+        "Good for play",
+        "Not toys",
+        "Safe to hide in a pocket"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If clothes catch fire, you should",
+      "options": [
+        "Stop, drop, and roll",
+        "Hide in a cupboard",
+        "Run, because wind helps"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Smoke rises, so under smoke you should",
+      "options": [
+        "Open every window and wait inside",
+        "Stand on a chair",
+        "Crawl low"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A family meeting place is",
+      "options": [
+        "A spot outside where everyone gathers",
+        "Under the bed",
+        "The kitchen"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If the alarm sounds, you should",
+      "options": [
+        "Hide so you are not counted",
+        "Leave calmly and not go back for toys",
+        "Pack every bag first"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the three words: stop, drop, and what?",
+      "type": "text",
+      "answer": [
+        "roll"
+      ]
+    }
+  ]
+}

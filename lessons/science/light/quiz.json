@@ -1,0 +1,63 @@
+{
+  "title": "Light",
+  "info": [
+    "Light lets us see. It travels in straight lines.",
+    "Light travels much faster than sound. That is why you see lightning before you hear thunder.",
+    "We see an object when light from it enters our eyes."
+  ],
+  "questions": [
+    {
+      "q": "Light travels",
+      "options": [
+        "Slower than a bicycle always",
+        "Only in circles around your head",
+        "In straight lines"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "You see lightning before thunder because",
+      "options": [
+        "Thunder happens the day before",
+        "Sound is faster than light",
+        "Light is faster than sound"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "We see an object when",
+      "options": [
+        "It vibrates our shoes",
+        "It is always in shadow",
+        "Light from it enters our eyes"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A mirror",
+      "options": [
+        "Reflects light",
+        "Eats light",
+        "Makes sound into water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Darkness is",
+      "options": [
+        "A solid",
+        "The absence of enough light to see",
+        "A kind of water"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type what you see before you hear thunder.",
+      "type": "text",
+      "answer": [
+        "lightning",
+        "light"
+      ]
+    }
+  ]
+}

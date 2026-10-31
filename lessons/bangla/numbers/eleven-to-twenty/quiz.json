@@ -1,0 +1,70 @@
+{
+  "title": "11 to 20",
+  "info": [
+    "11 is egaro. 12 is baro. 13 is tero. 14 is chouddo. 15 is ponero.",
+    "16 is sholo. 17 is shotero. 18 is atharo. 19 is unish. 20 is bish."
+  ],
+  "questions": [
+    {
+      "q": "Egaro means",
+      "options": [
+        "7",
+        "11",
+        "21"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word means 12?",
+      "options": [
+        "Tero",
+        "Baro",
+        "Bish"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Ponero means",
+      "options": [
+        "14",
+        "50",
+        "15"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Unish means",
+      "options": [
+        "19",
+        "9",
+        "90"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What comes just before bish?",
+      "options": [
+        "Egaro",
+        "Dosh",
+        "Unish"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Shotero means",
+      "options": [
+        "16",
+        "70",
+        "17"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the digit for baro.",
+      "type": "text",
+      "answer": [
+        "12"
+      ]
+    }
+  ]
+}

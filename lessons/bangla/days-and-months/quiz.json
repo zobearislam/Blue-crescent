@@ -1,0 +1,71 @@
+{
+  "title": "Days and months",
+  "info": [
+    "The week in Bangla starts with Robibar, which is Sunday.",
+    "Shonibar is Saturday. Shukrobar is Friday.",
+    "The Bangla calendar has twelve months. Boishakh is the first."
+  ],
+  "questions": [
+    {
+      "q": "Robibar is",
+      "options": [
+        "A month",
+        "Sunday",
+        "Friday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Shukrobar is",
+      "options": [
+        "Friday",
+        "A season",
+        "Monday"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Boishakh is",
+      "options": [
+        "A number",
+        "A color",
+        "The first Bangla month"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "How many Bangla months are in a year?",
+      "options": [
+        "6",
+        "10",
+        "12"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Shonibar is",
+      "options": [
+        "Tuesday",
+        "Saturday",
+        "A river"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which one is a day, not a month?",
+      "options": [
+        "Sombar",
+        "Choitro",
+        "Poush"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the English weekday for Robibar.",
+      "type": "text",
+      "answer": [
+        "sunday"
+      ]
+    }
+  ]
+}

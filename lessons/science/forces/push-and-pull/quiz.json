@@ -1,0 +1,62 @@
+{
+  "title": "Push and pull",
+  "info": [
+    "A push moves something away from you. A pull moves it toward you.",
+    "Opening a door can be a push or a pull, depending on the handle and the side you are on.",
+    "Bigger forces make bigger changes if everything else stays the same."
+  ],
+  "questions": [
+    {
+      "q": "A pull moves an object",
+      "options": [
+        "Only if it is a liquid",
+        "Toward you",
+        "Always into the sky"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A push moves an object",
+      "options": [
+        "Away from you",
+        "Nowhere",
+        "Only toward your hands"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Tugging a wagon by the handle is a",
+      "options": [
+        "Shadow",
+        "Season",
+        "Pull"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Shoving a swing is a",
+      "options": [
+        "Push",
+        "Pull only",
+        "Sound"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A harder kick usually makes the ball",
+      "options": [
+        "Go faster or farther",
+        "Stay more still",
+        "Lose the force"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the force word that means moving something away from you.",
+      "type": "text",
+      "answer": [
+        "push"
+      ]
+    }
+  ]
+}

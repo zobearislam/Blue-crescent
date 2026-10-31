@@ -1,0 +1,71 @@
+{
+  "title": "Sums to 20",
+  "info": [
+    "These sums stay at 20 or below.",
+    "Count on from the bigger number if that helps.",
+    "8 + 7 is 15. 9 + 9 is 18. 6 + 8 is 14."
+  ],
+  "questions": [
+    {
+      "q": "8 + 7 =",
+      "options": [
+        "17",
+        "13",
+        "15"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "9 + 9 =",
+      "options": [
+        "81",
+        "18",
+        "0"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "6 + 8 =",
+      "options": [
+        "12",
+        "48",
+        "14"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "5 + 9 =",
+      "options": [
+        "13",
+        "14",
+        "59"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "7 + 7 =",
+      "options": [
+        "0",
+        "14",
+        "49"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which sum is 20?",
+      "options": [
+        "9 + 9",
+        "12 + 8",
+        "12 + 6"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the sum of 4 and 9.",
+      "type": "text",
+      "answer": [
+        "13"
+      ]
+    }
+  ]
+}

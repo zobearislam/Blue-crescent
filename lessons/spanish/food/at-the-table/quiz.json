@@ -1,0 +1,63 @@
+{
+  "title": "At the table",
+  "info": [
+    "Por favor means please. Gracias means thank you.",
+    "Quiero means I want. Más means more.",
+    "Polite words belong at the table in every language."
+  ],
+  "questions": [
+    {
+      "q": "Gracias means",
+      "options": [
+        "More",
+        "Bread",
+        "Thank you"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Por favor means",
+      "options": [
+        "Please",
+        "Water",
+        "Dog"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Más means",
+      "options": [
+        "Less only",
+        "Goodbye",
+        "More"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Quiero agua means",
+      "options": [
+        "Thank you, cat",
+        "I want water",
+        "Good night"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A polite way to ask is to add",
+      "options": [
+        "Por favor",
+        "A shout",
+        "Nothing, ever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the English meaning of gracias.",
+      "type": "text",
+      "answer": [
+        "thank you",
+        "thanks"
+      ]
+    }
+  ]
+}

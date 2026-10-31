@@ -1,0 +1,62 @@
+{
+  "title": "Dhaka",
+  "info": [
+    "Dhaka is the capital and the largest city.",
+    "Old Dhaka grew beside the Buriganga River.",
+    "It is the center of government and a huge home for people from every division."
+  ],
+  "questions": [
+    {
+      "q": "Dhaka is",
+      "options": [
+        "A sea beach",
+        "A hill district only",
+        "The capital and largest city"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Old Dhaka grew beside the",
+      "options": [
+        "Buriganga River",
+        "Thames",
+        "Nile"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The government of the country is centered in",
+      "options": [
+        "The Moon",
+        "Dhaka",
+        "A ship at sea"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Dhaka is in",
+      "options": [
+        "Bangladesh",
+        "Nepal",
+        "Myanmar"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A capital city is where",
+      "options": [
+        "Only farms are allowed",
+        "No one lives",
+        "The national government sits"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the river beside Old Dhaka.",
+      "type": "text",
+      "answer": [
+        "buriganga"
+      ]
+    }
+  ]
+}

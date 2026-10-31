@@ -1,0 +1,65 @@
+{
+  "title": "Feelings",
+  "info": [
+    "Characters have feelings. Readers use clues to name them.",
+    "If someone slams a door and frowns, they might be angry. If they jump and smile, they might be happy.",
+    "Feelings can change from the start of a story to the end."
+  ],
+  "questions": [
+    {
+      "q": "A smile and a jump often show",
+      "options": [
+        "Happiness",
+        "That the character is a setting",
+        "A table of contents"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A frown and crossed arms can show",
+      "options": [
+        "Anger or frustration",
+        "A capital letter",
+        "That the book is a dictionary"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Clues to feelings include",
+      "options": [
+        "The publisher's city",
+        "Only the page number",
+        "Words and actions"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Feelings in a story",
+      "options": [
+        "Can change",
+        "Must stay the same on every page",
+        "Are against the rules"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If a character hides before a test, they might feel",
+      "options": [
+        "Hungry for a chapter",
+        "Nervous",
+        "Like a punctuation mark"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type a feeling you might have on a fun day.",
+      "type": "text",
+      "answer": [
+        "happy",
+        "joy",
+        "excited",
+        "glad"
+      ]
+    }
+  ]
+}

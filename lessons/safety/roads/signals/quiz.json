@@ -1,0 +1,62 @@
+{
+  "title": "Signals",
+  "info": [
+    "A red traffic light means stop. Green means go only if the way is clear.",
+    "Yellow means the light is about to change. Stop if you can do it safely.",
+    "A walk signal is for people. It is not a promise that every driver will stop."
+  ],
+  "questions": [
+    {
+      "q": "A red traffic light means",
+      "options": [
+        "Speed up",
+        "Park in the lane",
+        "Stop"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Green means",
+      "options": [
+        "Go if the way is clear",
+        "Close your eyes",
+        "It is a race"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Yellow means the light is",
+      "options": [
+        "Only for bicycles forever",
+        "About to change",
+        "A decoration"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A walk signal tells",
+      "options": [
+        "People when they may start to cross",
+        "Cars to drive on the pavement",
+        "You to run"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Even on a green walk signal you should",
+      "options": [
+        "Sit in the road",
+        "Still look for cars",
+        "Cross without looking"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the color that means stop.",
+      "type": "text",
+      "answer": [
+        "red"
+      ]
+    }
+  ]
+}

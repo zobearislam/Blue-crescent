@@ -1,0 +1,61 @@
+{
+  "title": "Food",
+  "info": [
+    "Pain is bread. Eau is water. Lait is milk.",
+    "Pomme is apple. Fromage is cheese. Riz is rice."
+  ],
+  "questions": [
+    {
+      "q": "Pain means",
+      "options": [
+        "Bread",
+        "Apple",
+        "Water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Eau means",
+      "options": [
+        "Cheese",
+        "Water",
+        "Milk"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Lait means",
+      "options": [
+        "Milk",
+        "Bread",
+        "Rice"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Pomme means",
+      "options": [
+        "Sister",
+        "Fish",
+        "Apple"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Fromage means",
+      "options": [
+        "Father",
+        "Water",
+        "Cheese"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the English meaning of riz.",
+      "type": "text",
+      "answer": [
+        "rice"
+      ]
+    }
+  ]
+}

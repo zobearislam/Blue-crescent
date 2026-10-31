@@ -1,0 +1,64 @@
+{
+  "title": "Teamwork",
+  "info": [
+    "Passing gives your team more choices than dribbling alone every time.",
+    "Encouraging a teammate who missed a shot helps the team. Laughing at them does not.",
+    "Shaking hands or saying well played after the match is part of the game."
+  ],
+  "questions": [
+    {
+      "q": "A pass can",
+      "options": [
+        "Give a teammate a better chance",
+        "End the match",
+        "Be against every rule"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If a teammate misses",
+      "options": [
+        "Leave the field in anger",
+        "Encourage them",
+        "Insult them"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "After the match, players often",
+      "options": [
+        "Argue about the weather only",
+        "Thank the other team",
+        "Hide the ball from the referee"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Talking on the field should",
+      "options": [
+        "Mock the other team",
+        "Help teammates know where you are",
+        "Be nonstop shouting at the referee"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "One star cannot replace",
+      "options": [
+        "The goals",
+        "The ball",
+        "A team that passes and defends together"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the skill of kicking the ball to a teammate.",
+      "type": "text",
+      "answer": [
+        "passing",
+        "a pass",
+        "pass"
+      ]
+    }
+  ]
+}

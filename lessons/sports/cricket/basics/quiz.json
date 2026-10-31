@@ -1,0 +1,64 @@
+{
+  "title": "Cricket basics",
+  "info": [
+    "The batter stands at the crease and tries to hit the ball and protect the wicket.",
+    "The wicketkeeper stands behind the stumps.",
+    "Fielders try to stop the ball and get the batting side out."
+  ],
+  "questions": [
+    {
+      "q": "The wicketkeeper stands",
+      "options": [
+        "On the sightscreen",
+        "Behind the stumps",
+        "In the crowd"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The batter tries to",
+      "options": [
+        "Hit the ball and protect the wicket",
+        "Catch their own hit",
+        "Bowl to themselves"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A fielder's job is to",
+      "options": [
+        "Move the pitch during a ball",
+        "Stop the ball",
+        "Change the scorebook in secret"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Stumps and bails make the",
+      "options": [
+        "Goalpost",
+        "Wicket",
+        "Net"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "There are usually two batters",
+      "options": [
+        "Keeping wicket together",
+        "Bowling together from the same end",
+        "On the pitch at once"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type who stands behind the stumps.",
+      "type": "text",
+      "answer": [
+        "wicketkeeper",
+        "wicket keeper",
+        "keeper"
+      ]
+    }
+  ]
+}

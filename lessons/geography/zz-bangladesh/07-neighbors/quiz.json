@@ -1,0 +1,63 @@
+{
+  "title": "Neighbors",
+  "info": [
+    "India wraps around Bangladesh on the west, north, and much of the east.",
+    "Myanmar is the neighbor to the southeast.",
+    "Nepal, Bhutan, and China are nearby in the region, but they do not share a border with Bangladesh."
+  ],
+  "questions": [
+    {
+      "q": "The neighbor on most sides is",
+      "options": [
+        "Sri Lanka",
+        "India",
+        "Thailand"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The southeast neighbor is",
+      "options": [
+        "Myanmar",
+        "Bhutan",
+        "Nepal"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which country does NOT border Bangladesh?",
+      "options": [
+        "India",
+        "Nepal",
+        "Myanmar"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "China",
+      "options": [
+        "Is a division",
+        "Does not share a border with Bangladesh",
+        "Is the southern coast"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A border is",
+      "options": [
+        "A cricket score",
+        "The line where two countries meet",
+        "A kind of rice"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the southeast neighbor.",
+      "type": "text",
+      "answer": [
+        "myanmar",
+        "burma"
+      ]
+    }
+  ]
+}

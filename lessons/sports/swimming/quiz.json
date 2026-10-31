@@ -1,0 +1,64 @@
+{
+  "title": "Swimming",
+  "info": [
+    "Swimming is a skill and a sport. Lessons with a teacher are the safe way to learn.",
+    "Floating on your back can help if you are tired, but it is not a substitute for a life jacket in a boat.",
+    "Never swim alone."
+  ],
+  "questions": [
+    {
+      "q": "The safe way to learn to swim is",
+      "options": [
+        "With a teacher or coach",
+        "In a flood",
+        "Alone in a river"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You should never swim",
+      "options": [
+        "Alone",
+        "Where an adult is watching",
+        "In a lesson"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A life jacket belongs",
+      "options": [
+        "Only on toys",
+        "Left on the shore as a pillow",
+        "On you in a boat"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If you are tired in the water",
+      "options": [
+        "Swim farther from help",
+        "Float or hold the side and call for help",
+        "Take off any help"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Front crawl uses",
+      "options": [
+        "A cricket bat",
+        "Arms pulling and legs kicking",
+        "Only your hands on the pool floor"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for the vest that helps you float.",
+      "type": "text",
+      "answer": [
+        "lifejacket",
+        "life jacket",
+        "life vest"
+      ]
+    }
+  ]
+}

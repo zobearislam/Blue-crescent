@@ -1,0 +1,73 @@
+{
+  "title": "Six seasons",
+  "info": [
+    "The Bangla year is often described as six seasons.",
+    "Grishmo is summer. Borsha is the rainy monsoon. Shorot is autumn.",
+    "Hemanto is late autumn. Sheet is winter. Boshonto is spring."
+  ],
+  "questions": [
+    {
+      "q": "How many traditional seasons?",
+      "options": [
+        "6",
+        "12",
+        "2"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Borsha is",
+      "options": [
+        "The rainy season",
+        "Winter",
+        "A river"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sheet is",
+      "options": [
+        "The hottest monsoon",
+        "Winter",
+        "A division"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Boshonto is",
+      "options": [
+        "The bay",
+        "Spring",
+        "A flag"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Grishmo is",
+      "options": [
+        "Night",
+        "Summer",
+        "A fish"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Shorot is",
+      "options": [
+        "A mountain range",
+        "A capital",
+        "Autumn"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the rainy season's name used in this quiz.",
+      "type": "text",
+      "answer": [
+        "borsha",
+        "barsha",
+        "borsa"
+      ]
+    }
+  ]
+}

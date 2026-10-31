@@ -1,0 +1,62 @@
+{
+  "title": "Characters",
+  "info": [
+    "A character is a person or animal in a story.",
+    "What a character says, does, and thinks shows you who they are.",
+    "The main character is who the story follows most."
+  ],
+  "questions": [
+    {
+      "q": "A character can be",
+      "options": [
+        "Only the title",
+        "A person or animal in the story",
+        "The page number"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "You learn about a character from",
+      "options": [
+        "The barcode",
+        "What they say and do",
+        "Nothing"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The main character is",
+      "options": [
+        "Always a villain",
+        "The illustrator",
+        "Who the story follows most"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If Mina shares her mango, that action shows she can be",
+      "options": [
+        "A chapter title",
+        "A setting",
+        "Kind"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The setting is different from a character because the setting is",
+      "options": [
+        "Where and when the story happens",
+        "A verb",
+        "The hero's name"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word for a person in a story.",
+      "type": "text",
+      "answer": [
+        "character"
+      ]
+    }
+  ]
+}

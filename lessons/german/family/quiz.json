@@ -1,0 +1,63 @@
+{
+  "title": "Family",
+  "info": [
+    "Mutter means mother. Vater means father.",
+    "Bruder means brother. Schwester means sister. Familie means family.",
+    "Nouns in German are capitalized."
+  ],
+  "questions": [
+    {
+      "q": "Mutter means",
+      "options": [
+        "Mother",
+        "Brother",
+        "Water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Vater means",
+      "options": [
+        "Father",
+        "Bread",
+        "Sister"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Bruder means",
+      "options": [
+        "Brother",
+        "Milk",
+        "Red"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Schwester means",
+      "options": [
+        "Father",
+        "Sister",
+        "Dog"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Familie means",
+      "options": [
+        "Green",
+        "Family",
+        "School"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the English meaning of Vater.",
+      "type": "text",
+      "answer": [
+        "father",
+        "dad"
+      ]
+    }
+  ]
+}

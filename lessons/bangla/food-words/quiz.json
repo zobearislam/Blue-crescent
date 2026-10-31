@@ -1,0 +1,70 @@
+{
+  "title": "Food words",
+  "info": [
+    "Bhat means rice. Mach means fish. Dal is a lentil dish. Pani means water.",
+    "Ruti or roti is a flatbread. Mango is aam. Milk is dudh."
+  ],
+  "questions": [
+    {
+      "q": "Bhat means",
+      "options": [
+        "Rice",
+        "Tea",
+        "Salt"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Mach means",
+      "options": [
+        "Fish",
+        "Meat",
+        "Egg"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Pani means",
+      "options": [
+        "Bread",
+        "Water",
+        "Sugar"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Aam means",
+      "options": [
+        "Mango",
+        "Banana",
+        "Milk"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Dudh means",
+      "options": [
+        "Milk",
+        "Juice",
+        "Rice"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which food is a lentil dish?",
+      "options": [
+        "Holud",
+        "Nil",
+        "Dal"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the English meaning of pani.",
+      "type": "text",
+      "answer": [
+        "water"
+      ]
+    }
+  ]
+}

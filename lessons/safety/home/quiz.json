@@ -1,0 +1,66 @@
+{
+  "title": "At home",
+  "info": [
+    "Home is safe when everyone knows a few rules.",
+    "Hot things, sharp things, and electricity need care.",
+    "If something spills, wipe it so nobody slips. If you are not sure, ask an adult."
+  ],
+  "questions": [
+    {
+      "q": "A pot on the stove can be",
+      "options": [
+        "Hot even if it looks calm",
+        "A toy",
+        "Always cold"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sockets and plugs are",
+      "options": [
+        "Not toys",
+        "Safe to poke with metal",
+        "For water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A spill on the floor should be",
+      "options": [
+        "Wiped up",
+        "Left for someone to slip",
+        "Covered with a bag"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If you smell gas or see sparks",
+      "options": [
+        "Light a match to check",
+        "Tell an adult right away",
+        "Hide it"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Medicine is",
+      "options": [
+        "Only for the person it was given to",
+        "A snack",
+        "Safe to share with friends"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type who you should ask if you are not sure something is safe.",
+      "type": "text",
+      "answer": [
+        "an adult",
+        "adult",
+        "a parent",
+        "parent",
+        "a trusted adult"
+      ]
+    }
+  ]
+}

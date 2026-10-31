@@ -1,0 +1,63 @@
+{
+  "title": "The Bay of Bengal",
+  "info": [
+    "The Bay of Bengal is the northeastern part of the Indian Ocean.",
+    "Bangladesh's coast faces this bay. Cox's Bazar is famous for a very long sandy beach.",
+    "Storms from the bay can bring heavy rain and dangerous surges of seawater."
+  ],
+  "questions": [
+    {
+      "q": "The Bay of Bengal is part of the",
+      "options": [
+        "Indian Ocean",
+        "A river in Dhaka",
+        "Arctic Ocean"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Cox's Bazar is famous for",
+      "options": [
+        "Being inland with no coast",
+        "A ski resort",
+        "A very long sandy beach"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The coast of Bangladesh faces",
+      "options": [
+        "The Alps",
+        "South, toward the bay",
+        "The Sahara"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A storm surge is",
+      "options": [
+        "Seawater pushed inland by a storm",
+        "A traffic light",
+        "A kind of mango"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Fishers and ports use",
+      "options": [
+        "Only the hilltops",
+        "The coast and the rivers that meet it",
+        "The flag"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the ocean the Bay of Bengal belongs to.",
+      "type": "text",
+      "answer": [
+        "indian",
+        "indian ocean"
+      ]
+    }
+  ]
+}

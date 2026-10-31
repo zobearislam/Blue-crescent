@@ -1,0 +1,62 @@
+{
+  "title": "Storms",
+  "info": [
+    "When you hear thunder, go inside. Lightning can strike before heavy rain starts.",
+    "Do not shelter under a lone tree, and stay out of rivers and the sea in a storm.",
+    "Flood water can hide deep holes and dirty water. Do not play in it."
+  ],
+  "questions": [
+    {
+      "q": "When thunder roars, you should",
+      "options": [
+        "Swim",
+        "Go inside",
+        "Stand in an open field"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A lone tree in a lightning storm is",
+      "options": [
+        "A poor shelter",
+        "Immune to lightning",
+        "The safest spot"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Flood water is",
+      "options": [
+        "Not a place to play",
+        "Always shallow",
+        "Clean drinking water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Lightning can happen",
+      "options": [
+        "Even before the heavy rain",
+        "Only inside houses",
+        "Only in winter deserts"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "After the storm, downed wires should be",
+      "options": [
+        "Used as a swing",
+        "Picked up",
+        "Left alone while you tell an adult"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type what you hear that means lightning is close.",
+      "type": "text",
+      "answer": [
+        "thunder"
+      ]
+    }
+  ]
+}

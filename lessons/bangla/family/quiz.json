@@ -1,0 +1,73 @@
+{
+  "title": "Family",
+  "info": [
+    "Ma means mother. Baba means father.",
+    "Bhai means brother. Bon means sister.",
+    "Dada is a grandfather on the father's side. Nana is a grandfather on the mother's side."
+  ],
+  "questions": [
+    {
+      "q": "Ma means",
+      "options": [
+        "Sister",
+        "Aunt",
+        "Mother"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which word means father?",
+      "options": [
+        "Bon",
+        "Baba",
+        "Dadi"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Bon means",
+      "options": [
+        "Sister",
+        "Baby",
+        "Brother"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Bhai means",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Cousin"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Nana is a grandfather on which side?",
+      "options": [
+        "A neighbor",
+        "Mother's side",
+        "The school"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Poribar means",
+      "options": [
+        "Friend",
+        "Family",
+        "Teacher"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the English meaning of ma.",
+      "type": "text",
+      "answer": [
+        "mother",
+        "mom",
+        "mum"
+      ]
+    }
+  ]
+}

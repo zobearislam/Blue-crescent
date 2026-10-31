@@ -1,0 +1,61 @@
+{
+  "title": "Food",
+  "info": [
+    "Brot is bread. Wasser is water. Milch is milk.",
+    "Apfel is apple. Käse is cheese. Reis is rice."
+  ],
+  "questions": [
+    {
+      "q": "Brot means",
+      "options": [
+        "Bread",
+        "Water",
+        "Apple"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Wasser means",
+      "options": [
+        "Water",
+        "Milk",
+        "Cheese"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Milch means",
+      "options": [
+        "Rice",
+        "Bread",
+        "Milk"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Apfel means",
+      "options": [
+        "Fish",
+        "Apple",
+        "Sister"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Käse means",
+      "options": [
+        "Water",
+        "Brother",
+        "Cheese"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the English meaning of Reis.",
+      "type": "text",
+      "answer": [
+        "rice"
+      ]
+    }
+  ]
+}

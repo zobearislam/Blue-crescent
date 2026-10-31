@@ -1,0 +1,73 @@
+{
+  "title": "Bangla months",
+  "info": [
+    "The Bangla year opens with Boishakh, then Joishtho, Asharh, and Srabon.",
+    "Next come Bhadro, Ashwin, Kartik, and Ogrohayon.",
+    "The year ends with Poush, Magh, Falgun, and Choitro. Pohela Boishakh is the Bangla New Year."
+  ],
+  "questions": [
+    {
+      "q": "The first Bangla month is",
+      "options": [
+        "Boishakh",
+        "Choitro",
+        "Magh"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Pohela Boishakh is",
+      "options": [
+        "The Bangla New Year",
+        "A river",
+        "A weekday"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which month comes last?",
+      "options": [
+        "Srabon",
+        "Choitro",
+        "Boishakh"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Srabon is known as a",
+      "options": [
+        "Coin",
+        "Rainy-season month",
+        "Color"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Falgun comes just before",
+      "options": [
+        "Boishakh",
+        "Asharh",
+        "Choitro"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "How many months are in the Bangla year?",
+      "options": [
+        "12",
+        "8",
+        "6"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the name of the Bangla New Year festival.",
+      "type": "text",
+      "answer": [
+        "pohela boishakh",
+        "pahela boishakh",
+        "pohela boisakh"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Animals",
+  "info": [
+    "Perro is dog. Gato is cat. Pájaro is bird.",
+    "Pez is fish. Vaca is cow. Caballo is horse."
+  ],
+  "questions": [
+    {
+      "q": "Perro means",
+      "options": [
+        "Cat",
+        "Bird",
+        "Dog"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Gato means",
+      "options": [
+        "Cow",
+        "Fish",
+        "Cat"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Pájaro means",
+      "options": [
+        "Dog",
+        "Horse",
+        "Bird"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Pez means",
+      "options": [
+        "Milk",
+        "Bread",
+        "Fish"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Caballo means",
+      "options": [
+        "Rice",
+        "Cat",
+        "Horse"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the English meaning of vaca.",
+      "type": "text",
+      "answer": [
+        "cow"
+      ]
+    }
+  ]
+}

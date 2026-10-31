@@ -1,0 +1,63 @@
+{
+  "title": "Hearing",
+  "info": [
+    "Your outer ear catches sound and leads it inward.",
+    "The eardrum vibrates, and tiny parts deeper in the ear send a message to the brain.",
+    "Very loud sounds can harm hearing. Give your ears a rest from loud noise."
+  ],
+  "questions": [
+    {
+      "q": "The outer ear helps",
+      "options": [
+        "Digest food",
+        "Catch sound",
+        "See color"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The eardrum",
+      "options": [
+        "Makes light",
+        "Vibrates when sound arrives",
+        "Is a bone in the knee"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The brain is what",
+      "options": [
+        "Replaces the ear",
+        "Stops all vibration",
+        "Makes sense of the hearing message"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Very loud sounds can",
+      "options": [
+        "Make ears stronger forever",
+        "Be safe at any volume",
+        "Harm your hearing"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Cupping a hand behind your ear can",
+      "options": [
+        "Turn sound into light",
+        "Empty the eardrum",
+        "Help you catch a little more sound"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the thin part of the ear that vibrates.",
+      "type": "text",
+      "answer": [
+        "eardrum",
+        "ear drum"
+      ]
+    }
+  ]
+}

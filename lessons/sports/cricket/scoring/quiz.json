@@ -1,0 +1,63 @@
+{
+  "title": "Scoring",
+  "info": [
+    "Batters score a run by running and swapping ends safely.",
+    "If the ball reaches the boundary along the ground, that is 4 runs. If it crosses the boundary in the air, that is 6.",
+    "When a batter is out, that is a wicket. A team has 10 wickets to lose."
+  ],
+  "questions": [
+    {
+      "q": "A ball that crosses the boundary in the air scores",
+      "options": [
+        "10",
+        "6",
+        "1"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A ball that reaches the boundary along the ground scores",
+      "options": [
+        "0 always",
+        "6",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Swapping ends safely scores",
+      "options": [
+        "Wickets for your own team",
+        "Runs",
+        "A corner"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "An out is also called a",
+      "options": [
+        "Try",
+        "Goal",
+        "Wicket"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "How many wickets can a team lose in an innings?",
+      "options": [
+        "11",
+        "10",
+        "6"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the score for a hit that clears the boundary in the air.",
+      "type": "text",
+      "answer": [
+        "6",
+        "six"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "Flags",
+  "info": [
+    "A flag is a symbol of a country or a group.",
+    "The flag of Bangladesh is green with a red circle. The red circle sits a little toward the hoist, the side by the pole.",
+    "Japan's flag is white with a red circle. The colors around the circle help you tell the two flags apart."
+  ],
+  "questions": [
+    {
+      "q": "The flag of Bangladesh is",
+      "options": [
+        "Blue with white stars only",
+        "A plain white square",
+        "Green with a red circle"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Japan's flag is",
+      "options": [
+        "White with a red circle",
+        "Green with a red circle",
+        "Orange with a tiger"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The hoist side of a flag is",
+      "options": [
+        "The side farthest from the pole always called the sky",
+        "The bottom hem only",
+        "The side by the pole"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "France's flag has three vertical stripes:",
+      "options": [
+        "Only yellow",
+        "Green, red, and green",
+        "Blue, white, and red"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Nepal's flag is unusual because it is",
+      "options": [
+        "Not a rectangle",
+        "Invisible",
+        "A circle the size of the Moon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A flag stands for",
+      "options": [
+        "A math sign only",
+        "A country or group",
+        "A type of cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the background color of the Bangladesh flag.",
+      "type": "text",
+      "answer": [
+        "green"
+      ]
+    }
+  ]
+}

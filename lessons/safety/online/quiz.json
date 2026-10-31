@@ -1,0 +1,62 @@
+{
+  "title": "Online",
+  "info": [
+    "The internet is useful, and it needs the same care as a busy street.",
+    "Do not share your password, home address, or phone number with people you do not know.",
+    "If a message feels mean or strange, stop and tell a trusted adult. You are not in trouble for telling."
+  ],
+  "questions": [
+    {
+      "q": "Your home address online should be",
+      "options": [
+        "Posted on every game",
+        "Kept private from strangers",
+        "Your username"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If someone is mean in a message",
+      "options": [
+        "Be meaner back",
+        "Tell a trusted adult",
+        "Keep it a secret forever"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A person you have never met who asks to meet you",
+      "options": [
+        "Needs your phone number first",
+        "Is a reason to tell an adult",
+        "Should be obeyed"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Kind messages",
+      "options": [
+        "Are against the rules",
+        "Are only for adults",
+        "Make a place nicer"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Surprise links from strangers",
+      "options": [
+        "Cannot cause trouble",
+        "Are safer to skip",
+        "Must be opened"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for a secret string that unlocks an account.",
+      "type": "text",
+      "answer": [
+        "password"
+      ]
+    }
+  ]
+}

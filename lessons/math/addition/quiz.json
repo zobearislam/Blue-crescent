@@ -1,0 +1,62 @@
+{
+  "title": "Addition",
+  "info": [
+    "Addition puts amounts together. The sign is +.",
+    "The answer to an addition is the sum.",
+    "You can add in any order: 2 + 5 equals 5 + 2."
+  ],
+  "questions": [
+    {
+      "q": "4 + 3 =",
+      "options": [
+        "7",
+        "1",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The answer to an addition is called the",
+      "options": [
+        "Difference",
+        "Sum",
+        "Product"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "9 + 0 =",
+      "options": [
+        "90",
+        "9",
+        "0"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "2 + 5 equals",
+      "options": [
+        "5 − 2",
+        "2 × 5 only",
+        "5 + 2"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "10 + 6 =",
+      "options": [
+        "16",
+        "106",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the sum of 7 and 5.",
+      "type": "text",
+      "answer": [
+        "12"
+      ]
+    }
+  ]
+}

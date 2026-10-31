@@ -1,0 +1,62 @@
+{
+  "title": "Clue words",
+  "info": [
+    "Opinion clues include I think, I believe, best, worst, and should.",
+    "Fact clues include numbers, dates, and names of places you can look up.",
+    "A clue helps, but you still ask: can this be checked?"
+  ],
+  "questions": [
+    {
+      "q": "'I think' often begins",
+      "options": [
+        "An opinion",
+        "A ruler measurement",
+        "A map key"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A date such as 1971 can be",
+      "options": [
+        "Checked",
+        "A kind of adjective",
+        "Only a feeling"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "'The best city' is a clue for",
+      "options": [
+        "A plural noun",
+        "An opinion",
+        "A chemical element"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which sentence is a fact?",
+      "options": [
+        "I feel the flag is best.",
+        "Bangladesh has a flag.",
+        "Bangladesh has the prettiest flag."
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Should is often a clue that someone is",
+      "options": [
+        "Stating a measured length",
+        "Giving an opinion about what to do",
+        "Naming a river"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the clue phrase of two words: I ____.",
+      "type": "text",
+      "answer": [
+        "think"
+      ]
+    }
+  ]
+}

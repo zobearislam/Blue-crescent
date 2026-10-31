@@ -1,0 +1,66 @@
+{
+  "title": "Helpers",
+  "info": [
+    "A community is the people who share a place, like a neighborhood or a school.",
+    "Teachers help you learn. Doctors and nurses help when you are ill. Firefighters train to fight fires.",
+    "Farmers grow food. Shopkeepers sell things people need. Everyone's job matters."
+  ],
+  "questions": [
+    {
+      "q": "A teacher helps you",
+      "options": [
+        "Drive a fire truck only",
+        "Ignore every question",
+        "Learn"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "You visit a doctor when",
+      "options": [
+        "You want a new spelling rule",
+        "You need health care",
+        "The river needs a bridge"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Firefighters train to",
+      "options": [
+        "Put out fires and help in emergencies",
+        "Referee cricket",
+        "Sell mangoes only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Farmers",
+      "options": [
+        "Write every dictionary",
+        "Control the tides",
+        "Grow food"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A community is",
+      "options": [
+        "A single shoe",
+        "People sharing a place",
+        "A type of cloud only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type one helper you see at school.",
+      "type": "text",
+      "answer": [
+        "teacher",
+        "principal",
+        "cleaner",
+        "guard",
+        "nurse"
+      ]
+    }
+  ]
+}

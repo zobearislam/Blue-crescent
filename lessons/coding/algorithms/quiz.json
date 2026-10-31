@@ -1,0 +1,71 @@
+{
+  "title": "Algorithms",
+  "info": [
+    "An algorithm is a list of steps that finishes a job.",
+    "Order matters. If you put on shoes before socks, the steps are in a poor order.",
+    "A computer follows steps exactly, so clear steps matter."
+  ],
+  "questions": [
+    {
+      "q": "An algorithm is",
+      "options": [
+        "A color",
+        "A river",
+        "A list of steps to finish a job"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Order matters because",
+      "options": [
+        "Some steps must come before others",
+        "Computers guess what you meant",
+        "Steps are decorations"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A computer will",
+      "options": [
+        "Follow the steps it is given",
+        "Fix a silly order by feelings",
+        "Skip steps it dislikes"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which order makes more sense?",
+      "options": [
+        "Shoes, then socks on the outside",
+        "Socks, then shoes",
+        "Shoes only, on your hands"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Brushing teeth is an algorithm when you",
+      "options": [
+        "Throw the brush",
+        "Follow steps from start to a clean finish",
+        "Skip every step"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A bug in an algorithm is often",
+      "options": [
+        "A kind of mammal",
+        "A step that is missing or out of order",
+        "A flag"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for a list of steps that finishes a job.",
+      "type": "text",
+      "answer": [
+        "algorithm"
+      ]
+    }
+  ]
+}

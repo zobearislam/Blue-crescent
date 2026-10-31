@@ -1,0 +1,62 @@
+{
+  "title": "Place",
+  "info": [
+    "In means inside. On means on a surface. Under means below.",
+    "Beside means next to. Between means in the middle of two things.",
+    "Behind means at the back. In front of means at the front."
+  ],
+  "questions": [
+    {
+      "q": "A fish in a bowl is",
+      "options": [
+        "On the ceiling",
+        "Between the clouds",
+        "Inside the bowl"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A lamp on a table is",
+      "options": [
+        "Beside the Moon",
+        "On the table's surface",
+        "Under the floor"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If A is between B and C, A is",
+      "options": [
+        "In the middle of B and C",
+        "Far from both",
+        "A verb"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Beside means",
+      "options": [
+        "After three years",
+        "Next to",
+        "Inside a closed box only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The garden behind the house is",
+      "options": [
+        "On the roof always",
+        "At the back of the house",
+        "Under the sea"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the preposition that means below.",
+      "type": "text",
+      "answer": [
+        "under"
+      ]
+    }
+  ]
+}

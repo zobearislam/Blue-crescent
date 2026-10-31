@@ -1,0 +1,62 @@
+{
+  "title": "Rules",
+  "info": [
+    "You may not trip, push, or hold an opponent.",
+    "If the ball goes out over the side line, the other team takes a throw-in.",
+    "A corner kick happens when the defending team sends the ball out over their own goal line."
+  ],
+  "questions": [
+    {
+      "q": "Pushing an opponent is",
+      "options": [
+        "Against the rules",
+        "The way to score",
+        "Required"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A throw-in happens when the ball crosses",
+      "options": [
+        "The moon",
+        "The side line",
+        "The goal, for a point"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A corner kick is taken from",
+      "options": [
+        "The center circle only",
+        "The corner arc",
+        "The changing room"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The person who enforces the rules is the",
+      "options": [
+        "Goal net",
+        "Captain of both teams at once",
+        "Referee"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A fair tackle tries to",
+      "options": [
+        "Grab the shirt",
+        "Knock the player down",
+        "Play the ball, not hurt the player"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the name of the official who shows cards.",
+      "type": "text",
+      "answer": [
+        "referee"
+      ]
+    }
+  ]
+}

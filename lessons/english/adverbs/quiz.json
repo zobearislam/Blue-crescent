@@ -1,0 +1,62 @@
+{
+  "title": "Adverbs",
+  "info": [
+    "An adverb tells more about a verb. It can tell how, when, or where.",
+    "In 'The cat walked quietly', quietly tells how the cat walked.",
+    "Many adverbs of manner end in -ly, but not all. Fast and well are adverbs too."
+  ],
+  "questions": [
+    {
+      "q": "In 'She sang softly', softly tells",
+      "options": [
+        "Who she is",
+        "How she sang",
+        "A noun"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word is an adverb?",
+      "options": [
+        "Quickly",
+        "Table",
+        "Blue"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "An adverb can modify a",
+      "options": [
+        "Chapter number only",
+        "Map",
+        "Verb"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "In 'We will leave tomorrow', tomorrow tells",
+      "options": [
+        "Color",
+        "Size",
+        "When"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which sentence uses an adverb?",
+      "options": [
+        "He is a runner.",
+        "He ran fast.",
+        "Runners run."
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the adverb in: The baby slept peacefully.",
+      "type": "text",
+      "answer": [
+        "peacefully"
+      ]
+    }
+  ]
+}

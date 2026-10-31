@@ -1,0 +1,64 @@
+{
+  "title": "Teeth",
+  "info": [
+    "Brush your teeth two times a day with a fluoride toothpaste if you have it.",
+    "Do not share a toothbrush. Sugary snacks can harm teeth if they stay on them.",
+    "A dentist checks teeth and helps keep them healthy."
+  ],
+  "questions": [
+    {
+      "q": "A good daily habit is to brush",
+      "options": [
+        "Only once a month",
+        "Two times a day",
+        "Never"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Fluoride toothpaste helps",
+      "options": [
+        "Paint pictures",
+        "Replace sleep",
+        "Protect teeth"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sharing a toothbrush",
+      "options": [
+        "Cleans better",
+        "Is required",
+        "Can spread germs"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sweet drinks that stay on teeth can",
+      "options": [
+        "Replace a dentist forever",
+        "Harm them",
+        "Make teeth grow overnight"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A dentist",
+      "options": [
+        "Checks and cares for teeth",
+        "Is a kind of cloud",
+        "Only teaches football"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type how many times a day this quiz says to brush.",
+      "type": "text",
+      "answer": [
+        "2",
+        "two",
+        "twice"
+      ]
+    }
+  ]
+}

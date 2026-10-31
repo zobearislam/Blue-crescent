@@ -1,0 +1,62 @@
+{
+  "title": "Loud and soft",
+  "info": [
+    "Dynamics are how loud or soft music is.",
+    "Forte means loud. Piano means soft.",
+    "A crescendo means gradually louder. Getting softer is a diminuendo."
+  ],
+  "questions": [
+    {
+      "q": "Forte means",
+      "options": [
+        "Loud",
+        "Soft",
+        "Silent forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Piano, as a dynamic, means",
+      "options": [
+        "Soft",
+        "Out of tune",
+        "As loud as possible"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A crescendo gets",
+      "options": [
+        "Gradually lower in pitch only",
+        "Shorter in time only",
+        "Gradually louder"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Dynamics describe",
+      "options": [
+        "Only the country of a song",
+        "The painter of a drum",
+        "Loud and soft"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Shouting into someone's ear is",
+      "options": [
+        "Too loud to be kind",
+        "The definition of piano",
+        "Required in every song"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the dynamic word that means loud.",
+      "type": "text",
+      "answer": [
+        "forte"
+      ]
+    }
+  ]
+}

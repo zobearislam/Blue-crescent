@@ -1,0 +1,63 @@
+{
+  "title": "Shapes",
+  "info": [
+    "A triangle has 3 sides. A square has 4 equal sides.",
+    "A rectangle has 4 sides and 4 right angles. A circle is round and has no corners.",
+    "Shapes can overlap to draw houses, people, and machines."
+  ],
+  "questions": [
+    {
+      "q": "A triangle has",
+      "options": [
+        "3 sides",
+        "4 equal sides",
+        "No edge"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A square has",
+      "options": [
+        "1 side",
+        "3 sides",
+        "4 equal sides"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A circle has",
+      "options": [
+        "3 corners",
+        "4 corners",
+        "No corners"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A rectangle has",
+      "options": [
+        "4 right angles",
+        "3 sides",
+        "Only curves"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A square is a special kind of",
+      "options": [
+        "Rectangle",
+        "Line with no shape",
+        "Circle"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type how many sides a triangle has.",
+      "type": "text",
+      "answer": [
+        "3",
+        "three"
+      ]
+    }
+  ]
+}

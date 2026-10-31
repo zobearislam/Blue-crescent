@@ -1,0 +1,64 @@
+{
+  "title": "Great rivers",
+  "info": [
+    "Three great rivers shape the land: the Padma, the Jamuna, and the Meghna.",
+    "The Padma is the main branch of the Ganges in Bangladesh. The Jamuna is the main branch of the Brahmaputra.",
+    "They carry water and silt, and they join on the way to the sea."
+  ],
+  "questions": [
+    {
+      "q": "The Padma is the main Bangladesh branch of the",
+      "options": [
+        "Ganges",
+        "Amazon",
+        "Nile"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Jamuna is the main branch of the",
+      "options": [
+        "Brahmaputra",
+        "Danube",
+        "Thames"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Meghna is",
+      "options": [
+        "One of the great rivers",
+        "A mountain",
+        "A desert"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Silt is",
+      "options": [
+        "A kind of thunder",
+        "A flag stripe",
+        "Fine mud a river carries"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "These rivers flow toward",
+      "options": [
+        "A closed lake with no outlet",
+        "The Bay of Bengal",
+        "The Atlantic directly from Dhaka's north"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type one of the three great rivers: Padma, Jamuna, or Meghna.",
+      "type": "text",
+      "answer": [
+        "padma",
+        "jamuna",
+        "meghna"
+      ]
+    }
+  ]
+}

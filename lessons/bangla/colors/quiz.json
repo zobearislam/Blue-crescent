@@ -1,0 +1,70 @@
+{
+  "title": "Colors",
+  "info": [
+    "Lal is red. Nil is blue. Shobuj is green. Holud is yellow.",
+    "Shada is white. Kalo is black. Komola is orange. Golapi is pink."
+  ],
+  "questions": [
+    {
+      "q": "Lal means",
+      "options": [
+        "Blue",
+        "Red",
+        "Green"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word means blue?",
+      "options": [
+        "Kalo",
+        "Holud",
+        "Nil"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Shobuj means",
+      "options": [
+        "Yellow",
+        "White",
+        "Green"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Kalo means",
+      "options": [
+        "Orange",
+        "Pink",
+        "Black"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Holud is the color of",
+      "options": [
+        "A ripe banana",
+        "Snow",
+        "The night sky"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Golapi means",
+      "options": [
+        "Pink",
+        "Gray",
+        "Brown"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the English color for shada.",
+      "type": "text",
+      "answer": [
+        "white"
+      ]
+    }
+  ]
+}

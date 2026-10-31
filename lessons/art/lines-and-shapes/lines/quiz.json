@@ -1,0 +1,62 @@
+{
+  "title": "Lines",
+  "info": [
+    "A straight line does not bend. A curved line does.",
+    "Horizontal lines go side to side. Vertical lines go up and down.",
+    "Diagonal lines slant."
+  ],
+  "questions": [
+    {
+      "q": "A vertical line goes",
+      "options": [
+        "Only in a circle",
+        "Up and down",
+        "Nowhere"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A horizontal line is like",
+      "options": [
+        "A flagpole",
+        "A dot",
+        "The horizon, side to side"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A diagonal line",
+      "options": [
+        "Has no direction",
+        "Slants",
+        "Is always a circle"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A curved line",
+      "options": [
+        "Is a primary color",
+        "Has four equal sides",
+        "Bends"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Artists use lines to",
+      "options": [
+        "Show edges and movement",
+        "Measure a river",
+        "Replace every color forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the line that goes up and down.",
+      "type": "text",
+      "answer": [
+        "vertical"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Days of the week",
+  "info": [
+    "Sunday Robibar, Monday Sombar, Tuesday Mongolbar, Wednesday Budhbar.",
+    "Thursday Brihoshpotibar, Friday Shukrobar, Saturday Shonibar."
+  ],
+  "questions": [
+    {
+      "q": "Sombar is",
+      "options": [
+        "Saturday",
+        "Thursday",
+        "Monday"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Mongolbar is",
+      "options": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Budhbar is",
+      "options": [
+        "A month",
+        "Wednesday",
+        "Monday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which day comes after Shukrobar?",
+      "options": [
+        "Sombar",
+        "Robibar",
+        "Shonibar"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Brihoshpotibar is",
+      "options": [
+        "Sunday",
+        "Thursday",
+        "Tuesday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The school week in many places in Bangladesh includes",
+      "options": [
+        "Shonibar as the weekend day",
+        "No named days",
+        "Sombar as the only day off"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the English weekday for Sombar.",
+      "type": "text",
+      "answer": [
+        "monday"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "At school",
+  "info": [
+    "Schools work because many people help.",
+    "Teachers teach. Librarians help you find books. A nurse or office staff help if you feel ill.",
+    "Students help too, by listening, taking turns, and keeping shared spaces tidy."
+  ],
+  "questions": [
+    {
+      "q": "A librarian helps you",
+      "options": [
+        "Bowl a cricket over",
+        "Change the weather",
+        "Find books"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If you feel ill at school",
+      "options": [
+        "Leave without a word",
+        "Tell a teacher or the office",
+        "Hide it until you faint"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Students help the community of a class when they",
+      "options": [
+        "Rip shared books",
+        "Take turns",
+        "Block the door"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Keeping a classroom tidy",
+      "options": [
+        "Helps everyone",
+        "Is only the night sky's job",
+        "Is against the rules"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Listening when someone speaks",
+      "options": [
+        "Wastes the lesson",
+        "Shows respect",
+        "Is optional during instructions"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the school helper who teaches your class.",
+      "type": "text",
+      "answer": [
+        "teacher"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Shadows",
+  "info": [
+    "A shadow forms when an object blocks light.",
+    "If the light is close and bright, the shadow's edge can be sharp. A bigger light can make a softer edge.",
+    "Your shadow changes length as the Sun moves across the sky."
+  ],
+  "questions": [
+    {
+      "q": "A shadow needs",
+      "options": [
+        "A magnet",
+        "Only sound",
+        "Light and something blocking it"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "At noon, when the Sun is high, a shadow is often",
+      "options": [
+        "Longer than at sunrise always",
+        "Shorter",
+        "Gone because light stopped"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "You cannot have a shadow in complete darkness because",
+      "options": [
+        "There is no light to block",
+        "Darkness is a solid wall",
+        "Shadows are only painted"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A clear object like clean glass",
+      "options": [
+        "Always makes the darkest shadow",
+        "Blocks less light, so the shadow is faint",
+        "Creates thunder"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Standing between a lamp and the wall",
+      "options": [
+        "Can cast your shadow on the wall",
+        "Turns you into a mirror",
+        "Erases the lamp"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type what an object does to light to make a shadow.",
+      "type": "text",
+      "answer": [
+        "blocks",
+        "block",
+        "blocks it"
+      ]
+    }
+  ]
+}

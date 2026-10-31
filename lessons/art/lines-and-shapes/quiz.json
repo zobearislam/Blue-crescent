@@ -1,0 +1,62 @@
+{
+  "title": "Lines and shapes",
+  "info": [
+    "Artists build pictures from lines and shapes.",
+    "Lines can be straight, curved, zigzag, or dotted.",
+    "Shapes such as circles, squares, and triangles are closed lines."
+  ],
+  "questions": [
+    {
+      "q": "A zigzag is a kind of",
+      "options": [
+        "Color mix only",
+        "Line",
+        "Shadow"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A circle is a",
+      "options": [
+        "Shape",
+        "Beat in music only",
+        "Verb"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A dotted line is made of",
+      "options": [
+        "Only one endless curve with no gaps",
+        "Water",
+        "Separate marks"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is a closed shape?",
+      "options": [
+        "A sound",
+        "A single short dash",
+        "A triangle"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A curved line",
+      "options": [
+        "Is always a square",
+        "Must have exactly four corners",
+        "Bends"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type a shape with three sides.",
+      "type": "text",
+      "answer": [
+        "triangle"
+      ]
+    }
+  ]
+}

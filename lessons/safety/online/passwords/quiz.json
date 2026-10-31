@@ -1,0 +1,62 @@
+{
+  "title": "Passwords",
+  "info": [
+    "A stronger password is long and is not your name or 123456.",
+    "Do not tell classmates your password, and do not write it on your notebook cover.",
+    "A parent who helps you remember a password is different from posting the password for everyone."
+  ],
+  "questions": [
+    {
+      "q": "Which password is stronger?",
+      "options": [
+        "Your first name",
+        "A long mix that is not your name",
+        "123456"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "You should not",
+      "options": [
+        "Use a password at all",
+        "Let a parent help you remember it",
+        "Share your password with the whole class"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Writing a password on a book cover",
+      "options": [
+        "Is required",
+        "Lets other people see it",
+        "Makes it stronger"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The same easy password on every account",
+      "options": [
+        "Cannot be guessed",
+        "Is risky if one site is copied",
+        "Is the safest plan"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If a website asks you to send your password to a stranger",
+      "options": [
+        "Send it quickly",
+        "Post it",
+        "Do not. Tell an adult"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type a bad example password made only of these digits: 123456.",
+      "type": "text",
+      "answer": [
+        "123456"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Heat",
+  "info": [
+    "On a very hot day, drink water, rest in the shade, and wear a hat if you are outside.",
+    "Never stay in a closed car in the sun. It heats up quickly.",
+    "Tell an adult if you feel dizzy, sick, or strangely tired in the heat."
+  ],
+  "questions": [
+    {
+      "q": "On a hot day you should",
+      "options": [
+        "Drink water and rest in the shade",
+        "Skip all drinks",
+        "Play in a closed car"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A closed car in the sun",
+      "options": [
+        "Can become dangerously hot",
+        "Is a good nap spot",
+        "Stays as cool as shade"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A hat outside can",
+      "options": [
+        "Replace water",
+        "Shade your head",
+        "Make thunder"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Dizzy and sick in the heat means",
+      "options": [
+        "Run faster",
+        "Ignore it",
+        "Tell an adult and cool down"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The hottest part of a sunny day is often",
+      "options": [
+        "The middle of the day",
+        "During a snowstorm",
+        "The middle of the night"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the drink your body needs most on a hot day.",
+      "type": "text",
+      "answer": [
+        "water"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Mammals",
+  "info": [
+    "Mammals have hair or fur, and mothers make milk for their babies.",
+    "People, cows, tigers, and bats are mammals. A dolphin is a mammal too, even though it lives in water.",
+    "A fish has scales and gills and is not a mammal. A bird has feathers and is not a mammal."
+  ],
+  "questions": [
+    {
+      "q": "Mammals feed babies with",
+      "options": [
+        "Rocks",
+        "Sunlight only",
+        "Milk"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is a mammal?",
+      "options": [
+        "A sparrow",
+        "A goldfish",
+        "A bat"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A dolphin is",
+      "options": [
+        "A fish",
+        "A bird",
+        "A mammal"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Fur or hair is a clue for",
+      "options": [
+        "Mammals",
+        "All insects",
+        "Rocks"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A robin is not a mammal because it is",
+      "options": [
+        "A bird with feathers",
+        "A fish",
+        "A plant"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type one mammal that lives in the sea.",
+      "type": "text",
+      "answer": [
+        "dolphin",
+        "whale"
+      ]
+    }
+  ]
+}

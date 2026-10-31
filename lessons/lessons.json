@@ -93,6 +93,30 @@
               "name": "Right triangles"
             }
           ]
+        },
+        {
+          "id": "addition",
+          "name": "Addition",
+          "subs": [
+            {
+              "id": "sums-to-20",
+              "name": "Sums to 20"
+            },
+            {
+              "id": "making-ten",
+              "name": "Making ten"
+            }
+          ]
+        },
+        {
+          "id": "subtraction",
+          "name": "Subtraction",
+          "subs": [
+            {
+              "id": "take-away",
+              "name": "Take away"
+            }
+          ]
         }
       ]
     },
@@ -168,6 +192,48 @@
         {
           "id": "simple-machines",
           "name": "Simple machines"
+        },
+        {
+          "id": "sound",
+          "name": "Sound",
+          "subs": [
+            {
+              "id": "pitch",
+              "name": "Pitch"
+            },
+            {
+              "id": "hearing",
+              "name": "Hearing"
+            }
+          ]
+        },
+        {
+          "id": "light",
+          "name": "Light",
+          "subs": [
+            {
+              "id": "shadows",
+              "name": "Shadows"
+            },
+            {
+              "id": "rainbows",
+              "name": "Rainbows"
+            }
+          ]
+        },
+        {
+          "id": "forces",
+          "name": "Forces",
+          "subs": [
+            {
+              "id": "push-and-pull",
+              "name": "Push and pull"
+            },
+            {
+              "id": "friction",
+              "name": "Friction"
+            }
+          ]
         }
       ]
     },
@@ -237,6 +303,24 @@
         {
           "id": "prefixes",
           "name": "Prefixes"
+        },
+        {
+          "id": "adverbs",
+          "name": "Adverbs"
+        },
+        {
+          "id": "prepositions",
+          "name": "Prepositions",
+          "subs": [
+            {
+              "id": "place",
+              "name": "Place"
+            }
+          ]
+        },
+        {
+          "id": "articles",
+          "name": "Articles"
         }
       ]
     },
@@ -292,6 +376,80 @@
         {
           "id": "compass",
           "name": "Compass"
+        },
+        {
+          "id": "flags",
+          "name": "Flags"
+        }
+      ],
+      "groups": [
+        {
+          "id": "zz-bangladesh",
+          "name": "Bangladesh",
+          "icon": "🇧🇩",
+          "blurb": "A path of short quizzes about the land, from the flag to the hills.",
+          "chapters": [
+            {
+              "id": "01-on-the-map",
+              "name": "On the map",
+              "level": "Easy"
+            },
+            {
+              "id": "02-flag-and-symbols",
+              "name": "Flag and symbols",
+              "level": "Easy"
+            },
+            {
+              "id": "03-dhaka",
+              "name": "Dhaka",
+              "level": "Easy"
+            },
+            {
+              "id": "04-great-rivers",
+              "name": "Great rivers",
+              "level": "Easy"
+            },
+            {
+              "id": "05-the-bay",
+              "name": "The Bay of Bengal",
+              "level": "Medium"
+            },
+            {
+              "id": "06-eight-divisions",
+              "name": "Eight divisions",
+              "level": "Medium"
+            },
+            {
+              "id": "07-neighbors",
+              "name": "Neighbors",
+              "level": "Medium"
+            },
+            {
+              "id": "08-six-seasons",
+              "name": "Six seasons",
+              "level": "Medium"
+            },
+            {
+              "id": "09-the-sundarbans",
+              "name": "The Sundarbans",
+              "level": "Hard"
+            },
+            {
+              "id": "10-crops",
+              "name": "Crops",
+              "level": "Hard"
+            },
+            {
+              "id": "11-the-hills",
+              "name": "The hills",
+              "level": "Hard"
+            },
+            {
+              "id": "12-the-language",
+              "name": "The language",
+              "level": "Hard"
+            }
+          ]
         }
       ]
     },
@@ -390,6 +548,10 @@
         {
           "id": "functions",
           "name": "Functions"
+        },
+        {
+          "id": "algorithms",
+          "name": "Algorithms"
         }
       ]
     },
@@ -419,6 +581,20 @@
         {
           "id": "patterns",
           "name": "Patterns"
+        },
+        {
+          "id": "lines-and-shapes",
+          "name": "Lines and shapes",
+          "subs": [
+            {
+              "id": "lines",
+              "name": "Lines"
+            },
+            {
+              "id": "shapes",
+              "name": "Shapes"
+            }
+          ]
         }
       ]
     },
@@ -450,6 +626,14 @@
         {
           "id": "melody",
           "name": "Melody"
+        },
+        {
+          "id": "notes",
+          "name": "Notes"
+        },
+        {
+          "id": "loud-and-soft",
+          "name": "Loud and soft"
         }
       ]
     },
@@ -483,6 +667,14 @@
         {
           "id": "hygiene",
           "name": "Hygiene"
+        },
+        {
+          "id": "teeth",
+          "name": "Teeth"
+        },
+        {
+          "id": "feelings",
+          "name": "Feelings"
         }
       ]
     },
@@ -540,6 +732,27 @@
             {
               "id": "family-words",
               "name": "Family words"
+            }
+          ]
+        },
+        {
+          "id": "food",
+          "name": "Food",
+          "subs": [
+            {
+              "id": "at-the-table",
+              "name": "At the table"
+            }
+          ]
+        },
+        {
+          "id": "animals",
+          "name": "Animals",
+          "hasQuiz": true,
+          "subs": [
+            {
+              "id": "pets",
+              "name": "Pets"
             }
           ]
         }
@@ -614,6 +827,245 @@
             {
               "id": "true-false",
               "name": "True or false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bangla",
+      "name": "Bangla",
+      "icon": "🇧🇩",
+      "chapters": [
+        {
+          "id": "greetings",
+          "name": "Greetings"
+        },
+        {
+          "id": "numbers",
+          "name": "Numbers",
+          "subs": [
+            {
+              "id": "one-to-ten",
+              "name": "1 to 10"
+            },
+            {
+              "id": "eleven-to-twenty",
+              "name": "11 to 20"
+            }
+          ]
+        },
+        {
+          "id": "family",
+          "name": "Family"
+        },
+        {
+          "id": "colors",
+          "name": "Colors"
+        },
+        {
+          "id": "food-words",
+          "name": "Food words"
+        },
+        {
+          "id": "animals",
+          "name": "Animals"
+        },
+        {
+          "id": "days-and-months",
+          "name": "Days and months",
+          "subs": [
+            {
+              "id": "days",
+              "name": "Days of the week"
+            },
+            {
+              "id": "bangla-months",
+              "name": "Bangla months"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "name": "Safety",
+      "icon": "🛟",
+      "chapters": [
+        {
+          "id": "roads",
+          "name": "Roads",
+          "subs": [
+            {
+              "id": "crossing",
+              "name": "Crossing"
+            },
+            {
+              "id": "signals",
+              "name": "Signals"
+            }
+          ]
+        },
+        {
+          "id": "home",
+          "name": "At home",
+          "subs": [
+            {
+              "id": "kitchen",
+              "name": "Kitchen"
+            },
+            {
+              "id": "fire",
+              "name": "Fire"
+            }
+          ]
+        },
+        {
+          "id": "online",
+          "name": "Online",
+          "subs": [
+            {
+              "id": "passwords",
+              "name": "Passwords"
+            },
+            {
+              "id": "tell-an-adult",
+              "name": "Tell an adult"
+            }
+          ]
+        },
+        {
+          "id": "storms",
+          "name": "Storms",
+          "subs": [
+            {
+              "id": "lightning",
+              "name": "Lightning"
+            },
+            {
+              "id": "heat",
+              "name": "Heat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "icon": "🏅",
+      "chapters": [
+        {
+          "id": "football",
+          "name": "Football",
+          "subs": [
+            {
+              "id": "rules",
+              "name": "Rules"
+            },
+            {
+              "id": "teamwork",
+              "name": "Teamwork"
+            }
+          ]
+        },
+        {
+          "id": "cricket",
+          "name": "Cricket",
+          "subs": [
+            {
+              "id": "basics",
+              "name": "Cricket basics"
+            },
+            {
+              "id": "scoring",
+              "name": "Scoring"
+            }
+          ]
+        },
+        {
+          "id": "swimming",
+          "name": "Swimming",
+          "subs": [
+            {
+              "id": "water-safety",
+              "name": "Water safety"
+            }
+          ]
+        },
+        {
+          "id": "athletics",
+          "name": "Athletics",
+          "subs": [
+            {
+              "id": "running",
+              "name": "Running"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name": "Reading",
+      "icon": "📖",
+      "chapters": [
+        {
+          "id": "main-idea",
+          "name": "Main idea"
+        },
+        {
+          "id": "characters",
+          "name": "Characters",
+          "subs": [
+            {
+              "id": "feelings",
+              "name": "Feelings"
+            }
+          ]
+        },
+        {
+          "id": "sequence",
+          "name": "Sequence"
+        },
+        {
+          "id": "facts",
+          "name": "Facts and opinions",
+          "subs": [
+            {
+              "id": "clue-words",
+              "name": "Clue words"
+            }
+          ]
+        },
+        {
+          "id": "new-words",
+          "name": "New words"
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "Community",
+      "icon": "🤝",
+      "chapters": [
+        {
+          "id": "helpers",
+          "name": "Helpers",
+          "subs": [
+            {
+              "id": "at-school",
+              "name": "At school"
+            }
+          ]
+        },
+        {
+          "id": "rules",
+          "name": "Rules",
+          "subs": [
+            {
+              "id": "taking-turns",
+              "name": "Taking turns"
             }
           ]
         }

@@ -1,0 +1,62 @@
+{
+  "title": "Crops",
+  "info": [
+    "Rice is the main food crop. Aman, aus, and boro are important rice seasons.",
+    "Jute is a fiber crop Bangladesh became famous for. It is used to make sacks, rope, and cloth.",
+    "Tea grows in the hills around Sylhet. Mango orchards are famous in the northwest."
+  ],
+  "questions": [
+    {
+      "q": "The main food crop is",
+      "options": [
+        "Wheat only, with no rice",
+        "Rice",
+        "Olive"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Jute is grown mainly for its",
+      "options": [
+        "Juice",
+        "Fiber",
+        "Wool"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Tea gardens are especially known around",
+      "options": [
+        "The middle of the bay",
+        "A desert",
+        "Sylhet"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Boro, aus, and aman are",
+      "options": [
+        "Rice seasons",
+        "Oceans",
+        "Divisions"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A crop is",
+      "options": [
+        "A plant people grow on purpose",
+        "A thunderstorm",
+        "A border"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the main food crop.",
+      "type": "text",
+      "answer": [
+        "rice"
+      ]
+    }
+  ]
+}

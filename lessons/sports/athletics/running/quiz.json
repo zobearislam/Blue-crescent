@@ -1,0 +1,63 @@
+{
+  "title": "Running",
+  "info": [
+    "Start when the signal says go, not before.",
+    "Look ahead, swing your arms, and keep going to the finish line.",
+    "After you finish, walk and drink water. Comparing yourself kindly to your own last time is a good goal."
+  ],
+  "questions": [
+    {
+      "q": "A false start means you",
+      "options": [
+        "Drank water",
+        "Began before the signal",
+        "Finished last"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Your arms help you",
+      "options": [
+        "Catch a cricket ball in a sprint",
+        "Balance and drive forward",
+        "Hold another runner"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The finish line is where",
+      "options": [
+        "You must stop and sit on the track forever",
+        "The race ends",
+        "The warm-up starts"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "After a hard run you should",
+      "options": [
+        "Lie in the lane",
+        "Skip every drink",
+        "Walk and drink water"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A personal best is",
+      "options": [
+        "Someone else's medal",
+        "Your own fastest or farthest so far",
+        "A false start"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the line you cross to end a running race.",
+      "type": "text",
+      "answer": [
+        "finish",
+        "finish line"
+      ]
+    }
+  ]
+}

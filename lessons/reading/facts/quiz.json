@@ -1,0 +1,62 @@
+{
+  "title": "Facts and opinions",
+  "info": [
+    "A fact can be checked. Dhaka is the capital of Bangladesh.",
+    "An opinion is what someone thinks or feels. 'Mango is the best fruit' is an opinion.",
+    "Good readers notice which sentences can be proved."
+  ],
+  "questions": [
+    {
+      "q": "A fact is a statement you can",
+      "options": [
+        "Never test",
+        "Only sing",
+        "Check"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "'Mango is the best fruit' is",
+      "options": [
+        "A chemical formula",
+        "An opinion",
+        "A map scale"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "'Dhaka is the capital of Bangladesh' is",
+      "options": [
+        "A fact",
+        "A rhyme",
+        "Only a feeling"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Opinions often use words like",
+      "options": [
+        "Best, beautiful, or boring",
+        "January 1",
+        "Meter or kilogram"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Both facts and opinions can appear",
+      "options": [
+        "Never in stories",
+        "Only in math books",
+        "In the same article"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the word for a statement you can check.",
+      "type": "text",
+      "answer": [
+        "fact"
+      ]
+    }
+  ]
+}

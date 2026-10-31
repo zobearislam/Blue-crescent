@@ -1,0 +1,62 @@
+{
+  "title": "Main idea",
+  "info": [
+    "The main idea is what a paragraph is mostly about.",
+    "Details are the smaller facts that support the main idea.",
+    "A title often hints at the main idea."
+  ],
+  "questions": [
+    {
+      "q": "The main idea is",
+      "options": [
+        "The first word only",
+        "What the text is mostly about",
+        "A picture's color"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A detail is",
+      "options": [
+        "The author's birthday only",
+        "Always the title",
+        "A smaller fact that supports the main idea"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A helpful title",
+      "options": [
+        "Hides the topic on purpose",
+        "Is always one letter",
+        "Hints at the main idea"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "In a paragraph about how seeds grow, the main idea is about",
+      "options": [
+        "A soccer score",
+        "Seeds growing",
+        "A password"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which sentence is a detail, not the whole main idea 'Bees help flowers'?",
+      "options": [
+        "Bees help flowers.",
+        "This page is about bees and flowers.",
+        "Bees carry pollen."
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the two-word name for what a text is mostly about.",
+      "type": "text",
+      "answer": [
+        "main idea"
+      ]
+    }
+  ]
+}

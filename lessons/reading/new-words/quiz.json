@@ -1,0 +1,62 @@
+{
+  "title": "New words",
+  "info": [
+    "When you meet a new word, read the sentence around it. That is context.",
+    "Look for a definition, an example, or a contrast word such as but.",
+    "A picture or a word you already know can be a clue too."
+  ],
+  "questions": [
+    {
+      "q": "Context means",
+      "options": [
+        "The words around the new word",
+        "The barcode",
+        "Skipping the sentence"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A contrast clue often uses",
+      "options": [
+        "But or unlike",
+        "Nothing",
+        "Only a page number"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If the text says 'arid, meaning very dry', the clue is",
+      "options": [
+        "A sports score",
+        "A definition",
+        "A password"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Pictures can",
+      "options": [
+        "Hide the word",
+        "Help you guess a word",
+        "Replace every definition in a dictionary forever"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "After you guess, a strong reader",
+      "options": [
+        "Never rereads",
+        "Changes the story",
+        "Checks if the meaning fits the sentence"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the word for the words surrounding a new word.",
+      "type": "text",
+      "answer": [
+        "context"
+      ]
+    }
+  ]
+}
