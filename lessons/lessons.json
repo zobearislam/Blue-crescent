@@ -1070,6 +1070,157 @@
           ]
         }
       ]
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "icon": "🇫🇷",
+      "chapters": [
+        {
+          "id": "greetings",
+          "name": "Greetings"
+        },
+        {
+          "id": "numbers",
+          "name": "Numbers"
+        },
+        {
+          "id": "colors",
+          "name": "Colors"
+        },
+        {
+          "id": "animals",
+          "name": "Animals"
+        },
+        {
+          "id": "family",
+          "name": "Family"
+        },
+        {
+          "id": "food",
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": "german",
+      "name": "German",
+      "icon": "🇩🇪",
+      "chapters": [
+        {
+          "id": "greetings",
+          "name": "Greetings"
+        },
+        {
+          "id": "numbers",
+          "name": "Numbers"
+        },
+        {
+          "id": "colors",
+          "name": "Colors"
+        },
+        {
+          "id": "animals",
+          "name": "Animals"
+        },
+        {
+          "id": "family",
+          "name": "Family"
+        },
+        {
+          "id": "food",
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "icon": "🌿",
+      "chapters": [
+        {
+          "id": "birds",
+          "name": "Birds"
+        },
+        {
+          "id": "insects",
+          "name": "Insects"
+        },
+        {
+          "id": "oceans",
+          "name": "Oceans"
+        },
+        {
+          "id": "seasons",
+          "name": "Seasons"
+        },
+        {
+          "id": "trees",
+          "name": "Trees"
+        },
+        {
+          "id": "mammals",
+          "name": "Mammals"
+        },
+        {
+          "id": "flowers",
+          "name": "Flowers"
+        }
+      ]
+    },
+    {
+      "id": "bangladesh-history",
+      "name": "Bangladesh History",
+      "icon": "🇧🇩",
+      "chapters": [
+        {
+          "id": "ancient-bengal",
+          "name": "Ancient Bengal"
+        },
+        {
+          "id": "medieval-bengal",
+          "name": "Medieval Bengal"
+        },
+        {
+          "id": "language-movement",
+          "name": "Language Movement"
+        },
+        {
+          "id": "liberation-war",
+          "name": "Liberation War"
+        },
+        {
+          "id": "modern-bangladesh",
+          "name": "Modern Bangladesh"
+        },
+        {
+          "id": "important-people",
+          "name": "Important people"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "icon": "💻",
+      "chapters": [
+        {
+          "id": "computers",
+          "name": "Computers"
+        },
+        {
+          "id": "internet",
+          "name": "Internet"
+        },
+        {
+          "id": "robots",
+          "name": "Robots"
+        },
+        {
+          "id": "coding-basics",
+          "name": "Coding basics"
+        }
+      ]
     }
   ]
 }
