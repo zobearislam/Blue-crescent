@@ -1,0 +1,62 @@
+{
+  "title": "Planting",
+  "info": [
+    "A seed needs soil, water, and light. A young tree also needs space.",
+    "Ask a grown-up before you dig, so you miss pipes and plant in a good spot."
+  ],
+  "questions": [
+    {
+      "q": "A seed usually needs",
+      "options": [
+        "only plastic and darkness",
+        "soil, water, and light",
+        "salt instead of water"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Before digging a hole you should",
+      "options": [
+        "ask a grown-up",
+        "cut random wires",
+        "plant in the middle of a road"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A sapling is",
+      "options": [
+        "a kind of cloud",
+        "a young tree",
+        "a finished bookshelf"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Watering a new tree in dry weather",
+      "options": [
+        "helps it live",
+        "is always harmful",
+        "turns it into stone"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Give a tree room so",
+      "options": [
+        "it stays the size of a coin",
+        "its roots and branches can spread",
+        "birds cannot see it"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the young plant that grows into a tree.",
+      "type": "text",
+      "answer": [
+        "sapling",
+        "seedling"
+      ]
+    }
+  ]
+}

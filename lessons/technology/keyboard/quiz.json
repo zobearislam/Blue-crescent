@@ -1,0 +1,63 @@
+{
+  "title": "Keyboard",
+  "info": [
+    "A keyboard types letters into a computer. The space bar makes a gap between words.",
+    "Enter starts a new line or confirms. Backspace deletes. Shift helps you type a capital."
+  ],
+  "questions": [
+    {
+      "q": "The space bar",
+      "options": [
+        "deletes the whole file",
+        "puts a gap between words",
+        "turns the screen off"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Backspace",
+      "options": [
+        "saves a copy online",
+        "draws a bar graph",
+        "deletes what is behind the cursor"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Shift is used with a letter to",
+      "options": [
+        "open the fridge",
+        "type a capital",
+        "measure an angle"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Enter can",
+      "options": [
+        "only type the number 8",
+        "recycle paper",
+        "start a new line or confirm a choice"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Treat the keys",
+      "options": [
+        "gently and with clean hands",
+        "by banging them",
+        "as drumsticks"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the bar that makes spaces.",
+      "type": "text",
+      "answer": [
+        "space",
+        "space bar",
+        "spacebar"
+      ]
+    }
+  ]
+}

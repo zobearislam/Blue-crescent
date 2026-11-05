@@ -1,0 +1,61 @@
+{
+  "title": "Files and folders",
+  "info": [
+    "A file holds a piece of work, such as a story or a picture.",
+    "A folder groups files. Clear names help you find them later. Save before you close."
+  ],
+  "questions": [
+    {
+      "q": "A file can hold",
+      "options": [
+        "only empty air",
+        "a story, picture, or other work",
+        "the physical keyboard"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A folder is used to",
+      "options": [
+        "delete the screen",
+        "type capitals",
+        "group files"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A clear file name",
+      "options": [
+        "must be one random letter",
+        "helps you find the work later",
+        "hides the file on purpose"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Save means",
+      "options": [
+        "keep the latest version",
+        "throw the work away",
+        "print it on a tree"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Putting all science notes in one folder",
+      "options": [
+        "makes them easier to open together",
+        "mixes them into one sentence",
+        "is litter"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word for a group of files.",
+      "type": "text",
+      "answer": [
+        "folder"
+      ]
+    }
+  ]
+}

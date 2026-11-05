@@ -1,0 +1,61 @@
+{
+  "title": "The taka",
+  "info": [
+    "Bangladesh uses the taka. The sign is ৳.",
+    "100 poisha make 1 taka. Notes you may see include 10, 20, 50, 100, 200, 500, and 1000 taka."
+  ],
+  "questions": [
+    {
+      "q": "The money of Bangladesh is the",
+      "options": [
+        "dollar only",
+        "yen",
+        "taka"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The sign ৳ means",
+      "options": [
+        "taka",
+        "percent",
+        "a chess piece"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "100 poisha equals",
+      "options": [
+        "100 taka",
+        "1 taka",
+        "10 taka"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A 500 taka note is worth",
+      "options": [
+        "more than a 20 taka note",
+        "less than 1 poisha",
+        "the same as 5 taka"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "To pay 30 taka with notes, you could use",
+      "options": [
+        "a 20 and a 10",
+        "three 100 notes and get no change discussion",
+        "one poisha"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the name of Bangladesh's money.",
+      "type": "text",
+      "answer": [
+        "taka"
+      ]
+    }
+  ]
+}

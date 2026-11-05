@@ -1,0 +1,66 @@
+{
+  "title": "Rhymes",
+  "info": [
+    "Words rhyme when their ending sounds match, like cat and hat.",
+    "The spelling can differ. Blue and shoe rhyme even though they look different."
+  ],
+  "questions": [
+    {
+      "q": "Which pair rhymes?",
+      "options": [
+        "cat and dog",
+        "run and book",
+        "cat and hat"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Blue rhymes with",
+      "options": [
+        "green",
+        "shoe",
+        "fish"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A rhyme is about",
+      "options": [
+        "the number of vowels only",
+        "the first letter only",
+        "the ending sound"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Night rhymes with",
+      "options": [
+        "day",
+        "kite",
+        "noon"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which pair does not rhyme?",
+      "options": [
+        "sing and ring",
+        "milk and book",
+        "play and day"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type a word that rhymes with log.",
+      "type": "text",
+      "answer": [
+        "dog",
+        "fog",
+        "frog",
+        "hog",
+        "jog",
+        "bog"
+      ]
+    }
+  ]
+}

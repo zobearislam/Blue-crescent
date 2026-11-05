@@ -1,0 +1,61 @@
+{
+  "title": "Reduce",
+  "info": [
+    "Reduce means you take or buy only what you need.",
+    "A short list before shopping, and saying no to an extra bag, both reduce waste."
+  ],
+  "questions": [
+    {
+      "q": "Packing your lunch in a box you already own",
+      "options": [
+        "reduces throwaway wrapping",
+        "makes more plastic each day",
+        "is littering"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Reduce is about",
+      "options": [
+        "hiding trash under a bush",
+        "making less waste in the first place",
+        "using things one time only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which choice reduces paper?",
+      "options": [
+        "crumpling a fresh sheet for fun",
+        "writing on both sides",
+        "printing the same page many times"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Turning the tap off while you brush",
+      "options": [
+        "reduces wasted water",
+        "recycles a bottle",
+        "plants a tree by itself"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "An extra toy you will not use is",
+      "options": [
+        "required waste",
+        "something you can choose not to get",
+        "a habitat"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word that means use less.",
+      "type": "text",
+      "answer": [
+        "reduce"
+      ]
+    }
+  ]
+}

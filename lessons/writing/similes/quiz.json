@@ -1,0 +1,62 @@
+{
+  "title": "Similes",
+  "info": [
+    "A simile compares two things using like or as.",
+    "As brave as a lion compares a person to a lion. I like apples is not a simile, because it does not compare."
+  ],
+  "questions": [
+    {
+      "q": "A simile uses",
+      "options": [
+        "only numbers",
+        "a map scale",
+        "like or as to compare"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is a simile?",
+      "options": [
+        "The cloud was white",
+        "The cloud was like cotton",
+        "I like clouds"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "As quiet as a mouse compares quietness to",
+      "options": [
+        "a drum",
+        "a storm",
+        "a mouse"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The moon is a lantern is not a simile because",
+      "options": [
+        "it has no like or as",
+        "it is too short",
+        "lanterns are not real"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Her smile was as bright as the sun",
+      "options": [
+        "is a math fact",
+        "is a rhyme only",
+        "is a simile"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the word like or as, either one that similes use.",
+      "type": "text",
+      "answer": [
+        "like",
+        "as"
+      ]
+    }
+  ]
+}

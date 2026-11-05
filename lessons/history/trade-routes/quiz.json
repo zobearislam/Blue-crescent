@@ -1,0 +1,62 @@
+{
+  "title": "Trade routes",
+  "info": [
+    "The Silk Road was a web of paths linking Asia and Europe, not one single road.",
+    "Traders moved silk, spices, and ideas. Goods often passed from person to person instead of one traveler walking the whole way."
+  ],
+  "questions": [
+    {
+      "q": "The Silk Road was",
+      "options": [
+        "many paths used for trade",
+        "one paved highway with cars",
+        "a river only in South America"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Traders carried things such as",
+      "options": [
+        "silk and spices",
+        "laptops and planes",
+        "only ice"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Ideas traveled too, including",
+      "options": [
+        "nothing but dust",
+        "stories and ways of doing math",
+        "internet pages"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Camels were useful because",
+      "options": [
+        "they copied books",
+        "they were ships",
+        "they could carry loads across dry lands"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Often a trader",
+      "options": [
+        "carried goods for part of the journey, then passed them on",
+        "flew the whole route in a day",
+        "refused to trade"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the famous set of trade paths between Asia and Europe.",
+      "type": "text",
+      "answer": [
+        "silk road",
+        "the silk road"
+      ]
+    }
+  ]
+}

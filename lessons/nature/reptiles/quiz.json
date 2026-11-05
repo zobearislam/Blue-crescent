@@ -1,0 +1,65 @@
+{
+  "title": "Reptiles",
+  "info": [
+    "Snakes, lizards, turtles, and crocodiles are reptiles. They have dry scales.",
+    "Most reptiles lay eggs. A reptile warms up in the sun and cools off in the shade. A frog is an amphibian, not a reptile."
+  ],
+  "questions": [
+    {
+      "q": "Which is a reptile?",
+      "options": [
+        "a frog",
+        "a turtle",
+        "a sparrow"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Reptile skin is covered with",
+      "options": [
+        "feathers",
+        "dry scales",
+        "fur"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Most reptiles",
+      "options": [
+        "lay eggs",
+        "are birds",
+        "make milk"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A snake is",
+      "options": [
+        "a reptile",
+        "an insect",
+        "a fish"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A frog is",
+      "options": [
+        "a reptile",
+        "a mammal",
+        "an amphibian"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type one reptile.",
+      "type": "text",
+      "answer": [
+        "snake",
+        "lizard",
+        "turtle",
+        "crocodile",
+        "alligator"
+      ]
+    }
+  ]
+}

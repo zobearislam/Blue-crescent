@@ -1,0 +1,62 @@
+{
+  "title": "Bar graphs",
+  "info": [
+    "Bars rise from a baseline. The scale on the side tells you the numbers.",
+    "Compare heights to see which group has more."
+  ],
+  "questions": [
+    {
+      "q": "The tallest bar shows",
+      "options": [
+        "the greatest amount",
+        "the smallest amount",
+        "the title"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The scale tells you",
+      "options": [
+        "the color of the ink only",
+        "who drew it",
+        "how high a bar must be for each number"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If the cats bar reaches 4 and the dogs bar reaches 7,",
+      "options": [
+        "there are more dogs in the graph",
+        "there are more cats",
+        "the amounts are equal"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A bar that reaches the zero line means",
+      "options": [
+        "the most",
+        "none, for that group",
+        "the scale is broken on purpose"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Bars should be read with",
+      "options": [
+        "a guess from the color name",
+        "the labels and the scale",
+        "closed eyes"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the graph made of bars.",
+      "type": "text",
+      "answer": [
+        "bar",
+        "bar graph"
+      ]
+    }
+  ]
+}

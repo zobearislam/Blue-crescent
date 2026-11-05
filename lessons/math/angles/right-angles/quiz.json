@@ -1,0 +1,62 @@
+{
+  "title": "Right angles",
+  "info": [
+    "A right angle is a square corner. It measures 90 degrees.",
+    "You can see right angles on window frames, books, and paper."
+  ],
+  "questions": [
+    {
+      "q": "A square has",
+      "options": [
+        "no angles",
+        "four right angles",
+        "only acute angles"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "90 degrees is called",
+      "options": [
+        "an acute nickname only",
+        "a percent",
+        "a right angle"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Two right angles together make",
+      "options": [
+        "a straight line",
+        "a circle",
+        "one acute angle"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The letter L suggests",
+      "options": [
+        "a full circle",
+        "a right angle",
+        "parallel lines that never meet"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A right angle is",
+      "options": [
+        "any sharp point",
+        "always obtuse",
+        "exactly a square corner"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type how many degrees are in a right angle.",
+      "type": "text",
+      "answer": [
+        "90",
+        "ninety"
+      ]
+    }
+  ]
+}

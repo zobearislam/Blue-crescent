@@ -1,0 +1,62 @@
+{
+  "title": "Kindness",
+  "info": [
+    "Kindness is helping on purpose. Small acts count: sharing, waiting, and using kind words.",
+    "If someone is left out, you can invite them in. If you hurt someone, say sorry."
+  ],
+  "questions": [
+    {
+      "q": "Kindness means",
+      "options": [
+        "helping on purpose",
+        "winning by insulting people",
+        "ignoring a classmate"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Inviting someone who is left out is",
+      "options": [
+        "unfair",
+        "litter",
+        "kind"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Saying sorry when you hurt someone",
+      "options": [
+        "makes the hurt bigger on purpose",
+        "helps repair it",
+        "is a lie"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Sharing a pencil you can spare is",
+      "options": [
+        "a small kindness",
+        "against school rules",
+        "a chemical change"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Kind words",
+      "options": [
+        "make a class safer to learn in",
+        "are weaker than insults",
+        "do not matter"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word for helping on purpose.",
+      "type": "text",
+      "answer": [
+        "kindness",
+        "kind"
+      ]
+    }
+  ]
+}

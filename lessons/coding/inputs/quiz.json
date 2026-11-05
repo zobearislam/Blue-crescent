@@ -1,0 +1,61 @@
+{
+  "title": "Inputs and outputs",
+  "info": [
+    "Input is information going in, such as a key press or a tap.",
+    "Output is what the program shows or does, such as words on the screen or a sound."
+  ],
+  "questions": [
+    {
+      "q": "A key press is",
+      "options": [
+        "always output",
+        "input",
+        "a folder"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Words appearing on the screen are",
+      "options": [
+        "output",
+        "the keyboard itself",
+        "input from the monitor"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A microphone is mainly",
+      "options": [
+        "an output device",
+        "an input device",
+        "a battery"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A speaker is mainly",
+      "options": [
+        "a keyboard key",
+        "input only",
+        "an output device"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A program can use input to",
+      "options": [
+        "erase the idea of output",
+        "skip every instruction",
+        "decide what output to give"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the word for information going into a program.",
+      "type": "text",
+      "answer": [
+        "input"
+      ]
+    }
+  ]
+}

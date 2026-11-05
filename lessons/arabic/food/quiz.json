@@ -1,0 +1,61 @@
+{
+  "title": "Food words",
+  "info": [
+    "Ma is water. Khubz is bread. Halib is milk.",
+    "Tuffaha is an apple. Aruzz is rice."
+  ],
+  "questions": [
+    {
+      "q": "Ma means",
+      "options": [
+        "water",
+        "bread",
+        "fish"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khubz means",
+      "options": [
+        "bread",
+        "milk",
+        "apple"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which word means apple?",
+      "options": [
+        "samak",
+        "tuffaha",
+        "dajaj"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Samak means",
+      "options": [
+        "rice",
+        "fish",
+        "water"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Aruzz means",
+      "options": [
+        "rice",
+        "chicken",
+        "bread"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Arabic word for milk.",
+      "type": "text",
+      "answer": [
+        "halib"
+      ]
+    }
+  ]
+}

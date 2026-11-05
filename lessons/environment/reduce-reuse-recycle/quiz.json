@@ -1,0 +1,62 @@
+{
+  "title": "Reduce, reuse, recycle",
+  "info": [
+    "The three Rs help with waste. Reduce means use less. Reuse means use it again. Recycle means make old material into something new.",
+    "Reducing comes first, because the best waste is waste you never make."
+  ],
+  "questions": [
+    {
+      "q": "Reduce means",
+      "options": [
+        "use less",
+        "throw more away",
+        "burn everything"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Using a bottle again for water is",
+      "options": [
+        "reuse",
+        "litter",
+        "a new planet"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Recycling means",
+      "options": [
+        "burying toys in a park",
+        "turning old material into new things",
+        "leaving trash on the road"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which R is the best first step?",
+      "options": [
+        "recycle only after you waste a lot",
+        "reduce",
+        "ignore"
+      ],
+      "answer": 1,
+      "explain": "If you never take the extra bag, there is nothing to throw away."
+    },
+    {
+      "q": "A ripped page used as scrap paper is",
+      "options": [
+        "pollution on purpose",
+        "a river",
+        "reuse"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the R that means use less.",
+      "type": "text",
+      "answer": [
+        "reduce"
+      ]
+    }
+  ]
+}

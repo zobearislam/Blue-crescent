@@ -1,0 +1,61 @@
+{
+  "title": "Days",
+  "info": [
+    "Lundi is Monday. Mardi is Tuesday. Mercredi is Wednesday. Jeudi is Thursday.",
+    "Vendredi is Friday. Samedi is Saturday. Dimanche is Sunday."
+  ],
+  "questions": [
+    {
+      "q": "Lundi means",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Friday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Dimanche means",
+      "options": [
+        "Tuesday",
+        "Sunday",
+        "Thursday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Vendredi means",
+      "options": [
+        "Monday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word means Saturday?",
+      "options": [
+        "jeudi",
+        "samedi",
+        "mardi"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Mercredi means",
+      "options": [
+        "Sunday",
+        "Wednesday",
+        "Monday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the French word for Monday.",
+      "type": "text",
+      "answer": [
+        "lundi"
+      ]
+    }
+  ]
+}

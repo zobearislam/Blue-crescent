@@ -1,0 +1,62 @@
+{
+  "title": "Atoms",
+  "info": [
+    "Everything you can touch is made of tiny bits called atoms.",
+    "A molecule is a group of atoms stuck together. Water is made of molecules."
+  ],
+  "questions": [
+    {
+      "q": "Atoms are",
+      "options": [
+        "only found in metals",
+        "visible grains of sand",
+        "tiny bits that make up matter"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A molecule is",
+      "options": [
+        "atoms joined together",
+        "a whole planet",
+        "a mixture of pebbles"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Water is made of",
+      "options": [
+        "only light",
+        "wood cells",
+        "molecules"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "You usually cannot see one atom because",
+      "options": [
+        "it is far too small",
+        "atoms are imaginary",
+        "they hide at night only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Different materials are different because",
+      "options": [
+        "atoms are only in water",
+        "their atoms and molecules are arranged differently",
+        "color is painted on atoms by hand"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the tiny bit matter is made of.",
+      "type": "text",
+      "answer": [
+        "atom",
+        "atoms"
+      ]
+    }
+  ]
+}

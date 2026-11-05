@@ -1,0 +1,61 @@
+{
+  "title": "Recycle",
+  "info": [
+    "Recycling turns materials such as paper, glass, and some plastics into new things.",
+    "A recycling bin only works if the right items go in and they are not full of food trash."
+  ],
+  "questions": [
+    {
+      "q": "Old paper made into new paper is",
+      "options": [
+        "littering",
+        "recycling",
+        "a weather event"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Why rinse a bottle before recycling it?",
+      "options": [
+        "to paint it red",
+        "food left inside can spoil the batch",
+        "so it becomes a rock"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Recycling paper can mean",
+      "options": [
+        "fewer new trees need to be cut for that paper",
+        "paper should be thrown in a river",
+        "trees stop growing"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A battery does not belong",
+      "options": [
+        "at a collection spot for old batteries",
+        "away from small children",
+        "in a pile of fruit peels"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If your area has no recycling truck, you can still",
+      "options": [
+        "burn plastic in the yard",
+        "reduce and reuse",
+        "do nothing and litter"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for making new things from old materials.",
+      "type": "text",
+      "answer": [
+        "recycle"
+      ]
+    }
+  ]
+}

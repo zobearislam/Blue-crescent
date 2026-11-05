@@ -1,0 +1,61 @@
+{
+  "title": "Reuse",
+  "info": [
+    "Reuse means a thing gets another job instead of going in the bin.",
+    "Jars, boxes, and cloth bags are easy to reuse."
+  ],
+  "questions": [
+    {
+      "q": "A glass jar used to hold pencils is",
+      "options": [
+        "litter",
+        "a fossil",
+        "reused"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Reuse is different from recycle because",
+      "options": [
+        "a factory must always melt it first",
+        "you use the same object again",
+        "you bury it"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which is reuse?",
+      "options": [
+        "throwing a bottle in the sea",
+        "burning leaves in the street",
+        "carrying groceries in a cloth bag you already have"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Fixing a loose button so a shirt lasts longer is",
+      "options": [
+        "pollution",
+        "a way to keep using it",
+        "wasting on purpose"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Single-use means",
+      "options": [
+        "built to last for years",
+        "made to be thrown away after one use",
+        "the same as a tree"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word that means use again.",
+      "type": "text",
+      "answer": [
+        "reuse"
+      ]
+    }
+  ]
+}

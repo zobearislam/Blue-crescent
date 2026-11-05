@@ -1,0 +1,63 @@
+{
+  "title": "Warm and cool colors",
+  "info": [
+    "Warm colors are red, orange, and yellow. They can feel like sun or fire.",
+    "Cool colors are blue, green, and purple. They can feel like water or shade."
+  ],
+  "questions": [
+    {
+      "q": "Which set is warm?",
+      "options": [
+        "blue, green, purple",
+        "black and white only",
+        "red, orange, yellow"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Blue is usually called",
+      "options": [
+        "a warm color",
+        "a cool color",
+        "not a color"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Yellow belongs with",
+      "options": [
+        "warm colors",
+        "only cool colors",
+        "grays"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A picture of a sunny desert might use more",
+      "options": [
+        "only ice blues, if you want it to feel hot",
+        "no color",
+        "warm colors"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Green leaves are often felt as",
+      "options": [
+        "warmer than fire",
+        "cool",
+        "the same as orange"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type a warm color.",
+      "type": "text",
+      "answer": [
+        "red",
+        "orange",
+        "yellow"
+      ]
+    }
+  ]
+}

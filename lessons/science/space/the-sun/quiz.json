@@ -1,0 +1,62 @@
+{
+  "title": "The Sun",
+  "info": [
+    "The Sun is a star. Earth travels around it. The Sun gives us light and heat.",
+    "Do not look straight at the Sun. It can hurt your eyes. Day and night happen because Earth spins."
+  ],
+  "questions": [
+    {
+      "q": "The Sun is",
+      "options": [
+        "a planet like Earth",
+        "a star",
+        "a moon of Jupiter"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Earth",
+      "options": [
+        "is the center that the Sun orbits each day",
+        "is bigger than the Sun",
+        "travels around the Sun"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Day and night happen because",
+      "options": [
+        "the Sun switches off",
+        "Earth spins",
+        "the Moon covers the Sun every night"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "You should not look straight at the Sun because",
+      "options": [
+        "it is too cold",
+        "it can damage your eyes",
+        "stars are not bright"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The Moon's glow at night is",
+      "options": [
+        "sunlight reflecting off it",
+        "a fire on the Moon",
+        "electricity from Earth"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the star at the center of our solar system.",
+      "type": "text",
+      "answer": [
+        "sun",
+        "the sun"
+      ]
+    }
+  ]
+}

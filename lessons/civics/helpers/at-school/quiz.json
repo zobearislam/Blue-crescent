@@ -1,0 +1,66 @@
+{
+  "title": "At school",
+  "info": [
+    "Teachers, school helpers, and classmates keep a school going.",
+    "You help when you listen, share materials, and tell an adult if someone is unsafe."
+  ],
+  "questions": [
+    {
+      "q": "If someone is hurt at school, you",
+      "options": [
+        "keep it a secret",
+        "film it and walk away",
+        "tell a teacher or the school office"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sharing crayons when you have extra is",
+      "options": [
+        "against fair rules",
+        "helpful",
+        "littering"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A librarian helps you",
+      "options": [
+        "find and borrow books",
+        "drive the school bus always",
+        "set the lunch price of rice"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Listening while someone speaks",
+      "options": [
+        "lets the class learn",
+        "wastes the lesson",
+        "is the same as shouting"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Bullying is",
+      "options": [
+        "a fair game",
+        "not allowed",
+        "a school helper's job"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type who you tell if someone is hurt at school.",
+      "type": "text",
+      "answer": [
+        "teacher",
+        "a teacher",
+        "adult",
+        "a grown-up",
+        "grown-up",
+        "grownup"
+      ]
+    }
+  ]
+}

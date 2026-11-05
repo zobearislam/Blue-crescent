@@ -1,0 +1,61 @@
+{
+  "title": "Conductors",
+  "info": [
+    "A conductor lets electricity flow. Metals such as copper are conductors.",
+    "An insulator blocks the flow. Rubber, plastic, wood, and glass are insulators. Water and electricity are a dangerous mix."
+  ],
+  "questions": [
+    {
+      "q": "Copper wire is used because copper is",
+      "options": [
+        "a conductor",
+        "an insulator",
+        "a gas"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Rubber around a wire is",
+      "options": [
+        "a metal",
+        "an insulator",
+        "a battery"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which is a conductor?",
+      "options": [
+        "a dry rubber eraser",
+        "a plastic ruler",
+        "a metal spoon"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is an insulator?",
+      "options": [
+        "copper",
+        "an iron nail",
+        "dry wood"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Why stay away from puddles near broken cords?",
+      "options": [
+        "water is an insulator like rubber",
+        "water can help electricity reach you",
+        "puddles eat batteries"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for a material that lets electricity flow.",
+      "type": "text",
+      "answer": [
+        "conductor"
+      ]
+    }
+  ]
+}

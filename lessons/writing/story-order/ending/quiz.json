@@ -1,0 +1,62 @@
+{
+  "title": "Endings",
+  "info": [
+    "An ending closes the problem from the middle.",
+    "It can be happy, calm, or surprising, but the reader should know the story is finished."
+  ],
+  "questions": [
+    {
+      "q": "A good ending",
+      "options": [
+        "starts a new story and stops mid-sentence",
+        "finishes the problem the story raised",
+        "lists every word you know"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "They found the cat under the bed, safe. is",
+      "options": [
+        "an ending",
+        "a rhyme rule",
+        "a beginning only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The ending comes",
+      "options": [
+        "before the title",
+        "in the middle of the problem",
+        "last"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Stopping before anyone deals with the problem",
+      "options": [
+        "is always the best ending",
+        "leaves the story unfinished",
+        "is called a simile"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "You can hint the feeling at the end, such as",
+      "options": [
+        "Nila smiled and shut the gate",
+        "a random math sum",
+        "a new character with no name who vanishes"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the story part that comes last.",
+      "type": "text",
+      "answer": [
+        "ending",
+        "end"
+      ]
+    }
+  ]
+}

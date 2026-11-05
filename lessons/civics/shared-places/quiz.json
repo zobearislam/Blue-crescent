@@ -1,0 +1,64 @@
+{
+  "title": "Shared places",
+  "info": [
+    "Parks, libraries, classrooms, and roads are shared. Everyone uses them.",
+    "Leave a place as nice as you found it. Quiet voices belong in a library."
+  ],
+  "questions": [
+    {
+      "q": "A library works best when people",
+      "options": [
+        "use quiet voices",
+        "shout across the room",
+        "eat sticky food on the books"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Litter in a park",
+      "options": [
+        "is the park's job to enjoy",
+        "helps the grass",
+        "spoils a place everyone shares"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A queue, or line, is fair because",
+      "options": [
+        "the tallest person always goes first",
+        "friends cut in",
+        "people wait their turn"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Writing on a school desk",
+      "options": [
+        "is recycling",
+        "damages something others must use",
+        "is a friendly letter"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Shared means",
+      "options": [
+        "it belongs only to you",
+        "it has no rules",
+        "more than one person depends on it"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type a shared place: park, library, classroom, or road.",
+      "type": "text",
+      "answer": [
+        "park",
+        "library",
+        "classroom",
+        "road"
+      ]
+    }
+  ]
+}

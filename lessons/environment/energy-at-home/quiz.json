@@ -1,0 +1,61 @@
+{
+  "title": "Energy at home",
+  "info": [
+    "Electricity is useful, and wasting it costs money and fuel.",
+    "Lights off when you leave, and a fridge door shut, are simple saves."
+  ],
+  "questions": [
+    {
+      "q": "When you leave an empty room, you can",
+      "options": [
+        "turn every fan on",
+        "open the fridge and walk away",
+        "switch the light off"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Why close the fridge quickly?",
+      "options": [
+        "the light prefers to be warm",
+        "food needs sunlight",
+        "cold air stays inside, so it uses less energy"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Daylight through a window can",
+      "options": [
+        "charge a storm",
+        "replace water",
+        "light a room without a lamp"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A fan left on in an empty room",
+      "options": [
+        "cleans the ocean",
+        "is required by trees",
+        "wastes energy"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Saving energy means",
+      "options": [
+        "never using a light again",
+        "burning trash",
+        "using what you need and not leaving machines running for nothing"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the word for power from wires and batteries that lamps use.",
+      "type": "text",
+      "answer": [
+        "electricity"
+      ]
+    }
+  ]
+}

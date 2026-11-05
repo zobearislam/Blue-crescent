@@ -1,0 +1,62 @@
+{
+  "title": "Changes",
+  "info": [
+    "A physical change alters shape, size, or state, but it is still the same stuff. Tearing paper and melting ice are physical changes.",
+    "A chemical change makes new stuff. Baking a cake and rust forming on iron are chemical changes."
+  ],
+  "questions": [
+    {
+      "q": "Tearing paper is",
+      "options": [
+        "a chemical change that makes metal",
+        "a physical change",
+        "melting the paper into glass"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Ice melting into water is",
+      "options": [
+        "a new element",
+        "a physical change",
+        "a mixture of sand"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Rust on iron is",
+      "options": [
+        "a chemical change",
+        "only a paint color you can peel with no new stuff",
+        "melting"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Baking cake batter",
+      "options": [
+        "makes new substances, so it is a chemical change",
+        "is only tearing",
+        "is dissolving metal"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A clue of a chemical change can be",
+      "options": [
+        "folding a paper airplane",
+        "a new color, a gas, or heat that the materials themselves produce",
+        "pouring water into a larger cup"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the change that makes new substances.",
+      "type": "text",
+      "answer": [
+        "chemical",
+        "chemical change"
+      ]
+    }
+  ]
+}

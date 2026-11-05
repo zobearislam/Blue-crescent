@@ -1,0 +1,61 @@
+{
+  "title": "Classroom",
+  "info": [
+    "Kitab is a book. Qalam is a pen. Kursi is a chair.",
+    "Madrasa is a school. Mualim is a teacher."
+  ],
+  "questions": [
+    {
+      "q": "Kitab means",
+      "options": [
+        "pen",
+        "water",
+        "book"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Qalam means",
+      "options": [
+        "pen",
+        "door",
+        "chair"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which word means school?",
+      "options": [
+        "talib",
+        "bab",
+        "madrasa"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Mualim means",
+      "options": [
+        "student",
+        "teacher",
+        "window"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Kursi means",
+      "options": [
+        "book",
+        "chair",
+        "family"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the Arabic word for book.",
+      "type": "text",
+      "answer": [
+        "kitab"
+      ]
+    }
+  ]
+}

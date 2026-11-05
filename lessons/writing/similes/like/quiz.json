@@ -1,0 +1,61 @@
+{
+  "title": "Using like",
+  "info": [
+    "Like can build a simile: she ran like the wind.",
+    "If like only means you enjoy something, it is not a comparison."
+  ],
+  "questions": [
+    {
+      "q": "Which sentence is a simile?",
+      "options": [
+        "I like kites",
+        "The kite danced like a leaf",
+        "The kite is red"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "He slept like a log compares sleep to",
+      "options": [
+        "a log",
+        "a song title",
+        "a calendar"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "I like mangoes",
+      "options": [
+        "compares mangoes to sleep",
+        "must use as",
+        "is not a simile"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The stars sparkled like diamonds",
+      "options": [
+        "compares stars to diamonds",
+        "is a spelling rule",
+        "names a planet"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A simile with like needs",
+      "options": [
+        "a question mark always",
+        "a person's birthday",
+        "two things being compared"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the comparing word in: float like a boat.",
+      "type": "text",
+      "answer": [
+        "like"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Why trees matter",
+  "info": [
+    "Shade cools a yard. Fruit and nuts feed people and animals.",
+    "When roots are gone, rain can wash soil away."
+  ],
+  "questions": [
+    {
+      "q": "Shade from a tree can",
+      "options": [
+        "cool the ground under it",
+        "boil a river",
+        "replace sleep"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If roots are removed and soil is bare, rain may",
+      "options": [
+        "wash the soil away",
+        "build a mountain overnight",
+        "make glass"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Fruit on a tree is",
+      "options": [
+        "food the tree grew",
+        "a kind of rock",
+        "smoke"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Many birds use trees to",
+      "options": [
+        "nest",
+        "drive cars",
+        "store ice"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Cutting every tree on a hill can make",
+      "options": [
+        "landslides and hotter ground more likely",
+        "infinite clean water",
+        "new oceans"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word for the cool cover a tree makes on a sunny day.",
+      "type": "text",
+      "answer": [
+        "shade"
+      ]
+    }
+  ]
+}

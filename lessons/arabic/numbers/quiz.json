@@ -1,0 +1,63 @@
+{
+  "title": "Numbers",
+  "info": [
+    "These are everyday counting words from one to ten.",
+    "Wahid is 1, ithnan is 2, and ashara is 10."
+  ],
+  "questions": [
+    {
+      "q": "Wahid means",
+      "options": [
+        "5",
+        "1",
+        "10"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word means 5?",
+      "options": [
+        "sitta",
+        "khamsa",
+        "arbaa"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Ashara means",
+      "options": [
+        "2",
+        "10",
+        "8"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Thalatha means",
+      "options": [
+        "3",
+        "9",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sabaa means",
+      "options": [
+        "6",
+        "7",
+        "1"
+      ],
+      "answer": 1,
+      "explain": "Sitta is 6. Sabaa is 7."
+    },
+    {
+      "q": "Type the Arabic word for 2.",
+      "type": "text",
+      "answer": [
+        "ithnan",
+        "ithnaan"
+      ]
+    }
+  ]
+}

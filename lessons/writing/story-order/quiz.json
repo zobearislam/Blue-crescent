@@ -1,0 +1,61 @@
+{
+  "title": "Story order",
+  "info": [
+    "A simple story has a beginning, a middle, and an ending.",
+    "The beginning shows who and where. The middle brings a problem. The ending shows how things finish."
+  ],
+  "questions": [
+    {
+      "q": "The beginning of a story usually tells",
+      "options": [
+        "only the last sentence",
+        "the index of a textbook",
+        "who is there and where they are"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The middle often holds",
+      "options": [
+        "the title page",
+        "the problem or the adventure",
+        "a blank line only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The ending should",
+      "options": [
+        "introduce a brand-new hero and stop",
+        "erase the beginning",
+        "show how things finish"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Events should mostly",
+      "options": [
+        "follow the order they happen",
+        "be shuffled so nobody can tell",
+        "all happen at the ending"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A story about a lost cat starts best with",
+      "options": [
+        "the cat at home before it slips out",
+        "the cat already found, with no setup",
+        "a list of oceans"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the part that comes first: beginning, middle, or ending.",
+      "type": "text",
+      "answer": [
+        "beginning"
+      ]
+    }
+  ]
+}

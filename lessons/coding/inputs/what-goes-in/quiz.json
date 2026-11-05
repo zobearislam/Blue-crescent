@@ -1,0 +1,65 @@
+{
+  "title": "What goes in",
+  "info": [
+    "Input devices send information to the computer.",
+    "Keyboards, mice, touchscreens, and microphones are common inputs."
+  ],
+  "questions": [
+    {
+      "q": "A mouse click is",
+      "options": [
+        "input",
+        "a printed page",
+        "output sound"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Typing your name is",
+      "options": [
+        "a folder",
+        "input",
+        "the screen glowing by itself"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A touchscreen tap is",
+      "options": [
+        "input",
+        "always a speaker",
+        "a backspace key only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Without input, a quiz program",
+      "options": [
+        "would not know your answer",
+        "still reads your mind",
+        "becomes a conductor"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A camera feeding a picture in is",
+      "options": [
+        "input",
+        "the same as a speaker",
+        "a paper folder"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type one input device.",
+      "type": "text",
+      "answer": [
+        "keyboard",
+        "mouse",
+        "microphone",
+        "camera",
+        "touchscreen"
+      ]
+    }
+  ]
+}

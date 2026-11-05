@@ -1,0 +1,61 @@
+{
+  "title": "Pictographs",
+  "info": [
+    "Each picture stands for a number. The key tells you what one picture means.",
+    "If one apple picture means 2 apples, three pictures mean 6."
+  ],
+  "questions": [
+    {
+      "q": "The key of a pictograph tells",
+      "options": [
+        "what each picture stands for",
+        "the author's age",
+        "a chess move"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If one star means 5 books, two stars mean",
+      "options": [
+        "5 books",
+        "2 books",
+        "10 books"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If one face means 2 students, three faces mean",
+      "options": [
+        "3 students",
+        "6 students",
+        "2 students"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "You must read the key because",
+      "options": [
+        "a picture might mean more than one",
+        "pictures are always one",
+        "keys are decorations"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Half a picture, if the key allows it, can mean",
+      "options": [
+        "zero always",
+        "half of what a whole picture means",
+        "one hundred"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for the note that says what each picture means.",
+      "type": "text",
+      "answer": [
+        "key"
+      ]
+    }
+  ]
+}

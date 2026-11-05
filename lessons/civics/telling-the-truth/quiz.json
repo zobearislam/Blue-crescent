@@ -1,0 +1,61 @@
+{
+  "title": "Telling the truth",
+  "info": [
+    "The truth is what really happened. A lie hides it.",
+    "Mistakes happen. Telling a grown-up makes the problem easier to fix."
+  ],
+  "questions": [
+    {
+      "q": "Telling the truth means",
+      "options": [
+        "saying what really happened",
+        "saying whatever avoids trouble",
+        "copying a louder friend"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A lie can",
+      "options": [
+        "erase what happened",
+        "turn into the truth if you repeat it",
+        "make a problem harder to fix"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If you break something by accident, a fair next step is",
+      "options": [
+        "hide the pieces and blame someone else",
+        "pretend it was always broken",
+        "tell a grown-up"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Owning a mistake is",
+      "options": [
+        "the same as lying",
+        "braver than hiding it",
+        "only for adults"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Friends can trust you more when",
+      "options": [
+        "you change the story each time",
+        "your words match what happened",
+        "you never explain"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for saying what really happened.",
+      "type": "text",
+      "answer": [
+        "truth"
+      ]
+    }
+  ]
+}

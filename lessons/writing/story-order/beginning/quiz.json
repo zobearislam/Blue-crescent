@@ -1,0 +1,61 @@
+{
+  "title": "Beginnings",
+  "info": [
+    "Open with a person and a place the reader can picture.",
+    "You do not need every detail. A clear start is enough."
+  ],
+  "questions": [
+    {
+      "q": "A strong beginning answers",
+      "options": [
+        "only what color the pen is",
+        "the moral before any events",
+        "who and where"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Once there was a sailor in a small boat is",
+      "options": [
+        "an ending with no start",
+        "a contents page",
+        "a beginning"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Too many names in sentence one can",
+      "options": [
+        "always be required",
+        "confuse the reader",
+        "replace the plot"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The beginning comes",
+      "options": [
+        "before the problem grows",
+        "after the ending",
+        "in the margin only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Nila woke up in Dhaka is useful because",
+      "options": [
+        "it is the whole story",
+        "it is a simile",
+        "we meet a person and a place"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the story part that introduces who and where.",
+      "type": "text",
+      "answer": [
+        "beginning"
+      ]
+    }
+  ]
+}

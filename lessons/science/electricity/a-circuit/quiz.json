@@ -1,0 +1,61 @@
+{
+  "title": "A circuit",
+  "info": [
+    "Think of a loop: battery, wire, bulb, wire, back to the battery.",
+    "Every part must touch in a complete loop or the electricity cannot travel around."
+  ],
+  "questions": [
+    {
+      "q": "Which set can light a bulb?",
+      "options": [
+        "a bulb alone on the table",
+        "wires with no battery",
+        "battery, wires, and a bulb in a closed loop"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A gap in the wire",
+      "options": [
+        "makes the bulb brighter",
+        "stops the circuit",
+        "adds voltage by itself"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The bulb lights when",
+      "options": [
+        "the battery is removed",
+        "the circuit is complete",
+        "the switch is open"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Electricity in this simple loop",
+      "options": [
+        "stops inside the glass and stays",
+        "leaves the battery, goes through the bulb, and returns",
+        "only jumps like a knight"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Adding a closed switch to a working loop",
+      "options": [
+        "always removes the battery",
+        "opens a hole in the bulb",
+        "lets the flow continue"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the part that pushes the electricity in a simple torch circuit.",
+      "type": "text",
+      "answer": [
+        "battery"
+      ]
+    }
+  ]
+}

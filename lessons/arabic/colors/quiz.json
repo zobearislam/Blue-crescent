@@ -1,0 +1,61 @@
+{
+  "title": "Colors",
+  "info": [
+    "Ahmar is red. Azraq is blue. Asfar is yellow. Akhdar is green.",
+    "Abyad is white. Aswad is black."
+  ],
+  "questions": [
+    {
+      "q": "Ahmar means",
+      "options": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which word means blue?",
+      "options": [
+        "azraq",
+        "asfar",
+        "abyad"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Akhdar means",
+      "options": [
+        "red",
+        "white",
+        "green"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Aswad means",
+      "options": [
+        "yellow",
+        "black",
+        "green"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Asfar means",
+      "options": [
+        "white",
+        "yellow",
+        "blue"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the Arabic word for white.",
+      "type": "text",
+      "answer": [
+        "abyad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "One vote",
+  "info": [
+    "In a fair vote, each person gets one vote. Every vote counts the same.",
+    "You count the votes. If the plan was that the larger number wins, that choice wins."
+  ],
+  "questions": [
+    {
+      "q": "In a fair class vote, each person gets",
+      "options": [
+        "as many votes as they want",
+        "one vote",
+        "no vote if they are quiet"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Your vote counts",
+      "options": [
+        "double if you shout",
+        "the same as a classmate's vote",
+        "zero if you chose the smaller side"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If the agreed rule is that the most votes win, you",
+      "options": [
+        "let the loudest person choose after the count",
+        "count carefully and follow that",
+        "hide ballots"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Copying a friend's choice because they glared at you is",
+      "options": [
+        "not a free vote",
+        "required",
+        "how parliaments work"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A vote is useful when the class",
+      "options": [
+        "wants to skip every rule",
+        "needs to choose between clear options",
+        "is guessing a secret adult password"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type how many votes each person gets in a fair vote.",
+      "type": "text",
+      "answer": [
+        "one",
+        "1"
+      ]
+    }
+  ]
+}

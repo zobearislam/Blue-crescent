@@ -1,0 +1,62 @@
+{
+  "title": "Trees",
+  "info": [
+    "Trees give shade, fruit, and homes for animals. Roots hold soil in place.",
+    "Leaves use sunlight, water, and air to make the tree's food."
+  ],
+  "questions": [
+    {
+      "q": "Roots help a tree by",
+      "options": [
+        "holding it up and holding soil",
+        "flying south",
+        "making plastic"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Leaves use sunlight to",
+      "options": [
+        "help the tree make food",
+        "turn the tree into metal",
+        "block all rain forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Peeling bark off a living tree",
+      "options": [
+        "is how trees drink",
+        "is recycling",
+        "hurts the tree"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A tree can be a home for",
+      "options": [
+        "birds and insects",
+        "only computers",
+        "ocean ships"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Planting a tree is useful because",
+      "options": [
+        "it can grow to give shade, food, and cleaner air",
+        "it stops the water cycle",
+        "trees do not need soil"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the part of the tree that holds soil.",
+      "type": "text",
+      "answer": [
+        "roots",
+        "root"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "title": "Helpers",
+  "info": [
+    "A community works because people do different jobs and look out for each other.",
+    "Teachers, doctors, firefighters, and farmers are helpers. You can help too."
+  ],
+  "questions": [
+    {
+      "q": "A teacher helps by",
+      "options": [
+        "putting out every kitchen fire",
+        "growing all the country's rice alone",
+        "helping you learn"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Doctors and nurses help when",
+      "options": [
+        "someone is ill or hurt",
+        "a book needs a rhyme",
+        "a pawn is in check"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Farmers help by",
+      "options": [
+        "growing food",
+        "writing every law",
+        "flying kites for the city"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Firefighters train to",
+      "options": [
+        "teach only music",
+        "deal with fires and other emergencies",
+        "count taka notes"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "You can help your community by",
+      "options": [
+        "leaving litter",
+        "tidying a shared space and including people",
+        "breaking a fair rule"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type one helper: teacher, doctor, farmer, or firefighter.",
+      "type": "text",
+      "answer": [
+        "teacher",
+        "doctor",
+        "farmer",
+        "firefighter",
+        "nurse"
+      ]
+    }
+  ]
+}

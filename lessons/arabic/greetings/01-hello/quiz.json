@@ -1,0 +1,61 @@
+{
+  "title": "Hello and goodbye",
+  "info": [
+    "Marhaban means hello. Maa assalama means goodbye.",
+    "Use sabah al khair in the morning and masa al khair in the evening."
+  ],
+  "questions": [
+    {
+      "q": "Which word means goodbye?",
+      "options": [
+        "maa assalama",
+        "marhaban",
+        "naam"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Masa al khair means",
+      "options": [
+        "good evening",
+        "good morning",
+        "my name is"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You meet a friend in the morning. You can say",
+      "options": [
+        "masa al khair",
+        "ashara",
+        "sabah al khair"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Ismi is the start of",
+      "options": [
+        "my name is",
+        "goodbye",
+        "the number five"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Marhaban is closest to",
+      "options": [
+        "seven",
+        "bread",
+        "hello"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the Arabic word for hello.",
+      "type": "text",
+      "answer": [
+        "marhaban"
+      ]
+    }
+  ]
+}

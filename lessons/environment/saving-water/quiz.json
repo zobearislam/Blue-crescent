@@ -1,0 +1,65 @@
+{
+  "title": "Saving water",
+  "info": [
+    "Clean water is precious. People, crops, and animals all need it.",
+    "Small habits add up: a drip all day wastes much more than a quick rinse."
+  ],
+  "questions": [
+    {
+      "q": "While you brush your teeth, a good habit is to",
+      "options": [
+        "turn the tap off until you rinse",
+        "leave the tap running the whole time",
+        "pour water on the floor"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A dripping tap should be",
+      "options": [
+        "ignored for months",
+        "told to a grown-up so it can be fixed",
+        "made to drip faster"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Shorter showers",
+      "options": [
+        "use less water",
+        "always waste more",
+        "empty the sea"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Trash dumped in a river can",
+      "options": [
+        "clean the river",
+        "become fresh rain at once",
+        "make the water unsafe for people and fish"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Collecting rain in a barrel, where that is safe, can",
+      "options": [
+        "replace drinking water with no care",
+        "water plants without using the tap",
+        "stop the water cycle"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type one thing that needs clean water: people, crops, or animals.",
+      "type": "text",
+      "answer": [
+        "people",
+        "crops",
+        "animals",
+        "plants",
+        "fish"
+      ]
+    }
+  ]
+}

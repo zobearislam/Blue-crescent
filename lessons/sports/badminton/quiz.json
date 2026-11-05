@@ -1,0 +1,63 @@
+{
+  "title": "Badminton",
+  "info": [
+    "Badminton is played with rackets and a shuttlecock. A net divides the court.",
+    "You hit the shuttlecock over the net so it lands in the other court. Singles is one against one. Doubles is two against two."
+  ],
+  "questions": [
+    {
+      "q": "You hit a",
+      "options": [
+        "a cricket ball only",
+        "a pawn",
+        "shuttlecock"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The net",
+      "options": [
+        "divides the court",
+        "is optional decoration you can remove",
+        "is a goal the shuttle must enter like football"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Singles means",
+      "options": [
+        "four players on one side",
+        "no rackets",
+        "one player versus one player"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A point starts to go wrong for you if",
+      "options": [
+        "the shuttlecock lands in your court and you do not return it",
+        "you hit it over the net into the right area",
+        "you are holding a racket"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Badminton is widely played in",
+      "options": [
+        "only under water",
+        "only on a chessboard",
+        "Bangladesh and many other countries"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the object you hit over the net.",
+      "type": "text",
+      "answer": [
+        "shuttlecock",
+        "shuttle",
+        "birdie"
+      ]
+    }
+  ]
+}

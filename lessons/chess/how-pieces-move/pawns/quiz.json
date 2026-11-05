@@ -1,0 +1,61 @@
+{
+  "title": "Pawns",
+  "info": [
+    "A pawn moves forward one square, or two squares on its first move. It never moves backward.",
+    "A pawn captures diagonally forward, not straight ahead. If it reaches the far rank, it becomes another piece, often a queen."
+  ],
+  "questions": [
+    {
+      "q": "A pawn captures",
+      "options": [
+        "straight backward",
+        "diagonally forward",
+        "like a knight"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "On its first move a pawn may go",
+      "options": [
+        "sideways any distance",
+        "backward two",
+        "one or two squares forward"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A pawn cannot",
+      "options": [
+        "move forward",
+        "move backward",
+        "promote on the last rank"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Reaching the far rank lets a pawn",
+      "options": [
+        "become another piece, often a queen",
+        "leave the board and return as a king",
+        "jump forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "An enemy piece directly in front of a pawn",
+      "options": [
+        "is captured straight ahead",
+        "blocks that forward step",
+        "turns the pawn into a rook at once"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the piece that captures diagonally but moves straight.",
+      "type": "text",
+      "answer": [
+        "pawn"
+      ]
+    }
+  ]
+}

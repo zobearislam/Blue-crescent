@@ -1,0 +1,61 @@
+{
+  "title": "King and queen",
+  "info": [
+    "The queen is the strongest piece: any number of squares, straight or diagonal, without jumping.",
+    "The king moves one square any direction. You may never move your king into check."
+  ],
+  "questions": [
+    {
+      "q": "The queen cannot",
+      "options": [
+        "move diagonally",
+        "move straight",
+        "jump over pieces"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The king moves",
+      "options": [
+        "one square at a time",
+        "any number like a queen",
+        "only forward"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You may not move your king",
+      "options": [
+        "onto a light square ever",
+        "after move three",
+        "onto a square where it would be in check"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The queen combines the moves of",
+      "options": [
+        "a king and a knight only",
+        "two pawns",
+        "a rook and a bishop"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Losing the king means",
+      "options": [
+        "you get a second king",
+        "the queen must stop",
+        "the game is over if it is checkmate"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the piece that moves one square any direction.",
+      "type": "text",
+      "answer": [
+        "king"
+      ]
+    }
+  ]
+}

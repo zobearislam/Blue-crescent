@@ -1,0 +1,66 @@
+{
+  "title": "In town",
+  "info": [
+    "Towns need people who heal, grow food, put out fires, drive safely, and keep streets clean.",
+    "You do not have to do their jobs. You do have to respect the work and follow safety rules."
+  ],
+  "questions": [
+    {
+      "q": "A sanitation worker helps by",
+      "options": [
+        "collecting trash",
+        "checking chess mates",
+        "teaching Arabic numbers"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You respect a crosswalk guard by",
+      "options": [
+        "running past cars",
+        "waiting for their signal",
+        "ignoring them"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Clinics help a town",
+      "options": [
+        "replace every school",
+        "care for health",
+        "print story endings"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Markets need farmers because",
+      "options": [
+        "food has to come from somewhere",
+        "coins grow on shelves",
+        "shops make rain"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Saying thank you to a helper is",
+      "options": [
+        "against civics",
+        "polite and true",
+        "only for letters"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type one town helper job.",
+      "type": "text",
+      "answer": [
+        "farmer",
+        "doctor",
+        "firefighter",
+        "nurse",
+        "teacher",
+        "driver"
+      ]
+    }
+  ]
+}

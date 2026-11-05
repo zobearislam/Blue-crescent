@@ -1,0 +1,61 @@
+{
+  "title": "The face",
+  "info": [
+    "Mukho or mukh is the mouth. Chul is hair.",
+    "Chokh, nak, and kan are eye, nose, and ear."
+  ],
+  "questions": [
+    {
+      "q": "Mukh means",
+      "options": [
+        "mouth",
+        "hair",
+        "leg"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Chul means",
+      "options": [
+        "hair",
+        "eye",
+        "book"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Two chokh means",
+      "options": [
+        "two hands",
+        "two eyes",
+        "two schools"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The nak is in the",
+      "options": [
+        "same place as a foot",
+        "classroom bag",
+        "middle of the face"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Kan is on the side of the",
+      "options": [
+        "knee",
+        "head",
+        "notebook"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the Bangla word for eye.",
+      "type": "text",
+      "answer": [
+        "chokh"
+      ]
+    }
+  ]
+}

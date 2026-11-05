@@ -1,0 +1,62 @@
+{
+  "title": "Fair rules",
+  "info": [
+    "A fair rule is the same for everyone in the group.",
+    "Taking turns is fair. Changing a rule in the middle so only you win is not."
+  ],
+  "questions": [
+    {
+      "q": "A fair rule",
+      "options": [
+        "applies the same way to everyone",
+        "changes when one friend is losing",
+        "only binds the youngest person"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Taking turns is",
+      "options": [
+        "a way to skip people you dislike",
+        "fair",
+        "against classroom rules"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If a rule is confusing, you should",
+      "options": [
+        "ask a teacher or a grown-up",
+        "secretly ignore it",
+        "invent a harsher one"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which is unfair?",
+      "options": [
+        "letting only your team touch the ball, against the agreed rules",
+        "both teams following the same rules",
+        "lining up in order"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Rules at school help",
+      "options": [
+        "keep people safe and let everyone learn",
+        "pick a favorite student",
+        "replace kindness"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word for rules that treat people the same.",
+      "type": "text",
+      "answer": [
+        "fair",
+        "fairness"
+      ]
+    }
+  ]
+}

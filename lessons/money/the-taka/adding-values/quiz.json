@@ -1,0 +1,63 @@
+{
+  "title": "Adding values",
+  "info": [
+    "Add the numbers on the notes and coins. That sum is what you have.",
+    "If the price is higher than your sum, you need more. If your sum is higher, you can get change."
+  ],
+  "questions": [
+    {
+      "q": "A 20 note and a 5 coin make",
+      "options": [
+        "25 taka",
+        "15 taka",
+        "205 taka"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You have 50. The snack costs 35. You have",
+      "options": [
+        "exactly 35 only",
+        "enough, with 15 left over",
+        "not enough"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Three 10 taka notes make",
+      "options": [
+        "13 taka",
+        "30 taka",
+        "300 taka"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Change is",
+      "options": [
+        "money you get back when you pay more than the price",
+        "a tax on stories",
+        "always half"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "100 taka is",
+      "options": [
+        "ten 10 taka notes",
+        "two 10 taka notes",
+        "1000 poisha only, which would be 10 taka"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the sum of 10 and 10 and 5.",
+      "type": "text",
+      "answer": [
+        "25",
+        "twenty-five",
+        "twenty five"
+      ]
+    }
+  ]
+}

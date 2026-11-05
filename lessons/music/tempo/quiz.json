@@ -1,0 +1,61 @@
+{
+  "title": "Tempo",
+  "info": [
+    "Tempo is the speed of the music. It can be slow, medium, or fast.",
+    "Allegro means fast. Adagio means slow. Louder is not the same thing as faster."
+  ],
+  "questions": [
+    {
+      "q": "Tempo means",
+      "options": [
+        "how loud it is only",
+        "how fast or slow the music is",
+        "the name of a drum"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Allegro means",
+      "options": [
+        "slow",
+        "silent",
+        "fast"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Adagio means",
+      "options": [
+        "very fast",
+        "higher pitch",
+        "slow"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A metronome helps players",
+      "options": [
+        "keep a steady tempo",
+        "change the lyrics",
+        "paint"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Turning the volume up",
+      "options": [
+        "always doubles the speed",
+        "does not by itself make the tempo faster",
+        "is called adagio"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the music word for speed.",
+      "type": "text",
+      "answer": [
+        "tempo"
+      ]
+    }
+  ]
+}

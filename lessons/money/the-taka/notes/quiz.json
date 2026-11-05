@@ -1,0 +1,62 @@
+{
+  "title": "Notes",
+  "info": [
+    "A note shows a number. That number is how many taka it is worth.",
+    "Common notes include 10, 20, 50, 100, 500, and 1000."
+  ],
+  "questions": [
+    {
+      "q": "The number printed large on a note tells you",
+      "options": [
+        "how many taka it is worth",
+        "the year you must spend it",
+        "a phone code only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which note is worth the most?",
+      "options": [
+        "20 taka",
+        "1000 taka",
+        "50 taka"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Two 50 taka notes equal",
+      "options": [
+        "100 taka",
+        "50 taka",
+        "500 taka"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A 10 taka note is worth",
+      "options": [
+        "more than a 500",
+        "100 poisha only, always",
+        "less than a 100 taka note"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Notes and coins can",
+      "options": [
+        "add together to make a price",
+        "never be used in the same shop",
+        "replace poisha by erasing the 100 rule"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type how many taka a 20 note is worth.",
+      "type": "text",
+      "answer": [
+        "20",
+        "twenty"
+      ]
+    }
+  ]
+}

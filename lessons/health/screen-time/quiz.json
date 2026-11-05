@@ -1,0 +1,65 @@
+{
+  "title": "Screen time",
+  "info": [
+    "Screens include phones, tablets, computers, and TVs. They are useful, and your body also needs breaks.",
+    "Look up and far away now and then, move around, and switch screens off before sleep so you can rest."
+  ],
+  "questions": [
+    {
+      "q": "A helpful habit during screen time is",
+      "options": [
+        "staring without blinking for an hour",
+        "taking breaks to move and rest your eyes",
+        "using a screen in bed until sunrise"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Before sleep, screens",
+      "options": [
+        "can make it harder to rest if you keep going",
+        "are required for dreams",
+        "replace water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A grown-up's time limit is",
+      "options": [
+        "optional if the game is fun",
+        "the same as littering",
+        "a rule to follow"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Outdoor play helps",
+      "options": [
+        "only the screen",
+        "nothing",
+        "your body and your mood"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "If your eyes feel tired, you can",
+      "options": [
+        "move the screen closer and brighter with no break",
+        "skip blinking on purpose",
+        "look far away and pause"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type one screen device.",
+      "type": "text",
+      "answer": [
+        "phone",
+        "tablet",
+        "computer",
+        "tv",
+        "television"
+      ]
+    }
+  ]
+}

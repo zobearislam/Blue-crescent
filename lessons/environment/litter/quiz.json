@@ -1,0 +1,61 @@
+{
+  "title": "Litter",
+  "info": [
+    "Litter is trash left in the wrong place: a path, a river, a field.",
+    "Animals can get tangled in plastic or mistake it for food. Bins are the right place."
+  ],
+  "questions": [
+    {
+      "q": "Litter means",
+      "options": [
+        "a tree root",
+        "trash left where it does not belong",
+        "a clean bottle in a bin"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A wrapper belongs",
+      "options": [
+        "in a bin",
+        "in a river",
+        "on the classroom floor"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Plastic in a field can",
+      "options": [
+        "become fruit",
+        "water the crops",
+        "tangle an animal or be eaten by mistake"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Picking up your own trash",
+      "options": [
+        "keeps shared places cleaner",
+        "is someone else's only job",
+        "makes more litter"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A park is nicer when",
+      "options": [
+        "people carry trash out or use the bins",
+        "everyone drops bags on the grass",
+        "the pond is a dump"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the word for trash left on the ground.",
+      "type": "text",
+      "answer": [
+        "litter"
+      ]
+    }
+  ]
+}

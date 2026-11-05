@@ -1,0 +1,63 @@
+{
+  "title": "Percent",
+  "info": [
+    "Percent means out of 100. The sign is %.",
+    "100% is the whole. 50% is half. 25% is one quarter."
+  ],
+  "questions": [
+    {
+      "q": "Percent means",
+      "options": [
+        "out of 10 only",
+        "out of 100",
+        "a kind of angle"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "100% of a pizza is",
+      "options": [
+        "the whole pizza",
+        "one slice no matter the size",
+        "none of it"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "50% is the same as",
+      "options": [
+        "one tenth",
+        "one half",
+        "double"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "25% is the same as",
+      "options": [
+        "one quarter",
+        "one half",
+        "three quarters only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "10% of 100 is",
+      "options": [
+        "50",
+        "10",
+        "1"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the number that percent is out of.",
+      "type": "text",
+      "answer": [
+        "100",
+        "one hundred",
+        "a hundred"
+      ]
+    }
+  ]
+}

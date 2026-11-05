@@ -1,0 +1,61 @@
+{
+  "title": "Please and thank you",
+  "info": [
+    "Shukran means thank you. Afwan means you're welcome.",
+    "Min fadlik means please. Naam means yes. Laa means no."
+  ],
+  "questions": [
+    {
+      "q": "Shukran means",
+      "options": [
+        "thank you",
+        "no",
+        "water"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If someone says shukran, you can answer",
+      "options": [
+        "laa",
+        "azraq",
+        "afwan"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Min fadlik means",
+      "options": [
+        "brother",
+        "please",
+        "ten"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Naam means",
+      "options": [
+        "yes",
+        "no",
+        "book"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Laa means",
+      "options": [
+        "no",
+        "yes",
+        "hello"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Arabic word for thank you.",
+      "type": "text",
+      "answer": [
+        "shukran"
+      ]
+    }
+  ]
+}

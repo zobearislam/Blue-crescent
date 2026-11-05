@@ -1,0 +1,61 @@
+{
+  "title": "What comes out",
+  "info": [
+    "Output is the program's response. It might be text, a picture, a sound, or a move on the screen.",
+    "Screens and speakers are output devices."
+  ],
+  "questions": [
+    {
+      "q": "A score shown after a quiz is",
+      "options": [
+        "a key press",
+        "input from the wall",
+        "output"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Headphones give",
+      "options": [
+        "output you can hear",
+        "typed letters by themselves",
+        "folder names"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A sprite jumping on screen is",
+      "options": [
+        "the keyboard cable",
+        "output",
+        "an atom"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If the output is wrong, programmers",
+      "options": [
+        "blame the monitor's color only and stop",
+        "erase the idea of testing",
+        "check the instructions and the input"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Print on paper from a computer is",
+      "options": [
+        "a mouse click",
+        "output",
+        "input"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for what a program shows or does.",
+      "type": "text",
+      "answer": [
+        "output"
+      ]
+    }
+  ]
+}

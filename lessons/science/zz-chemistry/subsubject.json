@@ -1,0 +1,22 @@
+{
+  "name": "Chemistry",
+  "icon": "🧪",
+  "blurb": "Easy quizzes about tiny bits, mixtures, and changes.",
+  "chapters": [
+    {
+      "id": "01-atoms",
+      "name": "Atoms",
+      "level": "Easy"
+    },
+    {
+      "id": "02-mixtures",
+      "name": "Mixtures",
+      "level": "Medium"
+    },
+    {
+      "id": "03-changes",
+      "name": "Changes",
+      "level": "Medium"
+    }
+  ]
+}

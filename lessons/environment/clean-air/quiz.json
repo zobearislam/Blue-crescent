@@ -1,0 +1,61 @@
+{
+  "title": "Clean air",
+  "info": [
+    "The air you breathe carries oxygen. Smoke and exhaust can make air dirty.",
+    "Trees help, and not burning trash keeps smoke out of the neighborhood."
+  ],
+  "questions": [
+    {
+      "q": "People need air that has",
+      "options": [
+        "only smoke",
+        "oxygen",
+        "no gases at all"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Burning trash in the street",
+      "options": [
+        "sends smoke into the air",
+        "is the same as recycling",
+        "makes oxygen by magic"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A short trip you can walk safely",
+      "options": [
+        "makes less exhaust than a car ride",
+        "always needs a jet plane",
+        "dirties the air more than a factory"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Trees help the air because",
+      "options": [
+        "their leaves give off oxygen while they make food",
+        "they eat plastic bags",
+        "they block all wind forever"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Dust and smoke are harder on",
+      "options": [
+        "lungs",
+        "rocks that do not breathe",
+        "the number ten"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the gas in air that we need to breathe.",
+      "type": "text",
+      "answer": [
+        "oxygen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Rook and bishop",
+  "info": [
+    "A rook slides along a rank or a file until it hits a piece or the edge.",
+    "A bishop stays on one color for the whole game, because it only moves diagonally."
+  ],
+  "questions": [
+    {
+      "q": "A rook cannot",
+      "options": [
+        "move diagonally as its normal move",
+        "move forward",
+        "move sideways"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A bishop stays on",
+      "options": [
+        "both colors every move",
+        "squares of one color",
+        "only the first rank"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If your own piece blocks a rook, the rook",
+      "options": [
+        "must stop before that square",
+        "can jump it",
+        "turns into a queen"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A bishop captures",
+      "options": [
+        "by jumping like a knight",
+        "on the diagonal, by landing on the other piece",
+        "only straight ahead"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Two rooks and a queen all share",
+      "options": [
+        "the knight jump",
+        "straight-line moves",
+        "pawn captures"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the piece that only moves diagonally.",
+      "type": "text",
+      "answer": [
+        "bishop"
+      ]
+    }
+  ]
+}

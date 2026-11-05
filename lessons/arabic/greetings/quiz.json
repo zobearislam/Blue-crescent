@@ -1,0 +1,62 @@
+{
+  "title": "Greetings",
+  "info": [
+    "Arabic greetings are short and polite. Marhaban means hello.",
+    "Assalamu alaikum is a very common hello. The reply is wa alaikum assalam."
+  ],
+  "questions": [
+    {
+      "q": "Marhaban means",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is a common Arabic hello?",
+      "options": [
+        "shukran",
+        "kitab",
+        "assalamu alaikum"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The reply to assalamu alaikum is",
+      "options": [
+        "sabah al khair only at night",
+        "laa",
+        "wa alaikum assalam"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Maa assalama is used when you",
+      "options": [
+        "count to three",
+        "name a color",
+        "say goodbye"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sabah al khair means",
+      "options": [
+        "good morning",
+        "good night food",
+        "please sit"
+      ],
+      "answer": 0,
+      "explain": "Sabah is morning. Sabah al khair wishes someone a good morning."
+    },
+    {
+      "q": "Type the Arabic hello that means hello (not the peace greeting).",
+      "type": "text",
+      "answer": [
+        "marhaban"
+      ]
+    }
+  ]
+}

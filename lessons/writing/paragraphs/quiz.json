@@ -1,0 +1,61 @@
+{
+  "title": "Paragraphs",
+  "info": [
+    "A paragraph is a group of sentences about one main idea.",
+    "A new idea gets a new paragraph. The first sentence often says what the paragraph is about."
+  ],
+  "questions": [
+    {
+      "q": "A paragraph should stick to",
+      "options": [
+        "every topic you know",
+        "only one word",
+        "one main idea"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "When a new idea starts, you",
+      "options": [
+        "hide the idea",
+        "start a new paragraph",
+        "erase the old one with no break"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The first sentence often",
+      "options": [
+        "must be a question mark only",
+        "is always one letter",
+        "tells the main idea"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sentences in a paragraph should",
+      "options": [
+        "each change the subject",
+        "avoid any detail",
+        "connect to the same idea"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A blank line or an indent can",
+      "options": [
+        "end the whole book",
+        "show a new paragraph",
+        "make a rhyme"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the name for a group of sentences about one idea.",
+      "type": "text",
+      "answer": [
+        "paragraph"
+      ]
+    }
+  ]
+}

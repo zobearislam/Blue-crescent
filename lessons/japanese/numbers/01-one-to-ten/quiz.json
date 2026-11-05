@@ -1,0 +1,61 @@
+{
+  "title": "One to ten",
+  "info": [
+    "Count: ichi, ni, san, yon, go, roku, nana, hachi, kyuu, juu.",
+    "Nana is the everyday word for 7. Kyuu is 9."
+  ],
+  "questions": [
+    {
+      "q": "Ni means",
+      "options": [
+        "2",
+        "5",
+        "10"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Go means",
+      "options": [
+        "9",
+        "4",
+        "5"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Hachi means",
+      "options": [
+        "8",
+        "3",
+        "6"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Nana means",
+      "options": [
+        "1",
+        "7",
+        "10"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Juu means",
+      "options": [
+        "4",
+        "2",
+        "10"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the Japanese word for 5.",
+      "type": "text",
+      "answer": [
+        "go"
+      ]
+    }
+  ]
+}

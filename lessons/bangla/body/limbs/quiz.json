@@ -1,0 +1,61 @@
+{
+  "title": "Hands and feet",
+  "info": [
+    "Hat means hand. Pa means foot or leg. Angul means finger.",
+    "You write with your hat and walk on your pa."
+  ],
+  "questions": [
+    {
+      "q": "Pa means",
+      "options": [
+        "foot or leg",
+        "eye",
+        "teacher"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Angul means",
+      "options": [
+        "hair",
+        "school",
+        "finger"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "You hold a kalam in your",
+      "options": [
+        "hat",
+        "nak",
+        "chul"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Walking uses your",
+      "options": [
+        "pa",
+        "kan",
+        "khata"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A hand has",
+      "options": [
+        "boi",
+        "angul",
+        "chokh only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the Bangla word for finger.",
+      "type": "text",
+      "answer": [
+        "angul"
+      ]
+    }
+  ]
+}

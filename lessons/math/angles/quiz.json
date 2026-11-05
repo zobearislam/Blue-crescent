@@ -1,0 +1,62 @@
+{
+  "title": "Angles",
+  "info": [
+    "An angle is the amount of turn between two lines that meet.",
+    "A right angle is a square corner, 90 degrees. Acute is smaller. Obtuse is larger than a right angle but less than a straight line."
+  ],
+  "questions": [
+    {
+      "q": "A right angle measures",
+      "options": [
+        "90 degrees",
+        "45 degrees always",
+        "180 degrees"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The corner of a normal book is",
+      "options": [
+        "a right angle",
+        "a circle",
+        "an obtuse angle always"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "An acute angle is",
+      "options": [
+        "a straight line",
+        "smaller than a right angle",
+        "bigger than a half turn"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "An obtuse angle is",
+      "options": [
+        "bigger than a right angle but not a straight line",
+        "smaller than an acute angle",
+        "exactly 90 degrees"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A straight line is",
+      "options": [
+        "90 degrees",
+        "180 degrees",
+        "10 degrees"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the size of a right angle in degrees.",
+      "type": "text",
+      "answer": [
+        "90",
+        "ninety"
+      ]
+    }
+  ]
+}

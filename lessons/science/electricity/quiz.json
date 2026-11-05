@@ -1,0 +1,61 @@
+{
+  "title": "Electricity",
+  "info": [
+    "Electricity can flow around a closed path called a circuit.",
+    "A simple circuit needs a power source, a path, and something to power, such as a bulb. Never poke things into a wall socket."
+  ],
+  "questions": [
+    {
+      "q": "A circuit is",
+      "options": [
+        "a closed path that electricity can follow",
+        "any open string",
+        "a kind of rock"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A battery in a circuit is",
+      "options": [
+        "an insulator that stops every circuit",
+        "a power source",
+        "a switch only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If the loop is open, the bulb",
+      "options": [
+        "gets brighter",
+        "becomes a magnet forever",
+        "stays off"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A switch turned off",
+      "options": [
+        "adds a second battery always",
+        "opens the circuit and stops the flow",
+        "is the same as a conductor"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Wall sockets are",
+      "options": [
+        "safe toys",
+        "dangerous to poke with fingers or objects",
+        "filled with water on purpose"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the closed path electricity flows around.",
+      "type": "text",
+      "answer": [
+        "circuit"
+      ]
+    }
+  ]
+}

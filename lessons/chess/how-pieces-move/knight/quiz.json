@@ -1,0 +1,61 @@
+{
+  "title": "The knight",
+  "info": [
+    "A knight moves in an L: two squares one way, then one square to the side.",
+    "It can jump, so pieces in between do not block it."
+  ],
+  "questions": [
+    {
+      "q": "The knight's move is shaped like",
+      "options": [
+        "a straight line only",
+        "a circle",
+        "an L"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Pieces between a knight and its landing square",
+      "options": [
+        "always stop it",
+        "are captured automatically",
+        "do not block the knight"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A knight alternates color each move because",
+      "options": [
+        "it copies the bishop",
+        "kings force it",
+        "the L lands on the other color"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The knight captures by",
+      "options": [
+        "walking through it",
+        "stopping one square before",
+        "landing on the opponent's piece"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is a knight move from a square?",
+      "options": [
+        "one square forward",
+        "any diagonal",
+        "two up and one to the side"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the piece that jumps in an L.",
+      "type": "text",
+      "answer": [
+        "knight"
+      ]
+    }
+  ]
+}

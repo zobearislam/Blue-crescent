@@ -1,0 +1,61 @@
+{
+  "title": "Good habits",
+  "info": [
+    "Before you move, look at the whole board. Ask whether your king is safe.",
+    "Notice what the other player is threatening. Try not to leave a piece loose if you can help it."
+  ],
+  "questions": [
+    {
+      "q": "A useful question before you move is",
+      "options": [
+        "how tall is the table?",
+        "what rhyme is this?",
+        "is my king safe?"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Look at",
+      "options": [
+        "only the square you touched last game",
+        "only black's back rank always",
+        "the whole board, not only your favorite piece"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A piece is loose when",
+      "options": [
+        "nothing protects it and the other player can take it",
+        "it is still on its start square on move one",
+        "it is a pawn"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Developing pieces means",
+      "options": [
+        "hiding every piece in a corner",
+        "bringing them off the back rank into the game",
+        "moving only the king back and forth"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "If you see a check against you next move, you should",
+      "options": [
+        "deal with it before a side plan",
+        "start a new count of the squares",
+        "resign every time you are checked once"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the piece you must keep safe.",
+      "type": "text",
+      "answer": [
+        "king"
+      ]
+    }
+  ]
+}

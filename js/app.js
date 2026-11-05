@@ -179,7 +179,7 @@
     if (!/\.github\.io$/.test(host)) return Promise.resolve([]);
     var owner = host.split('.')[0];
     var repoName = parts[0] && parts[0].indexOf('.') === -1 ? parts[0] : host;
-    var cacheKey = 'bc_tree_v3', cached = read(cacheKey, null);
+    var cacheKey = 'bc_tree_v4', cached = read(cacheKey, null);
     var tree = cached && Date.now() - cached.t < 120000
       ? Promise.resolve(cached.paths)
       : fetch('https://api.github.com/repos/' + owner + '/' + repoName + '/git/trees/HEAD?recursive=1')

@@ -1,0 +1,61 @@
+{
+  "title": "Check and checkmate",
+  "info": [
+    "Check means the king is attacked. The player in check must answer it on the next move.",
+    "Checkmate means the king is in check and there is no legal way out. That ends the game."
+  ],
+  "questions": [
+    {
+      "q": "Check means",
+      "options": [
+        "the queen left the board",
+        "the king is attacked",
+        "both players skip a turn"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "When your king is in check you must",
+      "options": [
+        "ignore it for three moves",
+        "get out of check on that move",
+        "turn the king into a pawn"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Checkmate means",
+      "options": [
+        "the king is safe but bored",
+        "the king is attacked and has no way out",
+        "only a pawn was captured"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Ways out of check can include",
+      "options": [
+        "skipping the turn",
+        "adding a new king",
+        "moving the king, capturing the attacker, or blocking"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Stalemate is different because",
+      "options": [
+        "it is the same as checkmate",
+        "the king is not in check, but there is no legal move, so it is a draw",
+        "white always wins"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for an attack on the king.",
+      "type": "text",
+      "answer": [
+        "check"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Who does it",
+  "info": [
+    "The subject is who or what does the action.",
+    "I, you, he, she, it, we, and they are subject pronouns."
+  ],
+  "questions": [
+    {
+      "q": "In We ate rice, the subject pronoun is",
+      "options": [
+        "we",
+        "rice",
+        "ate"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which can be a subject?",
+      "options": [
+        "him",
+        "he",
+        "them"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Me cooked dinner",
+      "options": [
+        "is the best formal sentence",
+        "uses a subject pronoun",
+        "is not standard English"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "It can mean",
+      "options": [
+        "a group of people only",
+        "one thing or animal already named",
+        "always the speaker"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "They fits",
+      "options": [
+        "only the person speaking",
+        "more than one person",
+        "a single pencil, usually"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the subject pronoun for yourself alone.",
+      "type": "text",
+      "answer": [
+        "i"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Friendly letters",
+  "info": [
+    "A friendly letter has a greeting, a body, a closing, and your name.",
+    "Dear Rafi, starts the letter. Your friend, and your name end it."
+  ],
+  "questions": [
+    {
+      "q": "Dear Lina, is",
+      "options": [
+        "the body",
+        "a greeting",
+        "a map key"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The body of the letter is",
+      "options": [
+        "the message",
+        "only the stamp",
+        "the date of a war"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Your friend, is",
+      "options": [
+        "a simile",
+        "the greeting",
+        "a closing"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Your name belongs",
+      "options": [
+        "instead of any message",
+        "in the margin of someone else's book",
+        "at the end"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A date at the top is useful because",
+      "options": [
+        "letters cannot be read without a drawing",
+        "the reader knows when you wrote",
+        "it replaces the greeting"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word that often starts a greeting, as in ___ Rafi.",
+      "type": "text",
+      "answer": [
+        "dear"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Family",
+  "info": [
+    "Abb is father. Umm is mother. Aila means family.",
+    "Akh is brother. Ukht is sister."
+  ],
+  "questions": [
+    {
+      "q": "Umm means",
+      "options": [
+        "mother",
+        "sister",
+        "family"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which word means father?",
+      "options": [
+        "abb",
+        "akh",
+        "jadd"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Ukht means",
+      "options": [
+        "brother",
+        "sister",
+        "grandfather"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Akh means",
+      "options": [
+        "brother",
+        "mother",
+        "baby"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Jadd means",
+      "options": [
+        "sister",
+        "door",
+        "grandfather"
+      ],
+      "answer": 2,
+      "explain": "Jadda means grandmother. Jadd means grandfather."
+    },
+    {
+      "q": "Type the Arabic word for family.",
+      "type": "text",
+      "answer": [
+        "aila"
+      ]
+    }
+  ]
+}

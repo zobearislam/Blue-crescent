@@ -1,0 +1,61 @@
+{
+  "title": "Mixtures",
+  "info": [
+    "A mixture combines things that are not chemically joined. A salad is a mixture.",
+    "A solution is a mixture where something dissolves, like salt stirred into water."
+  ],
+  "questions": [
+    {
+      "q": "A fruit salad is",
+      "options": [
+        "a mixture",
+        "a single atom",
+        "a right angle"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Salt that disappears into water has",
+      "options": [
+        "become a rock",
+        "dissolved",
+        "left the planet"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A solution is",
+      "options": [
+        "a mixture where one thing dissolves in another",
+        "two solids glued by a new chemical always",
+        "pure water with nothing in it"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "You can often pick the peas out of fried rice because",
+      "options": [
+        "a mixture's parts can stay themselves",
+        "peas dissolve into iron",
+        "rice is an insulator"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sand and pebbles in a jar are",
+      "options": [
+        "one molecule",
+        "a mixture",
+        "a gas only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the mixture where something dissolves, such as salt in water.",
+      "type": "text",
+      "answer": [
+        "solution"
+      ]
+    }
+  ]
+}

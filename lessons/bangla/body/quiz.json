@@ -1,0 +1,61 @@
+{
+  "title": "Body words",
+  "info": [
+    "Matha is the head. Chokh is an eye. Nak is the nose. Kan is an ear.",
+    "Hat is a hand. Pa is a foot or leg. Angul is a finger."
+  ],
+  "questions": [
+    {
+      "q": "Chokh means",
+      "options": [
+        "ear",
+        "eye",
+        "hand"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Nak means",
+      "options": [
+        "nose",
+        "mouth",
+        "hair"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Kan means",
+      "options": [
+        "ear",
+        "head",
+        "foot"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Hat means",
+      "options": [
+        "hand",
+        "stomach",
+        "eye"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Matha means",
+      "options": [
+        "finger",
+        "notebook",
+        "head"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the Bangla word for hand.",
+      "type": "text",
+      "answer": [
+        "hat"
+      ]
+    }
+  ]
+}

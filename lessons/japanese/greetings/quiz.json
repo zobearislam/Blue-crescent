@@ -1,0 +1,61 @@
+{
+  "title": "Greetings",
+  "info": [
+    "Konnichiwa is a daytime hello. Ohayou is good morning.",
+    "Sayonara is goodbye. Arigatou is thank you."
+  ],
+  "questions": [
+    {
+      "q": "Konnichiwa is used as",
+      "options": [
+        "good night only",
+        "a daytime hello",
+        "the number three"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Ohayou means",
+      "options": [
+        "goodbye",
+        "thank you",
+        "good morning"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sayonara means",
+      "options": [
+        "please",
+        "yes",
+        "goodbye"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Konbanwa means",
+      "options": [
+        "good morning",
+        "good evening",
+        "family"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Arigatou means",
+      "options": [
+        "thank you",
+        "no",
+        "red"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the daytime hello.",
+      "type": "text",
+      "answer": [
+        "konnichiwa"
+      ]
+    }
+  ]
+}

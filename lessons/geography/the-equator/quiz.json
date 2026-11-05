@@ -1,0 +1,62 @@
+{
+  "title": "The equator",
+  "info": [
+    "The equator is an imaginary line around the middle of Earth.",
+    "It splits Earth into the northern and southern hemispheres. Places near it are usually warm. Bangladesh is north of the equator."
+  ],
+  "questions": [
+    {
+      "q": "The equator is",
+      "options": [
+        "a real rope",
+        "an imaginary line around the middle of Earth",
+        "the border of Dhaka"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The northern hemisphere is",
+      "options": [
+        "south of the equator",
+        "north of the equator",
+        "inside the Moon"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Bangladesh lies",
+      "options": [
+        "on the South Pole",
+        "north of the equator",
+        "south of the equator"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Lands near the equator are usually",
+      "options": [
+        "covered in ice all year",
+        "warm",
+        "dark at noon forever"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The poles are",
+      "options": [
+        "far from the equator",
+        "on the equator",
+        "in the Pacific only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the name of the line around Earth's middle.",
+      "type": "text",
+      "answer": [
+        "equator",
+        "the equator"
+      ]
+    }
+  ]
+}

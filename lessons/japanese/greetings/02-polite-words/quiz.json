@@ -1,0 +1,62 @@
+{
+  "title": "Polite words",
+  "info": [
+    "Arigatou means thank you. Sumimasen can mean excuse me or sorry.",
+    "Hai means yes. Iie means no. Onegai shimasu is a polite please."
+  ],
+  "questions": [
+    {
+      "q": "Hai means",
+      "options": [
+        "no",
+        "yes",
+        "blue"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Iie means",
+      "options": [
+        "no",
+        "yes",
+        "thank you"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sumimasen can mean",
+      "options": [
+        "goodbye morning",
+        "seven",
+        "excuse me"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Onegai shimasu is a polite way to say",
+      "options": [
+        "red",
+        "please",
+        "father"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Arigatou gozaimasu is more polite than",
+      "options": [
+        "a silent nod only, it clearly says thank you",
+        "hai",
+        "ohayou"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Japanese word for thank you.",
+      "type": "text",
+      "answer": [
+        "arigatou",
+        "arigato"
+      ]
+    }
+  ]
+}

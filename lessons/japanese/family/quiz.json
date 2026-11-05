@@ -1,0 +1,61 @@
+{
+  "title": "Family",
+  "info": [
+    "Kazoku means family. Okaasan means mother. Otousan means father.",
+    "Oniisan is an older brother. Oneesan is an older sister."
+  ],
+  "questions": [
+    {
+      "q": "Okaasan means",
+      "options": [
+        "mother",
+        "older sister",
+        "family"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Otousan means",
+      "options": [
+        "younger brother",
+        "father",
+        "blue"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Kazoku means",
+      "options": [
+        "school",
+        "thank you",
+        "family"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Oneesan means",
+      "options": [
+        "father",
+        "good evening",
+        "older sister"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Oniisan means",
+      "options": [
+        "mother",
+        "older brother",
+        "seven"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the Japanese word for family.",
+      "type": "text",
+      "answer": [
+        "kazoku"
+      ]
+    }
+  ]
+}

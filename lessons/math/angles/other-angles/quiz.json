@@ -1,0 +1,61 @@
+{
+  "title": "Acute and obtuse",
+  "info": [
+    "Acute angles are sharper than a square corner. Obtuse angles are more open.",
+    "A thin pizza slice is often acute. A wide open door can make an obtuse angle."
+  ],
+  "questions": [
+    {
+      "q": "A thin slice with a sharp point is usually",
+      "options": [
+        "acute",
+        "a right angle for sure",
+        "a straight line"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Obtuse means",
+      "options": [
+        "smaller than every acute angle",
+        "exactly 90 degrees",
+        "more open than a right angle"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is acute?",
+      "options": [
+        "90 degrees",
+        "120 degrees",
+        "30 degrees"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is obtuse?",
+      "options": [
+        "45 degrees",
+        "120 degrees",
+        "90 degrees"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "180 degrees is",
+      "options": [
+        "acute",
+        "a right angle",
+        "a straight angle"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the word for an angle smaller than 90 degrees.",
+      "type": "text",
+      "answer": [
+        "acute"
+      ]
+    }
+  ]
+}

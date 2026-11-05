@@ -1,0 +1,62 @@
+{
+  "title": "Hello and goodbye",
+  "info": [
+    "Ohayou gozaimasu is a polite good morning. Ohayou is the short form.",
+    "Konnichiwa fits the daytime. Konbanwa fits the evening. Sayonara means goodbye."
+  ],
+  "questions": [
+    {
+      "q": "Which greeting fits the evening?",
+      "options": [
+        "ohayou",
+        "ichi",
+        "konbanwa"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sayonara means",
+      "options": [
+        "good morning",
+        "red",
+        "goodbye"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A polite good morning is",
+      "options": [
+        "ohayou gozaimasu",
+        "konbanwa",
+        "arigatou"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Konnichiwa is not the best fit",
+      "options": [
+        "late at night as good morning",
+        "in the afternoon as hello",
+        "when you meet someone in the day"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Hajimemashite means",
+      "options": [
+        "goodbye forever",
+        "the number 10",
+        "nice to meet you"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the Japanese word for goodbye.",
+      "type": "text",
+      "answer": [
+        "sayonara",
+        "sayounara"
+      ]
+    }
+  ]
+}

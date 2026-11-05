@@ -1,0 +1,61 @@
+{
+  "title": "Days",
+  "info": [
+    "Montag is Monday. Dienstag is Tuesday. Mittwoch is Wednesday. Donnerstag is Thursday.",
+    "Freitag is Friday. Samstag is Saturday. Sonntag is Sunday."
+  ],
+  "questions": [
+    {
+      "q": "Montag means",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Monday"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Sonntag means",
+      "options": [
+        "Tuesday",
+        "Sunday",
+        "Thursday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Freitag means",
+      "options": [
+        "Monday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which word means Saturday?",
+      "options": [
+        "Donnerstag",
+        "Samstag",
+        "Dienstag"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Mittwoch means",
+      "options": [
+        "Sunday",
+        "Wednesday",
+        "Monday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the German word for Monday.",
+      "type": "text",
+      "answer": [
+        "montag"
+      ]
+    }
+  ]
+}

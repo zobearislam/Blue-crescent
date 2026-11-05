@@ -1,0 +1,61 @@
+{
+  "title": "One to ten",
+  "info": [
+    "1 wahid, 2 ithnan, 3 thalatha, 4 arbaa, 5 khamsa.",
+    "6 sitta, 7 sabaa, 8 thamaniya, 9 tisaa, 10 ashara."
+  ],
+  "questions": [
+    {
+      "q": "Arbaa means",
+      "options": [
+        "4",
+        "3",
+        "8"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sitta means",
+      "options": [
+        "7",
+        "6",
+        "2"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Tisaa means",
+      "options": [
+        "9",
+        "5",
+        "10"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Thamaniya means",
+      "options": [
+        "8",
+        "3",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khamsa means",
+      "options": [
+        "5",
+        "9",
+        "1"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Arabic word for 10.",
+      "type": "text",
+      "answer": [
+        "ashara"
+      ]
+    }
+  ]
+}

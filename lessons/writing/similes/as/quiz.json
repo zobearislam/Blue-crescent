@@ -1,0 +1,61 @@
+{
+  "title": "Using as",
+  "info": [
+    "As comparisons often look like as ___ as ___.",
+    "As cold as ice and as busy as a bee are similes."
+  ],
+  "questions": [
+    {
+      "q": "As cold as ice means very",
+      "options": [
+        "loud",
+        "slow on purpose",
+        "cold"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is a simile?",
+      "options": [
+        "the busy bee",
+        "as busy as a bee",
+        "bees make honey"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "As light as a feather compares weight to",
+      "options": [
+        "a feather",
+        "a truck",
+        "a mountain"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "As is a simile word when it",
+      "options": [
+        "starts every sentence",
+        "compares one thing to another",
+        "means the same as because"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "As tall as a giraffe suggests someone is",
+      "options": [
+        "very tall",
+        "tiny",
+        "underwater"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the missing word: as sweet ___ honey.",
+      "type": "text",
+      "answer": [
+        "as"
+      ]
+    }
+  ]
+}

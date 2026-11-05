@@ -1,0 +1,61 @@
+{
+  "title": "Classroom words",
+  "info": [
+    "Boi means book. Kalam means pen. Khata means notebook.",
+    "Bidyaloy means school. Shikkhok means teacher. Chhatro means student."
+  ],
+  "questions": [
+    {
+      "q": "Boi means",
+      "options": [
+        "book",
+        "pen",
+        "school"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Kalam means",
+      "options": [
+        "pen",
+        "notebook",
+        "student"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khata means",
+      "options": [
+        "notebook",
+        "teacher",
+        "door"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which word means school?",
+      "options": [
+        "boi",
+        "chhatro",
+        "bidyaloy"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Shikkhok means",
+      "options": [
+        "teacher",
+        "book",
+        "class bag"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Bangla word for book.",
+      "type": "text",
+      "answer": [
+        "boi"
+      ]
+    }
+  ]
+}

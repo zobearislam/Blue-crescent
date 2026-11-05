@@ -1,0 +1,62 @@
+{
+  "title": "Halves and quarters",
+  "info": [
+    "Half of a number is 50% of it. A quarter is 25% of it.",
+    "50% of 10 is 5. 25% of 8 is 2."
+  ],
+  "questions": [
+    {
+      "q": "50% of 10 is",
+      "options": [
+        "10",
+        "2",
+        "5"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "25% of 8 is",
+      "options": [
+        "4",
+        "8",
+        "2"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Half of 20 is",
+      "options": [
+        "5",
+        "10",
+        "20"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A quarter of 12 is",
+      "options": [
+        "3",
+        "6",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "100% of 7 is",
+      "options": [
+        "70",
+        "7",
+        "1"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type half of 18.",
+      "type": "text",
+      "answer": [
+        "9",
+        "nine"
+      ]
+    }
+  ]
+}

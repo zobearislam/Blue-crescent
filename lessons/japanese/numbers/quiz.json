@@ -1,0 +1,62 @@
+{
+  "title": "Numbers",
+  "info": [
+    "Ichi is 1, ni is 2, san is 3, yon is 4, go is 5.",
+    "Roku is 6, nana is 7, hachi is 8, kyuu is 9, juu is 10."
+  ],
+  "questions": [
+    {
+      "q": "San means",
+      "options": [
+        "4",
+        "8",
+        "3"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which word means 10?",
+      "options": [
+        "juu",
+        "go",
+        "ni"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Yon means",
+      "options": [
+        "7",
+        "4",
+        "9"
+      ],
+      "answer": 1,
+      "explain": "Shi is another word for 4. Yon is the one to use while you are starting out."
+    },
+    {
+      "q": "Roku means",
+      "options": [
+        "6",
+        "2",
+        "1"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Kyuu means",
+      "options": [
+        "5",
+        "9",
+        "3"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the Japanese word for 1.",
+      "type": "text",
+      "answer": [
+        "ichi"
+      ]
+    }
+  ]
+}

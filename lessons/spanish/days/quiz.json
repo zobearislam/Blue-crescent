@@ -1,0 +1,61 @@
+{
+  "title": "Days",
+  "info": [
+    "Lunes is Monday. Martes is Tuesday. Miercoles is Wednesday. Jueves is Thursday.",
+    "Viernes is Friday. Sabado is Saturday. Domingo is Sunday."
+  ],
+  "questions": [
+    {
+      "q": "Lunes means",
+      "options": [
+        "Monday",
+        "Sunday",
+        "Friday"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Domingo means",
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Viernes means",
+      "options": [
+        "Friday",
+        "Monday",
+        "Saturday"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which word means Saturday?",
+      "options": [
+        "jueves",
+        "sabado",
+        "martes"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Miercoles means",
+      "options": [
+        "Sunday",
+        "Wednesday",
+        "Monday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the Spanish word for Monday.",
+      "type": "text",
+      "answer": [
+        "lunes"
+      ]
+    }
+  ]
+}

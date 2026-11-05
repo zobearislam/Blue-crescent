@@ -1,0 +1,61 @@
+{
+  "title": "How pieces move",
+  "info": [
+    "Each piece has its own move. Only the knight jumps over other pieces.",
+    "Rooks go straight. Bishops go diagonally. The queen does both. The king moves one square."
+  ],
+  "questions": [
+    {
+      "q": "Which piece can jump over others?",
+      "options": [
+        "the rook",
+        "the bishop",
+        "the knight"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A rook moves",
+      "options": [
+        "only diagonally",
+        "straight, any number of empty squares",
+        "in an L"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A bishop moves",
+      "options": [
+        "only forward one square",
+        "like a knight",
+        "diagonally"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The queen moves",
+      "options": [
+        "straight or diagonally",
+        "only one square",
+        "in an L only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The king moves",
+      "options": [
+        "one square in any direction",
+        "across the board like a rook every turn",
+        "by jumping two ranks as its normal move"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the piece that jumps in an L shape.",
+      "type": "text",
+      "answer": [
+        "knight"
+      ]
+    }
+  ]
+}

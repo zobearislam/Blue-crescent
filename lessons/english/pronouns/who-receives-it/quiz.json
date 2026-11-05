@@ -1,0 +1,61 @@
+{
+  "title": "Who receives it",
+  "info": [
+    "An object receives the action. The dog followed him.",
+    "Me, you, him, her, it, us, and them can be objects."
+  ],
+  "questions": [
+    {
+      "q": "In Ama called us, the object pronoun is",
+      "options": [
+        "Ama",
+        "called",
+        "us"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which is an object pronoun?",
+      "options": [
+        "they",
+        "them",
+        "we"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The teacher helped her. Her means",
+      "options": [
+        "the person who received the help",
+        "the teacher",
+        "the verb"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Between you and me uses",
+      "options": [
+        "I, always, after and",
+        "a comma as the pronoun",
+        "me, because it is an object"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Him can replace",
+      "options": [
+        "the person doing it in subject place",
+        "a whole city name as a proper noun",
+        "a boy or man who receives the action"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Type the object pronoun for a group that includes you.",
+      "type": "text",
+      "answer": [
+        "us"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Colors",
+  "info": [
+    "Aka is red. Aoi is blue. Kiiro is yellow.",
+    "Midori is green. Shiro is white. Kuro is black."
+  ],
+  "questions": [
+    {
+      "q": "Aka means",
+      "options": [
+        "blue",
+        "white",
+        "red"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which word means blue?",
+      "options": [
+        "aoi",
+        "kiiro",
+        "kuro"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Midori means",
+      "options": [
+        "green",
+        "yellow",
+        "black"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Shiro means",
+      "options": [
+        "red",
+        "white",
+        "green"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Kuro means",
+      "options": [
+        "black",
+        "blue",
+        "yellow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Type the Japanese word for yellow.",
+      "type": "text",
+      "answer": [
+        "kiiro"
+      ]
+    }
+  ]
+}

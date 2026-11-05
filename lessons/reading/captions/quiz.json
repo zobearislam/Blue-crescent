@@ -1,0 +1,61 @@
+{
+  "title": "Captions",
+  "info": [
+    "A caption is a short text next to a picture. It tells you what the picture shows.",
+    "Read the caption and the picture together. The words can add a fact the picture cannot say alone."
+  ],
+  "questions": [
+    {
+      "q": "A caption is",
+      "options": [
+        "the page number only",
+        "text that explains a picture",
+        "a rhyme with no picture"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A photo of a river labeled Padma River near Rajshahi uses the caption to",
+      "options": [
+        "name what you are seeing",
+        "replace the photo with a song",
+        "hide the river"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If the picture shows a bird and the caption names it, you should",
+      "options": [
+        "trust them together",
+        "ignore the words",
+        "decide captions are titles of books only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A caption is usually",
+      "options": [
+        "short",
+        "a whole novel",
+        "a bar graph"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Pictures and captions",
+      "options": [
+        "must disagree",
+        "help each other",
+        "cannot be on the same page"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Type the word for text that explains a picture.",
+      "type": "text",
+      "answer": [
+        "caption"
+      ]
+    }
+  ]
+}

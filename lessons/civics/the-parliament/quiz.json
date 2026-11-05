@@ -1,0 +1,62 @@
+{
+  "title": "Parliament",
+  "info": [
+    "Bangladesh's parliament is the Jatiya Sangsad. It meets in Dhaka.",
+    "Members discuss and pass laws. A law is a rule for the whole country. Citizens vote for parliament when they are 18."
+  ],
+  "questions": [
+    {
+      "q": "The parliament of Bangladesh is called",
+      "options": [
+        "a classroom queue",
+        "the Jatiya Sangsad",
+        "the chessboard"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "It meets in",
+      "options": [
+        "the Moon",
+        "a river only",
+        "Dhaka"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A law is",
+      "options": [
+        "a simile",
+        "a rule for the whole country",
+        "one student's private wish"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Members of parliament",
+      "options": [
+        "discuss and pass laws",
+        "each get to skip every law",
+        "only play sports"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "In Bangladesh, citizens can vote in national elections from age",
+      "options": [
+        "18",
+        "5",
+        "40 only"
+      ],
+      "answer": 0,
+      "explain": "Voting for parliament is for adults. Eighteen is the age."
+    },
+    {
+      "q": "Type the city where the Jatiya Sangsad meets.",
+      "type": "text",
+      "answer": [
+        "dhaka"
+      ]
+    }
+  ]
+}
